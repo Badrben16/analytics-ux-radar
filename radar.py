@@ -13,10 +13,10 @@ import feedparser
 import requests
 from dateutil import parser as date_parser
 
-from config import KEYWORDS, OFFICIAL_FEEDS, google_news_urls
+from source_catalog import LANE_TERMS, REDDIT_FEEDS, source_query_urls
 
 DATA_PATH = Path("data/news.json")
-USER_AGENT = "AnalyticsUXRadar/1.5 (+https://github.com/Badrben16/analytics-ux-radar)"
+USER_AGENT = "AnalyticsUXRadar/2.0 (+https://github.com/Badrben16/analytics-ux-radar)"
 
 
 def _clean_html(value: str | None) -> str:
@@ -46,148 +46,154 @@ def _domain(url: str) -> str:
         return ""
 
 
-def classify(text: str, hinted_category: str | None = None) -> tuple[list[str], dict[str, int]]:
-    haystack = f" {text.lower()} "
-    actual_scores: dict[str, int] = {}
-    for category, words in KEYWORDS.items():
-        score = sum(1 for word in words if word.lower() in haystack)
-        if score:
-            actual_scores[category] = score
-
-    ranking_scores = dict(actual_scores)
-    if hinted_category:
-        ranking_scores[hinted_category] = ranking_scores.get(hinted_category, 0) + 2
-
-    categories = [name for name, score in sorted(ranking_scores.items(), key=lambda x: x[1], reverse=True) if score > 0]
-    return categories[:4] or ([hinted_category] if hinted_category else ["Autre"]), actual_scores
+def _contains_term(text: str, term: str) -> bool:
+    """Match phrases cleanly and avoid substring noise (ex: UX inside unrelated words)."""
+    text = text.lower()
+    term = term.lower().strip()
+    if not term:
+        return False
+    if len(term) <= 3 and term.replace("/", "").isalnum():
+        return re.search(rf"(?<![a-z0-9]){re.escape(term)}(?![a-z0-9])", text) is not None
+    return term in text
 
 
-def relevance_score(item: dict) -> int:
-    """Transparent 1–5 relevance score based on content, not only the search seed."""
-    text = f"{item.get('title', '')} {item.get('summary', '')}".lower()
-    actual_categories, actual_scores = classify(text, None)
-    actual_categories = [c for c in actual_categories if c != "Autre"]
-    hits = sum(actual_scores.values())
-
-    raw = 0
-    if hits >= 1:
-        raw += 1
-    if hits >= 3:
-        raw += 1
-    if hits >= 6:
-        raw += 1
-    if len(actual_categories) >= 2:
-        raw += 1
-    if any(k in text for k in ("a/b", "experimentation", "contentsquare", "product analytics", "cro", "user research")):
-        raw += 1
-    if item.get("source_type") == "official":
-        raw += 1
-
-    if raw <= 0:
-        return 1
-    if raw == 1:
-        return 2
-    if raw <= 3:
-        return 3
-    if raw == 4:
-        return 4
-    return 5
+def lane_matches(text: str) -> dict[str, list[str]]:
+    matches: dict[str, list[str]] = {}
+    for lane, terms in LANE_TERMS.items():
+        found = [term for term in terms if _contains_term(text, term)]
+        if found:
+            matches[lane] = found
+    return matches
 
 
-def _entry_to_item(entry, source_name: str, source_type: str, seed_category: str, query: str) -> dict:
+def _score_item(item: dict) -> int:
+    matches = item.get("lane_matches", {}) or {}
+    primary = item.get("lane")
+    primary_hits = len(matches.get(primary, []))
+    cross_hits = sum(1 for lane, terms in matches.items() if lane != primary and terms)
+
+    score = 1
+    if primary_hits >= 1:
+        score += 1
+    if primary_hits >= 3:
+        score += 1
+    if cross_hits >= 1:
+        score += 1
+    if item.get("source_type") in {"official-watch", "official"}:
+        score += 1
+    if item.get("source_type") == "reddit" and primary_hits >= 2:
+        score += 1
+    return max(1, min(5, score))
+
+
+def _categories_from_matches(primary_lane: str, matches: dict[str, list[str]]) -> list[str]:
+    cats = [primary_lane]
+    for lane in ("Web Analytics", "UX / UI", "Convergence"):
+        if lane != primary_lane and matches.get(lane):
+            cats.append(lane)
+    return cats
+
+
+def _news_entry_to_item(entry, lane: str, watch_name: str, brand: str) -> dict | None:
     title = _clean_html(getattr(entry, "title", ""))
     summary = _clean_html(getattr(entry, "summary", "") or getattr(entry, "description", ""))
+    if not title:
+        return None
     link = getattr(entry, "link", "")
-    date_value = getattr(entry, "published", None) or getattr(entry, "updated", None)
-    categories, keyword_scores = classify(f"{title} {summary}", seed_category)
+    text = f"{title} {summary}"
+    matches = lane_matches(text)
+
+    # Curated Google News queries are site/brand restricted. Still require either
+    # a real primary-lane signal or the watched brand in the article text/source.
+    source_title = ""
+    try:
+        source_title = _clean_html(getattr(getattr(entry, "source", {}), "title", ""))
+    except Exception:
+        source_title = ""
+    brand_present = _contains_term(f"{text} {source_title}", brand)
+    if not matches.get(lane) and not brand_present:
+        return None
+
     item = {
         "title": title,
-        "summary": summary[:700],
+        "summary": summary[:900],
         "url": link,
         "domain": _domain(link),
-        "published_at": _parse_date(date_value),
-        "source": source_name,
-        "source_type": source_type,
-        "seed_category": seed_category,
-        "query": query,
-        "categories": categories,
-        "keyword_scores": keyword_scores,
-        "actual_keyword_scores": keyword_scores,
+        "published_at": _parse_date(getattr(entry, "published", None) or getattr(entry, "updated", None)),
+        "source": source_title or watch_name,
+        "watch": watch_name,
+        "source_type": "official-watch",
+        "lane": lane,
+        "query": f"{watch_name} (source surveillée)",
+        "lane_matches": matches,
+        "categories": _categories_from_matches(lane, matches),
     }
-    item["score"] = relevance_score(item)
+    item["score"] = _score_item(item)
     return item
 
 
-def scan_rss(max_per_feed: int = 6) -> list[dict]:
+def scan_curated_news(max_per_feed: int = 6) -> list[dict]:
     items: list[dict] = []
     headers = {"User-Agent": USER_AGENT}
-
-    for category, query, url in google_news_urls():
+    for lane, watch_name, brand, url in source_query_urls():
         try:
             response = requests.get(url, headers=headers, timeout=12)
             response.raise_for_status()
             feed = feedparser.parse(response.content)
             for entry in feed.entries[:max_per_feed]:
-                items.append(_entry_to_item(entry, "Google News", "search", category, query))
+                item = _news_entry_to_item(entry, lane, watch_name, brand)
+                if item:
+                    items.append(item)
         except Exception:
             continue
-
-    for source_name, url in OFFICIAL_FEEDS.items():
-        try:
-            response = requests.get(url, headers=headers, timeout=12)
-            response.raise_for_status()
-            feed = feedparser.parse(response.content)
-            for entry in feed.entries[:max_per_feed]:
-                item = _entry_to_item(entry, source_name, "official", "UX" if "Nielsen" in source_name else "Analytics", source_name)
-                items.append(item)
-        except Exception:
-            continue
-
     return items
 
 
-def scan_gdelt(max_per_query: int = 15) -> list[dict]:
-    """Interroge GDELT DOC 2.0. Aucun token requis. Les erreurs restent non bloquantes."""
-    items: list[dict] = []
-    broad_queries = {
-        "UX": '("UX design" OR "UX research" OR Figma OR "product design")',
-        "Analytics": '("product analytics" OR "web analytics" OR GA4 OR Contentsquare OR Amplitude)',
-        "CRO": '(CRO OR "A/B testing" OR experimentation OR Kameleoon OR "AB Tasty")',
-        "IA": '("AI analytics" OR "AI UX" OR "generative AI" OR "agentic analytics")',
+def _reddit_entry_to_item(entry, feed_cfg: dict) -> dict | None:
+    title = _clean_html(getattr(entry, "title", ""))
+    summary = _clean_html(getattr(entry, "summary", "") or getattr(entry, "description", ""))
+    if not title:
+        return None
+    lane = feed_cfg["lane"]
+    text = f"{title} {summary}"
+    matches = lane_matches(text)
+
+    # The subreddit itself is curated, but require at least one métier signal for
+    # broad communities such as r/analytics / r/ProductManagement.
+    strict_sources = {"r/analytics", "r/ProductManagement"}
+    if feed_cfg["name"] in strict_sources and not matches.get(lane):
+        return None
+
+    item = {
+        "title": title,
+        "summary": summary[:900],
+        "url": getattr(entry, "link", ""),
+        "domain": "reddit.com",
+        "published_at": _parse_date(getattr(entry, "published", None) or getattr(entry, "updated", None)),
+        "source": feed_cfg["name"],
+        "watch": feed_cfg["name"],
+        "source_type": "reddit",
+        "lane": lane,
+        "query": "Communauté Reddit ciblée",
+        "lane_matches": matches,
+        "categories": _categories_from_matches(lane, matches),
     }
-    headers = {"User-Agent": USER_AGENT}
-    for category, query in broad_queries.items():
-        params = {
-            "query": query,
-            "mode": "ArtList",
-            "maxrecords": max_per_query,
-            "format": "json",
-            "sort": "HybridRel",
-        }
+    item["score"] = _score_item(item)
+    return item
+
+
+def scan_reddit(max_per_feed: int = 8) -> list[dict]:
+    items: list[dict] = []
+    headers = {"User-Agent": USER_AGENT, "Accept": "application/rss+xml,application/xml,text/xml"}
+    for feed_cfg in REDDIT_FEEDS:
         try:
-            response = requests.get("https://api.gdeltproject.org/api/v2/doc/doc", params=params, headers=headers, timeout=15)
+            response = requests.get(feed_cfg["url"], headers=headers, timeout=12)
             response.raise_for_status()
-            payload = response.json()
-            for article in payload.get("articles", []):
-                title = _clean_html(article.get("title", ""))
-                link = article.get("url", "")
-                categories, keyword_scores = classify(title, category)
-                item = {
-                    "title": title,
-                    "summary": _clean_html(article.get("seendate", "")),
-                    "url": link,
-                    "domain": _domain(link),
-                    "published_at": _parse_date(article.get("seendate")),
-                    "source": article.get("domain") or "GDELT",
-                    "source_type": "gdelt",
-                    "seed_category": category,
-                    "query": query,
-                    "categories": categories,
-                    "keyword_scores": keyword_scores,
-                    "actual_keyword_scores": keyword_scores,
-                }
-                item["score"] = relevance_score(item)
-                items.append(item)
+            feed = feedparser.parse(response.content)
+            for entry in feed.entries[:max_per_feed]:
+                item = _reddit_entry_to_item(entry, feed_cfg)
+                if item:
+                    items.append(item)
         except Exception:
             continue
     return items
@@ -196,7 +202,7 @@ def scan_gdelt(max_per_query: int = 15) -> list[dict]:
 def dedupe(items: Iterable[dict]) -> list[dict]:
     best: dict[str, dict] = {}
     for item in items:
-        title_key = re.sub(r"[^a-z0-9]+", "", item.get("title", "").lower())[:180]
+        title_key = re.sub(r"[^a-z0-9]+", "", item.get("title", "").lower())[:200]
         key = title_key or item.get("url", "")
         if not key:
             continue
@@ -206,10 +212,12 @@ def dedupe(items: Iterable[dict]) -> list[dict]:
     return sorted(best.values(), key=lambda x: (x.get("published_at", ""), x.get("score", 0)), reverse=True)
 
 
-def scan_all(use_gdelt: bool = True, max_per_feed: int = 6) -> list[dict]:
-    items = scan_rss(max_per_feed=max_per_feed)
-    if use_gdelt:
-        items.extend(scan_gdelt())
+def scan_all(use_gdelt: bool = False, max_per_feed: int = 6, include_reddit: bool = True) -> list[dict]:
+    # use_gdelt conservé pour compatibilité avec les anciennes versions, mais GDELT
+    # n'est plus utilisé : trop de bruit pour une veille métier ciblée.
+    items = scan_curated_news(max_per_feed=max_per_feed)
+    if include_reddit:
+        items.extend(scan_reddit(max_per_feed=max(4, max_per_feed)))
     return dedupe(items)
 
 
@@ -232,15 +240,9 @@ def load_news(path: Path = DATA_PATH) -> dict:
         return {"generated_at": None, "count": 0, "items": []}
 
 
-def trend_terms(items: list[dict], top_n: int = 20) -> list[tuple[str, int]]:
-    vocabulary = sorted({term for values in KEYWORDS.values() for term in values}, key=len, reverse=True)
-    counts: Counter[str] = Counter()
-    for item in items:
-        text = f" {item.get('title', '')} {item.get('summary', '')} ".lower()
-        for term in vocabulary:
-            if term.lower() in text:
-                counts[term] += 1
-    return counts.most_common(top_n)
+def lane_counts(items: list[dict]) -> dict[str, int]:
+    counts: Counter[str] = Counter(item.get("lane", "Autre") for item in items)
+    return dict(counts)
 
 
 def category_counts(items: list[dict]) -> dict[str, int]:
@@ -249,3 +251,18 @@ def category_counts(items: list[dict]) -> dict[str, int]:
         for category in item.get("categories", []):
             counts[category] += 1
     return dict(counts.most_common())
+
+
+def items_for_lane(items: list[dict], lane: str, min_score: int = 1) -> list[dict]:
+    rows = [item for item in items if item.get("lane") == lane and item.get("score", 0) >= min_score]
+    return sorted(rows, key=lambda x: (x.get("score", 0), x.get("published_at", "")), reverse=True)
+
+
+def convergence_items(items: list[dict], min_score: int = 2) -> list[dict]:
+    rows: list[dict] = []
+    for item in items:
+        cats = set(item.get("categories", []))
+        is_cross = "Convergence" in cats or ({"Web Analytics", "UX / UI"} <= cats)
+        if is_cross and item.get("score", 0) >= min_score:
+            rows.append(item)
+    return sorted(rows, key=lambda x: (x.get("score", 0), x.get("published_at", "")), reverse=True)

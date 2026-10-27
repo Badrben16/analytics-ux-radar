@@ -1,0 +1,230 @@
+[
+  {
+    "date": "2026-10-27",
+    "count": 135,
+    "skills": [
+      {
+        "skill": "AI",
+        "mentions": 35,
+        "family": "Tech & AI"
+      },
+      {
+        "skill": "Git",
+        "mentions": 11,
+        "family": "Tech & AI"
+      },
+      {
+        "skill": "AB Tasty",
+        "mentions": 7,
+        "family": "CRO & Experimentation"
+      },
+      {
+        "skill": "Figma",
+        "mentions": 6,
+        "family": "UX & Research"
+      },
+      {
+        "skill": "Google Analytics",
+        "mentions": 5,
+        "family": "Analytics & Data"
+      },
+      {
+        "skill": "Kameleoon",
+        "mentions": 5,
+        "family": "CRO & Experimentation"
+      },
+      {
+        "skill": "GA4",
+        "mentions": 4,
+        "family": "Analytics & Data"
+      },
+      {
+        "skill": "design system",
+        "mentions": 4,
+        "family": "UX & Research"
+      },
+      {
+        "skill": "CRO",
+        "mentions": 3,
+        "family": "CRO & Experimentation"
+      },
+      {
+        "skill": "tracking",
+        "mentions": 3,
+        "family": "Analytics & Data"
+      },
+      {
+        "skill": "data quality",
+        "mentions": 2,
+        "family": "Analytics & Data"
+      },
+      {
+        "skill": "UX Research",
+        "mentions": 2,
+        "family": "UX & Research"
+      },
+      {
+        "skill": "Snowflake",
+        "mentions": 2,
+        "family": "Analytics & Data"
+      },
+      {
+        "skill": "Product Manager",
+        "mentions": 2,
+        "family": "Ways of working"
+      },
+      {
+        "skill": "Tableau",
+        "mentions": 1,
+        "family": "Analytics & Data"
+      },
+      {
+        "skill": "BigQuery",
+        "mentions": 1,
+        "family": "Analytics & Data"
+      },
+      {
+        "skill": "Looker",
+        "mentions": 1,
+        "family": "Analytics & Data"
+      },
+      {
+        "skill": "Looker Studio",
+        "mentions": 1,
+        "family": "Analytics & Data"
+      },
+      {
+        "skill": "Databricks",
+        "mentions": 1,
+        "family": "Analytics & Data"
+      },
+      {
+        "skill": "A/B testing",
+        "mentions": 1,
+        "family": "CRO & Experimentation"
+      }
+    ],
+    "topics": [
+      {
+        "term": "ux",
+        "mentions": 34,
+        "momentum": 100,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ux"
+      },
+      {
+        "term": "analytics",
+        "mentions": 13,
+        "momentum": 37,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=analytics"
+      },
+      {
+        "term": " ai ",
+        "mentions": 11,
+        "momentum": 32,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=+ai+"
+      },
+      {
+        "term": "figma",
+        "mentions": 6,
+        "momentum": 24,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=figma"
+      },
+      {
+        "term": "ab tasty",
+        "mentions": 7,
+        "momentum": 21,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ab+tasty"
+      },
+      {
+        "term": "ga4",
+        "mentions": 4,
+        "momentum": 18,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ga4"
+      },
+      {
+        "term": "design system",
+        "mentions": 4,
+        "momentum": 16,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=design+system"
+      },
+      {
+        "term": "salaire",
+        "mentions": 6,
+        "momentum": 16,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=salaire"
+      },
+      {
+        "term": "compétences",
+        "mentions": 6,
+        "momentum": 16,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=comp%C3%A9tences"
+      },
+      {
+        "term": "product design",
+        "mentions": 3,
+        "momentum": 13,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=product+design"
+      },
+      {
+        "term": "cro",
+        "mentions": 3,
+        "momentum": 13,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=cro"
+      },
+      {
+        "term": "agentic",
+        "mentions": 5,
+        "momentum": 13,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=agentic"
+      },
+      {
+        "term": "google analytics",
+        "mentions": 5,
+        "momentum": 13,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=google+analytics"
+      },
+      {
+        "term": "conversion",
+        "mentions": 5,
+        "momentum": 13,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=conversion"
+      },
+      {
+        "term": "kameleoon",
+        "mentions": 5,
+        "momentum": 13,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=kameleoon"
+      },
+      {
+        "term": "tracking",
+        "mentions": 3,
+        "momentum": 11,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=tracking"
+      },
+      {
+        "term": "emploi",
+        "mentions": 4,
+        "momentum": 11,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=emploi"
+      },
+      {
+        "term": "ux research",
+        "mentions": 2,
+        "momentum": 5,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ux+research"
+      },
+      {
+        "term": "measurement",
+        "mentions": 2,
+        "momentum": 5,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=measurement"
+      },
+      {
+        "term": "skills",
+        "mentions": 2,
+        "momentum": 5,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=skills"
+      }
+    ]
+  }
+]

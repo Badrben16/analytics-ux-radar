@@ -1,10 +1,10 @@
 [
   {
     "date": "2026-10-27",
-    "count": 55,
+    "count": 56,
     "lanes": {
       "Web Analytics": {
-        "count": 28,
+        "count": 29,
         "skills": [
           {
             "skill": "Matomo",
@@ -32,13 +32,13 @@
             "family": "Product Analytics"
           },
           {
-            "skill": "GA4",
+            "skill": "Adobe Analytics",
             "mentions": 3,
             "family": "Web Analytics & Data"
           },
           {
-            "skill": "Adobe Analytics",
-            "mentions": 2,
+            "skill": "GA4",
+            "mentions": 3,
             "family": "Web Analytics & Data"
           },
           {
@@ -108,16 +108,16 @@
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=google+analytics"
           },
           {
+            "term": "adobe analytics",
+            "mentions": 3,
+            "momentum": 12,
+            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=adobe+analytics"
+          },
+          {
             "term": "ga4",
             "mentions": 3,
             "momentum": 12,
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ga4"
-          },
-          {
-            "term": "adobe analytics",
-            "mentions": 2,
-            "momentum": 8,
-            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=adobe+analytics"
           },
           {
             "term": "analytics data",
@@ -264,16 +264,16 @@
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=growthbook"
           },
           {
-            "term": "personalization",
-            "mentions": 1,
-            "momentum": 33,
-            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=personalization"
-          },
-          {
             "term": "experimentation",
             "mentions": 1,
             "momentum": 33,
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=experimentation"
+          },
+          {
+            "term": "personalization",
+            "mentions": 1,
+            "momentum": 33,
+            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=personalization"
           },
           {
             "term": "funnel",
@@ -392,6 +392,11 @@
         "family": "Tech & AI"
       },
       {
+        "skill": "Adobe Analytics",
+        "mentions": 3,
+        "family": "Web Analytics & Data"
+      },
+      {
         "skill": "GA4",
         "mentions": 3,
         "family": "Web Analytics & Data"
@@ -400,11 +405,6 @@
         "skill": "LLM",
         "mentions": 2,
         "family": "Tech & AI"
-      },
-      {
-        "skill": "Adobe Analytics",
-        "mentions": 2,
-        "family": "Web Analytics & Data"
       },
       {
         "skill": "funnel",
@@ -506,28 +506,28 @@
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=growthbook"
       },
       {
+        "term": "adobe analytics",
+        "mentions": 3,
+        "momentum": 12,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=adobe+analytics"
+      },
+      {
         "term": "ga4",
         "mentions": 3,
         "momentum": 12,
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ga4"
       },
       {
-        "term": "adobe analytics",
-        "mentions": 2,
-        "momentum": 8,
-        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=adobe+analytics"
+        "term": "experimentation",
+        "mentions": 1,
+        "momentum": 4,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=experimentation"
       },
       {
         "term": "personalization",
         "mentions": 1,
         "momentum": 4,
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=personalization"
-      },
-      {
-        "term": "experimentation",
-        "mentions": 1,
-        "momentum": 4,
-        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=experimentation"
       },
       {
         "term": "funnel",

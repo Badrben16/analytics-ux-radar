@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T16:42:47.414072+00:00",
-  "count": 55,
+  "generated_at": "2026-10-27T16:44:01.422859+00:00",
+  "count": 56,
   "items": [
     {
       "title": "PostHog · Agent skills agent-skills-v0.3825.0",
@@ -313,6 +313,27 @@
       },
       "categories": [
         "Convergence"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Aperçu des visualisations | Adobe Analytics - Adobe Experience League",
+      "summary": "Aperçu des visualisations | Adobe Analytics Adobe Experience League",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNWM0NFlZNUROcU9qLWZNa2ZEQlhzSkpKUlVqOTc1ckxQVkxEcVFIZU1uSFplYThhRkpyNzhiakozNUg2VVJpc0NzZ1BWZWRlODZ4VzliTThaTmtMZ3V1aHhTM2ltcV9LR19ZaDgwZ2l2LWdxR29FdHpoNGQ4OFE4R20yVi1CMGk4TE9uTzlDUmdXeDBBb0N2NEM4QkJIanJTNlptbms3OFVXanhDQUFUMk5LeC1abFk3UDFFWmkxTFhZTnRTc1E?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-08-13T07:00:00+00:00",
+      "source": "Adobe Experience League",
+      "watch": "Adobe Analytics",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Adobe Analytics · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "adobe analytics"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
       ],
       "score": 3
     },
@@ -641,28 +662,6 @@
         "UX / UI"
       ],
       "score": 2
-    },
-    {
-      "title": "[GA4] Planifier des rapports - Aide Google Analytics - Google Help",
-      "summary": "[GA4] Planifier des rapports - Aide Google Analytics Google Help",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13TUpQNHhjbmJNMTZYek90dEtoYkhWYUR2Zk5sZFhXcUFlRk9ka0huVW1KMTR4V21PRF9sNWFSelA4b0JYMXk2R1VxWlppTFJuOTlPVnNZN0VHMzRiSnNPaXZtNi1XaklPZGc?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2023-11-14T22:17:49+00:00",
-      "source": "Google Help",
-      "watch": "Google Analytics Help",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Google Analytics Help · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "ga4",
-          "google analytics"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 3
     },
     {
       "title": "Premiers secours de l’accessibilité Web : stratégies de réparations provisoires - W3C",
@@ -1062,6 +1061,28 @@
         "UX / UI"
       ],
       "score": 2
+    },
+    {
+      "title": "[GA4] Explorateur d'utilisateurs - Aide Google Analytics - Google Help",
+      "summary": "[GA4] Explorateur d'utilisateurs - Aide Google Analytics Google Help",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTTE43Y2RCdElWLXpsS0lEekYyRDZQbW9DWWVnWWpoRDlRdTJqXzM2aTg2Rlpyc1RhOEI4aHBqNDN1cm5SYm1OTkxoazIzUHJnQXZDTVBiZjZrQ3d6aXFxd3p4UmV5NU5R?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2019-07-29T00:59:43+00:00",
+      "source": "Google Help",
+      "watch": "Google Analytics Help",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Google Analytics Help · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "ga4",
+          "google analytics"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
     },
     {
       "title": "Piano | Data-Driven Customer Engagement Solutions - Piano.io",

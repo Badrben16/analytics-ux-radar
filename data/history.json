@@ -1,25 +1,40 @@
 [
   {
     "date": "2026-10-27",
-    "count": 17,
+    "count": 52,
     "lanes": {
       "Web Analytics": {
-        "count": 11,
+        "count": 25,
         "skills": [
           {
-            "skill": "AI",
-            "mentions": 5,
-            "family": "Tech & AI"
-          },
-          {
-            "skill": "tracking",
-            "mentions": 3,
+            "skill": "Matomo",
+            "mentions": 8,
             "family": "Web Analytics & Data"
           },
           {
             "skill": "Google Analytics",
-            "mentions": 2,
+            "mentions": 6,
             "family": "Web Analytics & Data"
+          },
+          {
+            "skill": "AI",
+            "mentions": 6,
+            "family": "Tech & AI"
+          },
+          {
+            "skill": "tracking",
+            "mentions": 5,
+            "family": "Web Analytics & Data"
+          },
+          {
+            "skill": "GA4",
+            "mentions": 4,
+            "family": "Web Analytics & Data"
+          },
+          {
+            "skill": "PostHog",
+            "mentions": 3,
+            "family": "Product Analytics"
           },
           {
             "skill": "SQL",
@@ -40,11 +55,6 @@
             "skill": "JavaScript",
             "mentions": 1,
             "family": "Tech & AI"
-          },
-          {
-            "skill": "GA4",
-            "mentions": 1,
-            "family": "Web Analytics & Data"
           },
           {
             "skill": "Google Tag Manager",
@@ -69,79 +79,195 @@
         ],
         "topics": [
           {
-            "term": "tracking",
-            "mentions": 3,
+            "term": "matomo",
+            "mentions": 8,
             "momentum": 100,
+            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=matomo"
+          },
+          {
+            "term": "posthog",
+            "mentions": 3,
+            "momentum": 60,
+            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=posthog"
+          },
+          {
+            "term": "tracking",
+            "mentions": 5,
+            "momentum": 36,
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=tracking"
           },
           {
             "term": "google analytics",
-            "mentions": 2,
-            "momentum": 67,
+            "mentions": 6,
+            "momentum": 24,
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=google+analytics"
+          },
+          {
+            "term": "ga4",
+            "mentions": 4,
+            "momentum": 20,
+            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ga4"
           },
           {
             "term": "web analytics",
             "mentions": 1,
-            "momentum": 33,
+            "momentum": 4,
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=web+analytics"
-          },
-          {
-            "term": "ga4",
-            "mentions": 1,
-            "momentum": 33,
-            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ga4"
           },
           {
             "term": "tagging",
             "mentions": 1,
-            "momentum": 33,
+            "momentum": 4,
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=tagging"
           },
           {
             "term": "digital analytics",
             "mentions": 1,
-            "momentum": 33,
+            "momentum": 4,
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=digital+analytics"
           },
           {
             "term": "piano analytics",
             "mentions": 1,
-            "momentum": 33,
+            "momentum": 4,
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=piano+analytics"
           },
           {
             "term": "contentsquare",
             "mentions": 1,
-            "momentum": 33,
+            "momentum": 4,
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=contentsquare"
           }
         ]
       },
       "UX / UI": {
-        "count": 5,
-        "skills": [],
-        "topics": []
-      },
-      "Convergence": {
-        "count": 1,
+        "count": 11,
         "skills": [
           {
-            "skill": "Kameleoon",
-            "mentions": 1,
-            "family": "CRO & Experimentation"
+            "skill": "GitHub",
+            "mentions": 5,
+            "family": "Tech & AI"
           },
           {
-            "skill": "API",
-            "mentions": 1,
+            "skill": "Git",
+            "mentions": 5,
             "family": "Tech & AI"
+          },
+          {
+            "skill": "Lighthouse",
+            "mentions": 3,
+            "family": "UX / UI & Research"
+          },
+          {
+            "skill": "axe-core",
+            "mentions": 3,
+            "family": "UX / UI & Research"
+          },
+          {
+            "skill": "AI",
+            "mentions": 2,
+            "family": "Tech & AI"
+          },
+          {
+            "skill": "LLM",
+            "mentions": 2,
+            "family": "Tech & AI"
+          },
+          {
+            "skill": "accessibility",
+            "mentions": 1,
+            "family": "UX / UI & Research"
           }
         ],
         "topics": [
           {
+            "term": "lighthouse",
+            "mentions": 3,
+            "momentum": 100,
+            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=lighthouse"
+          },
+          {
+            "term": "axe-core",
+            "mentions": 3,
+            "momentum": 100,
+            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=axe-core"
+          },
+          {
+            "term": "accessibility",
+            "mentions": 1,
+            "momentum": 25,
+            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=accessibility"
+          }
+        ]
+      },
+      "Convergence": {
+        "count": 4,
+        "skills": [
+          {
+            "skill": "GrowthBook",
+            "mentions": 3,
+            "family": "CRO & Experimentation"
+          },
+          {
+            "skill": "API",
+            "mentions": 3,
+            "family": "Tech & AI"
+          },
+          {
+            "skill": "funnel",
+            "mentions": 1,
+            "family": "Product Analytics"
+          },
+          {
+            "skill": "experimentation",
+            "mentions": 1,
+            "family": "Product Analytics"
+          },
+          {
+            "skill": "personalization",
+            "mentions": 1,
+            "family": "CRO & Experimentation"
+          },
+          {
+            "skill": "Databricks",
+            "mentions": 1,
+            "family": "Web Analytics & Data"
+          },
+          {
+            "skill": "Kameleoon",
+            "mentions": 1,
+            "family": "CRO & Experimentation"
+          }
+        ],
+        "topics": [
+          {
+            "term": "growthbook",
+            "mentions": 3,
+            "momentum": 100,
+            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=growthbook"
+          },
+          {
+            "term": "experimentation",
+            "mentions": 1,
+            "momentum": 33,
+            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=experimentation"
+          },
+          {
+            "term": "personalization",
+            "mentions": 1,
+            "momentum": 33,
+            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=personalization"
+          },
+          {
+            "term": "funnel",
+            "mentions": 1,
+            "momentum": 33,
+            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=funnel"
+          },
+          {
             "term": "kameleoon",
             "mentions": 1,
-            "momentum": 100,
+            "momentum": 33,
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=kameleoon"
           }
         ]
@@ -150,18 +276,103 @@
     "skills": [
       {
         "skill": "AI",
+        "mentions": 13,
+        "family": "Tech & AI"
+      },
+      {
+        "skill": "Matomo",
+        "mentions": 8,
+        "family": "Web Analytics & Data"
+      },
+      {
+        "skill": "Git",
+        "mentions": 6,
+        "family": "Tech & AI"
+      },
+      {
+        "skill": "Google Analytics",
+        "mentions": 6,
+        "family": "Web Analytics & Data"
+      },
+      {
+        "skill": "tracking",
+        "mentions": 5,
+        "family": "Web Analytics & Data"
+      },
+      {
+        "skill": "GitHub",
         "mentions": 5,
         "family": "Tech & AI"
       },
       {
-        "skill": "tracking",
-        "mentions": 3,
+        "skill": "GA4",
+        "mentions": 4,
         "family": "Web Analytics & Data"
       },
       {
-        "skill": "Google Analytics",
+        "skill": "PostHog",
+        "mentions": 3,
+        "family": "Product Analytics"
+      },
+      {
+        "skill": "Lighthouse",
+        "mentions": 3,
+        "family": "UX / UI & Research"
+      },
+      {
+        "skill": "axe-core",
+        "mentions": 3,
+        "family": "UX / UI & Research"
+      },
+      {
+        "skill": "GrowthBook",
+        "mentions": 3,
+        "family": "CRO & Experimentation"
+      },
+      {
+        "skill": "API",
+        "mentions": 3,
+        "family": "Tech & AI"
+      },
+      {
+        "skill": "LLM",
         "mentions": 2,
+        "family": "Tech & AI"
+      },
+      {
+        "skill": "funnel",
+        "mentions": 1,
+        "family": "Product Analytics"
+      },
+      {
+        "skill": "experimentation",
+        "mentions": 1,
+        "family": "Product Analytics"
+      },
+      {
+        "skill": "personalization",
+        "mentions": 1,
+        "family": "CRO & Experimentation"
+      },
+      {
+        "skill": "Databricks",
+        "mentions": 1,
         "family": "Web Analytics & Data"
+      },
+      {
+        "skill": "accessibility",
+        "mentions": 1,
+        "family": "UX / UI & Research"
+      },
+      {
+        "skill": "GEO",
+        "mentions": 1,
+        "family": "GEO / AI Search"
+      },
+      {
+        "skill": "ChatGPT Search",
+        "mentions": 1,
+        "family": "GEO / AI Search"
       },
       {
         "skill": "SQL",
@@ -184,95 +395,137 @@
         "family": "Tech & AI"
       },
       {
-        "skill": "GA4",
-        "mentions": 1,
-        "family": "Web Analytics & Data"
-      },
-      {
         "skill": "Google Tag Manager",
         "mentions": 1,
         "family": "Web Analytics & Data"
-      },
-      {
-        "skill": "Piano Analytics",
-        "mentions": 1,
-        "family": "Web Analytics & Data"
-      },
-      {
-        "skill": "Git",
-        "mentions": 1,
-        "family": "Tech & AI"
-      },
-      {
-        "skill": "Kameleoon",
-        "mentions": 1,
-        "family": "CRO & Experimentation"
-      },
-      {
-        "skill": "API",
-        "mentions": 1,
-        "family": "Tech & AI"
-      },
-      {
-        "skill": "Contentsquare",
-        "mentions": 1,
-        "family": "Experience & Voice of Customer"
       }
     ],
     "topics": [
       {
-        "term": "tracking",
-        "mentions": 3,
+        "term": "matomo",
+        "mentions": 8,
         "momentum": 100,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=matomo"
+      },
+      {
+        "term": "posthog",
+        "mentions": 3,
+        "momentum": 60,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=posthog"
+      },
+      {
+        "term": "tracking",
+        "mentions": 5,
+        "momentum": 36,
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=tracking"
       },
       {
         "term": "google analytics",
-        "mentions": 2,
-        "momentum": 67,
+        "mentions": 6,
+        "momentum": 24,
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=google+analytics"
+      },
+      {
+        "term": "ga4",
+        "mentions": 4,
+        "momentum": 20,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ga4"
+      },
+      {
+        "term": "lighthouse",
+        "mentions": 3,
+        "momentum": 16,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=lighthouse"
+      },
+      {
+        "term": "axe-core",
+        "mentions": 3,
+        "momentum": 16,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=axe-core"
+      },
+      {
+        "term": "growthbook",
+        "mentions": 3,
+        "momentum": 12,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=growthbook"
+      },
+      {
+        "term": "experimentation",
+        "mentions": 1,
+        "momentum": 4,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=experimentation"
+      },
+      {
+        "term": "personalization",
+        "mentions": 1,
+        "momentum": 4,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=personalization"
+      },
+      {
+        "term": "funnel",
+        "mentions": 1,
+        "momentum": 4,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=funnel"
+      },
+      {
+        "term": "accessibility",
+        "mentions": 1,
+        "momentum": 4,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=accessibility"
+      },
+      {
+        "term": "geo",
+        "mentions": 1,
+        "momentum": 4,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=geo"
+      },
+      {
+        "term": "chatgpt search",
+        "mentions": 1,
+        "momentum": 4,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=chatgpt+search"
       },
       {
         "term": "web analytics",
         "mentions": 1,
-        "momentum": 33,
+        "momentum": 4,
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=web+analytics"
-      },
-      {
-        "term": "ga4",
-        "mentions": 1,
-        "momentum": 33,
-        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ga4"
       },
       {
         "term": "tagging",
         "mentions": 1,
-        "momentum": 33,
+        "momentum": 4,
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=tagging"
       },
       {
         "term": "digital analytics",
         "mentions": 1,
-        "momentum": 33,
+        "momentum": 4,
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=digital+analytics"
       },
       {
         "term": "piano analytics",
         "mentions": 1,
-        "momentum": 33,
+        "momentum": 4,
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=piano+analytics"
       },
       {
         "term": "kameleoon",
         "mentions": 1,
-        "momentum": 33,
+        "momentum": 4,
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=kameleoon"
       },
       {
         "term": "contentsquare",
         "mentions": 1,
-        "momentum": 33,
+        "momentum": 4,
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=contentsquare"
+      },
+      {
+        "term": "search console",
+        "mentions": 1,
+        "momentum": 4,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=search+console"
       }
     ]
   }

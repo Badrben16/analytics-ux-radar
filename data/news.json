@@ -1,7 +1,326 @@
 {
-  "generated_at": "2026-10-27T15:31:13.336482+00:00",
-  "count": 17,
+  "generated_at": "2026-10-27T16:11:51.559967+00:00",
+  "count": 52,
   "items": [
+    {
+      "title": "PostHog · Agent skills agent-skills-v0.3824.0",
+      "summary": "Build from ffd0fb0a7a8e31bd11d1954516175129e8509fd2",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.3824.0",
+      "domain": "github.com",
+      "published_at": "2026-10-27T15:31:57+00:00",
+      "source": "GitHub Releases",
+      "watch": "PostHog",
+      "source_type": "github-release",
+      "lane": "Web Analytics",
+      "query": "PostHog/posthog",
+      "lane_matches": {
+        "Web Analytics": [
+          "posthog"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "PostHog · @posthog/agent 2.4.293",
+      "summary": "https://www.npmjs.com/package/@posthog/agent/v/2.4.293",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-v2.4.293",
+      "domain": "github.com",
+      "published_at": "2026-10-27T04:24:07+00:00",
+      "source": "GitHub Releases",
+      "watch": "PostHog",
+      "source_type": "github-release",
+      "lane": "Web Analytics",
+      "query": "PostHog/posthog",
+      "lane_matches": {
+        "Web Analytics": [
+          "posthog"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Hidden data flows: The risks of third-party tracking - Analytics Platform - Matomo",
+      "summary": "Hidden data flows: The risks of third-party tracking - Analytics Platform Matomo",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10STcyaWRFR0hjTERQSHFuM1FtdTEzVDBnTE5ueDBTSlRQemZkZWI2UnptZGt6YTByek5OdVBqS0dKRS1NOHU3TVRObFlvZlRuYlhIdGZxQ25yeExuaDk2Um9MYUl6R0N3VDhBVWdpNEZFeC1tUGN4dFlaM3BJbkU?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-10-27T02:59:30+00:00",
+      "source": "Matomo",
+      "watch": "Matomo",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Matomo · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "matomo",
+          "tracking"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "PostHog · @posthog/agent 2.4.292",
+      "summary": "https://www.npmjs.com/package/@posthog/agent/v/2.4.292",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-v2.4.292",
+      "domain": "github.com",
+      "published_at": "2026-10-27T00:52:53+00:00",
+      "source": "GitHub Releases",
+      "watch": "PostHog",
+      "source_type": "github-release",
+      "lane": "Web Analytics",
+      "query": "PostHog/posthog",
+      "lane_matches": {
+        "Web Analytics": [
+          "posthog"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Matomo · 6.0.0-b7.20261026180726",
+      "summary": "## Matomo 6.0.0-b7.20261026180726 (Pre-release) We recommend to read [this FAQ](https://matomo.org/faq/how-to-update/faq_159/) before using a pre-release in a production environment. Please use the attached archives for installing or updating Matomo. The source code download is only meant for developers and will require extra work to install it. - Latest stable production release can be found at https://matomo.org/download/ ([learn more](https://matomo.org/docs/installation/)) (recommended) - Beta and Release Candidate releases can be found at https://builds.matomo.org/ ([learn more](https://matomo.org/faq/how-to-update/faq_159/))",
+      "url": "https://github.com/matomo-org/matomo/releases/tag/6.0.0-b7.20261026180726",
+      "domain": "github.com",
+      "published_at": "2026-10-26T19:09:28+00:00",
+      "source": "GitHub Releases",
+      "watch": "Matomo",
+      "source_type": "github-release",
+      "lane": "Web Analytics",
+      "query": "matomo-org/matomo",
+      "lane_matches": {
+        "Web Analytics": [
+          "matomo"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Matomo · 6.0.0-b7.20261023180549",
+      "summary": "## Matomo 6.0.0-b7.20261023180549 (Pre-release) We recommend to read [this FAQ](https://matomo.org/faq/how-to-update/faq_159/) before using a pre-release in a production environment. Please use the attached archives for installing or updating Matomo. The source code download is only meant for developers and will require extra work to install it. - Latest stable production release can be found at https://matomo.org/download/ ([learn more](https://matomo.org/docs/installation/)) (recommended) - Beta and Release Candidate releases can be found at https://builds.matomo.org/ ([learn more](https://matomo.org/faq/how-to-update/faq_159/))",
+      "url": "https://github.com/matomo-org/matomo/releases/tag/6.0.0-b7.20261023180549",
+      "domain": "github.com",
+      "published_at": "2026-10-23T18:49:54+00:00",
+      "source": "GitHub Releases",
+      "watch": "Matomo",
+      "source_type": "github-release",
+      "lane": "Web Analytics",
+      "query": "matomo-org/matomo",
+      "lane_matches": {
+        "Web Analytics": [
+          "matomo"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Matomo · 6.0.0-b7",
+      "summary": "## Matomo 6.0.0-b7 (Pre-release) We recommend to read [this FAQ](https://matomo.org/faq/how-to-update/faq_159/) before using a pre-release in a production environment. Please use the attached archives for installing or updating Matomo. The source code download is only meant for developers and will require extra work to install it. - Latest stable production release can be found at https://matomo.org/download/ ([learn more](https://matomo.org/docs/installation/)) (recommended) - Beta and Release Candidate releases can be found at https://builds.matomo.org/ ([learn more](https://matomo.org/faq/how-to-update/faq_159/))",
+      "url": "https://github.com/matomo-org/matomo/releases/tag/6.0.0-b7",
+      "domain": "github.com",
+      "published_at": "2026-10-22T03:47:55+00:00",
+      "source": "GitHub Releases",
+      "watch": "Matomo",
+      "source_type": "github-release",
+      "lane": "Web Analytics",
+      "query": "matomo-org/matomo",
+      "lane_matches": {
+        "Web Analytics": [
+          "matomo"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Critical PHP Security Vulnerabilities: Important Update for Matomo Users - Matomo",
+      "summary": "Critical PHP Security Vulnerabilities: Important Update for Matomo Users Matomo",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRGFjbHQ1MVNjNlE4a3ZpZG9jUWtRNzF3STFiUGJoT2tQRTg5S1gydnYyM196TTBfbDJna05neC02cVhnZzVzWVpnc3hGTG1jaXMxMThSMkRSN3hYTlc1ZGgtc0dLVmdBRHlrc25yUDBtS0ZiMnlHTEtVZlpfYjk5b1lKZzZqRmJXaUNfTWg1b0lMTFNmdnVTcENVLTdSNlNOZG81NDlRWUhkVEU?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-10-22T03:14:43+00:00",
+      "source": "Matomo",
+      "watch": "Matomo",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Matomo · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "matomo"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "[GA4] Campagnes et sources de trafic - Google Help",
+      "summary": "[GA4] Campagnes et sources de trafic Google Help",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbXpqanh4UmYtMmNhcnE1bmM0MzlUczVjUU5aTERCel94U0RLbTFKQnB4R1hIc0l1UzNVNzhhYnVwQXd4amItY3dfNU9talJhZHpfVTJpVEdoNncyMC1nR2lubFBVaUxzVVY4UC03OEVoYjNnNHh5bUtfVE1LTkJrWkl6Z1lkek9mQ01sUVo0UkthM29M?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-10-10T19:09:03+00:00",
+      "source": "Google Help",
+      "watch": "Google Analytics Help",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Google Analytics Help · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "ga4"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Lighthouse · Lantern Test Data",
+      "summary": "Golden trace datasets used by `yarn test-lantern` in CI.",
+      "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/lantern-test-data",
+      "domain": "github.com",
+      "published_at": "2026-10-09T22:45:13+00:00",
+      "source": "GitHub Releases",
+      "watch": "Lighthouse",
+      "source_type": "github-release",
+      "lane": "UX / UI",
+      "query": "GoogleChrome/lighthouse",
+      "lane_matches": {
+        "UX / UI": [
+          "lighthouse"
+        ]
+      },
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 3
+    },
+    {
+      "title": "axe-core · Release 4.14.0",
+      "summary": "This release enables a new rule, and introduces new violations in some existing rules. These can cause the issue totals to go up from a previous version. Similarly we've included various bug fixes to false positives which may see the issue count go down as well. This release focused on various performance improvements which should speed runs up 20% - 40% on most pages. On especially large pages we've measured a 15x performance improvement. ### Features - add EN 301 549 v4 tags to target-size ([#5361](https://github.com/dequelabs/axe-core/issues/5361)) ([8200d2b](https://github.com/dequelabs/axe-core/commit/8200d2b81f3fd41f6287423c326fb663afa85fb3)), closes [#5311](https://github.com/dequelabs/axe-core/issues/5311) - **i18n:** add Azerbaijani locale ([#5385](https://github.com/dequelabs/axe-core/issues/5385)) ([02e5fd4](https://github.com/dequelabs/axe-core/commit/02e5fd446a2b53196dff25026bff6a9be47fdc22)) - **label-content-name-mismatch:** Enable rule by default ([#5421](https://github",
+      "url": "https://github.com/dequelabs/axe-core/releases/tag/v4.14.0",
+      "domain": "github.com",
+      "published_at": "2026-10-05T17:40:39+00:00",
+      "source": "GitHub Releases",
+      "watch": "axe-core",
+      "source_type": "github-release",
+      "lane": "UX / UI",
+      "query": "dequelabs/axe-core",
+      "lane_matches": {
+        "UX / UI": [
+          "axe-core"
+        ]
+      },
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Pays Sénégal absent lors de l'acceptation des conditions Google Analytics GA4 - Google Help",
+      "summary": "Pays Sénégal absent lors de l'acceptation des conditions Google Analytics GA4 Google Help",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQWnJSeXpMbXNOX2pWN0h6RlBWYzk4eGZOVVE4azI1OHVKVnk2X3FMQVhhNmVTWldrQ1NYcTdYd1FTTENfby1ad01VRl9KXy1fbTNPNXVrWDcyaERLX20zaXVSczhvVXlBQVpJNFlkYk9jczhZQm93MDJuaEZmc3h3a1BOdU9JQ29ubmd2RF9PeVdELU1JcWdybW5NVjY3b1NUNi1DaXp2a0RmZURVX2hIZFdMUDlRM29UQm9KNy1zNXJKcWxidE9XeC1hcUticlV5bmpfMmVjdEs?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-10-04T07:00:00+00:00",
+      "source": "Google Help",
+      "watch": "Google Analytics Help",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Google Analytics Help · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "ga4",
+          "google analytics"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "GrowthBook · v5.1.0",
+      "summary": "GrowthBook 5.1 includes over 400 commits touching almost every part of the product. Below are some of the highlights. ## Highlights **Contextual Bandits (beta)** - One size doesn’t fit all. Contextual Bandits let you run personalization experiments to find the best performing variant for each group of users. The bandit continuously learns and updates weights as it runs and helps you pick out the signal from the noise. **Saved Learnings** - Document deeper learnings about your users that you’ve discovered through experimentation. Let our agent automatically scan your past tests to get you started or use our new API endpoints and agent skills to build your own workflows around this invaluable data. **Funnel Metrics** - Easily measure funnel completion in your experiments and see where users are dropping off. Perfect for testing marketing funnels, onboarding flows, and anything else where users progress through a series of steps. **Hosted MCP + OAuth** - Users on GrowthBook Cloud can now ",
+      "url": "https://github.com/growthbook/growthbook/releases/tag/v5.1.0",
+      "domain": "github.com",
+      "published_at": "2026-09-22T03:07:54+00:00",
+      "source": "GitHub Releases",
+      "watch": "GrowthBook",
+      "source_type": "github-release",
+      "lane": "Convergence",
+      "query": "growthbook/growthbook",
+      "lane_matches": {
+        "Web Analytics": [
+          "funnel"
+        ],
+        "Convergence": [
+          "experimentation",
+          "growthbook",
+          "personalization"
+        ]
+      },
+      "categories": [
+        "Convergence",
+        "Web Analytics"
+      ],
+      "score": 5
+    },
+    {
+      "title": "Lighthouse · v13.5.0",
+      "summary": "[Full Changelog](https://github.com/GoogleChrome/lighthouse/compare/v13.4.1...v13.5.0) We expect this release to ship in the DevTools of [Chrome 156](https://chromiumdash.appspot.com/schedule), and to PageSpeed Insights within 2 weeks. ## New contributors Thanks to our new contributors 👽🐷🐰🐯🐻! * NickNojiri @NickNojiri * Alina Varkki @AlinaVarkki ## New Audits * ard-schema: add Agent Resource Discovery audit ([#17168](https://github.com/GoogleChrome/lighthouse/pull/17168)) ## Core * centralize and enforce plugin category validation ([#17243](https://github.com/GoogleChrome/lighthouse/pull/17243)) * add plugin version to LHR credits ([#17232](https://github.com/GoogleChrome/lighthouse/pull/17232)) * config: group llms.txt and ARD audits under agent discovery ([#17210](https://github.com/GoogleChrome/lighthouse/pull/17210)) * deprecations: handle new column offset ([#17234](https://github.com/GoogleChrome/lighthouse/pull/17234)) * fetcher: add response header capture support ([#17167](http",
+      "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v13.5.0",
+      "domain": "github.com",
+      "published_at": "2026-09-18T16:18:20+00:00",
+      "source": "GitHub Releases",
+      "watch": "Lighthouse",
+      "source_type": "github-release",
+      "lane": "UX / UI",
+      "query": "GoogleChrome/lighthouse",
+      "lane_matches": {
+        "UX / UI": [
+          "lighthouse"
+        ]
+      },
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Rechercher sur le Web avec ChatGPT - OpenAI Help Center",
+      "summary": "Rechercher sur le Web avec ChatGPT OpenAI Help Center",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPYmVNMy1qOUpETDBLUmtaYkh4b256d1VFQlRhOXVfRjBFdUI1blMyS3ozdVV0eHlOUklwMk9tQUFDaWVfUGRDb1pyQ0U0NWJ4enZ2OWpzdExnSTZtV3d4UVZLMlhIVjVFWTNEM0dJeVh5NVJYZG5jdmt6WFJKNXhfald3RQ?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-08-30T19:17:19+00:00",
+      "source": "OpenAI Help Center",
+      "watch": "OpenAI",
+      "source_type": "official-watch",
+      "lane": "GEO / AI Search",
+      "query": "OpenAI · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "GEO / AI Search"
+      ],
+      "score": 2
+    },
     {
       "title": "Introduction à Sales Insights - Piano.io",
       "summary": "Introduction à Sales Insights Piano.io",
@@ -12,12 +331,97 @@
       "watch": "Piano Analytics",
       "source_type": "official-watch",
       "lane": "Web Analytics",
-      "query": "Piano Analytics (source surveillée)",
+      "query": "Piano Analytics · source surveillée",
       "lane_matches": {},
       "categories": [
         "Web Analytics"
       ],
       "score": 2
+    },
+    {
+      "title": "GrowthBook · v5.0.1",
+      "summary": "## Security Patch Release - Fixes critical auth vulnerability affecting self-hosted non-SSO deployments with publicly accessible `/auth/*` endpoints - Switches to Docker Hardened base images to reduce exposure to 3rd party vulnerabilities - Bump dependency versions to address various security vulnerabilities - New Databricks OAuth M2M option for increased security - New org setting to completely disable all Personal Access Tokens - Various performance and bug fixes throughout the app We recommend all self-hosted users update as soon as possible. This is also a great time to read through our [production hardening docs](https://docs.growthbook.io/self-host/production) and ensure you are following all best practices for security.",
+      "url": "https://github.com/growthbook/growthbook/releases/tag/v5.0.1",
+      "domain": "github.com",
+      "published_at": "2026-08-19T15:59:58+00:00",
+      "source": "GitHub Releases",
+      "watch": "GrowthBook",
+      "source_type": "github-release",
+      "lane": "Convergence",
+      "query": "growthbook/growthbook",
+      "lane_matches": {
+        "Convergence": [
+          "growthbook"
+        ]
+      },
+      "categories": [
+        "Convergence"
+      ],
+      "score": 3
+    },
+    {
+      "title": "axe-core · Release 4.13.0",
+      "summary": "In summary, this release adds: 1. Support Element Internals: A modern way for building accessible component libraries Axe-core is the first accessibility tool to support this major new web feature! Thanks to RedHat and Adobe for working with us to figure out the right way forward. 2. A new Swedish translation, thanks to our a community contribution 3. A new Finish contribution (not open source), thanks to our Scandinavian partner 4. 10 False positives closed, including all the critical ones! 5. And 13 updates to get Axe-core consistent with the latest web standards This release is one of the bigger changes we've done in a few years, so likely issue numbers are going to change in adopting this version. ### Features - **aria-actions:** add aria-actions to allowed ARIA attributes ([#5200](https://github.com/dequelabs/axe-core/issues/5200)) ([029655d](https://github.com/dequelabs/axe-core/commit/029655dcd41b5405b7ba138d29cec28392977184)), closes [#4584](https://github.com/dequelabs/axe-cor",
+      "url": "https://github.com/dequelabs/axe-core/releases/tag/v4.13.0",
+      "domain": "github.com",
+      "published_at": "2026-08-05T16:52:19+00:00",
+      "source": "GitHub Releases",
+      "watch": "axe-core",
+      "source_type": "github-release",
+      "lane": "UX / UI",
+      "query": "dequelabs/axe-core",
+      "lane_matches": {
+        "UX / UI": [
+          "accessibility",
+          "axe-core"
+        ]
+      },
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Lighthouse · v13.4.1",
+      "summary": "[Full Changelog](https://github.com/GoogleChrome/lighthouse/compare/v13.4.0...v13.4.1) We expect this release to ship in the DevTools of [Chrome 152](https://chromiumdash.appspot.com/schedule), and to PageSpeed Insights within 2 weeks. ## Core * **baseline**: Dynamic Baseline High calculation and feature summary improvements ([#17107](https://github.com/GoogleChrome/lighthouse/pull/17107), [#17112](https://github.com/GoogleChrome/lighthouse/pull/17112), [#17132](https://github.com/GoogleChrome/lighthouse/pull/17132)) * **webmcp**: Refined WebMCP gatherers to check `document.modelContext` and removed snapshot mode ([#17128](https://github.com/GoogleChrome/lighthouse/pull/17128), [#17129](https://github.com/GoogleChrome/lighthouse/pull/17129)) * **docs**: Added documentation links for agentic audits ([#17108](https://github.com/GoogleChrome/lighthouse/pull/17108)) * **network**: Detailed error messages when fetching `robots.txt` or `llms.txt` fails ([#17083](https://github.com/GoogleChro",
+      "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v13.4.1",
+      "domain": "github.com",
+      "published_at": "2026-07-20T20:10:47+00:00",
+      "source": "GitHub Releases",
+      "watch": "Lighthouse",
+      "source_type": "github-release",
+      "lane": "UX / UI",
+      "query": "GoogleChrome/lighthouse",
+      "lane_matches": {
+        "UX / UI": [
+          "lighthouse"
+        ]
+      },
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 3
+    },
+    {
+      "title": "GrowthBook · v5.0.0",
+      "summary": "Despite the major version bump, GrowthBook 5.0 does not have any breaking changes and can be upgraded to safely. A year ago when we released version 4.0, the world of product development looked completely different. Claude Code had just launched, agent skills didn't exist yet, engineers were still writing code by hand. The world today is almost unrecognizable. GrowthBook too has changed rapidly in that time and we wanted to signify the massive improvements over the past year with a new major version. ## Agentic Experience Everything a human can do in the GrowthBook UI, an Agent should be able to do programatically. We aren’t 100% there yet, but this release pushes us much closer to that goal: - **Official Skills** for common workflows like starting an experiment, summarizing results, or cleaning up stale flags. Use these in Claude, Cursor, Codex, or wherever else your agents live. - **In-App Assistant** with access to the same set of Official Skills, plus context about what page you ar",
+      "url": "https://github.com/growthbook/growthbook/releases/tag/v5.0.0",
+      "domain": "github.com",
+      "published_at": "2026-07-20T02:37:50+00:00",
+      "source": "GitHub Releases",
+      "watch": "GrowthBook",
+      "source_type": "github-release",
+      "lane": "Convergence",
+      "query": "growthbook/growthbook",
+      "lane_matches": {
+        "Convergence": [
+          "growthbook"
+        ]
+      },
+      "categories": [
+        "Convergence"
+      ],
+      "score": 3
     },
     {
       "title": "Certifications avancées - Piano.io",
@@ -29,12 +433,160 @@
       "watch": "Piano Analytics",
       "source_type": "official-watch",
       "lane": "Web Analytics",
-      "query": "Piano Analytics (source surveillée)",
+      "query": "Piano Analytics · source surveillée",
       "lane_matches": {},
       "categories": [
         "Web Analytics"
       ],
       "score": 2
+    },
+    {
+      "title": "axe-core · Release 4.12.1",
+      "summary": "### Bug FixesThis release does not impact axe results. - **axe.d.ts:** make enabled property of RuleMetadata optional ([#5129](https://github.com/dequelabs/axe-core/issues/5129)) ([7eb3d2d](https://github.com/dequelabs/axe-core/commit/7eb3d2d7ce283926a786c8a0fbf2a52c81d5e694))",
+      "url": "https://github.com/dequelabs/axe-core/releases/tag/v4.12.1",
+      "domain": "github.com",
+      "published_at": "2026-06-10T10:27:13+00:00",
+      "source": "GitHub Releases",
+      "watch": "axe-core",
+      "source_type": "github-release",
+      "lane": "UX / UI",
+      "query": "dequelabs/axe-core",
+      "lane_matches": {
+        "UX / UI": [
+          "axe-core"
+        ]
+      },
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Effectuer des recherches avec ChatGPT - OpenAI",
+      "summary": "Effectuer des recherches avec ChatGPT OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1oLVJsY2FxUGxGeFExcm1Sd1kzZGZzeVVmREdxSC0xSW9idGpZcGlTOUVxRVhETy13OTg5UGItZWc0LWJRQjdQenkyTmVyU2c0N29maTNaSEJSb19xZVdyaFNfSkdReTQ1Y1E?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-04-10T07:00:00+00:00",
+      "source": "OpenAI",
+      "watch": "OpenAI",
+      "source_type": "official-watch",
+      "lane": "GEO / AI Search",
+      "query": "OpenAI · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "GEO / AI Search"
+      ],
+      "score": 2
+    },
+    {
+      "title": "Rechercher avec ChatGPT - OpenAI",
+      "summary": "Rechercher avec ChatGPT OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9rbjdrWE9ZZE8wS3VfUml5UzA1dlhBUXdBbXlVS3AxWUQzUFJqbXJwT1JNOHBwUG8zYjhpMEgwcVE5RnF6YmZZYm05bHU4VkttZEtyTmsyTU5Ra0JWemE2azdkdEF0WW9Ocmc?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-04-10T07:00:00+00:00",
+      "source": "OpenAI",
+      "watch": "OpenAI",
+      "source_type": "official-watch",
+      "lane": "GEO / AI Search",
+      "query": "OpenAI · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "GEO / AI Search"
+      ],
+      "score": 2
+    },
+    {
+      "title": "Tendances de la recherche IA pour 2026 et comment s'y adapter - Semrush",
+      "summary": "Tendances de la recherche IA pour 2026 et comment s'y adapter Semrush",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YSjQwMWtFUEhoWnRld0ctdUNmb3BkWFJySDljQi1xeFM3Qm05MkVIS25SU2JCNHQ2aHpNZXRJQzRhYkxQV2c0R2dLQTNGNl9uMzFvTHZWUlQ?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2025-11-18T20:48:39+00:00",
+      "source": "Semrush",
+      "watch": "Semrush",
+      "source_type": "official-watch",
+      "lane": "GEO / AI Search",
+      "query": "Semrush · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "GEO / AI Search"
+      ],
+      "score": 2
+    },
+    {
+      "title": "26 statistiques SEO IA pour 2026 + les enseignements qu'elles révèlent - Semrush",
+      "summary": "26 statistiques SEO IA pour 2026 + les enseignements qu'elles révèlent Semrush",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00U3VySVkzcV9QUkRnQ2xOZzFxNFBEOEJPT180Mjkxc1JhSFZZWUt0NTQ5VVNWdzMtOG1INzVYVk92QWhnelJSUnFvQWt4ck5KSXVJYmVLVFdfUQ?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2025-11-18T15:57:53+00:00",
+      "source": "Semrush",
+      "watch": "Semrush",
+      "source_type": "official-watch",
+      "lane": "GEO / AI Search",
+      "query": "Semrush · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "GEO / AI Search"
+      ],
+      "score": 2
+    },
+    {
+      "title": "Les 10 meilleurs outils d'optimisation générative des moteurs (GEO) de 2025 - Semrush",
+      "summary": "Les 10 meilleurs outils d'optimisation générative des moteurs (GEO) de 2025 Semrush",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9tSmFENjZnQjlJOHpPdk9TeFdsV1I5bk9qdHdzZk1meGx3S2F4U2pteXJZTFd2TzdlVGsxN2oyZENRQVB6QU1YdlNMRlE5LVF4SVBOYjBYSUF3SU5ndEpIOUh5eFRXb1BHR3JGeUEwMnZORDFmX29YWmRB?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2025-11-18T15:35:46+00:00",
+      "source": "Semrush",
+      "watch": "Semrush",
+      "source_type": "official-watch",
+      "lane": "GEO / AI Search",
+      "query": "Semrush · source surveillée",
+      "lane_matches": {
+        "GEO / AI Search": [
+          "geo"
+        ]
+      },
+      "categories": [
+        "GEO / AI Search"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Optimisation générative des moteurs : la nouvelle ère de la recherche - Semrush",
+      "summary": "Optimisation générative des moteurs : la nouvelle ère de la recherche Semrush",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1aNWNxbjBMd1B2NmNLYmlLS2tOMzg4V2lORDg3N2hFQnNnM0dqRmt3bTJkeDNxbDVtVWx5WG1na3NmZlFoT3ZfZ2ZtU05jcDBvUmNmU2xxZmhfX3kyRjVuRGhFdjIxNGplNWVr?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2025-10-10T10:34:33+00:00",
+      "source": "Semrush",
+      "watch": "Semrush",
+      "source_type": "official-watch",
+      "lane": "GEO / AI Search",
+      "query": "Semrush · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "GEO / AI Search"
+      ],
+      "score": 2
+    },
+    {
+      "title": "Nouveau : ChatGPT search - OpenAI",
+      "summary": "Nouveau : ChatGPT search OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fR3ltSGgzYjcxNG5PZEpaOVoxU2pHclRoSEIwVEFNbERDT0F5ZEtZMUs0QkhsWDNQbjhRZEVobk1wVjVCSUtIMkt1NDZsOHRLWXhnc1gxemRJSFdSdFp1TGVLbUVDV1ZheGc?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2024-10-31T07:00:00+00:00",
+      "source": "OpenAI",
+      "watch": "OpenAI",
+      "source_type": "official-watch",
+      "lane": "GEO / AI Search",
+      "query": "OpenAI · source surveillée",
+      "lane_matches": {
+        "GEO / AI Search": [
+          "chatgpt search"
+        ]
+      },
+      "categories": [
+        "GEO / AI Search"
+      ],
+      "score": 3
     },
     {
       "title": "Privacy Policy - Piano.io",
@@ -46,7 +598,7 @@
       "watch": "Piano Analytics",
       "source_type": "official-watch",
       "lane": "Web Analytics",
-      "query": "Piano Analytics (source surveillée)",
+      "query": "Piano Analytics · source surveillée",
       "lane_matches": {},
       "categories": [
         "Web Analytics"
@@ -63,12 +615,34 @@
       "watch": "W3C WAI",
       "source_type": "official-watch",
       "lane": "UX / UI",
-      "query": "W3C WAI (source surveillée)",
+      "query": "W3C WAI · source surveillée",
       "lane_matches": {},
       "categories": [
         "UX / UI"
       ],
       "score": 2
+    },
+    {
+      "title": "[GA4] Planifier des rapports - Aide Google Analytics - Google Help",
+      "summary": "[GA4] Planifier des rapports - Aide Google Analytics Google Help",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13TUpQNHhjbmJNMTZYek90dEtoYkhWYUR2Zk5sZFhXcUFlRk9ka0huVW1KMTR4V21PRF9sNWFSelA4b0JYMXk2R1VxWlppTFJuOTlPVnNZN0VHMzRiSnNPaXZtNi1XaklPZGc?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2023-11-14T22:17:49+00:00",
+      "source": "Google Help",
+      "watch": "Google Analytics Help",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Google Analytics Help · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "ga4",
+          "google analytics"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
     },
     {
       "title": "Premiers secours de l’accessibilité Web : stratégies de réparations provisoires - W3C",
@@ -80,10 +654,49 @@
       "watch": "W3C WAI",
       "source_type": "official-watch",
       "lane": "UX / UI",
-      "query": "W3C WAI (source surveillée)",
+      "query": "W3C WAI · source surveillée",
       "lane_matches": {},
       "categories": [
         "UX / UI"
+      ],
+      "score": 2
+    },
+    {
+      "title": "Guide du marketeur pour réussir Event Tracking sur les sites Web en 2022 - Matomo",
+      "summary": "Guide du marketeur pour réussir Event Tracking sur les sites Web en 2022 Matomo",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLZXpPcHliZ01SQjdnbWNTN2lSQ1k5dmZ3bW4wQ0VyV2RWZ29RR3NzU2JDczE2SVR0N092STNJby05WVhDQnBCRGNFZTJlTl84enlTcXFzbnNOcmc1YzhCTlpMamo0VzhONTljazRnZndYUQ?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2023-05-29T07:00:00+00:00",
+      "source": "Matomo",
+      "watch": "Matomo",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Matomo · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "matomo",
+          "tracking"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Conseils de la recherche Google concernant le contenu généré par IA | Google Search Central Blog - Google for Developers",
+      "summary": "Conseils de la recherche Google concernant le contenu généré par IA | Google Search Central Blog Google for Developers",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQXlRSVF6a1AyNEdKYTJfUTZLRk44QkVNTm5zYWRjYV9aY3ZaaUZsb0Q5RXB6eEZESV81eTE0UWRuNlBSdFdUeWZfckVid3FQSHZyZkNfdS1oWk5mWTRzdmh3ZkQ0OGlsVHpQMFdaTFBpakVHN1BDYVVlOW5sYklqdW9Ka3FXUWVjcERWRA?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2023-02-20T06:09:20+00:00",
+      "source": "Google for Developers",
+      "watch": "Google Search Central",
+      "source_type": "official-watch",
+      "lane": "GEO / AI Search",
+      "query": "Google Search Central · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "GEO / AI Search"
       ],
       "score": 2
     },
@@ -153,8 +766,30 @@
       "score": 4
     },
     {
+      "title": "Google Analytics 4 et Matomo : Découvrez la principale alternative à Google Analytics - Matomo",
+      "summary": "Google Analytics 4 et Matomo : Découvrez la principale alternative à Google Analytics Matomo",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwcnh0amJaNG43MElCeDBQajRjNFdMZjllN3psM1lfNGxMOTBRY0NpN25XUURKZ1cyX0FZa2FlWkNKbHl0RG4wMXZjanZmaVg1YWFfblRoRDI5VmdZemxKbDVsOXpxOU43clRrWXo3bmJXSW9EQnF3?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2022-09-06T07:00:00+00:00",
+      "source": "Matomo",
+      "watch": "Matomo",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Matomo · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "google analytics",
+          "matomo"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
       "title": "Noob question: Can I get a list of all tags in my system, even if they haven't been \"activated\"?",
-      "summary": "For context: I'm not an analytics person. I'm the qualitative researcher. I am trying to hire an analyst, but first I need to demonstrate the need and do a business case. As part of that, I've been asked to asses our current tagging which nearly nobody is actually using. Of course my assessment will be mostly about the things I understand. Lack of tag structure and consistency which lead to problems in getting the answers our team needs. For that reason, I am using Google Analytics for the very first time and with no training. I have access to the Google Analytics tool and I have cobbled together a few custom reports that show all the tags that have been part of a session in the last 2 years. I am assuming, however, that there are some tags in our system that have not been part of any session. What would be the proper metric to use in a report to generate a list of every tag in our syste",
+      "summary": "For context: I'm not an analytics person. I'm the qualitative researcher. I am trying to hire an analyst, but first I need to demonstrate the need and do a business case. As part of that, I've been asked to asses our current tagging which nearly nobody is actually using. Of course my assessment will be mostly about the things I understand. Lack of tag structure and consistency which lead to problems in getting the answers our team needs. For that reason, I am using Google Analytics for the very first time and with no training. I have access to the Google Analytics tool and I have cobbled together a few custom reports that show all the tags that have been part of a session in the last 2 years. I am assuming, however, that there are some tags in our system that have not been part of any session. What would be the proper metric to use in a report to generate a list of every tag in our system, regardless of whether is has seen any usage? submitted by /u/legolad [link] [comments]",
       "url": "https://www.reddit.com/r/webanalytics/comments/wxfw9j/noob_question_can_i_get_a_list_of_all_tags_in_my/",
       "domain": "reddit.com",
       "published_at": "2022-08-25T14:35:44+00:00",
@@ -205,11 +840,33 @@
       "watch": "Piano Analytics",
       "source_type": "official-watch",
       "lane": "Web Analytics",
-      "query": "Piano Analytics (source surveillée)",
+      "query": "Piano Analytics · source surveillée",
       "lane_matches": {
         "Web Analytics": [
           "digital analytics",
           "piano analytics"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Outils d'analyse Web respectant le RGPD : Conseils pour choisir une alternative à Google Analytics - Matomo",
+      "summary": "Outils d'analyse Web respectant le RGPD : Conseils pour choisir une alternative à Google Analytics Matomo",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1BWjNBSGdSZFBETGJrUk91ZURfNkdVNnFjNXJ6dkh3UEhzcV9JbmRmenFKQTBSSFVLSlRndlI0TmlYVmJYX3U2SGI1bldBWWNQblAwZlcwNTVlSWtfa2d2OE5neWxQZkVCZkppUzItNHg3QQ?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2022-03-08T08:00:00+00:00",
+      "source": "Matomo",
+      "watch": "Matomo",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Matomo · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "google analytics",
+          "matomo"
         ]
       },
       "categories": [
@@ -227,7 +884,7 @@
       "watch": "Kameleoon",
       "source_type": "official-watch",
       "lane": "Convergence",
-      "query": "Kameleoon (source surveillée)",
+      "query": "Kameleoon · source surveillée",
       "lane_matches": {
         "Convergence": [
           "kameleoon"
@@ -248,7 +905,7 @@
       "watch": "Contentsquare",
       "source_type": "official-watch",
       "lane": "Web Analytics",
-      "query": "Contentsquare (source surveillée)",
+      "query": "Contentsquare · source surveillée",
       "lane_matches": {
         "Web Analytics": [
           "contentsquare"
@@ -256,6 +913,27 @@
       },
       "categories": [
         "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Nouveaux rapports sur les extraits d'avis dans la Search Console - Google for Developers",
+      "summary": "Nouveaux rapports sur les extraits d'avis dans la Search Console Google for Developers",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ibFNTcjBrb19TUURpWW1HOENRQWRMTHgxZ3RLV29GWjlLNWFFMEFmc2pySEZhaVpsS3U0LUNOLUNVSnFKX2VYODVzTV82V3ZNdDZuRFJNVG5OXzZUTnA5QWRPTjBDZUE4VlVHOU1mMEtabmk5YW5NWnJkdw?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2021-06-12T22:37:18+00:00",
+      "source": "Google for Developers",
+      "watch": "Google Search Central",
+      "source_type": "official-watch",
+      "lane": "GEO / AI Search",
+      "query": "Google Search Central · source surveillée",
+      "lane_matches": {
+        "GEO / AI Search": [
+          "search console"
+        ]
+      },
+      "categories": [
+        "GEO / AI Search"
       ],
       "score": 3
     },
@@ -269,7 +947,7 @@
       "watch": "W3C WAI",
       "source_type": "official-watch",
       "lane": "UX / UI",
-      "query": "W3C WAI (source surveillée)",
+      "query": "W3C WAI · source surveillée",
       "lane_matches": {},
       "categories": [
         "UX / UI"
@@ -286,10 +964,44 @@
       "watch": "W3C WAI",
       "source_type": "official-watch",
       "lane": "UX / UI",
-      "query": "W3C WAI (source surveillée)",
+      "query": "W3C WAI · source surveillée",
       "lane_matches": {},
       "categories": [
         "UX / UI"
+      ],
+      "score": 2
+    },
+    {
+      "title": "Blog sur la recherche Google et le SEO | Google Search Central | Google Search Central Blog - Google for Developers",
+      "summary": "Blog sur la recherche Google et le SEO | Google Search Central | Google Search Central Blog Google for Developers",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ERExYSXhLeUhWdzFoUkd5WXJXb0tPSS1mV2NrWUdEWU41Ry1tY2o2Y0JqYVRFcGtZMV9zWnhkN0pBOVFYanFXUEtZZU83RjBVckUwaU5JMXd2a0E?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2020-11-14T14:06:21+00:00",
+      "source": "Google for Developers",
+      "watch": "Google Search Central",
+      "source_type": "official-watch",
+      "lane": "GEO / AI Search",
+      "query": "Google Search Central · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "GEO / AI Search"
+      ],
+      "score": 2
+    },
+    {
+      "title": "Marketing - Semrush",
+      "summary": "Marketing Semrush",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CNEpFVzVqOG5XM0w4Ukp5ZjBKY09Db1VfWGNLVC1kSVZycEZRcmV5Z3lxQzl1WWtoaTdXR3VDTkNTa2xPV0h3WURQR3l1bklPcmlkM3l5Wnd2NDQ?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2019-10-05T04:32:38+00:00",
+      "source": "Semrush",
+      "watch": "Semrush",
+      "source_type": "official-watch",
+      "lane": "GEO / AI Search",
+      "query": "Semrush · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "GEO / AI Search"
       ],
       "score": 2
     },
@@ -303,7 +1015,7 @@
       "watch": "W3C WAI",
       "source_type": "official-watch",
       "lane": "UX / UI",
-      "query": "W3C WAI (source surveillée)",
+      "query": "W3C WAI · source surveillée",
       "lane_matches": {},
       "categories": [
         "UX / UI"
@@ -320,7 +1032,7 @@
       "watch": "Piano Analytics",
       "source_type": "official-watch",
       "lane": "Web Analytics",
-      "query": "Piano Analytics (source surveillée)",
+      "query": "Piano Analytics · source surveillée",
       "lane_matches": {},
       "categories": [
         "Web Analytics"

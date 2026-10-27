@@ -12,17 +12,17 @@
             "family": "Web Analytics & Data"
           },
           {
-            "skill": "Google Analytics",
-            "mentions": 6,
+            "skill": "tracking",
+            "mentions": 5,
             "family": "Web Analytics & Data"
           },
           {
             "skill": "AI",
-            "mentions": 6,
+            "mentions": 5,
             "family": "Tech & AI"
           },
           {
-            "skill": "tracking",
+            "skill": "Google Analytics",
             "mentions": 5,
             "family": "Web Analytics & Data"
           },
@@ -102,16 +102,16 @@
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=tracking"
           },
           {
-            "term": "google analytics",
-            "mentions": 6,
-            "momentum": 24,
-            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=google+analytics"
-          },
-          {
             "term": "ga4",
             "mentions": 4,
             "momentum": 20,
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ga4"
+          },
+          {
+            "term": "google analytics",
+            "mentions": 5,
+            "momentum": 20,
+            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=google+analytics"
           },
           {
             "term": "adobe analytics",
@@ -293,7 +293,7 @@
     "skills": [
       {
         "skill": "AI",
-        "mentions": 13,
+        "mentions": 12,
         "family": "Tech & AI"
       },
       {
@@ -307,11 +307,6 @@
         "family": "Tech & AI"
       },
       {
-        "skill": "Google Analytics",
-        "mentions": 6,
-        "family": "Web Analytics & Data"
-      },
-      {
         "skill": "tracking",
         "mentions": 5,
         "family": "Web Analytics & Data"
@@ -320,6 +315,11 @@
         "skill": "GitHub",
         "mentions": 5,
         "family": "Tech & AI"
+      },
+      {
+        "skill": "Google Analytics",
+        "mentions": 5,
+        "family": "Web Analytics & Data"
       },
       {
         "skill": "GA4",
@@ -437,16 +437,16 @@
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=tracking"
       },
       {
-        "term": "google analytics",
-        "mentions": 6,
-        "momentum": 24,
-        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=google+analytics"
-      },
-      {
         "term": "ga4",
         "mentions": 4,
         "momentum": 20,
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ga4"
+      },
+      {
+        "term": "google analytics",
+        "mentions": 5,
+        "momentum": 20,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=google+analytics"
       },
       {
         "term": "lighthouse",

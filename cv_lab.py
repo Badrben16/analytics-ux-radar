@@ -6,7 +6,7 @@ from collections import defaultdict
 
 from pypdf import PdfReader
 
-from config import SKILL_VOCAB
+from source_catalog import SKILL_VOCAB
 
 
 def normalize(text: str) -> str:
@@ -67,25 +67,16 @@ def analyze_cv_against_job(cv_text: str, job_text: str) -> dict:
     if missing:
         recommendations.append(
             "Faire apparaître explicitement les compétences réellement maîtrisées mais absentes du CV, en priorité : "
-            + ", ".join(missing[:8])
-            + "."
+            + ", ".join(missing[:8]) + "."
         )
     if any(term in normalize(job_text) for term in ("impact", "kpi", "conversion", "retention", "business")):
-        recommendations.append(
-            "Renforcer les réalisations chiffrées : KPI avant/après, gain de conversion, qualité de données, adoption ou temps économisé."
-        )
+        recommendations.append("Renforcer les réalisations chiffrées : KPI avant/après, gain de conversion, qualité de données, adoption ou temps économisé.")
     if any(term in normalize(job_text) for term in ("product", "produit", "roadmap", "feature")):
-        recommendations.append(
-            "Reformuler les expériences pour montrer la contribution aux décisions produit, pas seulement la production de reporting."
-        )
+        recommendations.append("Reformuler les expériences pour montrer la contribution aux décisions produit, pas seulement la production de reporting.")
     if any(term in normalize(job_text) for term in ("ux", "user experience", "cro", "experimentation", "a/b")):
-        recommendations.append(
-            "Mettre en avant les analyses de parcours, frictions, hypothèses, expérimentations et recommandations UX/CRO."
-        )
+        recommendations.append("Mettre en avant les analyses de parcours, frictions, hypothèses, expérimentations et recommandations UX/CRO.")
     if any(term in normalize(job_text) for term in ("sql", "bigquery", "snowflake", "databricks")):
-        recommendations.append(
-            "Ajouter des exemples concrets d'analyses SQL/data : jointures, cohortes, funnels, contrôle qualité ou automatisation."
-        )
+        recommendations.append("Ajouter des exemples concrets d'analyses SQL/data : jointures, cohortes, funnels, contrôle qualité ou automatisation.")
 
     return {
         "score": score,
@@ -106,7 +97,6 @@ def suggested_profile_angle(job_text: str) -> str:
     cro = sum(text.count(x) for x in ("cro", "conversion", "a/b", "experimentation"))
     ux = sum(text.count(x) for x in ("ux", "research", "figma", "usability", "accessibility"))
     analytics = sum(text.count(x) for x in ("analytics", "ga4", "sql", "bigquery", "tracking"))
-
     scores = {
         "Product Analyst": product,
         "CRO / Experimentation Analyst": cro,

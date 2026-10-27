@@ -13,10 +13,10 @@ import feedparser
 import requests
 from dateutil import parser as date_parser
 
-from source_catalog import LANE_TERMS, REDDIT_FEEDS, source_query_urls
+from source_catalog import GITHUB_RELEASE_WATCHES, LANE_TERMS, REDDIT_FEEDS, source_query_urls
 
 DATA_PATH = Path("data/news.json")
-USER_AGENT = "AnalyticsUXRadar/2.0 (+https://github.com/Badrben16/analytics-ux-radar)"
+USER_AGENT = "RadarV369/2.1 (+https://github.com/Badrben16/analytics-ux-radar)"
 
 
 def _clean_html(value: str | None) -> str:
@@ -47,12 +47,12 @@ def _domain(url: str) -> str:
 
 
 def _contains_term(text: str, term: str) -> bool:
-    """Match phrases cleanly and avoid substring noise (ex: UX inside unrelated words)."""
     text = text.lower()
     term = term.lower().strip()
     if not term:
         return False
-    if len(term) <= 3 and term.replace("/", "").isalnum():
+    # Avoid noisy substring matches for short acronyms such as UX, CRO, GEO.
+    if len(term) <= 4 and term.replace("/", "").replace("-", "").isalnum():
         return re.search(rf"(?<![a-z0-9]){re.escape(term)}(?![a-z0-9])", text) is not None
     return term in text
 
@@ -79,7 +79,7 @@ def _score_item(item: dict) -> int:
         score += 1
     if cross_hits >= 1:
         score += 1
-    if item.get("source_type") in {"official-watch", "official"}:
+    if item.get("source_type") in {"official-watch", "github-release"}:
         score += 1
     if item.get("source_type") == "reddit" and primary_hits >= 2:
         score += 1
@@ -88,7 +88,7 @@ def _score_item(item: dict) -> int:
 
 def _categories_from_matches(primary_lane: str, matches: dict[str, list[str]]) -> list[str]:
     cats = [primary_lane]
-    for lane in ("Web Analytics", "UX / UI", "Convergence"):
+    for lane in LANE_TERMS:
         if lane != primary_lane and matches.get(lane):
             cats.append(lane)
     return cats
@@ -103,20 +103,23 @@ def _news_entry_to_item(entry, lane: str, watch_name: str, brand: str) -> dict |
     text = f"{title} {summary}"
     matches = lane_matches(text)
 
-    # Curated Google News queries are site/brand restricted. Still require either
-    # a real primary-lane signal or the watched brand in the article text/source.
     source_title = ""
     try:
-        source_title = _clean_html(getattr(getattr(entry, "source", {}), "title", ""))
+        source_obj = getattr(entry, "source", None)
+        if source_obj:
+            source_title = _clean_html(getattr(source_obj, "title", "") if hasattr(source_obj, "title") else source_obj.get("title", ""))
     except Exception:
         source_title = ""
+
     brand_present = _contains_term(f"{text} {source_title}", brand)
+    # Strict gate: either the article itself has a real signal for the lane,
+    # or the curated watched brand is explicitly present.
     if not matches.get(lane) and not brand_present:
         return None
 
     item = {
         "title": title,
-        "summary": summary[:900],
+        "summary": summary[:1000],
         "url": link,
         "domain": _domain(link),
         "published_at": _parse_date(getattr(entry, "published", None) or getattr(entry, "updated", None)),
@@ -124,7 +127,7 @@ def _news_entry_to_item(entry, lane: str, watch_name: str, brand: str) -> dict |
         "watch": watch_name,
         "source_type": "official-watch",
         "lane": lane,
-        "query": f"{watch_name} (source surveillée)",
+        "query": f"{watch_name} · source surveillée",
         "lane_matches": matches,
         "categories": _categories_from_matches(lane, matches),
     }
@@ -158,15 +161,15 @@ def _reddit_entry_to_item(entry, feed_cfg: dict) -> dict | None:
     text = f"{title} {summary}"
     matches = lane_matches(text)
 
-    # The subreddit itself is curated, but require at least one métier signal for
-    # broad communities such as r/analytics / r/ProductManagement.
-    strict_sources = {"r/analytics", "r/ProductManagement"}
+    # Broad communities require explicit lane evidence. Narrow UX communities
+    # are already curated enough to accept posts with a weaker lexical signal.
+    strict_sources = {"r/analytics", "r/ProductManagement", "r/SEO", "r/TechSEO"}
     if feed_cfg["name"] in strict_sources and not matches.get(lane):
         return None
 
     item = {
         "title": title,
-        "summary": summary[:900],
+        "summary": summary[:1000],
         "url": getattr(entry, "link", ""),
         "domain": "reddit.com",
         "published_at": _parse_date(getattr(entry, "published", None) or getattr(entry, "updated", None)),
@@ -199,10 +202,50 @@ def scan_reddit(max_per_feed: int = 8) -> list[dict]:
     return items
 
 
+def scan_github_releases(max_per_repo: int = 3) -> list[dict]:
+    items: list[dict] = []
+    headers = {"User-Agent": USER_AGENT, "Accept": "application/vnd.github+json"}
+    for watch in GITHUB_RELEASE_WATCHES:
+        repo = watch["repo"]
+        try:
+            response = requests.get(
+                f"https://api.github.com/repos/{repo}/releases",
+                params={"per_page": max_per_repo},
+                headers=headers,
+                timeout=12,
+            )
+            response.raise_for_status()
+            for release in response.json():
+                title = release.get("name") or release.get("tag_name") or repo
+                body = _clean_html(release.get("body", ""))[:1000]
+                text = f"{watch['name']} {title} {body}"
+                matches = lane_matches(text)
+                lane = watch["lane"]
+                item = {
+                    "title": f"{watch['name']} · {title}",
+                    "summary": body or f"Nouvelle release publique de {watch['name']}.",
+                    "url": release.get("html_url", ""),
+                    "domain": "github.com",
+                    "published_at": _parse_date(release.get("published_at") or release.get("created_at")),
+                    "source": "GitHub Releases",
+                    "watch": watch["name"],
+                    "source_type": "github-release",
+                    "lane": lane,
+                    "query": repo,
+                    "lane_matches": matches,
+                    "categories": _categories_from_matches(lane, matches),
+                }
+                item["score"] = _score_item(item)
+                items.append(item)
+        except Exception:
+            continue
+    return items
+
+
 def dedupe(items: Iterable[dict]) -> list[dict]:
     best: dict[str, dict] = {}
     for item in items:
-        title_key = re.sub(r"[^a-z0-9]+", "", item.get("title", "").lower())[:200]
+        title_key = re.sub(r"[^a-z0-9]+", "", item.get("title", "").lower())[:220]
         key = title_key or item.get("url", "")
         if not key:
             continue
@@ -212,12 +255,19 @@ def dedupe(items: Iterable[dict]) -> list[dict]:
     return sorted(best.values(), key=lambda x: (x.get("published_at", ""), x.get("score", 0)), reverse=True)
 
 
-def scan_all(use_gdelt: bool = False, max_per_feed: int = 6, include_reddit: bool = True) -> list[dict]:
-    # use_gdelt conservé pour compatibilité avec les anciennes versions, mais GDELT
-    # n'est plus utilisé : trop de bruit pour une veille métier ciblée.
+def scan_all(
+    use_gdelt: bool = False,
+    max_per_feed: int = 6,
+    include_reddit: bool = True,
+    include_releases: bool = True,
+) -> list[dict]:
+    # `use_gdelt` is kept for backward compatibility only. GDELT is deliberately
+    # disabled in V2 because it produced too much off-topic noise.
     items = scan_curated_news(max_per_feed=max_per_feed)
     if include_reddit:
         items.extend(scan_reddit(max_per_feed=max(4, max_per_feed)))
+    if include_releases:
+        items.extend(scan_github_releases(max_per_repo=3))
     return dedupe(items)
 
 
@@ -255,14 +305,4 @@ def category_counts(items: list[dict]) -> dict[str, int]:
 
 def items_for_lane(items: list[dict], lane: str, min_score: int = 1) -> list[dict]:
     rows = [item for item in items if item.get("lane") == lane and item.get("score", 0) >= min_score]
-    return sorted(rows, key=lambda x: (x.get("score", 0), x.get("published_at", "")), reverse=True)
-
-
-def convergence_items(items: list[dict], min_score: int = 2) -> list[dict]:
-    rows: list[dict] = []
-    for item in items:
-        cats = set(item.get("categories", []))
-        is_cross = "Convergence" in cats or ({"Web Analytics", "UX / UI"} <= cats)
-        if is_cross and item.get("score", 0) >= min_score:
-            rows.append(item)
     return sorted(rows, key=lambda x: (x.get("score", 0), x.get("published_at", "")), reverse=True)

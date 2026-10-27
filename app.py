@@ -5,73 +5,115 @@ from datetime import datetime
 import pandas as pd
 import streamlit as st
 
-from config import SKILL_VOCAB
 from cv_lab import analyze_cv_against_job, extract_text_from_upload, suggested_profile_angle
 from insights import (
     fetch_google_trending_now,
     google_trends_explore_url,
     load_history,
-    save_history_snapshot,
     skill_mentions,
     topic_momentum,
     user_skill_gaps,
 )
-from radar import category_counts, load_news, save_news, scan_all
+from learning import LEARNING_MODULES, modules_for_lane, recommend_modules
+from radar import items_for_lane, lane_counts, load_news, save_news, scan_all
+from source_catalog import (
+    GITHUB_RELEASE_WATCHES,
+    LINKEDIN_WATCH_TERMS,
+    REDDIT_FEEDS,
+    SKILL_VOCAB,
+    SOURCE_WATCHES,
+    linkedin_search_url,
+)
 from translation import translate_to_french
 
-st.set_page_config(page_title="Analytics × UX Radar", page_icon="📡", layout="wide")
+st.set_page_config(
+    page_title="RadarV369 · ACE by Orange Business",
+    page_icon="📡",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
+LANES = ["Web Analytics", "UX / UI", "Convergence", "GEO / AI Search"]
 
 st.markdown(
     """
     <style>
-      :root { --orange:#ff7900; --ink:#111111; --soft:#f6f6f6; --line:#e8e8e8; --muted:#6b7280; }
-      .stApp { background:#fff; }
-      .block-container {padding-top:1.2rem;padding-bottom:4rem;max-width:1550px;}
-      [data-testid="stSidebar"] {background:#111111;}
-      [data-testid="stSidebar"] * {color:#ffffff;}
-      [data-testid="stSidebar"] .stButton button {background:#ff7900;color:#111;border:0;}
-      .hero {background:#111;color:#fff;padding:34px 38px;border-radius:24px;margin:4px 0 20px;position:relative;overflow:hidden;}
-      .hero:after {content:"";position:absolute;width:190px;height:190px;background:#ff7900;border-radius:50%;right:-72px;top:-78px;}
-      .eyebrow {font-size:.76rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ff7900;margin-bottom:9px;}
-      .hero h1 {margin:0;font-size:2.45rem;line-height:1.05;letter-spacing:-.04em;}
-      .hero p {margin:12px 0 0;color:#d7d7d7;font-size:1rem;max-width:900px;}
-      .story {display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:12px 0 22px;}
-      .story-step {background:#f7f7f7;border:1px solid #ededed;border-radius:14px;padding:13px;font-size:.88rem;font-weight:700;}
-      .story-step b {color:#ff7900;}
-      .section-kicker {color:#ff7900;font-size:.76rem;font-weight:900;text-transform:uppercase;letter-spacing:.12em;}
-      .card {background:#fff;border:1px solid #e8e8e8;border-radius:18px;padding:18px 20px;height:100%;box-shadow:0 5px 18px rgba(0,0,0,.035);}
-      .card h3 {font-size:1rem;margin:0 0 8px;}
-      .muted {color:#6b7280;font-size:.88rem;}
-      .pill {display:inline-block;border-radius:999px;padding:4px 9px;margin:2px 4px 2px 0;background:#f2f2f2;font-size:.76rem;font-weight:700;}
-      .pill-orange {background:#fff0e2;color:#9a4700;}
-      .score {display:inline-flex;align-items:center;gap:6px;font-weight:900;}
-      .dot {width:9px;height:9px;border-radius:50%;display:inline-block;background:#ff7900;}
-      .signal {border-left:5px solid #ff7900;padding:13px 16px;background:#fff7ef;border-radius:10px;margin:8px 0 14px;}
-      .small-label {font-size:.72rem;color:#6b7280;text-transform:uppercase;font-weight:800;letter-spacing:.08em;}
-      div[data-testid="stMetric"] {border:1px solid #ededed;padding:12px 16px;border-radius:16px;background:#fff;}
-      div[data-testid="stMetricValue"] {font-weight:900;letter-spacing:-.03em;}
-      .stButton>button, .stLinkButton>a {border-radius:12px;font-weight:800;}
-      .stTabs [data-baseweb="tab-list"] {gap:4px;border-bottom:1px solid #ececec;}
-      .stTabs [data-baseweb="tab"] {height:46px;border-radius:10px 10px 0 0;font-weight:750;}
-      @media(max-width:900px){.story{grid-template-columns:1fr 1fr}.hero h1{font-size:1.9rem}}
+      :root{--orange:#ff7900;--black:#111111;--grey:#6b7280;--soft:#f5f5f5;--line:#e7e7e7;--white:#ffffff;}
+      html,body,[class*="css"]{font-family:"Helvetica Neue",Arial,sans-serif;}
+      .stApp{background:#ffffff;color:#111111;}
+      .block-container{padding-top:1rem;padding-bottom:4rem;max-width:1540px;}
+      [data-testid="stSidebar"]{background:#111111;border-right:0;}
+      [data-testid="stSidebar"] *{color:#ffffff;}
+      [data-testid="stSidebar"] hr{border-color:#333333;}
+      [data-testid="stSidebar"] .stButton>button{background:#ff7900;color:#111111;border:0;font-weight:800;}
+      [data-testid="stSidebar"] .stSlider [role="slider"]{background:#ff7900;}
+      .brandbar{display:flex;align-items:center;justify-content:space-between;gap:28px;padding:8px 0 18px;border-bottom:1px solid #e7e7e7;margin-bottom:18px;}
+      .brandcopy{min-width:0;}
+      .brand-kicker{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:#ff7900;margin-bottom:6px;}
+      .brand-title{font-size:2.35rem;line-height:1;font-weight:850;letter-spacing:-.045em;margin:0;}
+      .brand-title span{color:#ff7900;}
+      .brand-sub{font-size:.93rem;color:#6b7280;margin-top:8px;}
+      .hero{background:#111111;color:#ffffff;border-radius:22px;padding:30px 34px;margin-bottom:18px;position:relative;overflow:hidden;}
+      .hero:after{content:"";position:absolute;width:220px;height:220px;border:42px solid #ff7900;border-radius:50%;right:-92px;top:-104px;opacity:.96;}
+      .hero h2{font-size:1.75rem;margin:0 0 8px;font-weight:850;letter-spacing:-.03em;max-width:920px;}
+      .hero p{margin:0;color:#d4d4d4;max-width:960px;font-size:.97rem;}
+      .story{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:0 0 20px;}
+      .story-card{border:1px solid #e7e7e7;background:#fafafa;border-radius:13px;padding:12px 13px;font-size:.82rem;font-weight:750;min-height:64px;}
+      .story-card b{display:block;color:#ff7900;font-size:.72rem;margin-bottom:4px;}
+      .section-kicker{font-size:.7rem;letter-spacing:.13em;text-transform:uppercase;font-weight:850;color:#ff7900;margin-bottom:5px;}
+      .section-title{font-size:1.55rem;font-weight:850;letter-spacing:-.03em;margin:0 0 6px;}
+      .section-desc{color:#6b7280;margin:0 0 18px;font-size:.92rem;}
+      .kpi-card{border:1px solid #e7e7e7;border-radius:16px;background:#ffffff;padding:14px 16px;box-shadow:0 4px 15px rgba(0,0,0,.025);}
+      .signal-card{border:1px solid #e7e7e7;border-radius:16px;background:#ffffff;padding:17px 18px;margin-bottom:10px;box-shadow:0 4px 16px rgba(0,0,0,.025);}
+      .signal-card:hover{border-color:#cfcfcf;}
+      .source-label{font-size:.69rem;font-weight:850;text-transform:uppercase;letter-spacing:.09em;color:#6b7280;margin-bottom:6px;}
+      .signal-title{font-size:1rem;font-weight:800;line-height:1.28;margin:0 0 8px;}
+      .muted{color:#6b7280;font-size:.84rem;line-height:1.42;}
+      .pill{display:inline-block;background:#f1f1f1;border-radius:999px;padding:4px 9px;margin:2px 4px 2px 0;font-size:.72rem;font-weight:750;}
+      .pill-orange{background:#fff0e2;color:#9a4700;}
+      .score-high{color:#111111;font-weight:900;}
+      .orange-line{border-left:5px solid #ff7900;background:#fff7ef;border-radius:10px;padding:13px 15px;margin:10px 0;}
+      .learning-card{border:1px solid #e7e7e7;border-radius:16px;padding:18px;background:#fff;margin-bottom:12px;}
+      .learning-card h4{margin:0 0 6px;font-size:1.02rem;}
+      div[data-testid="stMetric"]{border:1px solid #e7e7e7;border-radius:15px;padding:10px 14px;background:#fff;}
+      div[data-testid="stMetricValue"]{font-weight:900;letter-spacing:-.035em;}
+      .stButton>button,.stLinkButton>a{border-radius:10px;font-weight:800;}
+      .stTabs [data-baseweb="tab-list"]{gap:3px;border-bottom:1px solid #e7e7e7;overflow-x:auto;}
+      .stTabs [data-baseweb="tab"]{height:46px;font-size:.87rem;font-weight:800;border-radius:9px 9px 0 0;white-space:nowrap;}
+      @media(max-width:900px){.story{grid-template-columns:1fr 1fr}.brand-title{font-size:1.9rem}.hero{padding:24px}.brandbar{display:block}}
     </style>
     """,
     unsafe_allow_html=True,
 )
 
+# Header: brand lockup + platform identity.
+head_logo, head_copy = st.columns([1.05, 2.95], vertical_alignment="center")
+with head_logo:
+    st.image("assets/ace_logo.svg", width=310)
+with head_copy:
+    st.markdown(
+        """
+        <div class="brandcopy">
+          <div class="brand-kicker">Squad Intelligence Platform</div>
+          <div class="brand-title">Radar<span>V369</span></div>
+          <div class="brand-sub">UX · Web Analytics · CRO · GEO / AI Search · Skills Intelligence</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
 st.markdown(
     """
     <div class="hero">
-      <div class="eyebrow">Squad Intelligence Platform</div>
-      <h1>Analytics <span style="color:#ff7900">×</span> UX Radar</h1>
-      <p>Observer le marché, détecter les évolutions, comprendre les nouvelles compétences et transformer la veille en actions pour le squad.</p>
+      <h2>Les usages changent. Les technologies accélèrent. Les métiers UX & Analytics évoluent.</h2>
+      <p>RadarV369 transforme la veille en signaux actionnables : actualités métier, outils, tendances, évolution des compétences, apprentissage et convergence UX × Analytics.</p>
     </div>
     <div class="story">
-      <div class="story-step"><b>01</b><br>Les usages changent</div>
-      <div class="story-step"><b>02</b><br>Les technologies accélèrent</div>
-      <div class="story-step"><b>03</b><br>UX & Analytics évoluent</div>
-      <div class="story-step"><b>04</b><br>Les frontières se rapprochent</div>
-      <div class="story-step"><b>05</b><br>Le squad s'adapte</div>
+      <div class="story-card"><b>01 · USAGES</b>Nouveaux parcours, IA, selfcare, recherche conversationnelle.</div>
+      <div class="story-card"><b>02 · TECHNOLOGIES</b>Analytics, Experience Analytics, experimentation, GenAI.</div>
+      <div class="story-card"><b>03 · MÉTIERS</b>Web Analyst, Product Analyst, UX, CRO, GEO se transforment.</div>
+      <div class="story-card"><b>04 · FRONTIÈRES</b>Data, design, research et produit se rapprochent.</div>
+      <div class="story-card"><b>05 · SQUAD</b>Observer → apprendre → expérimenter → mesurer.</div>
     </div>
     """,
     unsafe_allow_html=True,
@@ -79,237 +121,346 @@ st.markdown(
 
 
 @st.cache_data(ttl=1800, show_spinner=False)
-def live_scan(use_gdelt: bool, max_per_feed: int):
-    return scan_all(use_gdelt=use_gdelt, max_per_feed=max_per_feed)
+def live_scan(max_per_feed: int, include_reddit: bool, include_releases: bool):
+    return scan_all(
+        use_gdelt=False,
+        max_per_feed=max_per_feed,
+        include_reddit=include_reddit,
+        include_releases=include_releases,
+    )
 
 
 @st.cache_data(ttl=1800, show_spinner=False)
 def google_trends_fr():
-    return fetch_google_trending_now(25)
+    return fetch_google_trending_now(20)
+
+
+def fmt_date(value: str) -> str:
+    try:
+        dt = datetime.fromisoformat((value or "").replace("Z", "+00:00"))
+        return dt.strftime("%d/%m/%Y")
+    except Exception:
+        return ""
 
 
 def score_reason(item: dict) -> list[str]:
-    reasons: list[str] = []
-    kw = item.get("keyword_scores", {}) or {}
-    if kw:
-        top = sorted(kw.items(), key=lambda x: x[1], reverse=True)[:3]
-        reasons.append("Mots-clés : " + ", ".join(f"{k} ({v})" for k, v in top))
-    cats = item.get("categories", []) or []
-    if len(cats) >= 2:
-        reasons.append("Croise plusieurs domaines du squad")
-    text = f"{item.get('title','')} {item.get('summary','')}".lower()
-    if any(k in text for k in ("a/b", "experimentation", "contentsquare", "product analytics", "cro")):
-        reasons.append("Signal expérimentation / expérience / Product Analytics")
-    if item.get("source_type") == "official":
-        reasons.append("Source officielle")
-    return reasons or ["Correspondance thématique générale"]
+    reasons = []
+    matches = item.get("lane_matches", {}) or {}
+    primary = item.get("lane", "")
+    primary_hits = matches.get(primary, [])
+    if primary_hits:
+        reasons.append("Signaux détectés : " + ", ".join(primary_hits[:6]))
+    cross = [lane for lane, terms in matches.items() if lane != primary and terms]
+    if cross:
+        reasons.append("Croise aussi : " + ", ".join(cross))
+    if item.get("source_type") == "official-watch":
+        reasons.append("Source / marque professionnelle explicitement surveillée")
+    elif item.get("source_type") == "github-release":
+        reasons.append("Release GitHub d’un outil suivi")
+    elif item.get("source_type") == "reddit":
+        reasons.append("Signal communauté Reddit ciblée")
+    return reasons or ["Signal provenant d’une source curatée"]
+
+
+def render_feed(rows: list[dict], key_prefix: str, translate: bool, limit: int = 45):
+    if not rows:
+        st.info("Aucun signal pertinent dans le snapshot actuel. Lance un nouveau scan.")
+        return
+    for idx, item in enumerate(rows[:limit]):
+        title = item.get("title") or "Sans titre"
+        if translate:
+            title = translate_to_french(title)
+        source = item.get("watch") or item.get("source") or "Source"
+        summary = item.get("summary") or "Résumé non fourni par la source."
+        if translate:
+            summary = translate_to_french(summary)
+        st.markdown(
+            f"""
+            <div class="signal-card">
+              <div class="source-label">{source} · {fmt_date(item.get('published_at',''))} · pertinence {item.get('score',1)}/5</div>
+              <div class="signal-title">{title}</div>
+              <div>{''.join(f'<span class="pill pill-orange">{c}</span>' for c in item.get('categories',[])[:4])}</div>
+              <div class="muted" style="margin-top:9px">{summary[:520]}</div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        c1, c2 = st.columns([1, 4])
+        with c1:
+            if item.get("url"):
+                st.link_button("Ouvrir la source", item["url"], use_container_width=True)
+        with c2:
+            with st.popover("Pourquoi ce signal ?"):
+                for reason in score_reason(item):
+                    st.write("• " + reason)
+        if idx < len(rows[:limit]) - 1:
+            st.markdown("<div style='height:2px'></div>", unsafe_allow_html=True)
+
+
+def skill_options() -> list[str]:
+    return sorted({skill for skills in SKILL_VOCAB.values() for skill in skills}, key=str.lower)
 
 
 stored = load_news()
 if "news_items" not in st.session_state:
-    st.session_state.news_items = stored.get("items", [])
+    # Old V1 snapshots had no lane and are intentionally discarded to avoid noise.
+    st.session_state.news_items = [i for i in stored.get("items", []) if i.get("lane") in LANES]
 
 with st.sidebar:
-    st.markdown("## 📡 Radar Control")
-    st.caption("Collecte gratuite : RSS + Google News + GDELT")
-    use_gdelt = st.toggle("Inclure GDELT", value=True)
-    max_per_feed = st.slider("Profondeur du scan", 2, 12, 5)
-    if st.button("Scanner le web maintenant", type="primary", use_container_width=True):
-        with st.spinner("Scan du marché UX, Analytics, CRO, Product et IA..."):
-            items_new = live_scan(use_gdelt, max_per_feed)
-            st.session_state.news_items = items_new
+    st.markdown("## RadarV369")
+    st.caption("Curated-first · sources métier uniquement")
+    include_reddit = st.toggle("Communautés Reddit", value=True)
+    include_releases = st.toggle("GitHub Releases", value=True)
+    max_per_feed = st.slider("Profondeur par source", 2, 10, 5)
+    if st.button("Scanner maintenant", type="primary", use_container_width=True):
+        with st.spinner("Scan Web Analytics, UX/UI, Convergence et GEO..."):
+            fresh = live_scan(max_per_feed, include_reddit, include_releases)
+            st.session_state.news_items = fresh
             try:
-                save_news(items_new)
-                save_history_snapshot(items_new)
+                save_news(fresh)
             except Exception:
                 pass
-        st.success(f"{len(items_new)} signaux collectés")
+        st.success(f"{len(fresh)} signaux pertinents collectés")
         st.rerun()
 
     st.divider()
-    st.markdown("### Filtres rapides")
-    sidebar_min_score = st.slider(
+    min_score = st.slider(
         "Pertinence minimum",
-        1, 5, 3,
-        help="1 = faible correspondance aux thèmes suivis ; 5 = forte convergence de mots-clés/domaines et/ou source officielle. Ce n'est pas une note de fiabilité scientifique.",
+        1, 5, 2,
+        help="Le score mesure la proximité avec les domaines suivis et la qualité de la source. Il ne mesure pas la vérité d’un article.",
     )
-    translate_default = st.toggle("Traduire les extraits en français", value=False, help="Traduction à la demande via un service gratuit/non officiel. Le lien conserve l'article original.")
+    translate_default = st.toggle("Traduire en français", value=False)
     st.divider()
+    st.caption("Sources : blogs ciblés + Google News restreint + Reddit métier + GitHub Releases + Google Trends.")
     if stored.get("generated_at"):
         try:
             dt = datetime.fromisoformat(stored["generated_at"].replace("Z", "+00:00"))
-            st.caption(f"Snapshot : {dt:%d/%m/%Y %H:%M}")
+            st.caption(f"Snapshot repo : {dt:%d/%m/%Y %H:%M}")
         except Exception:
             pass
-    st.caption("⚠️ Les scores sont des aides de tri, pas des vérités de marché.")
 
-items = st.session_state.news_items
-counts = category_counts(items)
-momentum = topic_momentum(items, 15) if items else []
-skills = skill_mentions(items, 15) if items else []
+items = [i for i in st.session_state.news_items if i.get("lane") in LANES]
+counts = lane_counts(items)
+momentum = topic_momentum(items, 20) if items else []
+skills = skill_mentions(items, 30) if items else []
+history = load_history()
 
-m1, m2, m3, m4, m5, m6 = st.columns(6)
-m1.metric("Signaux", len(items))
-m2.metric("UX", counts.get("UX", 0))
-m3.metric("Analytics", counts.get("Analytics", 0))
-m4.metric("CRO", counts.get("CRO", 0))
-m5.metric("IA", counts.get("IA", 0))
-m6.metric("Compétences détectées", len(skills))
+k1, k2, k3, k4, k5, k6 = st.columns(6)
+k1.metric("Signaux", len(items))
+k2.metric("Web Analytics", counts.get("Web Analytics", 0))
+k3.metric("UX / UI", counts.get("UX / UI", 0))
+k4.metric("Convergence", counts.get("Convergence", 0))
+k5.metric("GEO / AI Search", counts.get("GEO / AI Search", 0))
+k6.metric("Skills détectées", len(skills))
 
-(dashboard_tab, news_tab, trends_tab, skills_tab, convergence_tab, cv_tab, source_tab) = st.tabs([
-    "🏠 Vue squad", "📰 Actualités", "📈 Tendances", "🎯 Compétences", "🤝 UX × Analytics", "🧭 CV Lab", "⚙️ Méthode"
+(
+    overview_tab,
+    analytics_tab,
+    ux_tab,
+    convergence_tab,
+    geo_tab,
+    trends_tab,
+    skills_tab,
+    learning_tab,
+    cv_tab,
+    sources_tab,
+) = st.tabs([
+    "Vue d’ensemble",
+    "Web Analytics",
+    "UX / UI",
+    "Convergence",
+    "GEO / AI Search",
+    "Tendances",
+    "Skills Radar",
+    "Learning Hub",
+    "CV Lab",
+    "Sources",
 ])
 
-with dashboard_tab:
-    st.markdown("<div class='section-kicker'>Cette semaine</div>", unsafe_allow_html=True)
-    st.subheader("Les signaux à regarder en priorité")
-    if not items:
-        st.info("Lance un scan depuis la barre latérale pour alimenter le radar.")
-    else:
-        top_items = sorted(items, key=lambda x: x.get("score", 0), reverse=True)[:6]
-        cols = st.columns(3)
-        for i, item in enumerate(top_items):
-            with cols[i % 3]:
-                cats = " ".join(f"<span class='pill'>{c}</span>" for c in item.get("categories", [])[:3])
+with overview_tab:
+    st.markdown("<div class='section-kicker'>Radar hebdomadaire</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-title'>Ce que le squad doit regarder maintenant</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-desc'>Les signaux les mieux scorés, issus uniquement des sources métier suivies.</div>", unsafe_allow_html=True)
+
+    top = sorted([i for i in items if i.get("score", 0) >= min_score], key=lambda x: (x.get("score", 0), x.get("published_at", "")), reverse=True)[:8]
+    if top:
+        cols = st.columns(4)
+        for idx, item in enumerate(top):
+            with cols[idx % 4]:
                 st.markdown(
-                    f"<div class='card'><div class='small-label'>{item.get('source','Source')}</div>"
-                    f"<h3>{item.get('title','Sans titre')}</h3>{cats}"
-                    f"<p class='muted'>Pertinence <b>{item.get('score',1)}/5</b></p></div>",
+                    f"""
+                    <div class="signal-card" style="min-height:205px">
+                      <div class="source-label">{item.get('lane','')} · {item.get('watch',item.get('source',''))}</div>
+                      <div class="signal-title">{item.get('title','Sans titre')[:150]}</div>
+                      <div class="muted">Pertinence <b>{item.get('score',1)}/5</b> · {fmt_date(item.get('published_at',''))}</div>
+                    </div>
+                    """,
                     unsafe_allow_html=True,
                 )
                 if item.get("url"):
-                    st.link_button("Ouvrir", item["url"], use_container_width=True)
-
-        c1, c2 = st.columns([1.2, 1])
-        with c1:
-            st.markdown("### 🔥 Momentum métier")
-            if momentum:
-                df = pd.DataFrame(momentum[:10])[["term", "momentum", "mentions"]].rename(columns={"term":"Sujet","momentum":"Momentum","mentions":"Mentions"})
-                st.dataframe(df, hide_index=True, use_container_width=True)
-        with c2:
-            st.markdown("### 🎯 Compétences les plus visibles")
-            for row in skills[:8]:
-                st.markdown(f"**{row['skill']}** · {row['family']} — {row['mentions']} signaux")
-
-with news_tab:
-    st.subheader("Actualités & évolutions")
-    st.caption("Le radar agrège des signaux. Les articles restent accessibles dans leur source originale.")
-    if not items:
-        st.info("Aucune donnée. Lance un scan.")
+                    st.link_button("Voir", item["url"], use_container_width=True)
     else:
-        c1, c2, c3 = st.columns([2, 1.2, 1])
-        search = c1.text_input("Rechercher", placeholder="GA4, Figma, CRO, Product Analytics, accessibilité...")
-        all_categories = sorted({c for item in items for c in item.get("categories", [])})
-        selected_categories = c2.multiselect("Domaines", all_categories, default=[])
-        sort_mode = c3.selectbox("Trier par", ["Date", "Pertinence"])
+        st.info("Lance un scan pour afficher les signaux prioritaires.")
 
-        filtered = []
-        for item in items:
-            hay = f"{item.get('title','')} {item.get('summary','')} {item.get('source','')}".lower()
-            if search and search.lower() not in hay:
-                continue
-            if selected_categories and not set(selected_categories).intersection(item.get("categories", [])):
-                continue
-            if item.get("score", 0) < sidebar_min_score:
-                continue
-            filtered.append(item)
-        if sort_mode == "Pertinence":
-            filtered.sort(key=lambda x: (x.get("score", 0), x.get("published_at", "")), reverse=True)
+    c1, c2 = st.columns([1.15, 1])
+    with c1:
+        st.markdown("### Sujets en momentum")
+        if momentum:
+            df = pd.DataFrame(momentum[:10])[["term", "momentum", "mentions"]]
+            df.columns = ["Sujet", "Momentum", "Mentions"]
+            st.dataframe(df, hide_index=True, use_container_width=True)
+        else:
+            st.caption("Pas encore assez de données.")
+    with c2:
+        st.markdown("### Compétences visibles")
+        for row in skills[:10]:
+            st.write(f"**{row['skill']}** · {row['family']} · {row['mentions']} signal(s)")
 
-        st.caption(f"{len(filtered)} éléments · seuil de pertinence : {sidebar_min_score}/5")
-        for item in filtered[:100]:
-            title = item.get("title") or "Sans titre"
-            display_title = translate_to_french(title) if translate_default else title
-            with st.expander(f"{item.get('score',1)}/5 · {display_title}"):
-                tags = " ".join(f"<span class='pill pill-orange'>{c}</span>" for c in item.get("categories", []))
-                st.markdown(tags, unsafe_allow_html=True)
-                summary = item.get("summary") or "Résumé non fourni par la source."
-                if translate_default:
-                    summary = translate_to_french(summary)
-                st.write(summary)
-                with st.popover("Pourquoi ce score ?"):
-                    st.write("Le score de pertinence sert uniquement à prioriser les signaux pour le squad.")
-                    for reason in score_reason(item):
-                        st.write(f"• {reason}")
-                st.caption(f"{item.get('source','')} · {item.get('domain','')} · requête : {item.get('query','')}")
-                if item.get("url"):
-                    st.link_button("Lire l'article original", item["url"])
+    st.markdown("### Lecture stratégique")
+    st.markdown(
+        """
+        <div class="orange-line"><b>Le radar ne cherche pas à collecter le plus d’articles possible.</b><br>
+        Il cherche à détecter les changements pertinents : outils, pratiques, nouvelles attentes métier, convergence UX × Data et montée de GEO / AI Search.</div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+with analytics_tab:
+    st.markdown("<div class='section-kicker'>Métier 01</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-title'>Web Analytics & Product Analytics</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-desc'>GA4, Contentsquare, Air360, Amplitude, Mixpanel, Tealium, Adobe, Piano, Matomo, tracking, data quality, BigQuery et mesure produit.</div>", unsafe_allow_html=True)
+    rows = items_for_lane(items, "Web Analytics", min_score)
+    render_feed(rows, "analytics", translate_default)
+
+with ux_tab:
+    st.markdown("<div class='section-kicker'>Métier 02</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-title'>UX / UI & Research</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-desc'>Figma, UX Research, usability, Product Design, accessibilité, design systems, tests utilisateurs et qualité d’expérience.</div>", unsafe_allow_html=True)
+    rows = items_for_lane(items, "UX / UI", min_score)
+    render_feed(rows, "ux", translate_default)
+
+with convergence_tab:
+    st.markdown("<div class='section-kicker'>Zone commune</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-title'>UX × Analytics : de l’insight à l’expérimentation</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-desc'>CRO, A/B testing, Kameleoon, AB Tasty, Optimizely, Qualtrics, Experience Analytics, friction et Voice of Customer.</div>", unsafe_allow_html=True)
+    st.markdown("**Observer → Comprendre → Concevoir → Tester → Mesurer → Apprendre**")
+    rows = items_for_lane(items, "Convergence", min_score)
+    render_feed(rows, "conv", translate_default)
+
+with geo_tab:
+    st.markdown("<div class='section-kicker'>Nouveau radar</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-title'>GEO / AI Search</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-desc'>Generative Engine Optimization, AI Overviews, AI Mode, ChatGPT Search, Perplexity, LLM citations, AI referrals et visibilité de marque dans les moteurs génératifs.</div>", unsafe_allow_html=True)
+
+    g1, g2, g3, g4 = st.columns(4)
+    g1.metric("À mesurer", "AI referrals")
+    g2.metric("À surveiller", "Citations LLM")
+    g3.metric("Search", "AI Overviews")
+    g4.metric("Business", "Conversion IA")
+    st.markdown(
+        """
+        <div class="orange-line"><b>Lecture GEO pour le squad :</b> suivre d’où viennent les visites IA, quelles pages sont citées, quelles requêtes déclenchent la marque et si ces visites convertissent réellement.</div>
+        """,
+        unsafe_allow_html=True,
+    )
+    rows = items_for_lane(items, "GEO / AI Search", min_score)
+    render_feed(rows, "geo", translate_default)
 
 with trends_tab:
-    st.subheader("Tendances & signaux émergents")
-    st.write("On sépare ici la **popularité éditoriale** du radar et la **popularité de recherche** Google Trends.")
-    t1, t2 = st.columns([1.2, 1])
-    with t1:
-        st.markdown("### Momentum dans notre veille")
-        if momentum:
-            df = pd.DataFrame(momentum)
-            st.bar_chart(df.set_index("term")["momentum"])
-            for row in momentum[:8]:
-                st.markdown(f"**{row['term']}** — momentum {row['momentum']}/100 · [voir dans Google Trends]({row['google_trends_url']})")
-        else:
-            st.info("Lance un scan pour calculer le momentum.")
+    st.markdown("<div class='section-kicker'>Évolution</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-title'>Tendances métier & technologies</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-desc'>Le momentum du radar mesure la répétition récente d’un sujet dans les sources surveillées. Google Trends reste un signal séparé.</div>", unsafe_allow_html=True)
 
+    t1, t2 = st.columns([1.25, 1])
+    with t1:
+        st.markdown("### Momentum métier")
+        if momentum:
+            df = pd.DataFrame(momentum[:15])
+            st.bar_chart(df.set_index("term")["momentum"])
+            st.dataframe(df[["term", "mentions", "momentum"]].rename(columns={"term":"Sujet","mentions":"Mentions","momentum":"Momentum"}), hide_index=True, use_container_width=True)
+        else:
+            st.info("Lance un scan pour calculer les tendances.")
     with t2:
         st.markdown("### Google Trends · France")
         gt = google_trends_fr()
         if gt:
-            st.caption("Trending Now grand public. Ce n'est pas limité à l'UX/Analytics.")
-            for row in gt[:12]:
-                traffic = f" · {row['traffic']}" if row.get('traffic') else ""
-                st.markdown(f"**{row['term']}**{traffic}")
+            st.caption("Trending Now est grand public : on l’affiche comme signal externe, jamais comme vérité métier.")
+            for row in gt[:10]:
+                st.write(f"**{row['term']}**" + (f" · {row['traffic']}" if row.get("traffic") else ""))
         else:
-            st.warning("Le flux Google Trends n'est pas disponible pour le moment.")
+            st.caption("Flux Google Trends temporairement indisponible.")
 
-    st.markdown("### Mots-clés métier à suivre dans Google Trends")
-    tracked = ["Product Analytics", "UX Research", "CRO", "A/B Testing", "Figma", "Contentsquare", "GA4", "Amplitude"]
-    cols = st.columns(4)
-    for i, term in enumerate(tracked):
-        with cols[i % 4]:
+    st.markdown("### Requêtes métier à comparer dans Google Trends")
+    tracked = ["Product Analytics", "UX Research", "CRO", "A/B Testing", "Figma", "Contentsquare", "Kameleoon", "GA4", "GEO", "AI Search"]
+    cols = st.columns(5)
+    for idx, term in enumerate(tracked):
+        with cols[idx % 5]:
             st.link_button(term, google_trends_explore_url(term), use_container_width=True)
 
-    st.info("Google ne fournit pas encore d'API Trends publique générale. Le radar utilise le flux Trending Now et des liens Explore ; on pourra brancher une API alpha/tiers plus tard sans changer l'interface.")
+    if len(history) >= 2:
+        st.markdown("### Historique RadarV369")
+        hist_df = pd.DataFrame([{"Date": h.get("date"), "Signaux": h.get("count", 0)} for h in history])
+        if not hist_df.empty:
+            st.line_chart(hist_df.set_index("Date"))
 
 with skills_tab:
-    st.subheader("Compétences à surveiller et à renforcer")
-    st.caption("Ici, la fréquence vient du corpus de veille. Pour mesurer précisément la demande recruteur, le prochain module devra analyser un corpus d'offres d'emploi.")
-    if not skills:
-        st.info("Lance un scan pour détecter les compétences.")
-    else:
+    st.markdown("<div class='section-kicker'>Skills Intelligence</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-title'>Compétences qui apparaissent dans le marché observé</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-desc'>Ce radar s’appuie sur la veille éditoriale. La prochaine brique Jobs Radar permettra de mesurer la demande recruteur séparément.</div>", unsafe_allow_html=True)
+
+    if skills:
         skill_df = pd.DataFrame(skills)
-        st.dataframe(skill_df.rename(columns={"skill":"Compétence","mentions":"Signaux","family":"Famille"}), hide_index=True, use_container_width=True)
-        all_skills = sorted({s for values in SKILL_VOCAB.values() for s in values}, key=str.lower)
-        current = st.multiselect("Mes compétences actuelles", all_skills, placeholder="Sélectionne ce que tu maîtrises déjà...")
-        if current:
-            gaps = user_skill_gaps(items, current, 12)
-            st.markdown("### Priorités potentielles")
-            if gaps:
-                for idx, row in enumerate(gaps, start=1):
-                    priority = "Haute" if idx <= 4 else "Moyenne"
-                    st.markdown(f"**{idx}. {row['skill']}** — {row['family']} · {row['mentions']} signaux · priorité **{priority}**")
-            else:
-                st.success("Tes compétences sélectionnées couvrent les principaux signaux détectés dans ce snapshot.")
+        st.dataframe(skill_df.rename(columns={"skill":"Compétence","mentions":"Mentions","family":"Famille"}), hide_index=True, use_container_width=True)
 
-        st.markdown("### Comment lire cette page")
-        st.markdown("**Répétition dans les actualités ≠ demande d'emploi.** Elle permet de détecter les sujets émergents. Le CV Lab, lui, compare directement à une offre réelle.")
+    current_skills = st.multiselect(
+        "Compétences déjà maîtrisées par le squad / profil",
+        skill_options(),
+        default=[],
+        placeholder="GA4, Figma, SQL, Contentsquare, Kameleoon...",
+    )
+    gaps = user_skill_gaps(items, current_skills, top_n=15) if items else []
+    if gaps:
+        st.markdown("### Priorités potentielles à renforcer")
+        gap_df = pd.DataFrame(gaps).rename(columns={"skill":"Compétence","mentions":"Signaux","family":"Famille"})
+        st.dataframe(gap_df, hide_index=True, use_container_width=True)
+        st.caption("Une compétence absente de la sélection n’est pas forcément absente du squad : ce bloc sert à ouvrir la discussion.")
 
-with convergence_tab:
-    st.subheader("La zone de convergence UX × Analytics")
-    st.markdown("<div class='signal'><b>Objectif :</b> passer de « UX fait les écrans / Analytics fait les chiffres » à <b>Observer → Comprendre → Concevoir → Tester → Mesurer → Apprendre</b>.</div>", unsafe_allow_html=True)
-    convergence = [item for item in items if len(item.get("categories", [])) >= 2 or {"CRO", "Product"}.intersection(item.get("categories", []))]
-    convergence = sorted(convergence, key=lambda x: (x.get("score", 0), x.get("published_at", "")), reverse=True)
-    for item in convergence[:30]:
-        st.markdown(f"**{item.get('score',1)}/5 — [{item.get('title','Sans titre')}]({item.get('url','#')})**")
-        st.caption(f"{' · '.join(item.get('categories', []))} · {item.get('source','')}")
+with learning_tab:
+    st.markdown("<div class='section-kicker'>Learning Hub</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-title'>Transformer les tendances en montée en compétences</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-desc'>Parcours courts, ressources officielles et mini-projets pour produire une preuve concrète de compétence.</div>", unsafe_allow_html=True)
+
+    filter_lane = st.selectbox("Domaine", ["Tous"] + LANES, key="learning_lane")
+    modules = modules_for_lane(filter_lane)
+    for module in modules:
+        st.markdown(
+            f"""
+            <div class="learning-card">
+              <div class="source-label">{module['lane']} · {module['level']} · {module['duration']}</div>
+              <h4>{module['skill']}</h4>
+              <div class="muted"><b>Pourquoi :</b> {module['why']}</div>
+              <div class="muted" style="margin-top:8px"><b>Mini-projet :</b> {module['project']}</div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        rcols = st.columns(min(3, max(1, len(module["resources"]))))
+        for idx, (label, url) in enumerate(module["resources"]):
+            with rcols[idx % len(rcols)]:
+                st.link_button(label, url, use_container_width=True)
 
 with cv_tab:
-    st.subheader("CV Lab — marché → compétences → adaptation")
-    st.write("Compare ton CV à une offre cible. Le moteur n'invente aucune expérience : il détecte les compétences couvertes et celles qu'il faut prouver ou apprendre.")
+    st.markdown("<div class='section-kicker'>Career Intelligence</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-title'>CV Lab</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-desc'>Comparer un CV à une fiche de poste et détecter les écarts de compétences sans inventer d’expérience.</div>", unsafe_allow_html=True)
+
     left, right = st.columns(2)
     with left:
         uploaded = st.file_uploader("CV (.pdf, .txt, .md)", type=["pdf", "txt", "md"])
-        cv_paste = st.text_area("Ou colle le texte du CV", height=280)
+        cv_paste = st.text_area("Ou colle le texte du CV", height=300)
     with right:
-        job_text = st.text_area("Fiche de poste cible", height=345, placeholder="Colle ici l'offre Product Analyst, CRO Analyst, UX Analyst...")
+        job_text = st.text_area("Fiche de poste cible", height=365, placeholder="Product Analyst, CRO Analyst, UX Analyst, Web Analyst, GEO...")
+
     cv_text = cv_paste.strip()
     if uploaded is not None and not cv_text:
         try:
@@ -323,36 +474,48 @@ with cv_tab:
         st.metric("Couverture des compétences explicites", f"{result['score']} %")
         a, b = st.columns(2)
         with a:
-            st.success("Déjà couvert")
-            st.write(", ".join(result["matched"]) if result["matched"] else "Aucune compétence reconnue.")
+            st.success("Compétences couvertes")
+            st.write(", ".join(result["matched"]) if result["matched"] else "Aucune compétence explicite reconnue.")
         with b:
-            st.warning("À renforcer / prouver")
+            st.warning("Compétences à vérifier / renforcer")
             st.write(", ".join(result["missing"]) if result["missing"] else "Pas de gap explicite détecté.")
         if result["gaps_by_family"]:
             st.markdown("### Gaps par famille")
-            for family, gap_skills in result["gaps_by_family"].items():
-                st.write(f"**{family}** — {', '.join(gap_skills)}")
+            for family, values in result["gaps_by_family"].items():
+                st.write(f"**{family}** — {', '.join(values)}")
         st.markdown("### Recommandations")
         for rec in result["recommendations"]:
-            st.write(f"- {rec}")
+            st.write("• " + rec)
+        if result["missing"]:
+            st.markdown("### Formations suggérées")
+            for module in recommend_modules(result["missing"], 5):
+                st.write(f"**{module['skill']}** · {module['lane']} · {module['duration']}")
 
-with source_tab:
-    st.subheader("Méthode & transparence")
-    st.markdown("""
-    **Pertinence 1–5**  
-    Score heuristique de tri : mots-clés du squad + convergence entre domaines + bonus expérimentation/Product Analytics/CRO + bonus source officielle. Il ne mesure ni la vérité d'un article ni sa popularité.
+with sources_tab:
+    st.markdown("<div class='section-kicker'>Transparence</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-title'>Sources & méthode de collecte</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-desc'>Curated-first : la plateforme privilégie des sources nommées et refuse les requêtes génériques qui produisent du bruit.</div>", unsafe_allow_html=True)
 
-    **Momentum 0–100**  
-    Répétition des termes dans le corpus, pondérée par récence. Un sujet cité plusieurs fois récemment monte plus haut.
+    for lane in LANES:
+        st.markdown(f"### {lane}")
+        names = [w["name"] for w in SOURCE_WATCHES.get(lane, [])]
+        st.write(" · ".join(names) if names else "—")
 
-    **Google Trends**  
-    Le module gratuit exploite le flux public *Trending Now France* et ouvre les mots-clés métier dans Google Trends Explore. Les valeurs Google Trends sont relatives et ne sont pas des volumes absolus.
+    st.markdown("### Reddit ciblé")
+    st.write(" · ".join(row["name"] for row in REDDIT_FEEDS))
 
-    **Traduction**  
-    La traduction FR porte sur les titres/extraits affichés, jamais sur une reproduction intégrale de l'article. Le lien ouvre toujours la source originale.
+    st.markdown("### GitHub Releases")
+    st.write(" · ".join(row["name"] for row in GITHUB_RELEASE_WATCHES))
 
-    **Compétences**  
-    Le Skill Radar compte les compétences visibles dans la veille. Pour une analyse de recrutement robuste, on ajoutera un corpus spécifique d'offres d'emploi.
-    """)
-    history = load_history()
-    st.markdown(f"### Historique disponible : **{len(history)} snapshot(s)**")
+    st.markdown("### LinkedIn Watch")
+    st.caption("Pas de scraping. Ces boutons ouvrent des recherches LinkedIn ciblées ; une API officielle pourra être branchée plus tard si l’accès Community Management est approuvé.")
+    lcols = st.columns(4)
+    for idx, term in enumerate(LINKEDIN_WATCH_TERMS):
+        with lcols[idx % 4]:
+            st.link_button(term, linkedin_search_url(term), use_container_width=True)
+
+    st.markdown("### Scoring")
+    st.write(
+        "La pertinence 1–5 combine : présence réelle de signaux métier dans le contenu, source professionnelle surveillée, convergence avec un autre domaine et nature de la source (blog ciblé, Reddit métier, GitHub Release)."
+    )
+    st.warning("Google Trends Trending Now est volontairement séparé du scoring métier : une tendance grand public n’est pas nécessairement pertinente pour le squad.")

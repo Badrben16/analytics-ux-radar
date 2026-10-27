@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-27T16:15:30.073490+00:00",
+  "generated_at": "2026-10-27T16:30:44.237564+00:00",
   "count": 56,
   "items": [
     {
-      "title": "PostHog · Agent skills agent-skills-v0.3824.0",
-      "summary": "Build from ffd0fb0a7a8e31bd11d1954516175129e8509fd2",
-      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.3824.0",
+      "title": "PostHog · Agent skills agent-skills-v0.3825.0",
+      "summary": "Build from 9d5f0a9acb0ebc381c358c3d0bc9fb7f380d0236",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.3825.0",
       "domain": "github.com",
-      "published_at": "2026-10-27T15:31:57+00:00",
+      "published_at": "2026-10-27T16:19:35+00:00",
       "source": "GitHub Releases",
       "watch": "PostHog",
       "source_type": "github-release",

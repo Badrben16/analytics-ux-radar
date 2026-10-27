@@ -264,16 +264,16 @@
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=growthbook"
           },
           {
-            "term": "experimentation",
-            "mentions": 1,
-            "momentum": 33,
-            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=experimentation"
-          },
-          {
             "term": "personalization",
             "mentions": 1,
             "momentum": 33,
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=personalization"
+          },
+          {
+            "term": "experimentation",
+            "mentions": 1,
+            "momentum": 33,
+            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=experimentation"
           },
           {
             "term": "funnel",
@@ -473,16 +473,16 @@
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ga4"
       },
       {
-        "term": "experimentation",
-        "mentions": 1,
-        "momentum": 4,
-        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=experimentation"
-      },
-      {
         "term": "personalization",
         "mentions": 1,
         "momentum": 4,
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=personalization"
+      },
+      {
+        "term": "experimentation",
+        "mentions": 1,
+        "momentum": 4,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=experimentation"
       },
       {
         "term": "funnel",

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T16:11:51.559967+00:00",
-  "count": 52,
+  "generated_at": "2026-10-27T16:13:11.723598+00:00",
+  "count": 56,
   "items": [
     {
       "title": "PostHog · Agent skills agent-skills-v0.3824.0",
@@ -360,6 +360,27 @@
       "score": 3
     },
     {
+      "title": "Aperçu des visualisations | Adobe Analytics - Adobe Experience League",
+      "summary": "Aperçu des visualisations | Adobe Analytics Adobe Experience League",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNWM0NFlZNUROcU9qLWZNa2ZEQlhzSkpKUlVqOTc1ckxQVkxEcVFIZU1uSFplYThhRkpyNzhiakozNUg2VVJpc0NzZ1BWZWRlODZ4VzliTThaTmtMZ3V1aHhTM2ltcV9LR19ZaDgwZ2l2LWdxR29FdHpoNGQ4OFE4R20yVi1CMGk4TE9uTzlDUmdXeDBBb0N2NEM4QkJIanJTNlptbms3OFVXanhDQUFUMk5LeC1abFk3UDFFWmkxTFhZTnRTc1E?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-08-13T07:00:00+00:00",
+      "source": "Adobe Experience League",
+      "watch": "Adobe Analytics",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Adobe Analytics · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "adobe analytics"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
       "title": "axe-core · Release 4.13.0",
       "summary": "In summary, this release adds: 1. Support Element Internals: A modern way for building accessible component libraries Axe-core is the first accessibility tool to support this major new web feature! Thanks to RedHat and Adobe for working with us to figure out the right way forward. 2. A new Swedish translation, thanks to our a community contribution 3. A new Finish contribution (not open source), thanks to our Scandinavian partner 4. 10 False positives closed, including all the critical ones! 5. And 13 updates to get Axe-core consistent with the latest web standards This release is one of the bigger changes we've done in a few years, so likely issue numbers are going to change in adopting this version. ### Features - **aria-actions:** add aria-actions to allowed ARIA attributes ([#5200](https://github.com/dequelabs/axe-core/issues/5200)) ([029655d](https://github.com/dequelabs/axe-core/commit/029655dcd41b5405b7ba138d29cec28392977184)), closes [#4584](https://github.com/dequelabs/axe-cor",
       "url": "https://github.com/dequelabs/axe-core/releases/tag/v4.13.0",
@@ -462,6 +483,48 @@
       "score": 3
     },
     {
+      "title": "Visiteurs et visiteuses uniques | Adobe Analytics - Adobe Experience League",
+      "summary": "Visiteurs et visiteuses uniques | Adobe Analytics Adobe Experience League",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQX2dnWTdLMlM2ZGlHWWpLdVhTbmtDN1A5Y2kwRjY5RGxNYmh2R0ZwNzdpVU1FcG0wQ0xaVk9mMDJac0lneEpjUzhDdkdPRnF4ckhHeXBnT0h0QVdaSDhhWXp3SmZGamt4ZllMQm9GeURfT3RDNlhFcTlmYUI0V0p5eTB0ZlRWRTh2WlZGSWNZMzE?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-05-21T07:00:00+00:00",
+      "source": "Adobe Experience League",
+      "watch": "Adobe Analytics",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Adobe Analytics · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "adobe analytics"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Vidéos et tutoriels Analytics | Adobe Analytics - Adobe Experience League",
+      "summary": "Vidéos et tutoriels Analytics | Adobe Analytics Adobe Experience League",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNX0p5N2h4Z1FHemZDSWF0ZmdfS3d0QXlDVTJ5TFQ1S1NDOS14cU96VlN3VlI4S1B0YnBPMEFReXN1THozY2FXWkFMZUY1NlBFQUVaeDctT1dwR0w1dk8yQTBzaS1nYlE0ZzhsMEpncUVFald1dGNudHZFQ1JhYnU3aks5MA?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-05-13T07:00:00+00:00",
+      "source": "Adobe Experience League",
+      "watch": "Adobe Analytics",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Adobe Analytics · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "adobe analytics"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
       "title": "Effectuer des recherches avec ChatGPT - OpenAI",
       "summary": "Effectuer des recherches avec ChatGPT OpenAI",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1oLVJsY2FxUGxGeFExcm1Sd1kzZGZzeVVmREdxSC0xSW9idGpZcGlTOUVxRVhETy13OTg5UGItZWc0LWJRQjdQenkyTmVyU2c0N29maTNaSEJSb19xZVdyaFNfSkdReTQ1Y1E?oc=5",
@@ -494,6 +557,27 @@
         "GEO / AI Search"
       ],
       "score": 2
+    },
+    {
+      "title": "Fin de vie des intégrations d’Analytics Data Connectors - Adobe Experience League",
+      "summary": "Fin de vie des intégrations d’Analytics Data Connectors Adobe Experience League",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSnFnenlLUGFJX2l2RGw1N2xNR3Q5ZWE2T0c3aEduaklhUW9PbUp2NWR1ZVUyYWo3QXd3OTNETDl1NmZldkV6UDFsRmc1R2lYOVdpUm5HTHM0MnhneWVHakR4UlRSNUtlY3plR2xuWWUzNVFrUkZJdzJrRDhUOFNaclBTdw?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2025-11-25T08:00:00+00:00",
+      "source": "Adobe Experience League",
+      "watch": "Adobe Analytics",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Adobe Analytics · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "analytics data"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
     },
     {
       "title": "Tendances de la recherche IA pour 2026 et comment s'y adapter - Semrush",

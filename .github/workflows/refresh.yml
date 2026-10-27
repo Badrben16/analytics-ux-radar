@@ -2,6 +2,10 @@ name: Refresh UX Analytics Radar
 
 on:
   workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths-ignore:
+      - "data/news.json"
   schedule:
     - cron: "15 6 * * 1-5"
 

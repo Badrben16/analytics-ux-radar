@@ -6,13 +6,48 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote_plus
 
+import feedparser
+
 from source_catalog import LANE_TERMS, SKILL_VOCAB
 
 HISTORY_PATH = Path("data/history.json")
+GOOGLE_TRENDS_RSS = "https://trends.google.com/trending/rss?geo=FR"
 
 
 def google_trends_explore_url(term: str) -> str:
     return f"https://trends.google.com/trends/explore?geo=FR&q={quote_plus(term)}"
+
+
+def fetch_google_trending_now(limit: int = 20) -> list[dict]:
+    """Fetch Google Trends Trending Now RSS for France.
+
+    This is intentionally kept separate from the métier momentum score: it is
+    a broad public-interest signal, not a measure of UX/Analytics demand.
+    """
+    try:
+        feed = feedparser.parse(GOOGLE_TRENDS_RSS)
+        rows: list[dict] = []
+        for entry in feed.entries[: max(1, limit)]:
+            term = (entry.get("title") or "").strip()
+            if not term:
+                continue
+            traffic = (
+                entry.get("ht_approx_traffic")
+                or entry.get("approx_traffic")
+                or entry.get("traffic")
+                or ""
+            )
+            rows.append(
+                {
+                    "term": term,
+                    "traffic": str(traffic).strip(),
+                    "url": entry.get("link") or google_trends_explore_url(term),
+                    "published_at": entry.get("published") or entry.get("updated") or "",
+                }
+            )
+        return rows
+    except Exception:
+        return []
 
 
 def _contains(text: str, term: str) -> bool:
@@ -98,7 +133,7 @@ def save_history_snapshot(items: list[dict], path: Path = HISTORY_PATH) -> None:
                 "skills": skill_mentions(items, 20, lane=lane),
                 "topics": topic_momentum(items, 20, lane=lane),
             }
-            for lane in ("Web Analytics", "UX / UI", "Convergence")
+            for lane in ("Web Analytics", "UX / UI", "Convergence", "GEO / AI Search")
         },
         "skills": skill_mentions(items, 25),
         "topics": topic_momentum(items, 25),

@@ -1,2777 +1,330 @@
 {
-  "generated_at": "2026-10-27T13:40:23.450476+00:00",
-  "count": 135,
+  "generated_at": "2026-10-27T15:31:13.336482+00:00",
+  "count": 17,
   "items": [
     {
-      "title": "Mesurer les visites venues des IA dans GA4 et Search Console (leçon 26) - Info-lux.com",
-      "summary": "Mesurer les visites venues des IA dans GA4 et Search Console (leçon 26) Info-lux.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa0V5WkVjTFhhZzhuNkhVTnp4dmFrTGFieW0yNW9oQjBFNGxickVhc1ExVk5jYVByNlp6N0YxTkZFV0pNM1RfeHNPTUZVVjdqOVlhVl9pVUlQZnluOEFqMEk1cTVqb2l5SkpodW1WVTZzOUxtM0laY2wxU3AzdWlsRUtrblN6U3FzZHZrTkhYOW1xZExNWGppUGxkSnBVNE0?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-23T12:04:47+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "Google Analytics GA4",
-      "categories": [
-        "Analytics",
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1,
-        "Analytics": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1,
-        "Analytics": 1
-      },
-      "score": 3
-    },
-    {
-      "title": "Les solutions d’accès connecté d’EZVIZ ont été récompensées par l’European Product Design Award et le Golden Pin Design Award, illustrant l’évolution de la sécurité domestique vers une expérience plus intuitive et agréable au quotidien - AFP.com",
-      "summary": "Les solutions d’accès connecté d’EZVIZ ont été récompensées par l’European Product Design Award et le Golden Pin Design Award, illustrant l’évolution de la sécurité domestique vers une expérience plus intuitive et agréable au quotidien AFP.com",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMU1pSnJ0OFlrdWprSGJCUWJ0NTVYSWY5N2J3MC1XckUtZ2ZURkltR3dGRnFQdUludEdvOTYxN0dhNEQ0Vi1tcUE0S0xhZjV0UjBXT2dUU3hsbHZvSnVuVlZsZ0lkZm9vQzRjTzktVXFkX0k2RjlCcDktZGY4UXA1NXRpMEY5d0ZKNlhaSXRpbldwejNyeXQ5ODlFV1kxbTBGYmtYMkw0QkFfQ0RpeEsxWTByLXVzc2I5MkFtWVZR?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-23T10:01:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "product design",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "[New Product] Design personnalisé ! MOTONE lance des disques de frein pour la série Triumph Bonneville - Webike Japan",
-      "summary": "[New Product] Design personnalisé ! MOTONE lance des disques de frein pour la série Triumph Bonneville Webike Japan",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd3dZbzR2T09Rb09IYXZGQ1ZQeERidU1VX3JiR3d4ZlZ1bEVZOXFGRkdFTEcxWmN6NWk5bWdxcHh5d3pkWnhVSTVyQXk2ZDRFa3JxbzJaZndNQ09wbmFLNFk1eHRuUzgxeWRPQXB5NGtFZC1rSHJGY0M2SUJ3aVg5ZU5KMVpEVTN4QzFTZ04wckc2OTdkUDUtZ0hhbXVsSkZSN0NmRnRXa0tHMV9iTG9YdjhqdFZDazZxR1I2NUMweHZvZw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-23T09:44:49+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "product design",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Telescope Innovations to Attend the 2026 Planet Microcap Investment Conference in Toronto - TradingView",
-      "summary": "Telescope Innovations to Attend the 2026 Planet Microcap Investment Conference in Toronto TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOMDM2VDNlNm0wMmQ2eWZSVUZFTWo2WmxfQXFEMWxVQ2NsWlBvOEhRdW1BejlhUUk1a2lEUVZHbm5Wd1lRWTBMbnBrNDZDeHIyOFlpU0N2a3VrUW9WcXpZOU5ma29uX2JNYVRIYzVqdENiUXhvMFZkSFMtUlMyWFN5d09tOHdIS0hXY0JYNVVlWnh0ZUR4c214alNHNUR2UFlUYm8wTnIzMTk1T3RrNjBEdktjZGstaWNZY0NISF9hZ0lPbV9lLTJJb2lfbV9TYUxhY09ZdGVjdEFlZEpheGxUNnhLLU1Ldw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-22T12:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "data quality analytics",
-      "categories": [
-        "Analytics",
-        "CRO"
-      ],
-      "keyword_scores": {
-        "CRO": 1
-      },
-      "actual_keyword_scores": {
-        "CRO": 1
-      },
-      "score": 3
-    },
-    {
-      "title": "Figma lance des spécifications pour aider les agents d'IA à respecter les règles de conception - ALM Corp",
-      "summary": "Figma lance des spécifications pour aider les agents d'IA à respecter les règles de conception ALM Corp",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZDh4TXQ0ejQ2MXMySFJSWUFfdlc2OFExMlZLdTlKR1VWNUVWSlotLVR3aV9EVDlPYnUtMWs0R2FFZkVkRE90ckNLNGdSZVVacHp5Yjg2azQ0LVVFOXlqaXg5Wnl5LTVZcjNYZGZncGFna3Bkc2FTbFdVMVdTejFmQXl3d3JDUDMzcUkzWA?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-21T22:14:23+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "Figma AI",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Telcos seek AI-led service quality monitoring, want rethink of traditional drive tests - TradingView",
-      "summary": "Telcos seek AI-led service quality monitoring, want rethink of traditional drive tests TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbzZDMk5uS2pDR0UyNUxvZ25RNUtfZU5CYW5ub0hFSjRVOUFNLWVBcVRJQnRQdHN4aEtUTWIzbmxGaDdDOVVpS0dUbUhQOUM2UUVGT05zUnhqRkZRSU5sRHZjRzdHanR4WWQ0dkg2N29pNXg1V2V0czZQSVktRzVHTFlJYnREZUJSbHlkT1Z1dWU4am5LcWFDR3dMWm9OWTZiemdIS2NsX0FHcS1xbGx2LTc2MkszY3QxbC1URkRScUZHR0NuUDROT2NHbXBwNTNUQlJCSzNhbkQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-21T20:33:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "data quality analytics",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Sachin Gupta Takes Over As Founder & CEO Of DataIntel Technologies - TradingView",
-      "summary": "Sachin Gupta Takes Over As Founder & CEO Of DataIntel Technologies TradingView",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQN01HWEJFandOWDlDZ29VczlQeFNqREduWTlySXZiMkozbklZZDI4RHF3NUVXWHlYelRkZXNGc2VVWGpld3dkWDVmUWpVSV9hRnlfdFZPWjdMWXdOcFpsaHpMc2NGNk40NzhZSFNndzVJT1NnNGdPY0hQcUtDdm9fbTF5dFNUdUdkMlNjYzk0Q2J4bXZKcFVTdjhtN1RjclFpUWJER1R4c1N3TExUdl9hLXNnSEV1SXNCeGRyQQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-20T14:00:45+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "product analytics",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Digital Product Lead H/F EGIS Montreuil, IDF, France CDI - L'Usine Nouvelle",
-      "summary": "Digital Product Lead H/F EGIS Montreuil, IDF, France CDI L'Usine Nouvelle",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOEtaSDRKMzUxS0hNUWhqcThoQUZjMlJQZm45TXhxVG15SlhNZENEcXZWVTAycHpzZE83SzltZWFnczdIZ21zXzh1WEJPMTNBcHNGb2cxMXVNMzN1QXFITVNwX2dyek5kZFdGaURvQlAzd2JtdlRYMFdTdHltMzNBbW9jSTRCMTBWd2NUYmd5YmwzNGxhazgzRnN4VG1YU19kOXRnaDU5Qk9jNGNFT3luMjFjYnhHS2s?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-20T00:28:35+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Product",
-      "query": "product analyst",
-      "categories": [
-        "Product"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Accessibilité numérique : un site Inria pour mieux comprendre les situations de handicap et agir - Inria",
-      "summary": "Accessibilité numérique : un site Inria pour mieux comprendre les situations de handicap et agir Inria",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vTnlId2lnWGU1dTVLNGRETnJER2tFMFM0bnFTVmVsZFI1WVpFRE96Z2M2dUF2ZTliRm0zOXpuZlg5R29HMnV3RTV0NzBDdXVOV0hib0pwSGlvQlk4Rm9KdEh3aEpfZEdObktJZkpjLVRMT2ZQdXNsakVNOF9PcWM?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-19T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "accessibilite numerique UX",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "AB Tasty testé par un concurrent indien - CFNEWS",
-      "summary": "AB Tasty testé par un concurrent indien CFNEWS",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQX0NSUGRpbWdZbW1XLUowUVdZNW5iZmlIVHZ3amFTREg3WHJmejRaMzVsRDJnLUdhOHdiamIzSmgwSERKUXdhWjNXc3NlX3YxcGI4amNyeWlhc1hjSTNMcHFQeFpJeXV4RTJNY1A5UE94d1hSZzRtVmM5RnVFUVBZMFEzS0xWQ3RQYVJQTVp1allHUUxyVmdDX29XSmRrUmxfZE9oYlkwMDduejlCUkR5ejNGLW4xSDVHVlpyMTZ4T3dxY2VJTnpSNw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-17T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "AB Tasty",
-      "categories": [
-        "CRO"
-      ],
-      "keyword_scores": {
-        "CRO": 1
-      },
-      "actual_keyword_scores": {
-        "CRO": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Données de tracking et xG en Ligue 1 : comment la data alimente les cotes en direct sur les sites agréés ANJ - tech-insider.org",
-      "summary": "Données de tracking et xG en Ligue 1 : comment la data alimente les cotes en direct sur les sites agréés ANJ tech-insider.org",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE04VVdycW9ST3lsaVFOYWRSNllrMEtxZXhiTVY4Mkl4MHJIT01iTklSclhISVA1ekZTMjhrR0c3RmZPNC1lTFlwVXl6dDlERUtGMllGeGJLOXNSRnJrRERkdUllQlZ4RzVSc0FOWGdzU1lmZHJmNU5ObU1maGQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-16T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "tracking analytics",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {
-        "Analytics": 1
-      },
-      "actual_keyword_scores": {
-        "Analytics": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Figma Specs : l’IA au service des design systems - BlogNT",
-      "summary": "Figma Specs : l’IA au service des design systems BlogNT",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcm5WaGx3WjhxeVU3NkoxRkFQN3Z2MHVlYWFDS1E1YVBrSzcyNlpCVFZmckIzV3VKcW11Ynp0bXhaTE1fcUdHeVFqamt4aGxWUUlZeThTUnNjeXFBNHd2LURYVFczMTVVVUJzdU5wbXhkc2hFSDVsTlIzaFpYZlo4UnpHYm4tSWxPV1lHUHo0YjRYM28?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-15T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "design system",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 2
-      },
-      "actual_keyword_scores": {
-        "UX": 2
-      },
-      "score": 2
-    },
-    {
-      "title": "Analytics et acquisition : comment mesurer ses performances sans enfreindre les règles RGPD - Webmarketing & co'm",
-      "summary": "Analytics et acquisition : comment mesurer ses performances sans enfreindre les règles RGPD Webmarketing & co'm",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdDNiazM4cHpvQ0Z4VjVXZ2Yxd18yQURjbTZJZ2hWZ1MyRndXU0k5d1pvNkl5UzhnNGlPM3B1MmZfSWktWXlSdVJuSzBDaEFLT2hfLUo4WTh0b2N4SkpuU1FSUXNScFJ5R093MDkyclB6ellUUFZTUUl1Qml3aUlxUl9RdHdpQjZ6Z085MGVBN21FR1QyMXFrZ2N2d1pZWlJLclQ5QzIwUQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-14T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "web analytics",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {
-        "Analytics": 1
-      },
-      "actual_keyword_scores": {
-        "Analytics": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Rencontre design : Philippe Nigro - Institut français Italia",
-      "summary": "Rencontre design : Philippe Nigro Institut français Italia",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE83THJuMDBKbVkyRU93MVNZd2dCOElNNDk1bjVjMk8xTVdzZjRWWTlxNEhGZnBXRFVFTVVaeUZjaVAyTEpSUElFTngyXzZUeldjeVREU3EtcHA?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-13T16:44:51+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "product design",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Top 10 des meilleures agences UX UI design en France (2027) - Planète Grandes Écoles",
-      "summary": "Top 10 des meilleures agences UX UI design en France (2027) Planète Grandes Écoles",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZlhteXYtU2ZQN0ttRlhIazZKRFZyUWExUFh3ejBLc2ZqTm9OSzZvRU51U2FPNlV1WkYteFl2VG10LXlwbW93Rk5aYXI4RlJKcUVqOWhfU0NOcFo2d3FZbU5uNXhycWF0UExaSFFMbzJWU09FbUNDM1JIU0kwdkRDTw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-13T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "UX design",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Pourquoi l’action Cadence Design Systems chute-t-elle aujourd’hui ? - Investing.com France",
-      "summary": "Pourquoi l’action Cadence Design Systems chute-t-elle aujourd’hui ? Investing.com France",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOajBWazlJblBmNDhtX0dFdmZoanF6VDI0RDFlTm9lRzAtcU5XM3VrMUg1OW9SQ1VQV2QtcXd5STZCV2xUN19WeWtkUGtIYXktaUlIZVRCa0RZMGZ0TWt6TmFxMjY2T2pKVVBHckdYQk1xV0FmaEQ2SHNSSWNwZUw2SXZYMnc5cldteHpvRExNaXZkU0l1VHlqNU1qT2loTmFUN0w1R0VVclFlVm9uZEVFYl9qR2V0cDI4RW1FY0hWTEU?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-13T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "design system",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "“All In” sur l’IA : Doctolib repense plateforme et gouvernance Data AI en mode Mesh - Secrets de Data",
-      "summary": "“All In” sur l’IA : Doctolib repense plateforme et gouvernance Data AI en mode Mesh Secrets de Data",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQzVFcWdrZFN5Q21jWW82QnYzVFd4VVFTeFRiU0pwNGcySEVtVWxHV2NDQVRwZHYzRVduMGF4X3FZTTFsdmxsYlVsU1NoTExIS1J3NmV3ZDhUZzJVd1o0ZXRHVzhublE2aEJNTTNkTHk3clNEY1J4RDFTNG12U2pYMGU4cWtWZw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-08T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "product analytics",
-      "categories": [
-        "Analytics",
-        "IA"
-      ],
-      "keyword_scores": {
-        "IA": 1
-      },
-      "actual_keyword_scores": {
-        "IA": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Comment suivre le trafic de référence ChatGPT dans GA4 (Guide 2026) - ALM Corp",
-      "summary": "Comment suivre le trafic de référence ChatGPT dans GA4 (Guide 2026) ALM Corp",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82LURBNU1mc05LWlc3N0NuVU5vd2hjY3JBV0hfYkJ4M3hZWTN3TVdBS2xua19kSHVmS1FWTTlBNWY5RmJ2cTRsWjVSQm5MbThBOVgxSkZhV1ZQU0hUangtVlFKSUFxWWFSQW1IUVVB?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-06T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "Google Analytics GA4",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {
-        "Analytics": 1
-      },
-      "actual_keyword_scores": {
-        "Analytics": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "EDW remet le prix « Data Quality Award » 2026 à Domivest, lauréat pour la deuxième fois - Business Wire",
-      "summary": "EDW remet le prix « Data Quality Award » 2026 à Domivest, lauréat pour la deuxième fois Business Wire",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9abUVibXl4d0wxMEIwSmcxdWZsY0ZXTUdueGpZZXJfYW1DX2F0XzZ6TDlYekFqUDRGQXRVVVduekNMeGZiUXRpcFFTX0FLUTVORjB6Q2hibE4wbHVOSVIzMFFFay1kZ0k?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-05T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "data quality analytics",
-      "categories": [
-        "Analytics",
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Accès aux services publics : le téléphone reste le réflexe n°1 malgré la progression du numérique - Banque des Territoires",
-      "summary": "Accès aux services publics : le téléphone reste le réflexe n°1 malgré la progression du numérique Banque des Territoires",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZFpKZURkbnhJdk5Baktxa3BhLWYyaHcydFZnOE5FMGYwMkRGS3hkWjZWVDZ4Mm5PTC1uZjlMR2syUndmWkZkNVFVbFRoeGRJNWotaUtBTWpZUGJvaFppN1hWcnJpWjhNMUx3T0tFME5fd2xmOXdYLU5id3VITzdzNDd6dWJwdlBqd0Z6WVR1THpqbi1ad004anRwcE45cXh6NFJHSnFHSHRVN293T2VpazF1SWpQTGpReUpmZ09UNUNMYnpuVGpBTlFWOTl0WWc?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-02T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "accessibilite numerique UX",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Devenir UX researcher voici esz bons plans en 2026 - MCE TV",
-      "summary": "Devenir UX researcher voici esz bons plans en 2026 MCE TV",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5tNUFYazlNLVhVMWFjMDhZclpQRFhJR3prYmtPQXpTVzF5Rl90QmtOREdCSTBNeFNvdm9RbXVCb0dyQTNyT1ZKV0Z6dUtTenhWRTBTbzB4SUhJMzU2MDlOekxvd2xnREJU?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-09-29T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "UX research",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 2
-      },
-      "actual_keyword_scores": {
-        "UX": 2
-      },
-      "score": 2
-    },
-    {
-      "title": "CSA Data Consulting lance MMM Agentic, un assistant IA pour la performance media - The Media Leader",
-      "summary": "CSA Data Consulting lance MMM Agentic, un assistant IA pour la performance media The Media Leader",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWlE4dm5zVlJzLTVxZzBMbmlac3JjTHVmTmNXT1VWc19xbHRIUndmUE1QTUVuT2lHTHFDbkZwb2NMcjZGdXkwNWZ1ejhMTUlHeG5nV1RZMGM2RnVFOVZQTXYtZzBLYVNiTkUzX0JkRGt2bVlsTFpIS1lKcnNWQlRQTW52Vno5VmV5dnVJd0tCNUYwbnMtRF9naWxRTDRrWnM2Z2tPdjRRdGlGSDNGcFdj?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-09-29T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "IA",
-      "query": "agentic analytics",
-      "categories": [
-        "IA"
-      ],
-      "keyword_scores": {
-        "IA": 1
-      },
-      "actual_keyword_scores": {
-        "IA": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Taille du marché des services UX, part | Rapport prévisionnel [2026-2034] - Fortune Business Insights",
-      "summary": "Taille du marché des services UX, part | Rapport prévisionnel [2026-2034] Fortune Business Insights",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8xMzU5ZWNRRUpZUktEN1pkeXd2WmZoLTRUYWJleFRGTzBnYzhRT3Nvdk8zVXNRbVJvOGU2bWJnUVpMTjN0VlJ2VVFIUWMydWo3b3VFZXJtaHU1eVVYYmxqYVJ2dlZnSGNmOG5rNFVMVDJ2Y1ZFdGZB?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-09-28T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "UX research",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Auchan s’appuie sur ÇABOOST pour optimiser son e-commerce - La Gazette France",
-      "summary": "Auchan s’appuie sur ÇABOOST pour optimiser son e-commerce La Gazette France",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMGxScVdWYXhRX2FZMmcwM2NlbEpaQUtYbFZGNER5Z1N1RzZSMFNjVVRWV3dBM1NXSk1HRkJOZ3JFcHVzMjVvbmppcDZCWkxBSzZNY0piU3hhRUFkQWdZSXhhcnh0clVmMkJnVE9YU0FZY2o4b2hpa0xreEEzRmFjT3N3MjcxQU5zZXhaUVR3OWVySTR5QzgwQ2FkNVQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-09-25T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "CRO conversion rate optimization",
-      "categories": [
-        "CRO"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Sur YouTube, les créateurs pourront tester plusieurs versions d’une même vidéo - BDM",
-      "summary": "Sur YouTube, les créateurs pourront tester plusieurs versions d’une même vidéo BDM",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWHl2SGRvSUV0U2kzMG43OXlYTlYyTU5makU1WDI3dTA3cW1MNTltTU9pYTlDd2hqRVBmVGxHSWE5ZUw0T0xlRjJBemxqbTFGeHZGSmdVLXNMS2pkLXhfbEtpR0czc0ZDZ3VSU050S2FRejVwSGFrT2lia0o2b0RDOG1YeVQwTl9IUU1Ca3p6OVl6UQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-09-25T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "A/B testing experimentation",
-      "categories": [
-        "CRO"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Google Analytics n'a affiché aucun trafic le 1er septembre (bug GA4) - ALM Corp",
-      "summary": "Google Analytics n'a affiché aucun trafic le 1er septembre (bug GA4) ALM Corp",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdVQ5dGY5WnJXUW9XWl9GcmNwdVlGVDRWUW0wLW5PQnhOUUJMdXkyNm9FWkYxeGtTUTg2bWwzRW85dkd2UzNEczRDX3lYWTNpSVZ1dm5WQUdvOHpzbXZoamZwa3pZaUVyZWRaaFpMSVBhLWxsX3ZiekJWZE5FSnVtNWh4RQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-09-24T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "Google Analytics GA4",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {
-        "Analytics": 3
-      },
-      "actual_keyword_scores": {
-        "Analytics": 3
-      },
-      "score": 3
-    },
-    {
-      "title": "Montage conversationnel, test A/B vidéo, lives : les annonces de YouTube aux créateurs - BDM",
-      "summary": "Montage conversationnel, test A/B vidéo, lives : les annonces de YouTube aux créateurs BDM",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPU2ctVTNCTGs2STF1RmdkRGV6blVjLVF1RVZkM3ZOaHhLZk1iRlB6eC1IOHZmWENrd0hzWFk1aERrU01ReHhOdlJZeUxxekVVYU1RM1J1VElpeGdGVGlCSFFxeGp5cW1LRnNFR1RvRGNtdFZ3MDVfamhQY0dROU9pM1RXUHFXQjROc1QyZjhxMTFGTktXVWhRMmVCZ1FOUEtuYmZLMGsyMVI?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-09-24T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "A/B testing experimentation",
-      "categories": [
-        "CRO",
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 3
-    },
-    {
-      "title": "Claude Design testé avec un design system Figma - Brief IA",
-      "summary": "Claude Design testé avec un design system Figma Brief IA",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZFBPdkRNTFkzWkZ0S1JnZXdFN2pEQW9SUXZLcnUtVVJOM25RbjhWZi1qU2RuVXVCMnlOV1VrYkpUdnhWSUpuX0czVHVMd0dRSTY1SGxpYmw2UWJpLUc4RVpoVFpVQVIxUUFLVlFGaW5PUWx4d1R0VXBDb1NNdE1SUmFRN20?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-09-21T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "design system",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 2
-      },
-      "actual_keyword_scores": {
-        "UX": 2
-      },
-      "score": 2
-    },
-    {
-      "title": "LEGO et l'utilisation de l'Intelligence Artificielle : ce qui est vrai et confirmé et ce que les fans croient savoir - hothbricks",
-      "summary": "LEGO et l'utilisation de l'Intelligence Artificielle : ce qui est vrai et confirmé et ce que les fans croient savoir hothbricks",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUXk2alRVNDJ0UzF0ZUJnRHVPbFpmTXkwWGhHOGRBTnVnTk50NnQ5azNFQmVudVRPS0FMTnh6ZjdXVTVOQ2JGc1FpT2dFT2NiSER4akZibFFtY3Zfc01wcXV1dU1Bc1hhS1VUMmhWN1ZBblBlMFF0RXJ4R0JWY2dkU25pT2pNcnNGcXZmVDhqWTZDSFQyTkhicWFRcTQ2N05GVkpUV3VuX01BLTVsa1pTNGk5cGRjR1pZYU1UNzBZakJvQTB6R1RGZVNHLTZMMV9rNFZNbjh3MA?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-09-20T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "IA",
-      "query": "generative AI product design",
-      "categories": [
-        "IA",
-        "CRO"
-      ],
-      "keyword_scores": {
-        "CRO": 1,
-        "IA": 1
-      },
-      "actual_keyword_scores": {
-        "CRO": 1,
-        "IA": 1
-      },
-      "score": 3
-    },
-    {
-      "title": "Claude Design propose plus d’options de prototypage que Figma AI - Brief IA",
-      "summary": "Claude Design propose plus d’options de prototypage que Figma AI Brief IA",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRXBmMzVZMUJacmE1R1dmYmZlcm5pUGNjM2FWYnRpRjYzMXFDWmxZeHhVSllHM2N1NUFnNGE0OVJvZ1B5UTlrcmtLNEtzVDZtcjdKWGV0WnAyeGFGYXF4WHdEcDV1ZXdlaENkRXJnbDBZQ014ZkU3aGtUVnJJakFOMVo5bGtjaGhLaE9Mbk1xZTc3UXlRQ0M2TTRWYw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-09-18T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "Figma AI",
-      "categories": [
-        "UX",
-        "IA"
-      ],
-      "keyword_scores": {
-        "UX": 1,
-        "IA": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1,
-        "IA": 1
-      },
-      "score": 3
-    },
-    {
-      "title": "AB Tasty et VWO deviennent Wingify et lancent une nouvelle plateforme d'optimisation basée sur des agents IA - Yahoo Finance France",
-      "summary": "AB Tasty et VWO deviennent Wingify et lancent une nouvelle plateforme d'optimisation basée sur des agents IA Yahoo Finance France",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOHBaR3BUeFBtSlZXMncwSGZQam80eVZYTWdMazBERC1NNm5YR3VCSXl0TkpjdkkwZWw5WGhNMzZJcDBhRzQ1dVo3aTlFN3VJWVpRbk5kUWtEUi1YbktMRWRreDFFRF9OLUQxV2ctdTBoMkhsNFhrcnFVQ216eGYtS1d5bTBFOHE1X2NkbnlEaw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-09-16T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "AB Tasty",
-      "categories": [
-        "CRO"
-      ],
-      "keyword_scores": {
-        "CRO": 1
-      },
-      "actual_keyword_scores": {
-        "CRO": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Le MSc&T Data Science and AI for Business X-HEC, 2e mondial dans le classement QS 2027 - École polytechnique",
-      "summary": "Le MSc&T Data Science and AI for Business X-HEC, 2e mondial dans le classement QS 2027 École polytechnique",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNakl0MW10dTBBMTZtNEVEWnZnOHVzSVM1dHNaUG12aE5BLThTaFo0MXBaWmh6NXdjMHFIN0NybVZudHJNNTRFMmt4RkhrMUMxRTVDbno0NHBkck03akZKelJaSU1ycm9DaFVydU5tV2Jfa2JlWENIUUp6QjFjbjdWY19QaFVmQ29rb2UxMVFaNTBzMmMtaGJmM0xGeXNTb2tiNm9EdWU0Sm01a0MtYzkycTF5UlNMdFV1VE5jVXZB?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-09-16T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "IA",
-      "query": "AI analytics",
-      "categories": [
-        "IA"
-      ],
-      "keyword_scores": {
-        "IA": 1
-      },
-      "actual_keyword_scores": {
-        "IA": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Google Analytics facilite la création de tableaux de bord personnalisables - BDM",
-      "summary": "Google Analytics facilite la création de tableaux de bord personnalisables BDM",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaVlpRFNJZ1k4dHQzX0JVbE05a2d4ZXZHTWFxZ1g4YTh0aXUzaTNLeXlvWk1ocjNCR01iVVc2SXV4Slk2UHFZU3VyeFdaYndHZ0c0akpHSDVzOC1TTlFSQUtjQnA4ajk2akpZcnRsM1E1UWV1blVyLS1pUEJ5WDF2YThqQlphbG90?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-09-14T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "web analytics",
-      "categories": [
-        "Analytics",
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1,
-        "Analytics": 2
-      },
-      "actual_keyword_scores": {
-        "UX": 1,
-        "Analytics": 2
-      },
-      "score": 3
-    },
-    {
-      "title": "Drive profitable growth with new data and measurement tools",
-      "summary": "\"Data + Causality + Better decisions = Profitable growth\"",
-      "url": "https://blog.google/products/ads-commerce/data-strength-updates/",
-      "domain": "blog.google",
-      "published_at": "2026-09-10T13:00:00+00:00",
-      "source": "Google Analytics Blog",
-      "source_type": "official",
-      "seed_category": "Analytics",
-      "query": "Google Analytics Blog",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {
-        "Analytics": 1
-      },
-      "actual_keyword_scores": {
-        "Analytics": 1
-      },
-      "score": 3
-    },
-    {
-      "title": "Big Data & AI Paris – Les 15 et 16 septembre 2026 – Paris - ITforBusiness.fr",
-      "summary": "Big Data & AI Paris – Les 15 et 16 septembre 2026 – Paris ITforBusiness.fr",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOb0FwMnBQNjljeGhkbTQ3RXc2UnZNM1FVMENnV24xSlNwZEVqV3VyaUtQMnZFTFVwRHA1eTRCaFZIS050UkdEYmsxWmRQQl9kWXhrbW0tUXZzNVUxUVdqQjBBQVhnNkRXbVRvRC1sTldoaUJ1TWtzcDZyODFLWFBlRVdOLVZib3RFSFhIWTVSdzI?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-09-10T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "IA",
-      "query": "AI analytics",
-      "categories": [
-        "IA"
-      ],
-      "keyword_scores": {
-        "IA": 1
-      },
-      "actual_keyword_scores": {
-        "IA": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Product Design: GPT-6 Astra vs. Opus 5 - Brief IA",
-      "summary": "Product Design: GPT-6 Astra vs. Opus 5 Brief IA",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUGZEdGI4TUdGVEkzdnVZcGdTN3VqNDk3eW5HRjN1WXdwVVhSNnZMUW1EQkxVSlJDZWVLRmo2cVBMeXVwd1ducG43TW1iZFN5UE41YVVkTzRPcVp4WnkwWE50RU0yT3ppajdWOHU3UmdINkhYU21JSngyWnNNRWVRSXBhQndQOEU?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-09-08T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "product design",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Ce que les offres d’emploi disent du métier de designer en 2026 - Etapes",
-      "summary": "Ce que les offres d’emploi disent du métier de designer en 2026 Etapes",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOWFwTEhuN1F6c0I2ZHByR3U5bjd6Q3ZBTVZSNFZjREFXNG0tM3VUU1NLNFZCaDE2OG5SWEU5YmFGS3hScGp2M0VfeTlwb2JpR2tUMmxuR2todzFmUmNHZTk2S0wwYkRadl84M0RGOEtpUXJvY3FYWVlGWUVXR3Fobk5ZVVVKa2kza3RvVHVpV3R6NjZvWDlzdzlOODd4QQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-09-07T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "UX designer emploi compétences",
-      "categories": [
-        "Marché"
-      ],
-      "keyword_scores": {
-        "Marché": 1
-      },
-      "actual_keyword_scores": {
-        "Marché": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Partage de la donnée aux métiers et aux IA agentiques : Les data marketplaces de Huwise génèrent un ROI de 474 % selon une étude Forrester - decideo.fr",
-      "summary": "Partage de la donnée aux métiers et aux IA agentiques : Les data marketplaces de Huwise génèrent un ROI de 474 % selon une étude Forrester decideo.fr",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQXNzMFExeFA3X2JYTzhvRGhfS091bmZJVnNTZWhxTWR4ZDFJUjI2SmxJbTZ4QTZIU2hlVjBsdTZGY3dnNmZ4MzV4RXBTaUhRUTVQUWVJczJHbjNKMm8xVm1oRHktQUszZGhrUjFQQjN5akZwODRhTE1FQlJ0SVp4MDRlN1RHTmh3VWIzTDFKeGJyU3VZTkx2U25BcElQYXo5dUhVNEhqNXBIekNNN205Rlp1ckVUQ3JEQTlET0k0aVQtS0xhMVd5b3M3aGI0SnVmLU03QTdHWW5DMWVJZEs0a0hXTHVMVjFv?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-09-03T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "product analytics",
-      "categories": [
-        "Analytics",
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Claude Design: Prioritizing the User Journey - Brief IA",
-      "summary": "Claude Design: Prioritizing the User Journey Brief IA",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONG5RTEN3akp0RHEzeVBsd0lSMWF2NVF1V2ZoWl9VWnRVMjdqUUYwMGV6dHRqbTZrcGVJOUUySXhEWlB1bjcxTmt1TDhNUGJueFFSblo0V3lZeDk1Zm82VXFTVm5ra01HblNBNUpNMDBnelMxTUVfNjVGNEU5d2JhVS1UcExoMVdaRWp3?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-08-30T22:04:38+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "IA",
-      "query": "generative AI product design",
-      "categories": [
-        "IA"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Google ajoute des tests A/B simplifiés pour les annonces de recherche - ALM Corp",
-      "summary": "Google ajoute des tests A/B simplifiés pour les annonces de recherche ALM Corp",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeXJBeFk2dFdPTTh0R2doMXZIdlJ0T2gzSVlEYnBJT0pCNXFKcEMxU2lrRThHcjZLN2NweHlHZmhrRnFSX2NHa3pDZHZyODY1Y0ltWUliZ2lXNnFZUzJ1WE9SWXhpVHFvMzBseFJYUEtaSEtsVG9VaFgxN2dDOC1pcDI2WF8?oc=5",
+      "title": "Introduction à Sales Insights - Piano.io",
+      "summary": "Introduction à Sales Insights Piano.io",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE00cUNYd09xdUZMVTBRZ25sUmxIOHVESWc2ejBhN2M1VVZDQU1hVTZKR2t1SldkRUJJU3RJYnFvNHk5UnZ1ZXRpUVV2OGVMWFk0NVpuTUtuS2U4MW15VTNCdHBPaTNtYnhuMlF1czM1SzJFeXM?oc=5",
       "domain": "news.google.com",
       "published_at": "2026-08-24T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "A/B testing experimentation",
+      "source": "Piano.io",
+      "watch": "Piano Analytics",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Piano Analytics (source surveillée)",
+      "lane_matches": {},
       "categories": [
-        "CRO"
+        "Web Analytics"
       ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
       "score": 2
     },
     {
-      "title": "Evolve your marketing with new AI tools",
-      "summary": "Advisor UI in Google Ads and Google Analytics",
-      "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
-      "domain": "blog.google",
-      "published_at": "2026-08-10T14:30:00+00:00",
-      "source": "Google Analytics Blog",
-      "source_type": "official",
-      "seed_category": "Analytics",
-      "query": "Google Analytics Blog",
+      "title": "Certifications avancées - Piano.io",
+      "summary": "Certifications avancées Piano.io",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9IaERPbF9vbjFMZGlUWHZkNnFaY1dMS3JJdFRxOFFTTDlPMnIxTkJsQ1lBYnJta05FcFdmZHJ1ZElscWVlRFA0WFV5emZuU25ESDR5RHM2cjNwVnBiRzFkeDlPUGgyTXozY0E?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-06-12T07:00:00+00:00",
+      "source": "Piano.io",
+      "watch": "Piano Analytics",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Piano Analytics (source surveillée)",
+      "lane_matches": {},
       "categories": [
-        "Analytics",
-        "IA"
+        "Web Analytics"
       ],
-      "keyword_scores": {
-        "Analytics": 2,
-        "IA": 1
+      "score": 2
+    },
+    {
+      "title": "Privacy Policy - Piano.io",
+      "summary": "Privacy Policy Piano.io",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1qTnhpZDRGSGtpelJsekt1YVlhX3NfWktxb29KRkMzV2JPazBpMEg5Y1czOE1USlRHR2VrS201X0pGOV92b1MxSFVIeWJZdHNYZTgw?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2024-10-21T16:37:00+00:00",
+      "source": "Piano.io",
+      "watch": "Piano Analytics",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Piano Analytics (source surveillée)",
+      "lane_matches": {},
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 2
+    },
+    {
+      "title": "Impliquer les utilisateurs dans les projets Web pour améliorer et faciliter l’accessibilité - W3C",
+      "summary": "Impliquer les utilisateurs dans les projets Web pour améliorer et faciliter l’accessibilité W3C",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1tZm5WMVo1UlRMMkdLc3dRdlBHbFA3YWJLTDV6bmxZU2NGQlFmVlpIaVNsbnJDTUhoNDFFdk1FTlFFXzNBUkZ5Z0ZiZnFYRTdNMFZzc09iY1B3RklNM1VZ?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2024-06-20T07:00:00+00:00",
+      "source": "W3C",
+      "watch": "W3C WAI",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "W3C WAI (source surveillée)",
+      "lane_matches": {},
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 2
+    },
+    {
+      "title": "Premiers secours de l’accessibilité Web : stratégies de réparations provisoires - W3C",
+      "summary": "Premiers secours de l’accessibilité Web : stratégies de réparations provisoires W3C",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5fU0oxSkUwOV81U1hKeXFXeFJ4R1lFU3EtbkowZTNUd2R4d1lQZ0hrNk94RlFJUG16eVpkVnVNd1NEcmtuOW1GNUh2cXktOS11UlJOV2Zram1qRXZ0U1Vv?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2023-11-08T13:10:31+00:00",
+      "source": "W3C",
+      "watch": "W3C WAI",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "W3C WAI (source surveillée)",
+      "lane_matches": {},
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 2
+    },
+    {
+      "title": "Noob web analytics.",
+      "summary": "Hello All, I am recently looking to start a career on a Web analytics. I have deep knowledge and career in SQL , data architect, and Python. And I have knowledge in supermetics and looker data studio? What are some pointers you might have and what is the best courses that one could take to gain skills? submitted by /u/alpha_omega_ultra [link] [comments]",
+      "url": "https://www.reddit.com/r/webanalytics/comments/10cr93c/noob_web_analytics/",
+      "domain": "reddit.com",
+      "published_at": "2023-01-15T18:40:42+00:00",
+      "source": "r/webanalytics",
+      "watch": "r/webanalytics",
+      "source_type": "reddit",
+      "lane": "Web Analytics",
+      "query": "Communauté Reddit ciblée",
+      "lane_matches": {
+        "Web Analytics": [
+          "web analytics"
+        ]
       },
-      "actual_keyword_scores": {
-        "Analytics": 2,
-        "IA": 1
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 2
+    },
+    {
+      "title": "Is this web tracking approach legal?",
+      "summary": "Hi all, We currently lose UTM parameters when a person navigates away from our landing page to another page on our site. Like many, we implemented some Javascript to store the UTM parameters in a cookie, and submit them to a hidden form field. This approach works fine when cookies are accepted, but we want to maintain UTM parameters even when cookies are not accepted. Would it be legal to use Javascript to pass UTM parameters from one page to another? For example, if a person lands on https:://example.com?utm_medium=email&utm_campaign=examplec ampaign and clicks a link within that page, the UTM parameters are appended to the link. Any advice would be much appreciated. Thanks! submitted by /u/dfreddie1990 [link] [comments]",
+      "url": "https://www.reddit.com/r/webanalytics/comments/zl9r75/is_this_web_tracking_approach_legal/",
+      "domain": "reddit.com",
+      "published_at": "2022-12-13T22:53:59+00:00",
+      "source": "r/webanalytics",
+      "watch": "r/webanalytics",
+      "source_type": "reddit",
+      "lane": "Web Analytics",
+      "query": "Communauté Reddit ciblée",
+      "lane_matches": {
+        "Web Analytics": [
+          "tracking"
+        ]
       },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 2
+    },
+    {
+      "title": "UA (Universal Analytics) vs. GA4 (Google Analytics) | What is the difference?",
+      "summary": "Both Google's Universal Analytics and Google Analytics 4 are tracking programs. Due to Google updating its analytical tool, the keyword \" UA vs. GA4 \" has gained a lot of popularity. The most recent version of Universal Analytics is called GA4. Both tools are currently in use on a global scale. Although both of them are used to collect user data, there are some differences between UA and GA4. Go to the website for additional information or to know more about both tracking tools. UA vs. GA4 submitted by /u/e-cens [link] [comments]",
+      "url": "https://www.reddit.com/r/webanalytics/comments/z2ko2i/ua_universal_analytics_vs_ga4_google_analytics/",
+      "domain": "reddit.com",
+      "published_at": "2022-11-23T09:29:44+00:00",
+      "source": "r/webanalytics",
+      "watch": "r/webanalytics",
+      "source_type": "reddit",
+      "lane": "Web Analytics",
+      "query": "Communauté Reddit ciblée",
+      "lane_matches": {
+        "Web Analytics": [
+          "ga4",
+          "google analytics",
+          "tracking"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
       "score": 4
     },
     {
-      "title": "Procédure \"Fast Track\" : l'ancien site Ynsect, près d'Amiens accueillera-t-il un data center ? - ici.fr",
-      "summary": "Procédure \"Fast Track\" : l'ancien site Ynsect, près d'Amiens accueillera-t-il un data center ? ici.fr",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOREpUdTd4OVlZNllmVGhKdGkxd3JpcWlFdm1TZnFYSDNJb1BWNlBKdW1hRUthdmxIODlja1hzRVRYQkJFQWRTUkFHVDVuYm1YektuSGtMY08wSHk5a1pUR2Q1REtIYWxmS25faFlKUS01X1JuaVBkVEZYTjhfUkFJMFR2OGI1eFd1bzVFbkU3em1TMnZZOENfeHlwVThvSGk1WnZfbHBjR3lhVmVSSHl2ZnpuSFdVOGNNYTZEVEM5OHFhblpfRU40N0NyNHZwTHRVNGh2YklBNkRsdU15OEt0OW1panhMbWItbENLZFZ3M3ViRWZNTDlRcg?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-08-07T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "tracking analytics",
+      "title": "Noob question: Can I get a list of all tags in my system, even if they haven't been \"activated\"?",
+      "summary": "For context: I'm not an analytics person. I'm the qualitative researcher. I am trying to hire an analyst, but first I need to demonstrate the need and do a business case. As part of that, I've been asked to asses our current tagging which nearly nobody is actually using. Of course my assessment will be mostly about the things I understand. Lack of tag structure and consistency which lead to problems in getting the answers our team needs. For that reason, I am using Google Analytics for the very first time and with no training. I have access to the Google Analytics tool and I have cobbled together a few custom reports that show all the tags that have been part of a session in the last 2 years. I am assuming, however, that there are some tags in our system that have not been part of any session. What would be the proper metric to use in a report to generate a list of every tag in our syste",
+      "url": "https://www.reddit.com/r/webanalytics/comments/wxfw9j/noob_question_can_i_get_a_list_of_all_tags_in_my/",
+      "domain": "reddit.com",
+      "published_at": "2022-08-25T14:35:44+00:00",
+      "source": "r/webanalytics",
+      "watch": "r/webanalytics",
+      "source_type": "reddit",
+      "lane": "Web Analytics",
+      "query": "Communauté Reddit ciblée",
+      "lane_matches": {
+        "Web Analytics": [
+          "google analytics",
+          "tagging"
+        ]
+      },
       "categories": [
-        "Analytics"
+        "Web Analytics"
       ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Accessibilité numérique : “La période de tolérance prend fin” - Affiches Parisiennes - mesinfos",
-      "summary": "Accessibilité numérique : “La période de tolérance prend fin” - Affiches Parisiennes mesinfos",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQb1UtSlZPczJGNmNTTWRiT2lNQWJGc1ZGb092cDlyeUhWMEhUQ1YzRU9PLTY4VTN3TjExSDkyRGRTWl9QdXR3TnV4eXhtcWl4Q0F0Ylp0ZFNKY1dpTkVSN0pWNXV1a1RwVzlKbXQtd1BZZjd4NTItaFo4d2lqNWdPdnBtbzR0dE5CWWNpczhCM1BJT2Y1Y3Q0M21haXlmcnhSSlVj?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-07-31T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "accessibilite numerique UX",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "« Un dumping assumé et décomplexé » : AB Tasty, de la success-story façon « start-up nation » au carnage social - L'Humanité",
-      "summary": "« Un dumping assumé et décomplexé » : AB Tasty, de la success-story façon « start-up nation » au carnage social L'Humanité",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPcE9pZkNfeUhxcENsdy1aZC1ZNm9tVkNJTXZzN0FRR3J3cEd5UVo3MnBMZHkzQ3BYZmpZRm5iOFV6b3c2eTFhV25qa3RDeVBKTHZQWHR0ZlBZTm9kbUdQMXpRZ3JXdVNraWRBV1duSDFMWjlSQ0hlelRCUlFFZi1OdDJmRzFtLWJFRXMwWV9ZUGR6SFJpWXdpaW02a0ZBMUIzVER0YVZ0eC1ndlR3akRXM01GeC1sNGhORzV2ZDg1V19UR1Y1ZlR4S093U21xbHdnTTc1Y3M2ZnNqazFHdS1Db3JBMnFqV0RjTzJkR0lfcGJhN1E0bWtBWjBjS1NSX0l4TFE?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-07-30T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "AB Tasty",
-      "categories": [
-        "CRO"
-      ],
-      "keyword_scores": {
-        "CRO": 1
-      },
-      "actual_keyword_scores": {
-        "CRO": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "AB Tasty : plan social en France, près de 80 postes supprimés - Maddyness",
-      "summary": "AB Tasty : plan social en France, près de 80 postes supprimés Maddyness",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZFFsVnhmeF9jT3RiQ2RWNm5JLVJQR3F3cHZwYmRuTjZNOEk2eVRoME43a2NJdGtYN0RpaWpEQjd1N2JFNE5EYVNwX2FpY3JLX2t2bFoyT3hma2lqSkhpb2w0ZUlTa2lzalI1WGVFcjVyVXFNc0dlWVZicWo2Y3B3bEs4UWRld0dUYWpOQnZadHBzazh3cU1JMXZ4VUI?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-07-29T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "AB Tasty",
-      "categories": [
-        "CRO"
-      ],
-      "keyword_scores": {
-        "CRO": 1
-      },
-      "actual_keyword_scores": {
-        "CRO": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "French Tech : après sa fusion avec son concurrent, AB Tasty délocalise sa tech en Inde - Les Echos",
-      "summary": "French Tech : après sa fusion avec son concurrent, AB Tasty délocalise sa tech en Inde Les Echos",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUUwwZ3VCa0FoVjBDY1oxc0ZzZGE4dWVlYjBQck1OYWx0MUIzZmQ3SEVEaHh2ZUp4anI1WDhpNDdUYnVxeDV6M0xYUU1VZEdxZUd3VVAwenBvTkhUOVpPYzRMbTJ1ZFFMV0RXUmZmV3ZLWmpYUXpPaUI3VDZDcnZYTUVHY0pOczRkR3RwY0hCQ2txSzA1VEg2NkNIMjZDa3VPQUlMelJVdjBWMmhhZmdtVk81RGw5aXI5TWZyeFF0Zk1MYkRwOTZSekhNS2tZaWlt?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-07-29T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "AB Tasty",
-      "categories": [
-        "CRO"
-      ],
-      "keyword_scores": {
-        "CRO": 1
-      },
-      "actual_keyword_scores": {
-        "CRO": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "IA générative dans la mode: Top 13 cas d'utilisation & exemples - AIMultiple",
-      "summary": "IA générative dans la mode: Top 13 cas d'utilisation & exemples AIMultiple",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1tWk0weGxmSndWNTJyekdSdVcxX1BLQkZrbFhzNkY5ckxBcU41dXgxUzVOS19VaGpCYmk1N3hsdzJOWVlBOXNfc2xnbG9qam9KRjJnd3ktXzlRd1E?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-07-24T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "IA",
-      "query": "generative AI product design",
-      "categories": [
-        "IA"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "J'ai créé mon propre outil de stats sans tracking - Korben",
-      "summary": "J'ai créé mon propre outil de stats sans tracking Korben",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4wRDdoYUQ2UEpqcHVfRDFTeUdBTzF1S1JrV3lZanBBbjFJaXdicmxpQnFLQVhWaEVWRjR0TzREVG9uX0ZjelhWTzVYSFlMZzEzd255OW5UN0ozekZGX3h0Y3REcGdaTWxadDBUQ1d0R01RM0tw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-07-21T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "tracking analytics",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {
-        "Analytics": 1
-      },
-      "actual_keyword_scores": {
-        "Analytics": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "AI Data Plane : Couchbase consolide ses fonctions pour l’IA agentique - LeMagIT",
-      "summary": "AI Data Plane : Couchbase consolide ses fonctions pour l’IA agentique LeMagIT",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZWFhWG1oa25zeGZheURPa3p3ZklJT0lvZ3J5WnhRWTNraGZyWjFFU0R0UXdvN1d2anV4eTNQbXhVaHpvN3hXZk1FeVNZWlpETW1POHRmUlpiWEtPaUcwcG5ZUmJXRThQV04ybU4tS2JQRS1lQ1hfOEhfaXNlTzlaX1FwalFBRFVxM2JjXzQySmVSSGgyS2hwamtBem9TczNLOHYwM0g4UENKNlNlZTV3?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-07-07T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "IA",
-      "query": "AI analytics",
-      "categories": [
-        "IA"
-      ],
-      "keyword_scores": {
-        "IA": 1
-      },
-      "actual_keyword_scores": {
-        "IA": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Interview du mois - Anne-Claire Baschet, Chief Data & AI Officer - Agentic Commerce - Mirakl - Fevad",
-      "summary": "Interview du mois - Anne-Claire Baschet, Chief Data & AI Officer - Agentic Commerce - Mirakl Fevad",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcm9qZ1daV2pLNlNIZldjOWZ1ZDEyUjllYTFsa0JmZkswSW1nVWprcHFPb21sSWVMdDd1QVBxd2ZZcV85amZOVXRVa0FwLWk3WWhlLVhYYnJPMFFKTXNxU05rM1Jpa21WZk1KUXFaZHpnbmtGeXFzdHA2MmxMbG0zd3p3SVlIUldZYlN5TW8tLWNrY01TX1hYeVhlRUx3MUJQTFp0ejEyXzZfQQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-07-07T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "IA",
-      "query": "agentic analytics",
-      "categories": [
-        "IA"
-      ],
-      "keyword_scores": {
-        "IA": 2
-      },
-      "actual_keyword_scores": {
-        "IA": 2
-      },
-      "score": 2
-    },
-    {
-      "title": "Vous cherchez un emploi ? Ces métiers de la défense recrutent partout en France - MCE TV",
-      "summary": "Vous cherchez un emploi ? Ces métiers de la défense recrutent partout en France MCE TV",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4xNUVRRm5zWVBMT3pfOFhDTDhNbHpjVjJTa25NN3Baa1EyVVcwSzNXTGx2TWRDcFdNbEpkTkV6aVRCaXl3SGRfRkZKMm9LMVlXa2VlSEVDRlg0WkVwNnk1c0tzU1JKMkEwSmNlcU5ZWHN4YzQ1MlBHUkRB?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-07-07T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "UX researcher emploi compétences",
-      "categories": [
-        "Marché"
-      ],
-      "keyword_scores": {
-        "Marché": 1
-      },
-      "actual_keyword_scores": {
-        "Marché": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Comment j'ai fait mon catalogue de vide-maison sans toucher à Figma - Korben",
-      "summary": "Comment j'ai fait mon catalogue de vide-maison sans toucher à Figma Korben",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VWEp6eDZlYmtiWnJubU5pOTE1MGh5WTVPMzg4b0lEZEtmWlNXbTJ5LTZFNWJvREg0cmdLUVhWX0dGN0w2czN0a3hVTXZDSmRFZXBUWUJCaklTLXcyVDRmaExTMDFLQThVeVYyQ0dJeDJUQQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-07-06T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "Figma AI",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Google AI Studio Design Variations : nouveaux layouts UI en un clic (2026) - Pasquale Pillitteri",
-      "summary": "Google AI Studio Design Variations : nouveaux layouts UI en un clic (2026) Pasquale Pillitteri",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOS0N4cmQzaGpHenpKREpjQXhZd2d5YTRsWTRVcGhYanlrWnN2YXRBOUNxb2VCRHoxZWQ5OGRJVHc3VDJFNXlkUENWSGlFeEZ0QkdwNmF3cmttaEtFQm9oVzJoclRQRFJjNHNOb0FJb0RfTHFwa3RjMGRzSlo3dE9nRXROald6cDQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-06-27T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "IA",
-      "query": "AI UX design",
-      "categories": [
-        "IA",
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1,
-        "IA": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1,
-        "IA": 1
-      },
       "score": 3
     },
     {
-      "title": "Interview du mois - Nicolas Lepelley, Responsable Agence Lille - Coach UX - Product Designer chez UX Republic - fevad.com",
-      "summary": "Interview du mois - Nicolas Lepelley, Responsable Agence Lille - Coach UX - Product Designer chez UX Republic fevad.com",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdXMxSWNDaHotNHhITFIzNFVoRGJyUXlwZEo5bEQtWkhLT3JNaFdkR2k3VnJrUE9tSVZ2Q0pQaVYtVEd2Q3d4VWtpVk9mbUtUVDZaYVZ5NW4wMXlxMHN6SE03M1NyVEpDYmlRVVhqZEI5LW5RQ2s3NElva1REZWpya1hTQThyV3RMOERFT3JrUG50dWZsb3NrWFc0UURkam1NMmN3U0JPUTk0RUlWWV9SZXVBWWRIWU5mWlVVQTkyaXRFbFU?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-06-25T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "product design",
+      "title": "Spy tool for Google Tag Manager - Could it be better?",
+      "summary": "Currently, I am working on the tool WeData ( https://www.wedata.cz ) , which is able to detect all tags and triggers from any Google Tag Manager container. The tool presents data in a clear way, so it is quite easy to detect the tracking strategy of any website. I am in the early stage of development, but I'd be happy for your feedback! Do you find WeData useful? What could I do to make it better for a professional like you? submitted by /u/jn_cz [link] [comments]",
+      "url": "https://www.reddit.com/r/webanalytics/comments/ww0p1c/spy_tool_for_google_tag_manager_could_it_be_better/",
+      "domain": "reddit.com",
+      "published_at": "2022-08-23T21:30:45+00:00",
+      "source": "r/webanalytics",
+      "watch": "r/webanalytics",
+      "source_type": "reddit",
+      "lane": "Web Analytics",
+      "query": "Communauté Reddit ciblée",
+      "lane_matches": {
+        "Web Analytics": [
+          "tracking"
+        ]
+      },
       "categories": [
-        "UX"
+        "Web Analytics"
       ],
-      "keyword_scores": {
-        "UX": 2
-      },
-      "actual_keyword_scores": {
-        "UX": 2
-      },
       "score": 2
     },
     {
-      "title": "Étude : comment l’IA redistribue les rôles entre designers et développeurs - BDM",
-      "summary": "Étude : comment l’IA redistribue les rôles entre designers et développeurs BDM",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaHFiU2hfVnFYRzJDQkZDQXZWWklyRXRQSlVzNUt1cElvMWwyWjB1ZXJTVjhCU0hUdFlWUVdpZDFjRGdaNnc5Y2VyTWFPTjk1ZGdGbExmM0tWQ2Zoek1BbF9YRnF2OU1tMVdvX3ExN3FBMzd1ZFJoM1pGekUyNEtHNS1tbURqWGZkWkJxRjV2NHdvRkl4VUE?oc=5",
+      "title": "Piano Analytics: Digital analytics meets journey orchestration. - Piano.io",
+      "summary": "Piano Analytics: Digital analytics meets journey orchestration. Piano.io",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9yOW1FNkMyUDNPRWVJRlphMkx1eEpLdmhaMVFwTWZFUmlZSW1kSXRiRkpUS1U3TGIweHc3OE9vR1gyaWp3RjhMbGdubURkVG8?oc=5",
       "domain": "news.google.com",
-      "published_at": "2026-06-25T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "Figma AI",
+      "published_at": "2022-07-20T00:01:13+00:00",
+      "source": "Piano.io",
+      "watch": "Piano Analytics",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Piano Analytics (source surveillée)",
+      "lane_matches": {
+        "Web Analytics": [
+          "digital analytics",
+          "piano analytics"
+        ]
+      },
       "categories": [
-        "UX"
+        "Web Analytics"
       ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Google Analytics lance un nouveau filtre dédié au trafic IA : ce qu’il faut savoir - LEPTIDIGITAL",
-      "summary": "Google Analytics lance un nouveau filtre dédié au trafic IA : ce qu’il faut savoir LEPTIDIGITAL",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSVNvdXJfS19fNE96NkthT29wY1BZY2NIRDk4VmZpb3JIZTJLQmVKOVZYTUEtQURLNE5lcDVvaWxHbngtOEVKanFYR1BQdXV1OUJVNUd0UGMydTdnRTlUcDNFLU1JZF9nN2kzdWpBSGZxTlBWc3JjUlpFWjMwNkxvVjJnYi15V3dBZy00S2Q0OGpMTEU?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-06-22T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "Google Analytics GA4",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {
-        "Analytics": 2
-      },
-      "actual_keyword_scores": {
-        "Analytics": 2
-      },
-      "score": 2
-    },
-    {
-      "title": "VivaTech 2026 : comment l’IA générative est utilisée par les professionnels de la mode - FashionUnited",
-      "summary": "VivaTech 2026 : comment l’IA générative est utilisée par les professionnels de la mode FashionUnited",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVHdwemhnczVfT2JyTkJXYXVoRXJ6Q241UGtNY19Jb1czTGM1MUhQbGQtdHZWaW01YWFNa1k5djBtRkkyOWJ4UHdFa0I1U05TeFBHSFZmRXVWVkJYSnpNRDAwZ0pGT09wWVNGVktaVEtmczFPcmJjeDZtSkc5WDRRRldNaEZ3ZTdRODVOaGZBS0lRb19YdmdoNFNKcWV6Y2hvdU01TWNja1lUQmF4ZTBicGxad3NaaGJFYkNPUXRkTEdfMkhiV3ZwOEVta2x5S1pkR1dQempwZVM2UQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-06-20T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "IA",
-      "query": "generative AI product design",
-      "categories": [
-        "IA"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Claude Design prend en charge votre design system et élargit ses connecteurs - BDM",
-      "summary": "Claude Design prend en charge votre design system et élargit ses connecteurs BDM",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTUpfSVhzY2FrRjN1RGVEVHhjQk1QMFJ4VlMyRW9YWFJYY01IMU1iMkg1REFkRjRYODBDSm5xNERIQnVhcS1VZkR3VVhFTnMyN1hzZTdzZnRjRkhUOGJRaXdEbDlHS1RmWk1PRGxsZTdIeTI4R0Nmd1BqWktNWVJGa1RlRVNyVHZfbGtXWXFsVUtHdmE3cWRJcmVjc1NuUQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-06-18T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "design system",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Les meilleures plateformes data pour entreprise en 2026 - Silicon.fr",
-      "summary": "Les meilleures plateformes data pour entreprise en 2026 Silicon.fr",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSlJRUGdJaFRzNXU4dlExYzllYmRhNHhtZnd1bFpOc0lVYWxrUWhLZDR5TDFkOXpENGYyZHVfa1lDUHBVU1NHNmFNTWtXQVJZSUVwVWU1d2N5MHBvRFFZRFF5QTcwdmluNjNmY01OSVFaOWpDYWlOR3g1blFuMlBZU3hGX2p3ajhPRFJXWXhpdU5OMUM5OXY4VF93SHkxeGPSAaQBQVVfeXFMTzJycG4xekdyc3cyWFdiYjJlN2NjT1RmRl9BZGNLVlJWazVscjZTN1NScDhRTXpNV3VBWnlQdFhaUXV6VDFTTXpUazN4SUdVdmw1eHlWRTNOZlRJcWRhWFNJTVAwOGJYaGlaSDhlTV9Jd1VUWmMySmtyU0FYZUdRcUhWcUw4dnFYVG9xMWxjdWktTzNCNWRKeDRfeU9fSVZWVW9pVDc?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-06-09T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "BigQuery analytics",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "DQE acquiert Omikron pour établir la Data Quality Trust Layer européenne destinée à l’IA - J'aime les startups",
-      "summary": "DQE acquiert Omikron pour établir la Data Quality Trust Layer européenne destinée à l’IA J'aime les startups",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZnFUNkNfRUdWLTBIY19wc0JQSFY4YVpjZnp4eVdYMzZfaFRPUHVvTFU3dmp4NUd5dGNXTm1BMW5PUGgxQ3FwMm9BcVYtZnN6cGNoV21xWnFzX0ZSUkJ2TmdMdnBWSlZySS1qMC1DenRLVndFaDdTOFZ6Zng2Q0FJNk52T2hOX0M1MFg5cXQxeFpiUVZfaVpKQlBuODl1OFBPRWNsMWhJZjI2MDY5aHZPLUNNMVF5cU12OXBTZTY1S3d2SnM?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-06-08T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "data quality analytics",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Accessibilité numérique : “les moins de 35 ans sont les moins tolérants face aux obstacles numériques” - Solutions-Numeriques",
-      "summary": "Accessibilité numérique : “les moins de 35 ans sont les moins tolérants face aux obstacles numériques” Solutions-Numeriques",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbUhVdnNJTGoteUtPaGJIOS0xRzl3UHN4R3h0Yi1PdjJCT0dGcm9OdE9IYXBrZTE1RTNIMHhwN01qU3YyXzdSRzJBMGUtaV9CZ2ZsSUpTOGV2YW42N3hpWlhJOVhFZzJjWThnbkJ1TDh0ZnJkTlVYQnpyMGN3c3U3Q3J6OWx5emN0UmVCRjhGOENSY2szQWFPOV81eGo2WmJraTlYLUxEVWhXUmxHdnN1VlJIU3FhS2twemVJallnQlV3U2wtU3NuZURwd1BISG9tcmc?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-06-02T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "accessibilite numerique UX",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Snowflake Horizon Context : la couche de contexte gouvernée pour l’IA, la BI et les applications - Snowflake",
-      "summary": "Snowflake Horizon Context : la couche de contexte gouvernée pour l’IA, la BI et les applications Snowflake",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5UM21VOVlTM1FMOHNjckhQYlphSmU1c3duTHZXcklMSUZickRlb2lBOWhCN0NnMHNRN0JTeEk2NVgwenJXbDJTdHRBeU1XVzZOd0VXQzRIcUFPNkg4YlB1d2hVWHR2YndCTGJmQ0U4YTc2TzVDR0E?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-06-02T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "product analytics",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Les data centers en chiffres clés - RTE France",
-      "summary": "Les data centers en chiffres clés RTE France",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVjE3dlRTQjBad0NEbll5a2FIVDM4N3M3WFBRZlBETFZkMEVCYm5ZQ29nd0NadThRNGJublJ4SmdYT0NVVk0wLUlRRXF4N1lJOU9SN09JMk4tRTRkVTFNbGh4TVQybHZRaWIydmRndkVtcUJEd0Z4VWg0ajdFTVNCQmd0ZUgzTWZ4OWlLWUl2VE1jTnlPdWtESUs4dw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-06-01T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "tracking analytics",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Comment Mistral AI assure son expansion internationale avec NTT Data, spécialiste japonais des services IT - L'Usine Digitale",
-      "summary": "Comment Mistral AI assure son expansion internationale avec NTT Data, spécialiste japonais des services IT L'Usine Digitale",
-      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNb2NrbFBsWjhlV2Jxa3plQllfRjBqTWhqczBaTm9INnRjeXNGM2Fsdko3a0k3bkUxUkdnRl81cENza1FXcUFSLWpad25QQ2hoME5TX2RkcEN3emlfcURQLVhfdmdaemxQNTFzaWs1akVKQTV6TDZVNHlRUDNoMHZTeGRtUDl6NzdIVWlqc3VRekxiaXZnbE5vSmNidDdoN2pkTFgxU1c1aGxiN0hha094cHdHamlrQ2U1RWJDZFpTNGtLS0poOG82WHRyYkFzb1dycGFjN1BZb1h6MlV3bU1xaU9zd0g0LW1qOUxjMzQyYWtPY2hrZkdRNkp5dkRFREFmYjZhMEt1Z2Z6WGI2cmpScU4tdGN3Z3VISk5VdW1jczVSWjBoa0NmUzE1R2w?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-05-27T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "IA",
-      "query": "AI analytics",
-      "categories": [
-        "IA"
-      ],
-      "keyword_scores": {
-        "IA": 1
-      },
-      "actual_keyword_scores": {
-        "IA": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Oliver Wyman recrute le chief product de Younited pour son hub Data & Analytics - Consultor",
-      "summary": "Oliver Wyman recrute le chief product de Younited pour son hub Data & Analytics Consultor",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMVpZOEpYZlRlSXBROExYOTdqX2hEazVsWlpzaVlpQnJYdm5xT0tKN1RfOGVXNWdaRHN5NmNRNko0bHdfU2toOXM5dTl4TXZaNkZnbzh2WlE4LXBUSWpoQ19hclpZcXBINXhpLXJvY0habTRiQ1Zpc1FUNk1Zb1hnZlR0MkVsdG9TN0s3Qy1zQmVNWVQ4U1l6RkNOQ25YblBCMW9OdlU4OXBGQzdKTFNZVw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-05-25T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "product analytics",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {
-        "Analytics": 1
-      },
-      "actual_keyword_scores": {
-        "Analytics": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Événement - 21/05 | Ipsos participe aux FLUPA UX Days - Ipsos",
-      "summary": "Événement - 21/05 | Ipsos participe aux FLUPA UX Days Ipsos",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcUU3ZVNqTGJvMnJMbE1La1J0aHh4MmV1d1l1LUVybDJRN1E3anBrZmZET0xNYzFadExDTEhQamhsSnQ5S1BQV195LWRpeWpfT3oxOEc2X1J1VVNoRDhxQTdGdmJMbERadThkNnZsUEwyQlFKdVg0RVdPb0wybklrMzFB?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-05-22T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "UX research",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Turn data into decisions with unified measurement.",
-      "summary": "We’re bringing Meridian, our open-source MMM to Google Analytics and introducing Future Long-Term Conversions.",
-      "url": "https://blog.google/products/marketingplatform/analytics/meridian-google-analytics-360/",
-      "domain": "blog.google",
-      "published_at": "2026-05-20T16:00:00+00:00",
-      "source": "Google Analytics Blog",
-      "source_type": "official",
-      "seed_category": "Analytics",
-      "query": "Google Analytics Blog",
-      "categories": [
-        "Analytics",
-        "CRO"
-      ],
-      "keyword_scores": {
-        "Analytics": 3,
-        "CRO": 1
-      },
-      "actual_keyword_scores": {
-        "Analytics": 3,
-        "CRO": 1
-      },
-      "score": 4
-    },
-    {
-      "title": "Le salon Big Data & AI Paris devient payant et se concentre sur l'industrialisation de la donnée et l'IA - it social",
-      "summary": "Le salon Big Data & AI Paris devient payant et se concentre sur l'industrialisation de la donnée et l'IA it social",
-      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPckxYY2k5RVJISENPWnJ1Y0hHcDVNc3k4UVIwTGxHRWJ2RXhsdzV0TGxqMFctUXFvYVAzc0Y1YjIyRVZkUlVvUnFaV1JrSEtZZktmMktCTnBNMDAxX0hwX1Zpa2NCakNSaW5peDBDMWhiRl9wZVFrTVR5YUdoOXM5N0o3emNIel9sSFc0TkNwT195d1ZCQjM3X3NTNmpOY2xQb3VRSnZtYzVtYkNrY2JnRHBRQ0t5VHU3anl6T3Rzcjk1d0JVVDl0MGNxT2FPZDc3Zy1MaWF0OW05YmVETHc2Z0NBSHpxMzRjZ293cXVjUHBZUmw0R1pXcmtlVnNrRFQyT3F3X0lMdlBJTmJMWHBxQXA0M21lMFRvTmE5b0Fn?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-05-07T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "IA",
-      "query": "AI analytics",
-      "categories": [
-        "IA"
-      ],
-      "keyword_scores": {
-        "IA": 1
-      },
-      "actual_keyword_scores": {
-        "IA": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Tutoriel : comment créer une interface UX/UI avec Google Stitch en quelques minutes - JDN",
-      "summary": "Tutoriel : comment créer une interface UX/UI avec Google Stitch en quelques minutes JDN",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPd0VSUTZMWlFwZThQcFlsNkJXVnZBTWk0Y1pUNmxHTUlhYWVjSm9CeGJFaE1rX3I5SnB3bXkyUXVIMldRbWZsQ2NZZ0pQTThpR1c2aW5vZXZyWW85TXdVMEVQOU5LdXd2U2ZYSnBXSlg2VjZJdXFXTXRyaEZBQnowTFBDajNWVUVzT3dWQVhhYVZFUERRZlE0aXd3a20yalFreXFVbTg4bGJjTm5VeXI1R19uSm53eXFlNlVleGs3Wl84WUZuaERkdlR0YUh0VHVB?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-05-06T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "UX design",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Gatorade s’appuie sur l’IA générative d’Adobe Firefly pour permettre à sa clientèle de créer un design de bouteille unique. | Adobe France - Adobe for Business",
-      "summary": "Gatorade s’appuie sur l’IA générative d’Adobe Firefly pour permettre à sa clientèle de créer un design de bouteille unique. | Adobe France Adobe for Business",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOc2dxa1YwODBqMEVXNWxQeHhDZnJPWWozTC1PdndBbFhyeWhaOGtlMGoyRVp5X2tqR1NONzlVWGh6amJkODdmSTVucTNtYXNnbWJyM0FDOGFKcEJoQkxDX3VQTWtObmhZeWVONVByT0NnWU9zQi15S3I0RXdqUHdQTXZlNEtnVXlVWV9IejBhb2JmWVpvS3gtMWN4VC1ObXdKRUxwS0IwZm1nNFd6Y21NNWN3a3FXeE1BYXYyY3VWNGhrMExzREZ3ZU5NV1k4VlVUX0RPdS1MM0pzRWdjM05wN0ZQWVA3aUVj?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-05-05T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "IA",
-      "query": "generative AI product design",
-      "categories": [
-        "IA"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "8 digital marketing certificate reconnus par l'industrie + comment en obtenir un - Coursera",
-      "summary": "8 digital marketing certificate reconnus par l'industrie + comment en obtenir un Coursera",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1HelcweE5rbnBWQW1MZ1dVWGJxZzdhaUMxNm9RemRwa215V25IekM0TU14ZVJRaFRFSndXV2NkS0NtaG1KQXdGVEM3aUxhWUpPMVFNdzhxVmNaSDMxa1I4LUNBQmtzNXYyMEpCb2lSWXBPdlRiZERFeA?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-04-30T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "web analyst emploi compétences",
-      "categories": [
-        "Marché"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Avec Agentic Data Cloud, Google apporte du contexte aux agents IA - Le Monde Informatique",
-      "summary": "Avec Agentic Data Cloud, Google apporte du contexte aux agents IA Le Monde Informatique",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQalR1d2NraF9qbldYRkhjYmxsUWxaUDhTaDZEOVFTbHU4ZHpHV3hhN0hRR0hzYjlhdUVkZkRUTXNMVW90S200cXREMzVobFJXaWRoNzNzSEh0SmYxM2dQakhvZUR0TUpkUE4tUkZhbm82bG50NXkwNFhMZl9fV1VPeTZLWER1MkpJaUZVV19URV9vUVc3WEw2OUNqd1JGOHBuaHMtbTktSFBpUDBET3pHM0VibTBEeTltY3FsaTJOQ0lDS0YwWWfSAcoBQVVfeXFMTWN0dXhBWHRGQWJLdm1tSXFjdUJaYjJJSms5c051ZXVNajVQRjBuM0Y2SVNsR3BiUW04QWwwaWpPV2ZsZllTMkdnQmFEc3RseW9RTGJGMlV2YkRydHdTOXVXQzhjUjRFbTA1N1QxSXM4Mk40UmU4MGRIMzg2eGVTVmtnRzNYTGtHcmM1MlBEZFJHQXhHLXFPXzVTV1lFQ0loaXgyUm8yYWFKTkd2MXFZYTlmcmQ5Y0JpT05vODNSSm8zMXlUT0dTVEZuUQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-04-24T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "IA",
-      "query": "agentic analytics",
-      "categories": [
-        "IA",
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1,
-        "IA": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1,
-        "IA": 1
-      },
       "score": 3
     },
     {
-      "title": "Agentic Data Cloud : Google Cloud tente de tisser sa toile chez ses concurrents - LeMagIT",
-      "summary": "Agentic Data Cloud : Google Cloud tente de tisser sa toile chez ses concurrents LeMagIT",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOU01mSTI3M2lfNGFzUUx4NW1qUjJScmxfcU5jMWdkdU1ac1ZseW5tMUN5M2ljb1EtZTZhNm45R1B1TFE3Nnp4M2U2OExmR3htNVdLalhmel9mTXllLTB0NUYyUDBmU1JFVmcxaURIZUVhWWdvdFpDaEttek15X25MTTJJZzFsdGRqR3QzVmRsYTFXZG4yNzdqdU9obkVlUVUzMlZXUWY1SDgzTGg0VWhMOFcxblljNURoa0RvNEs4LUNmUQ?oc=5",
+      "title": "Progressive delivery : lancez des produits plus performants, plus rapidement - Kameleoon",
+      "summary": "Progressive delivery : lancez des produits plus performants, plus rapidement Kameleoon",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxc2JxQ0cyLUhfLTFBTzl6WkRFSm9mQnV2TFlzNWJDT2NIS3JLd0kzRnE5YmVKYlBPdnlEMV9lV1FacHlwMExFNVRXN2FRRGlZX1RmeTlNY21halV6YmFocTlITlNoTl8wUUFXTA?oc=5",
       "domain": "news.google.com",
-      "published_at": "2026-04-24T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "IA",
-      "query": "agentic analytics",
+      "published_at": "2021-07-30T07:00:00+00:00",
+      "source": "Kameleoon",
+      "watch": "Kameleoon",
+      "source_type": "official-watch",
+      "lane": "Convergence",
+      "query": "Kameleoon (source surveillée)",
+      "lane_matches": {
+        "Convergence": [
+          "kameleoon"
+        ]
+      },
       "categories": [
-        "IA"
+        "Convergence"
       ],
-      "keyword_scores": {
-        "IA": 1
-      },
-      "actual_keyword_scores": {
-        "IA": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Concevez un produit simple - OpenClassrooms",
-      "summary": "Concevez un produit simple OpenClassrooms",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNa1hZekc3bU4tX2hoQkxDQWxydE9pekRlanJTQ3UzSlFLVkIza1ZKUk9FWTUzbVltUlJ6WWhicy0yN1BmNHFHWmdyYnV6M0JFT1dZR2tNckJaaWw4VmRWam9WcVpwSW4wRE45cnVSVEpuRkk2NkRNaTZSY1BpbHAwLVUxUlVlZjBpbXdZUk5Sa2hHVG1PRVF5a1ZVMUh2b2dvNWRiQVoyUGNYaW9GWENaUDh4SFNGcm5HWUNN?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-04-21T11:12:30+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "UX design",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Tutoriel Looker Studio : Dashboard GA4 et BigQuery en 13 Étapes [2026] - tech-insider.org",
-      "summary": "Tutoriel Looker Studio : Dashboard GA4 et BigQuery en 13 Étapes [2026] tech-insider.org",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQVc0eGI5RlJDRkx4MHdnUEU5S0lrRVMzUkdwSkwzMGhyVmdyWEJncVdwY05keEpEQTdib3o3cXBhdF9CcGJrMVRiLVVnUENWRy13Rm9wTmdNNm9PSC1DUXByRFMzdHNoRHVPUTl5WGRfR3R1SkJ5Z3l0REwxSkpGeVlZNlJ1QQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-04-19T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "Google Analytics GA4",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {
-        "Analytics": 2
-      },
-      "actual_keyword_scores": {
-        "Analytics": 2
-      },
-      "score": 2
-    },
-    {
-      "title": "Claude Code sait concevoir : la skill /design - Pasquale Pillitteri",
-      "summary": "Claude Code sait concevoir : la skill /design Pasquale Pillitteri",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPckktbmRkaDhkMlJWaE5sYVdsN3pveDJ4SFBNRENlcm9lOWZRcml6WE9RMEtFX0l1cURUaERRREpDU3RsdHNSNG5aOGxmMlZYa0RBUnpGVUhGQ2cyQ3l1R0xfUHBtdXg2MUx1N01ONWlYeC0zWjczSTk0OHRXdERfZmM3SEo?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-04-17T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "UX research",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Qu’est-ce que le Web Analytics ? - OpenClassrooms",
-      "summary": "Qu’est-ce que le Web Analytics ? OpenClassrooms",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNR3QwQmVHMTY2d2FsQjlTZnlOT3EwVXh1RVAtOEQ2LUhzd2pmY0ZuM0YxRGR0VDM2SE1BMlg1ZTJldFdwZTUyUHVCakJlaVJHVDF6dnM1S1hiTUdBSGYzU002d3hyQU1iQmw5SnhtWlJyaGR4RHk1WGd3OFVlNmtlaF83WC1uRzVBcGlvMHBvSHdrWHVqQ1hTTUJBSmJfRmZGLW1wZ05xbjNEWjFYTURyOEMxYXBsV0l5eU12YkVObWsxbEptS2Jn?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-04-15T20:45:13+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "web analytics",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {
-        "Analytics": 1
-      },
-      "actual_keyword_scores": {
-        "Analytics": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "« J’ai l’impression d’avoir raté ma vie à un an près » : quand l’IA freine l’embauche des juniors - Le Monde.fr",
-      "summary": "« J’ai l’impression d’avoir raté ma vie à un an près » : quand l’IA freine l’embauche des juniors Le Monde.fr",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOdkdLQy1CZDN3TmhkS0taSjR1eXY4Ym9oR0ZSNzNTal8xMGRjbGtKRHpEZHFFS1psQ21QZnRoZ1JHUS1iWmdfd2VMSlVrV1hxRUc0VEhRX0FVbDVZSDR5dnpmcEx5N2RoTXkzVTdNd0IybWFiY01Oa2M0NFlxUGg2d0h5SU05N1M4ZWFpSVllemx2elhpUVBwOThjeXZLcXM4NEVOQ2FYb3h6b0tKNE4wbzhyWmpWVGZfS0RfV052cVlqY0ZqVGJiMFhJRXItdHVLeHYzMUJSQk5YVzBnc1FiQnljUDh5cGh1X3NGaWF3em0wZGc?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-04-15T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "IA",
-      "query": "AI UX design",
-      "categories": [
-        "IA"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "« L’UX designer devient un architecte de la relation entre l’utilisateur et l’IA », Amélie Poirier (Niji) - BDM",
-      "summary": "« L’UX designer devient un architecte de la relation entre l’utilisateur et l’IA », Amélie Poirier (Niji) BDM",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTjRIV3ZBUG9jU2xlOFgxeU1kaVRDcE1LWkFfOXhkRW5saXo1dUxtaHB3NC0yaUNndi01N01Yckc5aFFVdWdCTVlaS3ZKbzk0WDA4NmE0SUZ6U2Yzc0ZBbnlVZjZNamdzRk5FNVJsdXBPa29wNDNGTlNZS1IxSEQzeUp1OTV5aU94bG5jUUZidzZreENDSDBOZnZNekFsdVY2UjVzOWxfX3ZOUU5u?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-04-09T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "UX design",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Se former aux métiers du numérique avec Paris Code - Ville de Paris",
-      "summary": "Se former aux métiers du numérique avec Paris Code Ville de Paris",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLWljUjZUZW9PN05fS2VGSzk2SVFSVmlsalFTNFFKOU9wdEpXLTVvUmdLMUczV2dvd2R5dVh5SjBmV0hfcTJhQy1yTGlHSDRHS0kzZ1htMS1CYXdpMGNkNXFSa3FfLTFrV0RFVEZjU19oLWRnVXBfMTNKMHl4c09Eakt5bjVkNkl4?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-04-09T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "web analyst emploi compétences",
-      "categories": [
-        "Marché",
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "[Les Benchmarks du E-commerce 2026] Les plateformes e-commerce & d’optimisation du site - EcommerceMag.fr",
-      "summary": "[Les Benchmarks du E-commerce 2026] Les plateformes e-commerce & d’optimisation du site EcommerceMag.fr",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQT2FfOXBfU1FjQkRvZnBNVXVUejRfUHZuRFlfNzBFYlktNnZzQzVSSDZlazRjeFUwVXVrUG1icDRUQ1RoeHdzT2lZbWFNTGpwVGViczA0NnRZc1N0NjVIdmM5Nkludi1pQ3E0cnZ1dmZjSS1qYlVLV0hMbU9ocFV0Q29qejU1QjlTcFVoeEd5NGp2UE5QNF8xWnYtNVZTaXYzSDNfY21DQnJQdzZadS1ucEZFT052S1VRN0tEVFIzTVloeXUtX2hLSW1oSW5UaFg5MTE0eUxiMGlPWEhPMUdvLUlfa9IB6AFBVV95cUxPc0hHN0VXdGh2cGU5NjF2UGNabjd1Sk90SGlvNnBjakZEM1pyQjhHY2xnTzhwMV96R190NV8zTGtiZnNDWnRvd2prQmxYYUl6VUZqTUZNMFJpYXhzUUg1bmdFMTZKVG5hcVBfeFU4MUZ4bFN1UUFQZUo5NDlpNnFLc0g5LW5henQ0d3dPbkNUWHVPREdlNXJPdGpNSWJPS1VvY0I3VGtpU1pFZGduZGxWRXNFQng5ZnR3QzBZRE1zZm5pYjJnWllWV0tiNENZODJ1REV0OHRLeWEzalY2bzVadGhqVlNtR01R?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-03-30T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "CRO conversion rate optimization",
-      "categories": [
-        "CRO"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Claude Code: Essential UX/UI Skills Unveiled - Brief IA",
-      "summary": "Claude Code: Essential UX/UI Skills Unveiled Brief IA",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa3p3WWEtcV8taXNBT0c3WDI3dE9SbVdNTEcxVDlVN2V2Zko0WEFGUzlVOUVWRGFNRWFremNoOVZIYjZNVFVrcWI2RkNwU1gtSHFxbXFrMWNiQWRYUUV6bmphblp6LWZEemZRaHZkOEdvWURIcGFDWHpOTUtWU1VSUUUwWDJ2OVlhaGxUelA4QQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-03-27T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "IA",
-      "query": "AI UX design",
-      "categories": [
-        "IA",
-        "UX",
-        "Marché"
-      ],
-      "keyword_scores": {
-        "UX": 1,
-        "Marché": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1,
-        "Marché": 1
-      },
       "score": 3
     },
     {
-      "title": "Peu d'augmentations pour les salaires IT en 2026 - Le Monde Informatique",
-      "summary": "Peu d'augmentations pour les salaires IT en 2026 Le Monde Informatique",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdVk3U05ieTVuQ2V5N1ZuNWI5TGxXT1lxeVA3VDE2RXNpUllheFVNNEcyenFjY0RueDZuS0VpMFFYQ1dFVW9DaUZaOW5JUld0dlhZakRIMDRBY1o3MGdjV2ZQUE1iVlhrTzVpYWhhSWRNdHFwdDhINFJVVDRwdXJocDl1YVg3a1Zza3dBQzUxRW1LQW9EZ1hoMXJGX0FMVzlnSnNrNGMwcUJUemVEU1E40gGzAUFVX3lxTE1KbGZpb0pyQms1NE5yOHFCSmdIb1Jra0xzQ0t6Z1ZLLVhjMkNnVFNlVWpxaFQzb1Y0ZnlibHJKdmZpaGZyekcybk5nV2dPR0ExZXFWRDNBSHZNYWlZSXFNOENMUEN0YlZzSnlua3J2YVpYUVpzVF9LTHIyTk5MMlN3UWtxeXFwTjJUTGtIdUNEVHF4YkdkdjdaUGdZWFUtVnQ3MTU1cUxJM0pHWlo3M3VrbEo0?oc=5",
+      "title": "Considerations for your chatbot design - Contentsquare",
+      "summary": "Considerations for your chatbot design Contentsquare",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83WWVjSW1Cd0NFdlNCUUtVbXpTQUhpVy1ua2hOX2dtUEQzdGlqSlhkR0NSSjF4azI1V2l4U21vUVdBMXM5aUdJVDhPekZiSmt4aXJkMkpQUnBuQQ?oc=5",
       "domain": "news.google.com",
-      "published_at": "2026-03-27T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Product",
-      "query": "product analyst",
+      "published_at": "2021-06-21T07:00:00+00:00",
+      "source": "Contentsquare",
+      "watch": "Contentsquare",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Contentsquare (source surveillée)",
+      "lane_matches": {
+        "Web Analytics": [
+          "contentsquare"
+        ]
+      },
       "categories": [
-        "Product",
-        "Marché"
+        "Web Analytics"
       ],
-      "keyword_scores": {
-        "Marché": 1
-      },
-      "actual_keyword_scores": {
-        "Marché": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Salaires dans la tech : les métiers les mieux payés en 2026 - Siècle Digital",
-      "summary": "Salaires dans la tech : les métiers les mieux payés en 2026 Siècle Digital",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ3BwRFBNZXduNVJGaDFxTzhGdzZ2RkVobjRZYWpOWHM5amw0Z01kNnVuR3N3QmJkTko1NnA5a0U1NGNoZjVBZkpzeHJUU1ZHOEY3WWVCdjJJMWV3TXp5LUF4TnhGcVd0ck1CbGlPcUhJdUdCS19DZ1JqdEhZTW5UTFl3UFdZVVg1TmhVbVoxbms1UWFmbVBhOUNB?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-03-26T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "product designer emploi compétences",
-      "categories": [
-        "Marché",
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1,
-        "Marché": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1,
-        "Marché": 1
-      },
       "score": 3
     },
     {
-      "title": "5 ways to collaborate with our agentic advisors",
-      "summary": "Ads Advisor and Analytics Advisor logos",
-      "url": "https://blog.google/products/ads-commerce/tips-to-collaborate-with-agentic-advisors/",
-      "domain": "blog.google",
-      "published_at": "2026-03-25T16:00:00+00:00",
-      "source": "Google Analytics Blog",
-      "source_type": "official",
-      "seed_category": "Analytics",
-      "query": "Google Analytics Blog",
-      "categories": [
-        "Analytics",
-        "IA"
-      ],
-      "keyword_scores": {
-        "Analytics": 1,
-        "IA": 1
-      },
-      "actual_keyword_scores": {
-        "Analytics": 1,
-        "IA": 1
-      },
-      "score": 3
-    },
-    {
-      "title": "Product management en 2026 : les compétences clés pour s’imposer sur un marché qui se réinvente - BDM",
-      "summary": "Product management en 2026 : les compétences clés pour s’imposer sur un marché qui se réinvente BDM",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWDFHUVRWenhCR3JTd2lLQTFhUnByVjRCeEJuM0JteXNXNmZnRy1MWXc2ZmdSMjFvcW1GbVFFbzY5SEh0MndJLXV3eUpRNkcybHNPcVJtNjVwQnNNamNuRHM0V2h2TU5vMXA5cm9femZLeEVxTlRNeF9ONGJfX3N5a29qUlNzTlY0TzFTbVdSS3V6LURXZEE?oc=5",
+      "title": "Principes fondamentaux de l’accessibilité – Vue d’ensemble - W3C",
+      "summary": "Principes fondamentaux de l’accessibilité – Vue d’ensemble W3C",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1URVNQams5V1JTMGxPYm5qTEtGN3BNWTZWXzRJNDJBeHNuNkRjSzF4OExHM2tPOUVHQjFWMUN5bk9TNzB5ZGFyWHl1ZVV6Q2M?oc=5",
       "domain": "news.google.com",
-      "published_at": "2026-03-25T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "product analyst emploi compétences",
+      "published_at": "2021-06-01T01:09:51+00:00",
+      "source": "W3C",
+      "watch": "W3C WAI",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "W3C WAI (source surveillée)",
+      "lane_matches": {},
       "categories": [
-        "Marché"
+        "UX / UI"
       ],
-      "keyword_scores": {
-        "Marché": 1
-      },
-      "actual_keyword_scores": {
-        "Marché": 1
-      },
       "score": 2
     },
     {
-      "title": "Databricks lance Genie Code et apporte l'ingénierie agentique aux métiers de la donnée - Databricks",
-      "summary": "Databricks lance Genie Code et apporte l'ingénierie agentique aux métiers de la donnée Databricks",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNjRreF9ybUY0NV9JWC1hcC1BdjhsMW5xNUIzSVllTlZnMXVuZGRyaTZrYS10RlFhMmhReWlPek5IOWRkVHI1TTRiNlBRbzRHR09KMmFoUl9kd0xudXBSckRXVlY4WDc3SzZjeUdxVW0tVFpVTEZDZFpqalRjNWtzdDVqbEdybktfajAtNW9aSWFfdXJVVU00azV6V1pqaWhNS3ZadWxYcVNUS25RakxHOTFoVjB1cDFFdHRrcktXang2WkNf?oc=5",
+      "title": "Organisation et politiques – Vue d’ensemble - W3C",
+      "summary": "Organisation et politiques – Vue d’ensemble W3C",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE00TFlTWkVtRHVuLUxwLUJTZk1RVmZJbU1TMWVFR05KUlNWM010NVpxQ3VLTGl1N3h0WXgtTTRtZl84UXItLXB3Y3Fn?oc=5",
       "domain": "news.google.com",
-      "published_at": "2026-03-11T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "IA",
-      "query": "agentic analytics",
+      "published_at": "2021-04-03T19:02:35+00:00",
+      "source": "W3C",
+      "watch": "W3C WAI",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "W3C WAI (source surveillée)",
+      "lane_matches": {},
       "categories": [
-        "IA",
-        "UX"
+        "UX / UI"
       ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
       "score": 2
     },
     {
-      "title": "Accessibilité web : 94 % des sites européens recalés 6 mois après l’EAA - EcommerceMag.fr",
-      "summary": "Accessibilité web : 94 % des sites européens recalés 6 mois après l’EAA EcommerceMag.fr",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOGQzNWNMdjczdFBPUVVMUGU5amxqcVd6S1lCWlQwMWNPRFVLRHhzRThIMGdhQTlmVERCeDZqYnhEZUdMNUlIOHFrcFZ3T1NpZ1dWYXFNV09GME9Wc3Rqb0FUM1EwNnJFOUstTWxmbEVTZGNTUUktZ2FWQUNhMW03SWIxWEtOWFlJSmozc21mN3FpWVBJTmVIVHBCbzc0cm9nTTlTbnF3TXdrSUU4V3h2Z19vQmM1UdIBuwFBVV95cUxQMHQxdEVSdEVGQlYxNmlPeUxmWEV3Uk1qY0UzV2ExckJWNFJZS3BhaUNRcTZobC1uSzBWYnlSZFdhaUxBUjJEMzVDYTdnWGhubGtlbERwdFJZOWhMdkJaR25DWHZiMHNmVS1mMjgwbTBHeG1ETUJPbm1PMXlvM09wMkc0UmNiTGRkNnVaM1lxVndHc1JXeVNBM0NaN2M3XzJIWHI0ZFNNVnVKb1RWeGZRaThaNlY1VmItQlVn?oc=5",
+      "title": "Bénéfices business de l’accessibilité numérique - W3C",
+      "summary": "Bénéfices business de l’accessibilité numérique W3C",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5fbmk1TDBDb2xTNVc3UlI3Qm1fblk5ZzNjVl90c1Fsbk9fMDVodzVSMFlRaUtZX3B3NlZnTmlSanRSTFBaWmJDMzFhQnY3T29J?oc=5",
       "domain": "news.google.com",
-      "published_at": "2026-03-09T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "accessibilite numerique UX",
+      "published_at": "2019-09-27T13:45:00+00:00",
+      "source": "W3C",
+      "watch": "W3C WAI",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "W3C WAI (source surveillée)",
+      "lane_matches": {},
       "categories": [
-        "UX"
+        "UX / UI"
       ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Les 8 meilleures Claude Skills pour les ingénieurs UI/UX - Snyk",
-      "summary": "Les 8 meilleures Claude Skills pour les ingénieurs UI/UX Snyk",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0tbmJ5czZSa3VEZkNreExYc0JUUmplNmZhNGJ0cHZiVkJuNmI0M09YZndWNHV1NF9oLWxGN0F5NGdMbnExOG9rdGI0SlMyTlE3d2V2a19MUHZYdW1KZmt5MGwzczBEZVIwdXdnMWdoaw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-03-04T07:23:09+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "UX design",
-      "categories": [
-        "UX",
-        "Marché"
-      ],
-      "keyword_scores": {
-        "UX": 1,
-        "Marché": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1,
-        "Marché": 1
-      },
-      "score": 3
-    },
-    {
-      "title": "OpenAI Codex et Figma lancent une expérience code-design - OpenAI",
-      "summary": "OpenAI Codex et Figma lancent une expérience code-design OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5ak9FNk5ROVh6dG01Mjd4dnUtN2lrSmFOUy14MTVCSWpFSlJlT3ZxYzRxbUdCczBOc05WbHFLbkJNQ3c3T0lSX1RxUVB2MFlTdkpfYnE2Y2N4aGRGS3c?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-02-26T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "UX",
-      "query": "Figma AI",
-      "categories": [
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
       "score": 2
     },
     {
-      "title": "Quels sont les métiers les mieux payés en informatique en 2026 ? - Diplomeo",
-      "summary": "Quels sont les métiers les mieux payés en informatique en 2026 ? Diplomeo",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4zRVFTcDVuVGFpNkFPdzhHRzlmMmlpMW5WN3FGUXJkQUFoZThEX19MMndWVW5PUVJQTkZkT1VDb0lEQm83UGFzbXpsUkJzaGQyN1lLYVhncEh5T2dPZVh6SjBUQ2l0eVlzajh3MDVxMzA?oc=5",
+      "title": "Piano | Data-Driven Customer Engagement Solutions - Piano.io",
+      "summary": "Piano | Data-Driven Customer Engagement Solutions Piano.io",
+      "url": "https://news.google.com/rss/articles/CBMiOEFVX3lxTE5QclZ6REZuU04wMndCWlNqWU55UW9lcGtseEVleVZ1c1c4UDZJcFotd0E3VjdyWFY3?oc=5",
       "domain": "news.google.com",
-      "published_at": "2026-02-18T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "product designer emploi compétences",
+      "published_at": "2015-09-09T08:15:01+00:00",
+      "source": "Piano.io",
+      "watch": "Piano Analytics",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Piano Analytics (source surveillée)",
+      "lane_matches": {},
       "categories": [
-        "Marché",
-        "UX"
+        "Web Analytics"
       ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Avec Pyramid Analytics, ServiceNow ajoute du décisionnel IA à l'ITSM - Le Monde Informatique",
-      "summary": "Avec Pyramid Analytics, ServiceNow ajoute du décisionnel IA à l'ITSM Le Monde Informatique",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMEFjQ2J4bWpyU2k2Vmd6TTQ3QjZOVVg0SmZoZS0yOTlZN3kzcGkyU25xekhLemg0VTdJNTd5UW5LSmFUR1E1b0JHWW1udTczQVdfUmlIdWlvREo3VDAzYlVQY29YblFLNzFldEFXbmtqdzdGUE9QYmN0R3FUNGdOdHBFSWtZUVlFRzVOWllYOG04SGFSa2d2SkRobjh5N1JSU081WUNTLVBBaGJDcE5EdVY4aHhVQmE2dndvclg1ZXZWcFJNS2VLZtIBzAFBVV95cUxPcndpZW00TmtBR01NWGpZb3loVDNYUTFhd3lvbG5qTEpteTNlR01QX2NvcWV2Zy1wM21lWlFGcksyajdLZ2JxNjVtVWxtSFJXTTVQZzQzemlQX3VHV0pJdmRmTm9wUExhMC1zN2VNS3pCektXbVA0ZDdEZXVuaVlrcU5SNllXX29mZ2RiWm9NOWxja1lkWFhXUTNYcnNUQ3lFVmt0MEpqZXd0ei1qNnZqRjJIRXV5V1JEN1Nqa2FxUWV1WTJ5d1JfTTMzZHg?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-02-13T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "BigQuery analytics",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {
-        "Analytics": 1
-      },
-      "actual_keyword_scores": {
-        "Analytics": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "A/B Testing : La fin des devinettes dans le marketing digital - Dynamique Entrepreneuriale",
-      "summary": "A/B Testing : La fin des devinettes dans le marketing digital Dynamique Entrepreneuriale",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQnBHX3pGc3NnNUZJZ0JoeUdjQXZiRHlnaVpHM2QzcUtfODREX3RyUTZ5VGZ2QUNlUVFQdFZYZHU2cnhJWE5GeG5HZHhfSjh3enZ1dDVxcTdJbWFIY09lMERiWWdRenRjYVlHOVQ3ZWt1SmE5YWp5NTVfRVZ5T1BtdDV0Q0JvNGR2UTlCVmp4T3NwckdKbWFsWGdMenc1d9IBngFBVV95cUxOQnBHX3pGc3NnNUZJZ0JoeUdjQXZiRHlnaVpHM2QzcUtfODREX3RyUTZ5VGZ2QUNlUVFQdFZYZHU2cnhJWE5GeG5HZHhfSjh3enZ1dDVxcTdJbWFIY09lMERiWWdRenRjYVlHOVQ3ZWt1SmE5YWp5NTVfRVZ5T1BtdDV0Q0JvNGR2UTlCVmp4T3NwckdKbWFsWGdMenc1dw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-02-12T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "A/B testing experimentation",
-      "categories": [
-        "CRO"
-      ],
-      "keyword_scores": {
-        "CRO": 1
-      },
-      "actual_keyword_scores": {
-        "CRO": 1
-      },
-      "score": 3
-    },
-    {
-      "title": "Le salaire d’un développeur web en 2024 : expériences, compétences, freelance - Liora",
-      "summary": "Le salaire d’un développeur web en 2024 : expériences, compétences, freelance Liora",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB6WG83ZVpvMDNibGNLem1scXFOMldtRHJHWE1RVG5HYzFfR3FtbEtwb0ZCWTRXa3lhS2hHR1BpNFBCVUhMTk14UjBPRkNVVXBMeFE?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-01-29T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "web analyst emploi compétences",
-      "categories": [
-        "Marché"
-      ],
-      "keyword_scores": {
-        "Marché": 2
-      },
-      "actual_keyword_scores": {
-        "Marché": 2
-      },
-      "score": 2
-    },
-    {
-      "title": "The first episode of the Ads Decoded podcast dives into how marketers can leverage analytics and AI for better results.",
-      "summary": "Welcome to the first full season of Ads Decoded, a podcast hosted by Ads Product Liaison Ginny Marvin to bring questions from advertisers straight to the people designin…",
-      "url": "https://blog.google/products/ads-commerce/ads-decoded-podcast-google-analytics/",
-      "domain": "blog.google",
-      "published_at": "2026-01-28T14:00:00+00:00",
-      "source": "Google Analytics Blog",
-      "source_type": "official",
-      "seed_category": "Analytics",
-      "query": "Google Analytics Blog",
-      "categories": [
-        "Analytics",
-        "IA"
-      ],
-      "keyword_scores": {
-        "Analytics": 1,
-        "IA": 1
-      },
-      "actual_keyword_scores": {
-        "Analytics": 1,
-        "IA": 1
-      },
-      "score": 3
-    },
-    {
-      "title": "Web analytics : top 10 des solutions \"européennes\" - JDN",
-      "summary": "Web analytics : top 10 des solutions \"européennes\" JDN",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOekFnT2dCc19icFBudGJMY1BvSHNMNU1Gbjk1NDFXTGNIdU94UVBZYXJkazFjS0RuYzN5NUF1Vm5LRDhNZzVDZWQ4RTAwRkdidVRTaXhwOUdJNENodWFnUi1QOGoxOTk3cW5lM3ZZWXd6LXdvRllKUXl4NTF1dER6VXI4Q0hQMjVldGNJSkJLV3UzN3A3eFMyZjBkRmlwb3FqWnJsM0UxNndMOGdIeklz?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-01-27T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "web analytics",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {
-        "Analytics": 1
-      },
-      "actual_keyword_scores": {
-        "Analytics": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "AB Tasty change d’échelle. Retour sur un rapprochement structurant avec VWO - frenchweb.fr",
-      "summary": "AB Tasty change d’échelle. Retour sur un rapprochement structurant avec VWO frenchweb.fr",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDUwWXR4OFlidnU5RjhFczZTX0RsX2hUOG9teXVuMDhhTjhjc0JraklRQjMwWDMxd01RZkdYUTNzbGhYOWZMODh0aEdTclhUdHk2S1JUcVBRS2syVlVCWWgxRUJCTUxmZV8wZ0ViX1VsZ2dvV2oxUTJKdF9yU1J0dmxzem5HenY2cnhjMzVVTjY2cXhKb2VBeEowbzJzSGdlNTFrYWc2TTA?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-01-20T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "A/B testing experimentation",
-      "categories": [
-        "CRO"
-      ],
-      "keyword_scores": {
-        "CRO": 1
-      },
-      "actual_keyword_scores": {
-        "CRO": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "5 formations en ligne pour maîtriser l’analyse des données - BDM",
-      "summary": "5 formations en ligne pour maîtriser l’analyse des données BDM",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5sa0tyVXhHa19tTnNGbTZVWWhFdzdyVzZwQkdvM2RaOXJUVUpqaGdqTW9MSEdYbG50YkN0RlJXRTRIMmtrTHIwTDV5cEtUQXdTVnppd09xeFUwWVRjbzJhVXVGOTFvby1KcjVBaFk2Yw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-01-19T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "web analyst emploi compétences",
-      "categories": [
-        "Marché"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Envie de pouvoir dialoguer avec vos données où et quand vous le voulez ? Découvrez l’API Conversational Analytics de Google - Google Cloud",
-      "summary": "Envie de pouvoir dialoguer avec vos données où et quand vous le voulez ? Découvrez l’API Conversational Analytics de Google Google Cloud",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQYTNtRS1OM0g2UGpQOEl5MVlyN2p2d1dWZkkxRzUxWGg5SFo3MWFDbGc1V0syV0tjaWNXaEZJSktRVGRZRE5LTzlobXRGRnpqOGN0Nm9fZ0VlZFA5ZmJMTHRJUjdLV2d0MTdVQXUwVUVnMmFSOGJHdDhxMlJzTlVTYXFMc2N2YkVpMTBwaFBuU2I0R0NhR1BnQlVSQmdVczRqS19pRktYd0x3c2RPb2lRQjNZbmxodEVFSXgxQ2RyRlFPa3JEZTZTRDFHcGpNcDZReEFkOV9nVm9oSnlFN1FQczBWbXVIeGx3RGRVcTRHU2FtV1MyNnlqNEJXanFsSG1qYnhUbDJHSW02Mzl1TVE?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-12-23T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "BigQuery analytics",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {
-        "Analytics": 1
-      },
-      "actual_keyword_scores": {
-        "Analytics": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Google adopte le standard MCP d'Anthropic pour transformer ses services en outils pour agents IA - abondance.com",
-      "summary": "Google adopte le standard MCP d'Anthropic pour transformer ses services en outils pour agents IA abondance.com",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMHF6TldLMWFjVkRIME9KazdlNU5nVnJucmVQMkJJbFRSTkc0cThtem5PWk04MWNYalFVYlBiak9EbS11ZEtqQ3ZVT1BNdHViOXprMUFnRVp5TnBBZ2hBSFVoVUxGc2tJZGtkWnlHU3JXb0xkZ3B6RG1XcEFuenpqSmFwWDBrWjJjdFp5clZWWVVpOFpEMC1rbXUtTDZuTXZ2T1BoZW1DUm5SanpSbjBpWExOUnlPRmlmN3pLaVlZV0l5RThzVFJzX2R0Q3pUcEFNX0JhaVlPX0NoZkk?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-12-17T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "BigQuery analytics",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Top 3 des meilleurs outils pour les data product managers en 2024 - Theodo",
-      "summary": "Top 3 des meilleurs outils pour les data product managers en 2024 Theodo",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdGNSTnhxeDRGMHZsWjYwOV9hb1EtcHpTY0NGRkJKMDBKVHY0cDJMWmpQVFRwdmtqUGQyYmtWTEdXSzgxUHlZV0ZSeDh4OTB2V3RsUTFyallDQlFLRVdxdjhWYUQtWkM4WGxBSmlyNTRpU3hoaXk2UWw3UjQ1ZWxyckQ4UElvelBnTHcwMUxQZzZTRDE0dHdzZA?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-12-16T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Product",
-      "query": "product manager analytics UX",
-      "categories": [
-        "Product"
-      ],
-      "keyword_scores": {
-        "Product": 1
-      },
-      "actual_keyword_scores": {
-        "Product": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Webyn, l’IA qui améliore les taux de conversion des sites - ITforBusiness.fr",
-      "summary": "Webyn, l’IA qui améliore les taux de conversion des sites ITforBusiness.fr",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZVdYXzZiMnE0czVTSDFQcUh0NURwdGtzdVR2Z0FjNHpJUU5jZVB1bnBLTUJNcnkzcGlZZDFoQTdpMWtKdG5QSnp2S1Nib0xUa19uQ09JTE9vRHlhaVdqTzFZa1NmWmFjTzJrX2xlX21QTkMxMk5mSDNyYVBSaS1YajNfTHhoYXVWQ19YVDdhc0xKWU12?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-12-08T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "CRO conversion rate optimization",
-      "categories": [
-        "CRO",
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1,
-        "CRO": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1,
-        "CRO": 1
-      },
-      "score": 3
-    },
-    {
-      "title": "Combien puis-je gagner en tant qu’UX designer ? (Guide des salaires 2026) - Coursera",
-      "summary": "Combien puis-je gagner en tant qu’UX designer ? (Guide des salaires 2026) Coursera",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sMDFtM2doTzR2M1V3LWdrQ2tGUU9fVGsxcnM0MGJmWFJXWTdHck9ONlAxNmdEakZZV05xZk1zVkYwbXVGVVM2NVlzdEhWcUZLbTdfWHg1d2hPQ2VnU2lGREtLT2Zhb0tUOU8zQXFHdGtJZw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-12-05T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "UX designer emploi compétences",
-      "categories": [
-        "Marché",
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1,
-        "Marché": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1,
-        "Marché": 1
-      },
-      "score": 3
-    },
-    {
-      "title": "5 professions très recherchées nécessitant des compétences en IA : un guide pour 2026 - Coursera",
-      "summary": "5 professions très recherchées nécessitant des compétences en IA : un guide pour 2026 Coursera",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBnUFFSbjE1YVQ3VXM3ejQ4VkMycUJFMzZMWk9JUnpqZkpMNTdJXzNtSjdXdHRRenA0T2s2dFE1enY0TmJuMEVYQURnZm5jZnpBWHQ2MC1aM2oxeHJ6Y3c?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-12-05T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "product analyst emploi compétences",
-      "categories": [
-        "Marché"
-      ],
-      "keyword_scores": {
-        "Marché": 1
-      },
-      "actual_keyword_scores": {
-        "Marché": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Que fait un data analyst ? Guide des carrières 2026 - Coursera",
-      "summary": "Que fait un data analyst ? Guide des carrières 2026 Coursera",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONmQtT3ZWXzlIeVhiLUg0RmQyZzc2TEpJODVmdkdhWlJURTI3OHBCM0lIeHV5NkNPMU9tUDhvRFdYc2hkam12YUhRNzlTS2U1YXpEN3ZkNGdZYm1PemhPM3RJM2stVktJZWF0WF92YkV4dmRVbGR1d21Ca1FROGtsanozWjNoVFVoOVE?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-12-05T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "digital analyst emploi compétences",
-      "categories": [
-        "Marché"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Métiers du digital : les nouvelles compétences qui feront la différence à l'ère de l'IA - journaldunet.com",
-      "summary": "Métiers du digital : les nouvelles compétences qui feront la différence à l'ère de l'IA journaldunet.com",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZk5SZ3Zuc3p4VG5ES1VFQVpyS1F0VF9vR3lQZFBIYmVKQlYwQmdBbTh1eC1GWjdUQ3VBRkZtcEJ5UGFkUzRHMUdmUDdwUEx5MU5xVDJNRm9fVEVmZVV2eUR3WDZTMGI1UEV5Nm5oY3pWVFMxNHVpNHJaU1ZJNlEwbTlxbldieTJMOWtpQTFzZzk1MUV1d1RzN1F1YUU2dVU4SnM2cFlsdkJtN2FMZU9uVWlNZFlBM00wOVF0TlYzVHptc052VXJMMWNYNU5wem8wRVVVOUt1WHUyaWQ1V3ltSXhB?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-11-21T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "UX designer emploi compétences",
-      "categories": [
-        "Marché"
-      ],
-      "keyword_scores": {
-        "Marché": 1
-      },
-      "actual_keyword_scores": {
-        "Marché": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Scalapay et Payplug ensemble pour optimiser la conversion des e-commerçants - EcommerceMag.fr",
-      "summary": "Scalapay et Payplug ensemble pour optimiser la conversion des e-commerçants EcommerceMag.fr",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcmxFNnFjQTRrellPbGdQR2dXMk1wRmQyUDhEWl9RbERnQVBpVzkzUEV1UGpFS1VvdzZMNi1JMXl3TnltdEluQUxhWGdndHl2UnNJRkpqcVhzLXlpTGItS21OYkdiUFZfSngyZ2RXTVlDOGFqVWxreEtPeDJnZ3NlRW43c0dPem5IOGwyUE5Ma0tPa2VxQWQ4dHloOXNaaC05R2gxeTdHRWNWY3pGZzZMYXlkV0Z2dzVpMktudDZqSHI2QdIBxwFBVV95cUxNV2ptanFRMjdJRDZUMmJfb3FIU2pzSVRSMDU2NEFVa3pVTFhNMFB0NEM1dmRYdVRib21JQ2pTbjRYVzc1SGpvaVFhVXJEVHhRSnhnN3hOMFByRXd3Y2FwSnNJMGQzSjBIb3MzWWlYQWJmSEptSDZVc1loUFpScDM4QlVFdU5UN2xHbTZYR3VoVlhQWm5EclFFbTFVbDExem9WcDRJdE5YYm9ZbVp4Z2pkZFBmek44eWJjN1pyR1pjR0NFUHJYVnFj?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-10-31T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "conversion optimisation UX",
-      "categories": [
-        "CRO"
-      ],
-      "keyword_scores": {
-        "CRO": 1
-      },
-      "actual_keyword_scores": {
-        "CRO": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Nomenclature des profils métiers du SI – version 2025 - Cigref",
-      "summary": "Nomenclature des profils métiers du SI – version 2025 Cigref",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5VblRyZmlSZjlsWWEyeVdWbXp3cE02Z0Zvem5fbGYzMTZnUFRGdm1Lc0dUSDBKWWhjSzczWmZiT0k2c0tWQ0t0TS0xNDJqcDNQbHBmLXBWSFB4YWtWUFZVcHNQaGg5LU9QTnZfLTBCUUNRcnJrdHQwNlJWNXVPdw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-10-22T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "UX designer emploi compétences",
-      "categories": [
-        "Marché"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Freelances : quels sont les taux journaliers moyens dans l’IT en France en 2025 ? - BDM",
-      "summary": "Freelances : quels sont les taux journaliers moyens dans l’IT en France en 2025 ? BDM",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX3pNY2JmbkZjaUhVcWNya29PZUZLX0N6WVFhX2p5VU1uenZZU2dETFU4TnZCczc2S25kMHEyQ1N3MTlwdWZHUjlNclhCUHUyaDJIc3dWTjdhdW0za0NCM3h3dXBlQzBKa1djTEFwMHJkelgyX1EzWVl6LVJ5VWkwZlZGRnpWaU8taGRV?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-10-14T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "product analyst emploi compétences",
-      "categories": [
-        "Marché",
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Open data : quand les sites de « tracking » dévoilent des mouvements stratégiques - Institut des hautes études de défense nationale",
-      "summary": "Open data : quand les sites de « tracking » dévoilent des mouvements stratégiques Institut des hautes études de défense nationale",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUmMyb2lROE5qV2xvTW1WMnFQYXFJUnhKV1RldllUdVBVbks1TnJWU3QzZ2VEaXNOUUQ0NVVWOEh0OG13dWIyZVZXRjQ5aDBkRm04QXVZazB5aTZNMm50SkFxZi03d21jRnhQVjA3aWFwWHhhWW9EYTluSXFRRm0wdzgwY05KNDJ3bTQwZFpzeDMzQjg5QlV4YUVWSnhTVVNhcTdyTnEwd2Q2UU9feDY4?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-09-22T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "tracking analytics",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {
-        "Analytics": 1
-      },
-      "actual_keyword_scores": {
-        "Analytics": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Data : 5 métiers les mieux payés et qui recrutent en 2025 - BDM",
-      "summary": "Data : 5 métiers les mieux payés et qui recrutent en 2025 BDM",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1kNmhscVBaeXlpMHR2WVFTUHVub0dyXzhLeXRFSkFlal9JZl94UmdidW14bkFVZHRkblVwR3JrWkVINGNrb0JGQ1dNU2UxdmFlT0lVSnM4N0tKc214amdXM3pBSWN2bVZSTjlVQU9PaUVIWkNHN01McC1QYWkwUQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-08-27T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "digital analyst emploi compétences",
-      "categories": [
-        "Marché",
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "L’évolution du Product Management à l’ère de l’IA : vers une nouvelle génération de produits et d’équipes - Ville Intelligente Mag",
-      "summary": "L’évolution du Product Management à l’ère de l’IA : vers une nouvelle génération de produits et d’équipes Ville Intelligente Mag",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOOFdJVXo3Q1RwTEowaEhkajBsYll0U2lOZlNUQXFEV2pRQXZCelkwank2bjMyVXM1YkZtT1lSRng2UkkyajBSaVhuN3hSMDRxWjZDc1pBLUJKUDdDSmU3TzhJMFpZLXZJTHR5MlJwcTBTejNfVkYtYnlkUGpVWTFlM01CX0t0TjVMYlU2NXBVeS1tXy05UUFWLWpIMGw3N0FkT1owLXhTUUN1TGVjNmx1X1ZHTllweHpmOHl5N0V2OUo1NkxuNjVESFA3anNvdWxYaHd2Yk1FNnJaa2luRU9fNWFYUm4wQQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-05-26T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Product",
-      "query": "product manager analytics UX",
-      "categories": [
-        "Product"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Pourquoi l’optimisation de la conversion devient plus stratégique que l’acquisition - frenchweb.fr",
-      "summary": "Pourquoi l’optimisation de la conversion devient plus stratégique que l’acquisition frenchweb.fr",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQ2VKQmR3UjdISnRmTV81VHQ4em5mTmV3R282QnEzbG9lY0lpdlVHX0VpUHVNUkl3M1FWbHYyR3JFQnk2Ty1JbnlMcmlVQVNzM1FTMnZjaE9jXzJrSjI3NjA5LXc2N1ByZGpOX3l5TWNQb25zSnJaTlg0dDIxbmZtcUttREhKdXYtWTVBYkFnUWNzMUMyMXZCMmt5elpGMFU1M2YtMm9fbmtJSE9ETjlLVlJDMA?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-04-24T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "conversion optimisation UX",
-      "categories": [
-        "CRO"
-      ],
-      "keyword_scores": {
-        "CRO": 1
-      },
-      "actual_keyword_scores": {
-        "CRO": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Top 5 des métiers du web qui recrutent en 2025 - emlyon business school",
-      "summary": "Top 5 des métiers du web qui recrutent en 2025 emlyon business school",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTFFkLVBkT0trT21BZnpZMlpUbWJyWG1uUmxUQi1zSTFnVlBWVlNKbkdUMkZQeWdONDBnNkhNUkoyanMxdy1hcWhMWFd1TTJNWTBnTFpuZVFabXIyVDJXMkU3dTR5VXJSOVNNUDZzYjNHTEIyaldZUU5SZGVTOGZEcGx3aw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-04-01T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "digital analyst emploi compétences",
-      "categories": [
-        "Marché"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Des salaires IT stables en 2025, en baisse dans les data - Le Monde Informatique",
-      "summary": "Des salaires IT stables en 2025, en baisse dans les data Le Monde Informatique",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNmlGaXJoaWZTVjRZVzR3Uy1YWTBnY3ZDX0t0b1Q3Tnlkc0k2d1phS0luaU1fZ1FlRWRlT01YLVgtbWt5VnZuTktoSFFSWEJsQm51Qk5RLS1RLWtucm93Q0JlNjNxQzBUeDRMa0wwOVF3akJsSlBQZ01nRVJaVU90MkFlR0RCMzZoUTZQaEFhbHBXZDdYMjlCOU9tdThrVWtma3BZcktqTmItZUhFYTdNbHBwc2tpenhm0gG8AUFVX3lxTE9PX0NtNXBhMGV3OWFYQXFVZXFxZjBYektYbkNsU00zT01RT1k2Tjl4bHRPcXRXUk9QdjdfbEV0Vi16TG9ORkRoNnM1N19wOFRwUy1RWVNEX3JONE9CS2hMOWJIX0IwZzExQzNiX0dwSWxxWFZLN2txZHRqVVFQZkN3SVdndlFKYlV6WlJlTGIzOHJiUkdNeEtYN0h4X1JMQUJFa0I5OHA3bndLYkZoaDA0Mkc4dW9vUk9UZUZP?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-03-20T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Product",
-      "query": "product analyst",
-      "categories": [
-        "Product",
-        "Marché"
-      ],
-      "keyword_scores": {
-        "Marché": 1
-      },
-      "actual_keyword_scores": {
-        "Marché": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Data analyst : un métier emblématique de la révolution numérique - Le Monde Informatique",
-      "summary": "Data analyst : un métier emblématique de la révolution numérique Le Monde Informatique",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUW5pa25iYk9GTUtFcEtrc1VVWjJldl9XbWNFNEhaTGR4aTE0ZHNDSDhKMXk4SmNsMHdIWXBJMjB1LXo4bnd0NWo5TDBhQnVHVGtCaTFJajQtQXFGLXJ6RzFyT1FtbWZyU3RFTEI4R0phU0tfVmpBMk85a1lQY0xlVEViSE92aEVEb0VnTlhRSnBvSzRsU2tVelRtNVNOcE9ZOFpDcGdUQWx5U2kybjZONE5STU9ZdHhuTk5FWVlyWmw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-03-18T13:00:33+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "digital analyst emploi compétences",
-      "categories": [
-        "Marché"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Snowflake Ventures investit dans Anomalo pour la surveillance avancée de la qualité des données dans l’AI Data Cloud - Snowflake",
-      "summary": "Snowflake Ventures investit dans Anomalo pour la surveillance avancée de la qualité des données dans l’AI Data Cloud Snowflake",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BekRkV3NUMmswQm5PM0RwUlFhOG9oaHI4MHVhTUU0X0ItNVFmWnk4REdpUFFfdmlIZThTYVFFSHJ1NXNCcEJIZnlLRWs3cEtoTFhHcXpNRFU0Z2U1azdPd3FPTzh2emp6MkVXcVhneVhMejA3TlZ3b2lPQ1FydHM?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-03-13T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Analytics",
-      "query": "data quality analytics",
-      "categories": [
-        "Analytics"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "La liste des métiers du digital qui rémunèrent le mieux en 2024 : tech, product, design, data - BDM",
-      "summary": "La liste des métiers du digital qui rémunèrent le mieux en 2024 : tech, product, design, data BDM",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOU1Jpb2tsMEFRb2dkbE80UUNGNkRzT1ZfYmItb01VNHFZY0tXQ19EanRmZkUwX09KS3NvWDExeGZxYXo0ZjQ5WVJ3dExVMWdNcDU5TTh0cHZWNVQ2ZXJOcnE2aW42clBxS1BZYWlYMGNFOE5uaHVqZEQyTzlsNzFUakFBWQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2024-05-28T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Product",
-      "query": "product analyst",
-      "categories": [
-        "Product",
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Les projets big data en manque de compétences - Solutions-Numeriques",
-      "summary": "Les projets big data en manque de compétences Solutions-Numeriques",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOT1p5MWdWSXl3bEhJRGZsSDVvN1pObWtPZjhLR0FZRFZ4QURrRjBxamoxc3lvLTZreEVQUmpPRGl6bjRUNmloeFI0dFFvX0VKV1huMnpacTZZTlgyeFVBTV82bFBBaV8yc1ZjRkVsT1J3LTZScHM2RUw3dldzU0pQNHFpcjhsaTlyZmJz?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2024-03-21T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "digital analyst emploi compétences",
-      "categories": [
-        "Marché"
-      ],
-      "keyword_scores": {
-        "Marché": 1
-      },
-      "actual_keyword_scores": {
-        "Marché": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "E-Commerce et UX : les bonnes pratiques de Fnac - www.republikgroup.com",
-      "summary": "E-Commerce et UX : les bonnes pratiques de Fnac www.republikgroup.com",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONkFyVHdob1hUSnpqTDJWUDNjREE4WFAzQmNwUktJMW13eWFrRk50X2ZGemhjeVhWUjFQUVFveXlTa3NQeGdoU2tjUXVMRlFzdzVLcWQzSUpPSklxc2dIbmlOQmI2SjRaZjAwYl9ZeEpBakpWXzRsRmFPaTQyaXF2cGdmYVg4Y3c2VG5wS3A3bElKX0NmWFJQbzcweE1Hb0NKcGdHV1ZHbTlIbXhKaVNCX29BMm9PZnhreGlueUVB?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2024-01-03T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "conversion optimisation UX",
-      "categories": [
-        "CRO",
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "UX Design : cinq métiers émergents qui exploseront bientôt - ITforBusiness.fr",
-      "summary": "UX Design : cinq métiers émergents qui exploseront bientôt ITforBusiness.fr",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTk9JVlJtYmZTZTI5WEpUU2FPS3VJQWlkQV83UktIQTQ4NDZWRXB4d1YxLWFjazlGVVIwTk1rSDFhUnJKb3FXaFhoYlB5YkNaOXJYczFBQnQwMjNubWFWZl91anN5QVJsYjNqOWp3di1DellzaVZtTnY0dDV1UVdXUWxIQjF3d0FNdVJORUlvaG42Z3I4SkE?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2023-11-30T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "UX researcher emploi compétences",
-      "categories": [
-        "Marché",
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Baromètre de l’UX dans les entreprises en 2023 : équipes, budget, outils utilisés… - BDM",
-      "summary": "Baromètre de l’UX dans les entreprises en 2023 : équipes, budget, outils utilisés… BDM",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA0V0F5ZXZnQVdsdXdkaDN6WS1DZ2QzUlJUZEFud3pBbVVTWDUzejNqSFVJLW9fNUd2ZERKNnRIcDlmZy1vc2FKZmk0WTh6bUFJMzd0ZlRWekZlaFBEa2JiYmdScGF5TlluMkdQV1c1bHA?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2023-07-07T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "conversion optimisation UX",
-      "categories": [
-        "CRO",
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "« Infirmier pendant 8 ans, je suis désormais analyste en cybersécurité » - Les Echos",
-      "summary": "« Infirmier pendant 8 ans, je suis désormais analyste en cybersécurité » Les Echos",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPNC1laUVnVHg4U05aSl90TXFFTmNRY3pqS3JVeFF0LWV1WlpPbm1zYlpUSXlRcGRXcTBodzZZLUdBNTRZUFlSblNhcGRTS2dhN1h3NUpqUmlqaEVYeW16STZROWxMejRTZEp3ckVrSk16WEpwa2ZZR3YxVGJHS3ZnZHBkOW1rR0hOWF9wVldRcEtmRmF1MnYxanp5QWRIX0prSjNmaXM4LWtTbVBVLVMwbU9meS1nOTREeE16OE5OeTRYOHhvUFdYNEtReER4XzYxd1pGU3RoS1NFeGtPYnUyU2FZa05IQ0dQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2023-02-20T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "web analyst emploi compétences",
-      "categories": [
-        "Marché"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "L'UX Research recrute et attire les profils en reconversion - Cadremploi",
-      "summary": "L'UX Research recrute et attire les profils en reconversion Cadremploi",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZHRNXzV4MWxlOFNHbjBlakRuQXA5RXM2OS15R3VkQnlVTVFZSmd3MVI4ZURvTk0wQ1FodTZYZDcySDlSUnNtdkZZSzU2ZkJ6YUw4YUlLNGs2UWQzTVExTEZWa09ZMXJXTU95MnFISDFFZXREN3Z5WGxkNEtZOHNuRmxxWjdOQXlBaHctaDF0Z0lwTjVDUFVhYm05QWxPbEEta3hmRmJnN0ZPcU5qQmNLZFlLSGdGaXBfdGVZNzdn?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2022-09-29T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "UX researcher emploi compétences",
-      "categories": [
-        "Marché",
-        "UX",
-        "CRO"
-      ],
-      "keyword_scores": {
-        "UX": 2,
-        "CRO": 1,
-        "Marché": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 2,
-        "CRO": 1,
-        "Marché": 1
-      },
-      "score": 3
-    },
-    {
-      "title": "Pourquoi n’est-il plus possible de passer à côté du CRO ? - J'ai un pote dans la com",
-      "summary": "Pourquoi n’est-il plus possible de passer à côté du CRO ? J'ai un pote dans la com",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWGhaWW5ITVBLU25yMzA3VEphTlVCZmFBeUNzQTFJVjdaRUNRcFh3Yk80ZHNEeWRKbjFHcUJsS0oza2hSTEU5b29senM0MGN3aUVMUFhKT1d4cXhhNFZmMTFiM2pQcXBIM0Fnd2h2RHdHeE1fNXJZZU5tUFpMS0VMOHhkU0otRF9XSS1MVGE0d3U?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2022-01-21T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "CRO conversion rate optimization",
-      "categories": [
-        "CRO"
-      ],
-      "keyword_scores": {
-        "CRO": 1
-      },
-      "actual_keyword_scores": {
-        "CRO": 1
-      },
-      "score": 3
-    },
-    {
-      "title": "UX design : état des lieux, missions, compétences et formation - BDM",
-      "summary": "UX design : état des lieux, missions, compétences et formation BDM",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPS1V0c2JlWlNBcmlnNmNzUG9XcEdZZ2djb0NRWGtvX28xSU1uWjBoa0xleEhla1hfMUZ4c0dObGF2OEI5NkQ5LVdDMlNwVTJ5am8zSTd3RFlKendpMTF0aUtjd1pjdzVkSWQ5MkQ1aERQcmlOV09CeHdZYmZkV0dTQURFNURVSFVWLWxwN2ZrY25aSzA?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2021-05-27T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "UX designer emploi compétences",
-      "categories": [
-        "Marché",
-        "UX"
-      ],
-      "keyword_scores": {
-        "UX": 1,
-        "Marché": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1,
-        "Marché": 1
-      },
-      "score": 3
-    },
-    {
-      "title": "Formation : les métiers de la data science, une valeur sûre sur le marché de l’emploi - BDM",
-      "summary": "Formation : les métiers de la data science, une valeur sûre sur le marché de l’emploi BDM",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZENfZFEtbkI0X3VCWlJkaXV1elJlWjNEMnhnaklnVzRwZmdDWjZJekJ5NE9lZllxUnN4QkZHMnZ6QVlOYW1jX1E2cmtBUHhJVFpDbkJmVGswNlhCT0pCUktaUUFHUUJWcERkN2t1QnU3ci1TQ2xRbklCYTlNTWF3RmdEUE5PWDVObXFZSXZ2a3l0bmxv?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2021-03-25T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Marché",
-      "query": "product analyst emploi compétences",
-      "categories": [
-        "Marché"
-      ],
-      "keyword_scores": {
-        "Marché": 1
-      },
-      "actual_keyword_scores": {
-        "Marché": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Développeur, UX designer, product manager… Quels sont les salaires dans la tech ? - Les Echos",
-      "summary": "Développeur, UX designer, product manager… Quels sont les salaires dans la tech ? Les Echos",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMVU0bkZzejI0RzhNZ2pzWEFnSUd3TEo1RTNsb18wdGkwN2prRmdCT1lkUTFjcjlmSHZwOFhCU00tSk9zcFlXMGdERktLN280bXNPei15MDgxcHU3NzNpaWpZYzZmTV9xTk9GRVprcUNqazl4SHhHdlBncHNmVjFMLVh3dTlNaXVhb1o2TWJzY1NqcFA0UmtMWUhMek5WMWVBSFppSHdMOTZWS1BJNkRFMkdVMXVEOElTcHV4LUVmZkFlakxBTHduVzBiQkdHMkE?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2021-02-17T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Product",
-      "query": "product manager analytics UX",
-      "categories": [
-        "Product",
-        "UX",
-        "Marché"
-      ],
-      "keyword_scores": {
-        "UX": 1,
-        "Product": 1,
-        "Marché": 1
-      },
-      "actual_keyword_scores": {
-        "UX": 1,
-        "Product": 1,
-        "Marché": 1
-      },
-      "score": 3
-    },
-    {
-      "title": "Cyril Clerc nommé directeur général France de Kameleoon - CB News",
-      "summary": "Cyril Clerc nommé directeur général France de Kameleoon CB News",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTDNUa0xpR0RGWEZHeDA3cl9wbXJrRDdFMXpvM1Q0T1g3VjFiR0I1Zk5fUlY0Sl9ZaXhvd0NjLV9ObzlvRlE1cjhicmJ4T1NTdEMzN2FCdTVVdWl3VUptYjFYTGRYd2lHS281aHpfRVVTdU5wRmRLODY0Y2RpZ0tYVkZYUFNJNl9mNUhXQmFR?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2020-12-17T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "Kameleoon",
-      "categories": [
-        "CRO"
-      ],
-      "keyword_scores": {
-        "CRO": 1
-      },
-      "actual_keyword_scores": {
-        "CRO": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "MarTech: Kameleoon lève 5 millions d’euros pour prendre une longueur d'avance en Europe - frenchweb.fr",
-      "summary": "MarTech: Kameleoon lève 5 millions d’euros pour prendre une longueur d'avance en Europe frenchweb.fr",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaEtBMjJDajJEdUdpcURhYXp1WXdYaWN1OU5oMzloWEhEUUgwNll6RXdVcExFd1hWcVBlQVlrVXNxVUVJUDdWZ3o0ejZpd1M3ZkRFeGY1VUhHZW9ZLW01aG5QaG02RWpuYkVrTzJTak1FVUhJNGw2QldiRnpndmFIYzJrbzBQSElIOU1FODZ5TGtUVlN2b0NVejFDQno1WXdRRmpWcVNwUlRjai11bmxfSGUxOWxfTEU?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2019-07-01T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "Kameleoon",
-      "categories": [
-        "CRO"
-      ],
-      "keyword_scores": {
-        "CRO": 1
-      },
-      "actual_keyword_scores": {
-        "CRO": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "5 millions d’euros et Anne-Claire Bellec au marketing : Kameleoon fait un strike ! - en-contact.com",
-      "summary": "5 millions d’euros et Anne-Claire Bellec au marketing : Kameleoon fait un strike ! en-contact.com",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWjd2azBQTDVudDdBN0JGNWotOXZrcDNmYlRndnJRWG13TV8zYy1FZ0x2ZlNWNmlPX0pfZGNVT1VnUUpiTWZDMUlrbEhPWm5lMno2OVlub0NGeURjRTdPRkVDSTA4S2lfUjFObC11MXp2UlZzNmlOS0plT2RtWjdDWExQNWRmelM3bXkwb0lsaw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2019-07-01T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "Kameleoon",
-      "categories": [
-        "CRO"
-      ],
-      "keyword_scores": {
-        "CRO": 1
-      },
-      "actual_keyword_scores": {
-        "CRO": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Ils recrutent : Numberly, Insitu, Page Personnel - frenchweb.fr",
-      "summary": "Ils recrutent : Numberly, Insitu, Page Personnel frenchweb.fr",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQl9mbkxkZV9SMVVCLWVuLVA0WnN6MEt4YnRXUTR3MUZ5LUxVd2IxVUdYMUxxODlBUklXSV9NYThqMmhwMXNleUdtX014a29HamtHNWx2SE00bXJlYzdwcDJaQnZXOGw4aUJLWmVMSEpvX1JUY0o2LXFaZ0QwemtzRE1n?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2019-01-16T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "Product",
-      "query": "product analyst",
-      "categories": [
-        "Product"
-      ],
-      "keyword_scores": {},
-      "actual_keyword_scores": {},
-      "score": 1
-    },
-    {
-      "title": "Jean-René Boidron, Kameleoon - A-B testing et personnalisation des pages web - Témoin de l'Iconomie - Xerfi Canal",
-      "summary": "Jean-René Boidron, Kameleoon - A-B testing et personnalisation des pages web - Témoin de l'Iconomie Xerfi Canal",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMExSZXMtQTNacHkxZUlZd0pHcTF0bUxfMHRPY3RWZjNEa1JOMnFyMG1qLW45YXZSNWNRWVNMajdkX090WUZtZFBlZVRQbk1nSTE5WHJyQ1FBWlJ5YmRuRDlKYy1wRkVvOGpZSFRsQjFqVXVQUVltYWtpREVrTkhWbERrVGNFaFNvTXBaa0dIRC1BMmJjZzQtbVJ3MUFpSWRpQzZQMS1UV01BM1B1bXROT3JmZHVyUEhValA5YzFfTGtFN05yR2M0SmpR?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2018-10-06T03:06:19+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "Kameleoon",
-      "categories": [
-        "CRO"
-      ],
-      "keyword_scores": {
-        "CRO": 1
-      },
-      "actual_keyword_scores": {
-        "CRO": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "AB Tasty : \"Des algorithmes prédictifs au service du marketing\" - Les Echos",
-      "summary": "AB Tasty : \"Des algorithmes prédictifs au service du marketing\" Les Echos",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWWVEUk9MdFFYU0RuVXFaMmxKTmZfUk1kS213NmdKS0JwY0lSWEg2aXQ2WENieGpaUGFnWVBiX20wbG1MaGRReTNKSEg3MVBEWVdLVFNzOUI4ZUxCcUdVNXVrQ0ozbWhhR29NMXFMV1lpT1dxb0szZUJFTDBLMURHeUZkRUpQV0FWSURwZEVHamQtS1JNbXBydi01bUJwT0RrWmptYmV5QUI1b25mcDZaNFVR?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2018-01-22T08:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "CRO conversion rate optimization",
-      "categories": [
-        "CRO"
-      ],
-      "keyword_scores": {
-        "CRO": 1
-      },
-      "actual_keyword_scores": {
-        "CRO": 1
-      },
-      "score": 2
-    },
-    {
-      "title": "Pourquoi la start-up Kameleoon a choisi de s’implanter en Russie - Les Echos",
-      "summary": "Pourquoi la start-up Kameleoon a choisi de s’implanter en Russie Les Echos",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdDZtMDZLcEloY3RxTlZ1cEV6aE9rZmNwQlJJS0ZxblFXdENXTkdkbm0yQTJDTFRLdU8yTXUyeGdYbkRsaVZaT0JkQnBBaFAtdVlTQlpianQydHZFcFVETk83OWdZWDg1bXBrUnJJWEp6TGdNb2FqSzktZUVybUFGMmFHSE5nVjhEVmlIZXJPdEVxc1ZTcWRjWkV2MEdDbnJSeklUOWRtLVJuUEZCN2ZhaEo4dWtHZEZ5QUpZMmtoQzY4aHRNNHJVVjlmZWpySFN0NE0tNFZzVGQyb3Mx?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2017-05-03T07:00:00+00:00",
-      "source": "Google News",
-      "source_type": "search",
-      "seed_category": "CRO",
-      "query": "Kameleoon",
-      "categories": [
-        "CRO"
-      ],
-      "keyword_scores": {
-        "CRO": 1
-      },
-      "actual_keyword_scores": {
-        "CRO": 1
-      },
       "score": 2
     }
   ]

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T16:30:44.237564+00:00",
-  "count": 56,
+  "generated_at": "2026-10-27T16:32:26.009964+00:00",
+  "count": 52,
   "items": [
     {
       "title": "PostHog · Agent skills agent-skills-v0.3825.0",
@@ -172,6 +172,27 @@
       "score": 3
     },
     {
+      "title": "[GA4] Campagnes et sources de trafic - Google Help",
+      "summary": "[GA4] Campagnes et sources de trafic Google Help",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbXpqanh4UmYtMmNhcnE1bmM0MzlUczVjUU5aTERCel94U0RLbTFKQnB4R1hIc0l1UzNVNzhhYnVwQXd4amItY3dfNU9talJhZHpfVTJpVEdoNncyMC1nR2lubFBVaUxzVVY4UC03OEVoYjNnNHh5bUtfVE1LTkJrWkl6Z1lkek9mQ01sUVo0UkthM29M?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-10-10T19:09:03+00:00",
+      "source": "Google Help",
+      "watch": "Google Analytics Help",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Google Analytics Help · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "ga4"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
       "title": "Lighthouse · Lantern Test Data",
       "summary": "Golden trace datasets used by `yarn test-lantern` in CI.",
       "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/lantern-test-data",
@@ -210,6 +231,28 @@
       },
       "categories": [
         "UX / UI"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Pays Sénégal absent lors de l'acceptation des conditions Google Analytics GA4 - Google Help",
+      "summary": "Pays Sénégal absent lors de l'acceptation des conditions Google Analytics GA4 Google Help",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQWnJSeXpMbXNOX2pWN0h6RlBWYzk4eGZOVVE4azI1OHVKVnk2X3FMQVhhNmVTWldrQ1NYcTdYd1FTTENfby1ad01VRl9KXy1fbTNPNXVrWDcyaERLX20zaXVSczhvVXlBQVpJNFlkYk9jczhZQm93MDJuaEZmc3h3a1BOdU9JQ29ubmd2RF9PeVdELU1JcWdybW5NVjY3b1NUNi1DaXp2a0RmZURVX2hIZFdMUDlRM29UQm9KNy1zNXJKcWxidE9XeC1hcUticlV5bmpfMmVjdEs?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-10-04T07:00:00+00:00",
+      "source": "Google Help",
+      "watch": "Google Analytics Help",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Google Analytics Help · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "ga4",
+          "google analytics"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
       ],
       "score": 3
     },
@@ -317,27 +360,6 @@
       "score": 3
     },
     {
-      "title": "Aperçu des visualisations | Adobe Analytics - Adobe Experience League",
-      "summary": "Aperçu des visualisations | Adobe Analytics Adobe Experience League",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNWM0NFlZNUROcU9qLWZNa2ZEQlhzSkpKUlVqOTc1ckxQVkxEcVFIZU1uSFplYThhRkpyNzhiakozNUg2VVJpc0NzZ1BWZWRlODZ4VzliTThaTmtMZ3V1aHhTM2ltcV9LR19ZaDgwZ2l2LWdxR29FdHpoNGQ4OFE4R20yVi1CMGk4TE9uTzlDUmdXeDBBb0N2NEM4QkJIanJTNlptbms3OFVXanhDQUFUMk5LeC1abFk3UDFFWmkxTFhZTnRTc1E?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-08-13T07:00:00+00:00",
-      "source": "Adobe Experience League",
-      "watch": "Adobe Analytics",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Adobe Analytics · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "adobe analytics"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 3
-    },
-    {
       "title": "axe-core · Release 4.13.0",
       "summary": "In summary, this release adds: 1. Support Element Internals: A modern way for building accessible component libraries Axe-core is the first accessibility tool to support this major new web feature! Thanks to RedHat and Adobe for working with us to figure out the right way forward. 2. A new Swedish translation, thanks to our a community contribution 3. A new Finish contribution (not open source), thanks to our Scandinavian partner 4. 10 False positives closed, including all the critical ones! 5. And 13 updates to get Axe-core consistent with the latest web standards This release is one of the bigger changes we've done in a few years, so likely issue numbers are going to change in adopting this version. ### Features - **aria-actions:** add aria-actions to allowed ARIA attributes ([#5200](https://github.com/dequelabs/axe-core/issues/5200)) ([029655d](https://github.com/dequelabs/axe-core/commit/029655dcd41b5405b7ba138d29cec28392977184)), closes [#4584](https://github.com/dequelabs/axe-cor",
       "url": "https://github.com/dequelabs/axe-core/releases/tag/v4.13.0",
@@ -440,48 +462,6 @@
       "score": 3
     },
     {
-      "title": "Visiteurs et visiteuses uniques | Adobe Analytics - Adobe Experience League",
-      "summary": "Visiteurs et visiteuses uniques | Adobe Analytics Adobe Experience League",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQX2dnWTdLMlM2ZGlHWWpLdVhTbmtDN1A5Y2kwRjY5RGxNYmh2R0ZwNzdpVU1FcG0wQ0xaVk9mMDJac0lneEpjUzhDdkdPRnF4ckhHeXBnT0h0QVdaSDhhWXp3SmZGamt4ZllMQm9GeURfT3RDNlhFcTlmYUI0V0p5eTB0ZlRWRTh2WlZGSWNZMzE?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-05-21T07:00:00+00:00",
-      "source": "Adobe Experience League",
-      "watch": "Adobe Analytics",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Adobe Analytics · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "adobe analytics"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 3
-    },
-    {
-      "title": "Vidéos et tutoriels Analytics | Adobe Analytics - Adobe Experience League",
-      "summary": "Vidéos et tutoriels Analytics | Adobe Analytics Adobe Experience League",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNX0p5N2h4Z1FHemZDSWF0ZmdfS3d0QXlDVTJ5TFQ1S1NDOS14cU96VlN3VlI4S1B0YnBPMEFReXN1THozY2FXWkFMZUY1NlBFQUVaeDctT1dwR0w1dk8yQTBzaS1nYlE0ZzhsMEpncUVFald1dGNudHZFQ1JhYnU3aks5MA?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-05-13T07:00:00+00:00",
-      "source": "Adobe Experience League",
-      "watch": "Adobe Analytics",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Adobe Analytics · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "adobe analytics"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 3
-    },
-    {
       "title": "Effectuer des recherches avec ChatGPT - OpenAI",
       "summary": "Effectuer des recherches avec ChatGPT OpenAI",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1oLVJsY2FxUGxGeFExcm1Sd1kzZGZzeVVmREdxSC0xSW9idGpZcGlTOUVxRVhETy13OTg5UGItZWc0LWJRQjdQenkyTmVyU2c0N29maTNaSEJSb19xZVdyaFNfSkdReTQ1Y1E?oc=5",
@@ -514,27 +494,6 @@
         "GEO / AI Search"
       ],
       "score": 2
-    },
-    {
-      "title": "Fin de vie des intégrations d’Analytics Data Connectors - Adobe Experience League",
-      "summary": "Fin de vie des intégrations d’Analytics Data Connectors Adobe Experience League",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSnFnenlLUGFJX2l2RGw1N2xNR3Q5ZWE2T0c3aEduaklhUW9PbUp2NWR1ZVUyYWo3QXd3OTNETDl1NmZldkV6UDFsRmc1R2lYOVdpUm5HTHM0MnhneWVHakR4UlRSNUtlY3plR2xuWWUzNVFrUkZJdzJrRDhUOFNaclBTdw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-11-25T08:00:00+00:00",
-      "source": "Adobe Experience League",
-      "watch": "Adobe Analytics",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Adobe Analytics · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "analytics data"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 3
     },
     {
       "title": "Tendances de la recherche IA pour 2026 et comment s'y adapter - Semrush",
@@ -662,6 +621,28 @@
         "UX / UI"
       ],
       "score": 2
+    },
+    {
+      "title": "[GA4] Planifier des rapports - Aide Google Analytics - Google Help",
+      "summary": "[GA4] Planifier des rapports - Aide Google Analytics Google Help",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13TUpQNHhjbmJNMTZYek90dEtoYkhWYUR2Zk5sZFhXcUFlRk9ka0huVW1KMTR4V21PRF9sNWFSelA4b0JYMXk2R1VxWlppTFJuOTlPVnNZN0VHMzRiSnNPaXZtNi1XaklPZGc?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2023-11-14T22:17:49+00:00",
+      "source": "Google Help",
+      "watch": "Google Analytics Help",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Google Analytics Help · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "ga4",
+          "google analytics"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
     },
     {
       "title": "Premiers secours de l’accessibilité Web : stratégies de réparations provisoires - W3C",
@@ -1008,27 +989,6 @@
       "score": 2
     },
     {
-      "title": "[GA4] Exploration du chemin - Google Help",
-      "summary": "[GA4] Exploration du chemin Google Help",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CTy1hZDJmOFFnOWVJZWVJMDhycGdHQ0RLY3hPUDZMSUppUGZ2RUIxbUFyTFgwT251clpFT1B2bnYwNGwxMDE5ckxfQUdmTVFYMW5fb1JwN2otRGZCY2hHNDA2UWlXQTQt?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2019-11-10T09:56:22+00:00",
-      "source": "Google Help",
-      "watch": "Google Analytics Help",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Google Analytics Help · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "ga4"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 3
-    },
-    {
       "title": "Marketing - Semrush",
       "summary": "Marketing Semrush",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CNEpFVzVqOG5XM0w4Ukp5ZjBKY09Db1VfWGNLVC1kSVZycEZRcmV5Z3lxQzl1WWtoaTdXR3VDTkNTa2xPV0h3WURQR3l1bklPcmlkM3l5Wnd2NDQ?oc=5",
@@ -1063,28 +1023,6 @@
       "score": 2
     },
     {
-      "title": "[GA4] Explorateur d'utilisateurs - Aide Google Analytics - Google Help",
-      "summary": "[GA4] Explorateur d'utilisateurs - Aide Google Analytics Google Help",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTTE43Y2RCdElWLXpsS0lEekYyRDZQbW9DWWVnWWpoRDlRdTJqXzM2aTg2Rlpyc1RhOEI4aHBqNDN1cm5SYm1OTkxoazIzUHJnQXZDTVBiZjZrQ3d6aXFxd3p4UmV5NU5R?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2019-07-29T00:59:43+00:00",
-      "source": "Google Help",
-      "watch": "Google Analytics Help",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Google Analytics Help · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "ga4",
-          "google analytics"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 3
-    },
-    {
       "title": "Piano | Data-Driven Customer Engagement Solutions - Piano.io",
       "summary": "Piano | Data-Driven Customer Engagement Solutions Piano.io",
       "url": "https://news.google.com/rss/articles/CBMiOEFVX3lxTE5QclZ6REZuU04wMndCWlNqWU55UW9lcGtseEVleVZ1c1c4UDZJcFotd0E3VjdyWFY3?oc=5",
@@ -1100,27 +1038,6 @@
         "Web Analytics"
       ],
       "score": 2
-    },
-    {
-      "title": "Aide Google Analytics - Google Help",
-      "summary": "Aide Google Analytics Google Help",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1VS0d6Z0hqSGRtM2prTnZ6dHdyUU5aZWJ0SEpXMVVBeUNLaS15X05LQzlVZWc4bjdpLVNXd0J3dDB6ak5oTVo0bjZVYkloQnEteVVWWXh3?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2011-12-14T16:08:11+00:00",
-      "source": "Google Help",
-      "watch": "Google Analytics Help",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Google Analytics Help · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "google analytics"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 3
     }
   ]
 }

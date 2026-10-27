@@ -1,10 +1,10 @@
 [
   {
     "date": "2026-10-27",
-    "count": 56,
+    "count": 52,
     "lanes": {
       "Web Analytics": {
-        "count": 29,
+        "count": 25,
         "skills": [
           {
             "skill": "Matomo",
@@ -12,14 +12,14 @@
             "family": "Web Analytics & Data"
           },
           {
-            "skill": "AI",
-            "mentions": 7,
-            "family": "Tech & AI"
-          },
-          {
             "skill": "Google Analytics",
             "mentions": 6,
             "family": "Web Analytics & Data"
+          },
+          {
+            "skill": "AI",
+            "mentions": 6,
+            "family": "Tech & AI"
           },
           {
             "skill": "tracking",
@@ -27,19 +27,14 @@
             "family": "Web Analytics & Data"
           },
           {
+            "skill": "GA4",
+            "mentions": 4,
+            "family": "Web Analytics & Data"
+          },
+          {
             "skill": "PostHog",
             "mentions": 3,
             "family": "Product Analytics"
-          },
-          {
-            "skill": "Adobe Analytics",
-            "mentions": 3,
-            "family": "Web Analytics & Data"
-          },
-          {
-            "skill": "GA4",
-            "mentions": 3,
-            "family": "Web Analytics & Data"
           },
           {
             "skill": "SQL",
@@ -108,22 +103,10 @@
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=google+analytics"
           },
           {
-            "term": "adobe analytics",
-            "mentions": 3,
-            "momentum": 12,
-            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=adobe+analytics"
-          },
-          {
             "term": "ga4",
-            "mentions": 3,
-            "momentum": 12,
+            "mentions": 4,
+            "momentum": 20,
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ga4"
-          },
-          {
-            "term": "analytics data",
-            "mentions": 1,
-            "momentum": 4,
-            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=analytics+data"
           },
           {
             "term": "web analytics",
@@ -293,7 +276,7 @@
     "skills": [
       {
         "skill": "AI",
-        "mentions": 14,
+        "mentions": 13,
         "family": "Tech & AI"
       },
       {
@@ -322,6 +305,11 @@
         "family": "Tech & AI"
       },
       {
+        "skill": "GA4",
+        "mentions": 4,
+        "family": "Web Analytics & Data"
+      },
+      {
         "skill": "PostHog",
         "mentions": 3,
         "family": "Product Analytics"
@@ -345,16 +333,6 @@
         "skill": "API",
         "mentions": 3,
         "family": "Tech & AI"
-      },
-      {
-        "skill": "Adobe Analytics",
-        "mentions": 3,
-        "family": "Web Analytics & Data"
-      },
-      {
-        "skill": "GA4",
-        "mentions": 3,
-        "family": "Web Analytics & Data"
       },
       {
         "skill": "LLM",
@@ -415,6 +393,11 @@
         "skill": "JavaScript",
         "mentions": 1,
         "family": "Tech & AI"
+      },
+      {
+        "skill": "Google Tag Manager",
+        "mentions": 1,
+        "family": "Web Analytics & Data"
       }
     ],
     "topics": [
@@ -443,6 +426,12 @@
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=google+analytics"
       },
       {
+        "term": "ga4",
+        "mentions": 4,
+        "momentum": 20,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ga4"
+      },
+      {
         "term": "lighthouse",
         "mentions": 3,
         "momentum": 16,
@@ -459,18 +448,6 @@
         "mentions": 3,
         "momentum": 12,
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=growthbook"
-      },
-      {
-        "term": "adobe analytics",
-        "mentions": 3,
-        "momentum": 12,
-        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=adobe+analytics"
-      },
-      {
-        "term": "ga4",
-        "mentions": 3,
-        "momentum": 12,
-        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ga4"
       },
       {
         "term": "personalization",
@@ -495,12 +472,6 @@
         "mentions": 1,
         "momentum": 4,
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=accessibility"
-      },
-      {
-        "term": "analytics data",
-        "mentions": 1,
-        "momentum": 4,
-        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=analytics+data"
       },
       {
         "term": "geo",

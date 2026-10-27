@@ -1,10 +1,10 @@
 [
   {
     "date": "2026-10-27",
-    "count": 52,
+    "count": 55,
     "lanes": {
       "Web Analytics": {
-        "count": 25,
+        "count": 28,
         "skills": [
           {
             "skill": "Matomo",
@@ -12,14 +12,14 @@
             "family": "Web Analytics & Data"
           },
           {
+            "skill": "AI",
+            "mentions": 7,
+            "family": "Tech & AI"
+          },
+          {
             "skill": "Google Analytics",
             "mentions": 6,
             "family": "Web Analytics & Data"
-          },
-          {
-            "skill": "AI",
-            "mentions": 6,
-            "family": "Tech & AI"
           },
           {
             "skill": "tracking",
@@ -27,14 +27,19 @@
             "family": "Web Analytics & Data"
           },
           {
-            "skill": "GA4",
-            "mentions": 4,
-            "family": "Web Analytics & Data"
-          },
-          {
             "skill": "PostHog",
             "mentions": 3,
             "family": "Product Analytics"
+          },
+          {
+            "skill": "GA4",
+            "mentions": 3,
+            "family": "Web Analytics & Data"
+          },
+          {
+            "skill": "Adobe Analytics",
+            "mentions": 2,
+            "family": "Web Analytics & Data"
           },
           {
             "skill": "SQL",
@@ -104,9 +109,21 @@
           },
           {
             "term": "ga4",
-            "mentions": 4,
-            "momentum": 20,
+            "mentions": 3,
+            "momentum": 12,
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ga4"
+          },
+          {
+            "term": "adobe analytics",
+            "mentions": 2,
+            "momentum": 8,
+            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=adobe+analytics"
+          },
+          {
+            "term": "analytics data",
+            "mentions": 1,
+            "momentum": 4,
+            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=analytics+data"
           },
           {
             "term": "web analytics",
@@ -271,12 +288,57 @@
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=kameleoon"
           }
         ]
+      },
+      "GEO / AI Search": {
+        "count": 12,
+        "skills": [
+          {
+            "skill": "AI",
+            "mentions": 5,
+            "family": "Tech & AI"
+          },
+          {
+            "skill": "GEO",
+            "mentions": 1,
+            "family": "GEO / AI Search"
+          },
+          {
+            "skill": "ChatGPT Search",
+            "mentions": 1,
+            "family": "GEO / AI Search"
+          },
+          {
+            "skill": "Search Console",
+            "mentions": 1,
+            "family": "GEO / AI Search"
+          }
+        ],
+        "topics": [
+          {
+            "term": "geo",
+            "mentions": 1,
+            "momentum": 100,
+            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=geo"
+          },
+          {
+            "term": "chatgpt search",
+            "mentions": 1,
+            "momentum": 100,
+            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=chatgpt+search"
+          },
+          {
+            "term": "search console",
+            "mentions": 1,
+            "momentum": 100,
+            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=search+console"
+          }
+        ]
       }
     },
     "skills": [
       {
         "skill": "AI",
-        "mentions": 13,
+        "mentions": 14,
         "family": "Tech & AI"
       },
       {
@@ -305,11 +367,6 @@
         "family": "Tech & AI"
       },
       {
-        "skill": "GA4",
-        "mentions": 4,
-        "family": "Web Analytics & Data"
-      },
-      {
         "skill": "PostHog",
         "mentions": 3,
         "family": "Product Analytics"
@@ -335,9 +392,19 @@
         "family": "Tech & AI"
       },
       {
+        "skill": "GA4",
+        "mentions": 3,
+        "family": "Web Analytics & Data"
+      },
+      {
         "skill": "LLM",
         "mentions": 2,
         "family": "Tech & AI"
+      },
+      {
+        "skill": "Adobe Analytics",
+        "mentions": 2,
+        "family": "Web Analytics & Data"
       },
       {
         "skill": "funnel",
@@ -393,11 +460,6 @@
         "skill": "JavaScript",
         "mentions": 1,
         "family": "Tech & AI"
-      },
-      {
-        "skill": "Google Tag Manager",
-        "mentions": 1,
-        "family": "Web Analytics & Data"
       }
     ],
     "topics": [
@@ -426,12 +488,6 @@
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=google+analytics"
       },
       {
-        "term": "ga4",
-        "mentions": 4,
-        "momentum": 20,
-        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ga4"
-      },
-      {
         "term": "lighthouse",
         "mentions": 3,
         "momentum": 16,
@@ -448,6 +504,18 @@
         "mentions": 3,
         "momentum": 12,
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=growthbook"
+      },
+      {
+        "term": "ga4",
+        "mentions": 3,
+        "momentum": 12,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ga4"
+      },
+      {
+        "term": "adobe analytics",
+        "mentions": 2,
+        "momentum": 8,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=adobe+analytics"
       },
       {
         "term": "personalization",
@@ -472,6 +540,12 @@
         "mentions": 1,
         "momentum": 4,
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=accessibility"
+      },
+      {
+        "term": "analytics data",
+        "mentions": 1,
+        "momentum": 4,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=analytics+data"
       },
       {
         "term": "geo",

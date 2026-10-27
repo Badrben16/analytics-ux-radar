@@ -7,16 +7,16 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable
-from urllib.parse import quote_plus, urlparse
+from urllib.parse import urlparse
 
 import feedparser
 import requests
 from dateutil import parser as date_parser
 
-from config import KEYWORDS, OFFICIAL_FEEDS, TOPICS, google_news_urls
+from config import KEYWORDS, OFFICIAL_FEEDS, google_news_urls
 
 DATA_PATH = Path("data/news.json")
-USER_AGENT = "AnalyticsUXRadar/1.0 (+https://github.com/Badrben16/analytics-ux-radar)"
+USER_AGENT = "AnalyticsUXRadar/1.5 (+https://github.com/Badrben16/analytics-ux-radar)"
 
 
 def _clean_html(value: str | None) -> str:
@@ -60,18 +60,35 @@ def classify(text: str, hinted_category: str | None = None) -> tuple[list[str], 
 
 
 def relevance_score(item: dict) -> int:
+    """Transparent 1–5 relevance score based on content, not only the search seed."""
     text = f"{item.get('title', '')} {item.get('summary', '')}".lower()
-    categories, scores = classify(text, item.get("seed_category"))
-    base = min(5, 1 + sum(scores.values()))
+    actual_categories, actual_scores = classify(text, None)
+    actual_categories = [c for c in actual_categories if c != "Autre"]
+    hits = sum(actual_scores.values())
 
-    # Bonus pour les signaux de convergence UX × Analytics / expérimentation.
-    if any(k in text for k in ("a/b", "experimentation", "contentsquare", "product analytics", "cro")):
-        base += 1
-    if len(categories) >= 2:
-        base += 1
+    raw = 0
+    if hits >= 1:
+        raw += 1
+    if hits >= 3:
+        raw += 1
+    if hits >= 6:
+        raw += 1
+    if len(actual_categories) >= 2:
+        raw += 1
+    if any(k in text for k in ("a/b", "experimentation", "contentsquare", "product analytics", "cro", "user research")):
+        raw += 1
     if item.get("source_type") == "official":
-        base += 1
-    return max(1, min(5, base))
+        raw += 1
+
+    if raw <= 0:
+        return 1
+    if raw == 1:
+        return 2
+    if raw <= 3:
+        return 3
+    if raw == 4:
+        return 4
+    return 5
 
 
 def _entry_to_item(entry, source_name: str, source_type: str, seed_category: str, query: str) -> dict:
@@ -80,6 +97,7 @@ def _entry_to_item(entry, source_name: str, source_type: str, seed_category: str
     link = getattr(entry, "link", "")
     date_value = getattr(entry, "published", None) or getattr(entry, "updated", None)
     categories, keyword_scores = classify(f"{title} {summary}", seed_category)
+    _, actual_keyword_scores = classify(f"{title} {summary}", None)
     item = {
         "title": title,
         "summary": summary[:700],
@@ -92,6 +110,7 @@ def _entry_to_item(entry, source_name: str, source_type: str, seed_category: str
         "query": query,
         "categories": categories,
         "keyword_scores": keyword_scores,
+        "actual_keyword_scores": actual_keyword_scores,
     }
     item["score"] = relevance_score(item)
     return item
@@ -151,6 +170,7 @@ def scan_gdelt(max_per_query: int = 15) -> list[dict]:
                 title = _clean_html(article.get("title", ""))
                 link = article.get("url", "")
                 categories, keyword_scores = classify(title, category)
+                _, actual_keyword_scores = classify(title, None)
                 item = {
                     "title": title,
                     "summary": _clean_html(article.get("seendate", "")),
@@ -163,6 +183,7 @@ def scan_gdelt(max_per_query: int = 15) -> list[dict]:
                     "query": query,
                     "categories": categories,
                     "keyword_scores": keyword_scores,
+                    "actual_keyword_scores": actual_keyword_scores,
                 }
                 item["score"] = relevance_score(item)
                 items.append(item)

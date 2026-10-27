@@ -48,15 +48,18 @@ def _domain(url: str) -> str:
 
 def classify(text: str, hinted_category: str | None = None) -> tuple[list[str], dict[str, int]]:
     haystack = f" {text.lower()} "
-    scores: dict[str, int] = {}
+    actual_scores: dict[str, int] = {}
     for category, words in KEYWORDS.items():
         score = sum(1 for word in words if word.lower() in haystack)
         if score:
-            scores[category] = score
+            actual_scores[category] = score
+
+    ranking_scores = dict(actual_scores)
     if hinted_category:
-        scores[hinted_category] = scores.get(hinted_category, 0) + 2
-    categories = [name for name, score in sorted(scores.items(), key=lambda x: x[1], reverse=True) if score > 0]
-    return categories[:4] or ([hinted_category] if hinted_category else ["Autre"]), scores
+        ranking_scores[hinted_category] = ranking_scores.get(hinted_category, 0) + 2
+
+    categories = [name for name, score in sorted(ranking_scores.items(), key=lambda x: x[1], reverse=True) if score > 0]
+    return categories[:4] or ([hinted_category] if hinted_category else ["Autre"]), actual_scores
 
 
 def relevance_score(item: dict) -> int:
@@ -97,7 +100,6 @@ def _entry_to_item(entry, source_name: str, source_type: str, seed_category: str
     link = getattr(entry, "link", "")
     date_value = getattr(entry, "published", None) or getattr(entry, "updated", None)
     categories, keyword_scores = classify(f"{title} {summary}", seed_category)
-    _, actual_keyword_scores = classify(f"{title} {summary}", None)
     item = {
         "title": title,
         "summary": summary[:700],
@@ -110,7 +112,7 @@ def _entry_to_item(entry, source_name: str, source_type: str, seed_category: str
         "query": query,
         "categories": categories,
         "keyword_scores": keyword_scores,
-        "actual_keyword_scores": actual_keyword_scores,
+        "actual_keyword_scores": keyword_scores,
     }
     item["score"] = relevance_score(item)
     return item
@@ -170,7 +172,6 @@ def scan_gdelt(max_per_query: int = 15) -> list[dict]:
                 title = _clean_html(article.get("title", ""))
                 link = article.get("url", "")
                 categories, keyword_scores = classify(title, category)
-                _, actual_keyword_scores = classify(title, None)
                 item = {
                     "title": title,
                     "summary": _clean_html(article.get("seendate", "")),
@@ -183,7 +184,7 @@ def scan_gdelt(max_per_query: int = 15) -> list[dict]:
                     "query": query,
                     "categories": categories,
                     "keyword_scores": keyword_scores,
-                    "actual_keyword_scores": actual_keyword_scores,
+                    "actual_keyword_scores": keyword_scores,
                 }
                 item["score"] = relevance_score(item)
                 items.append(item)

@@ -40,6 +40,15 @@ TOPICS = {
         "product manager analytics UX",
         "feature adoption retention analytics",
     ],
+    "Marché": [
+        "web analyst emploi compétences",
+        "product analyst emploi compétences",
+        "CRO analyst emploi compétences",
+        "UX designer emploi compétences",
+        "UX researcher emploi compétences",
+        "product designer emploi compétences",
+        "digital analyst emploi compétences",
+    ],
 }
 
 OFFICIAL_FEEDS = {
@@ -71,6 +80,10 @@ KEYWORDS = {
     "Product": [
         "product analyst", "product analytics", "retention", "activation", "feature adoption",
         "roadmap", "product manager", "product-led", "cohort",
+    ],
+    "Marché": [
+        "emploi", "recrutement", "job", "career", "carriere", "compétences", "competences",
+        "skills", "salary", "salaire", "hiring", "talent", "fiche de poste",
     ],
 }
 

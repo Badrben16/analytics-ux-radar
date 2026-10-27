@@ -12,23 +12,18 @@
             "family": "Web Analytics & Data"
           },
           {
-            "skill": "tracking",
-            "mentions": 5,
-            "family": "Web Analytics & Data"
-          },
-          {
             "skill": "AI",
-            "mentions": 5,
+            "mentions": 7,
             "family": "Tech & AI"
           },
           {
             "skill": "Google Analytics",
-            "mentions": 5,
+            "mentions": 6,
             "family": "Web Analytics & Data"
           },
           {
-            "skill": "GA4",
-            "mentions": 4,
+            "skill": "tracking",
+            "mentions": 5,
             "family": "Web Analytics & Data"
           },
           {
@@ -38,6 +33,11 @@
           },
           {
             "skill": "Adobe Analytics",
+            "mentions": 3,
+            "family": "Web Analytics & Data"
+          },
+          {
+            "skill": "GA4",
             "mentions": 3,
             "family": "Web Analytics & Data"
           },
@@ -102,15 +102,9 @@
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=tracking"
           },
           {
-            "term": "ga4",
-            "mentions": 4,
-            "momentum": 20,
-            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ga4"
-          },
-          {
             "term": "google analytics",
-            "mentions": 5,
-            "momentum": 20,
+            "mentions": 6,
+            "momentum": 24,
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=google+analytics"
           },
           {
@@ -118,6 +112,12 @@
             "mentions": 3,
             "momentum": 12,
             "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=adobe+analytics"
+          },
+          {
+            "term": "ga4",
+            "mentions": 3,
+            "momentum": 12,
+            "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ga4"
           },
           {
             "term": "analytics data",
@@ -293,7 +293,7 @@
     "skills": [
       {
         "skill": "AI",
-        "mentions": 12,
+        "mentions": 14,
         "family": "Tech & AI"
       },
       {
@@ -307,6 +307,11 @@
         "family": "Tech & AI"
       },
       {
+        "skill": "Google Analytics",
+        "mentions": 6,
+        "family": "Web Analytics & Data"
+      },
+      {
         "skill": "tracking",
         "mentions": 5,
         "family": "Web Analytics & Data"
@@ -315,16 +320,6 @@
         "skill": "GitHub",
         "mentions": 5,
         "family": "Tech & AI"
-      },
-      {
-        "skill": "Google Analytics",
-        "mentions": 5,
-        "family": "Web Analytics & Data"
-      },
-      {
-        "skill": "GA4",
-        "mentions": 4,
-        "family": "Web Analytics & Data"
       },
       {
         "skill": "PostHog",
@@ -353,6 +348,11 @@
       },
       {
         "skill": "Adobe Analytics",
+        "mentions": 3,
+        "family": "Web Analytics & Data"
+      },
+      {
+        "skill": "GA4",
         "mentions": 3,
         "family": "Web Analytics & Data"
       },
@@ -437,15 +437,9 @@
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=tracking"
       },
       {
-        "term": "ga4",
-        "mentions": 4,
-        "momentum": 20,
-        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ga4"
-      },
-      {
         "term": "google analytics",
-        "mentions": 5,
-        "momentum": 20,
+        "mentions": 6,
+        "momentum": 24,
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=google+analytics"
       },
       {
@@ -471,6 +465,12 @@
         "mentions": 3,
         "momentum": 12,
         "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=adobe+analytics"
+      },
+      {
+        "term": "ga4",
+        "mentions": 3,
+        "momentum": 12,
+        "google_trends_url": "https://trends.google.com/trends/explore?geo=FR&q=ga4"
       },
       {
         "term": "experimentation",

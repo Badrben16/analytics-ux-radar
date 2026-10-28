@@ -1219,5 +1219,1237 @@
         "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=piano+analytics"
       }
     ]
+  },
+  {
+    "date": "2026-10-28",
+    "count": 139,
+    "lanes": {
+      "Web Analytics": {
+        "count": 73,
+        "skills": [
+          {
+            "skill": "AI",
+            "mentions": 29,
+            "family": "Tech transverse"
+          },
+          {
+            "skill": "Google Analytics",
+            "mentions": 9,
+            "family": "Web Analytics · Measurement & Data"
+          },
+          {
+            "skill": "Matomo",
+            "mentions": 8,
+            "family": "Web Analytics · Measurement & Data"
+          },
+          {
+            "skill": "Contentsquare",
+            "mentions": 5,
+            "family": "Convergence UX × Analytics"
+          },
+          {
+            "skill": "Amplitude",
+            "mentions": 5,
+            "family": "Web Analytics · Product & AI"
+          },
+          {
+            "skill": "Mixpanel",
+            "mentions": 5,
+            "family": "Web Analytics · Product & AI"
+          },
+          {
+            "skill": "Tealium",
+            "mentions": 5,
+            "family": "Web Analytics · Measurement & Data"
+          },
+          {
+            "skill": "Git",
+            "mentions": 4,
+            "family": "Tech transverse"
+          },
+          {
+            "skill": "tracking",
+            "mentions": 4,
+            "family": "Web Analytics · Measurement & Data"
+          },
+          {
+            "skill": "Generative Engine Optimization",
+            "mentions": 4,
+            "family": "Web Analytics · Product & AI"
+          },
+          {
+            "skill": "PostHog",
+            "mentions": 3,
+            "family": "Web Analytics · Product & AI"
+          },
+          {
+            "skill": "GEO",
+            "mentions": 3,
+            "family": "Web Analytics · Product & AI"
+          },
+          {
+            "skill": "product analytics",
+            "mentions": 3,
+            "family": "Web Analytics · Product & AI"
+          },
+          {
+            "skill": "API",
+            "mentions": 3,
+            "family": "Tech transverse"
+          },
+          {
+            "skill": "GA4",
+            "mentions": 3,
+            "family": "Web Analytics · Measurement & Data"
+          },
+          {
+            "skill": "AI Search",
+            "mentions": 2,
+            "family": "Web Analytics · Product & AI"
+          },
+          {
+            "skill": "Piano Analytics",
+            "mentions": 2,
+            "family": "Web Analytics · Measurement & Data"
+          },
+          {
+            "skill": "GitHub",
+            "mentions": 1,
+            "family": "Tech transverse"
+          },
+          {
+            "skill": "Search Console",
+            "mentions": 1,
+            "family": "Web Analytics · Product & AI"
+          },
+          {
+            "skill": "Agent Analytics",
+            "mentions": 1,
+            "family": "Web Analytics · Product & AI"
+          },
+          {
+            "skill": "LLM",
+            "mentions": 1,
+            "family": "Tech transverse"
+          },
+          {
+            "skill": "SQL",
+            "mentions": 1,
+            "family": "Web Analytics · Measurement & Data"
+          },
+          {
+            "skill": "Looker",
+            "mentions": 1,
+            "family": "Web Analytics · Measurement & Data"
+          },
+          {
+            "skill": "Python",
+            "mentions": 1,
+            "family": "Tech transverse"
+          },
+          {
+            "skill": "JavaScript",
+            "mentions": 1,
+            "family": "Tech transverse"
+          }
+        ],
+        "topics": [
+          {
+            "term": "matomo",
+            "mentions": 8,
+            "momentum": 100,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=matomo"
+          },
+          {
+            "term": "posthog",
+            "mentions": 3,
+            "momentum": 62,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=posthog"
+          },
+          {
+            "term": "google analytics",
+            "mentions": 9,
+            "momentum": 38,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=google+analytics"
+          },
+          {
+            "term": "tracking",
+            "mentions": 4,
+            "momentum": 33,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=tracking"
+          },
+          {
+            "term": "contentsquare",
+            "mentions": 5,
+            "momentum": 33,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=contentsquare"
+          },
+          {
+            "term": "amplitude",
+            "mentions": 5,
+            "momentum": 29,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=amplitude"
+          },
+          {
+            "term": "mixpanel",
+            "mentions": 5,
+            "momentum": 21,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=mixpanel"
+          },
+          {
+            "term": "tealium",
+            "mentions": 5,
+            "momentum": 21,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=tealium"
+          },
+          {
+            "term": "perplexity",
+            "mentions": 5,
+            "momentum": 21,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=perplexity"
+          },
+          {
+            "term": "generative engine optimization",
+            "mentions": 4,
+            "momentum": 17,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=generative+engine+optimization"
+          },
+          {
+            "term": "measurement",
+            "mentions": 4,
+            "momentum": 17,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=measurement"
+          },
+          {
+            "term": "product analytics",
+            "mentions": 3,
+            "momentum": 12,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=product+analytics"
+          },
+          {
+            "term": "ga4",
+            "mentions": 3,
+            "momentum": 12,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=ga4"
+          },
+          {
+            "term": "ai search",
+            "mentions": 2,
+            "momentum": 8,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=ai+search"
+          },
+          {
+            "term": "web analytics",
+            "mentions": 2,
+            "momentum": 8,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=web+analytics"
+          },
+          {
+            "term": "privacy",
+            "mentions": 2,
+            "momentum": 8,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=privacy"
+          },
+          {
+            "term": "ai visibility",
+            "mentions": 2,
+            "momentum": 8,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=ai+visibility"
+          },
+          {
+            "term": "conversion",
+            "mentions": 2,
+            "momentum": 8,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=conversion"
+          },
+          {
+            "term": "piano analytics",
+            "mentions": 2,
+            "momentum": 8,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=piano+analytics"
+          },
+          {
+            "term": "search console",
+            "mentions": 1,
+            "momentum": 4,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=search+console"
+          },
+          {
+            "term": "agent analytics",
+            "mentions": 1,
+            "momentum": 4,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=agent+analytics"
+          },
+          {
+            "term": "digital analytics",
+            "mentions": 1,
+            "momentum": 4,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=digital+analytics"
+          },
+          {
+            "term": "ai overview",
+            "mentions": 1,
+            "momentum": 4,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=ai+overview"
+          },
+          {
+            "term": "ai traffic",
+            "mentions": 1,
+            "momentum": 4,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=ai+traffic"
+          },
+          {
+            "term": "sql",
+            "mentions": 1,
+            "momentum": 4,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=sql"
+          }
+        ],
+        "evolution": [
+          {
+            "topic": "AI / Agentic Analytics",
+            "status": "Signal faible",
+            "score": 0,
+            "recent": 0,
+            "previous_monthly": 0.0,
+            "delta": 0.0,
+            "horizon": "2026–2028",
+            "why": "L’analyse passe progressivement du dashboard à l’assistant capable d’explorer, diagnostiquer et recommander.",
+            "examples": [
+              "Why We Created Agent Analytics, and Why Every Team Building AI Agents Needs It - Amplitude"
+            ],
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=AI+%2F+Agentic+Analytics"
+          },
+          {
+            "topic": "AI Search & GEO Measurement",
+            "status": "Signal faible",
+            "score": 0,
+            "recent": 0,
+            "previous_monthly": 0.0,
+            "delta": 0.0,
+            "horizon": "2026–2028",
+            "why": "Le Web Analyst doit mesurer les nouveaux parcours de recherche et la visibilité dans les moteurs génératifs.",
+            "examples": [
+              "The 9 Best Generative Engine Optimization (GEO) Tools of 2026 - Semrush",
+              "How to optimize for AI search results in 2026 - Semrush",
+              "Generative Engine Optimization (GEO): A Practical Guide - Semrush"
+            ],
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=AI+Search+%26+GEO+Measurement"
+          },
+          {
+            "topic": "Human + Agent Journeys",
+            "status": "Signal faible",
+            "score": 0,
+            "recent": 0,
+            "previous_monthly": 0.0,
+            "delta": 0.0,
+            "horizon": "2026–2029",
+            "why": "Les parcours ne concernent plus uniquement des humains : agents et assistants deviennent eux-mêmes des acteurs du parcours.",
+            "examples": [],
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=Human+%2B+Agent+Journeys"
+          },
+          {
+            "topic": "Privacy & Server-side Measurement",
+            "status": "Signal faible",
+            "score": 0,
+            "recent": 0,
+            "previous_monthly": 0.0,
+            "delta": 0.0,
+            "horizon": "Maintenant",
+            "why": "La qualité et la gouvernance de la mesure deviennent aussi importantes que le volume de données collecté.",
+            "examples": [
+              "Privacy regulations are changing in 2026: what analytics teams need to know - Matomo",
+              "Lean Analytics in a Privacy-First Environment – Bootcamp with Timo Dechau. - Matomo"
+            ],
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=Privacy+%26+Server-side+Measurement"
+          },
+          {
+            "topic": "Product Analytics",
+            "status": "Signal faible",
+            "score": 0,
+            "recent": 0,
+            "previous_monthly": 0.0,
+            "delta": 0.0,
+            "horizon": "Maintenant",
+            "why": "Le métier se rapproche de la décision produit : activation, rétention, adoption et impact plutôt que simple audience.",
+            "examples": [
+              "AI product analytics: How to know if your AI features are actually working - Mixpanel",
+              "Product analytics examples: 10 use cases for 2026 (including AI) - Mixpanel",
+              "What is product analytics? A complete guide for 2026 | Signals & Stories - Mixpanel"
+            ],
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=Product+Analytics"
+          }
+        ]
+      },
+      "UX / UI": {
+        "count": 41,
+        "skills": [
+          {
+            "skill": "Figma",
+            "mentions": 10,
+            "family": "UX / UI · Research & Craft"
+          },
+          {
+            "skill": "AI",
+            "mentions": 9,
+            "family": "Tech transverse"
+          },
+          {
+            "skill": "accessibility",
+            "mentions": 8,
+            "family": "UX / UI · Research & Craft"
+          },
+          {
+            "skill": "Git",
+            "mentions": 7,
+            "family": "Tech transverse"
+          },
+          {
+            "skill": "GitHub",
+            "mentions": 5,
+            "family": "Tech transverse"
+          },
+          {
+            "skill": "Lighthouse",
+            "mentions": 3,
+            "family": "UX / UI · Research & Craft"
+          },
+          {
+            "skill": "axe-core",
+            "mentions": 3,
+            "family": "UX / UI · Research & Craft"
+          },
+          {
+            "skill": "design system",
+            "mentions": 2,
+            "family": "UX / UI · Research & Craft"
+          },
+          {
+            "skill": "UX Research",
+            "mentions": 2,
+            "family": "UX / UI · Research & Craft"
+          },
+          {
+            "skill": "CRO",
+            "mentions": 1,
+            "family": "Convergence UX × Analytics"
+          },
+          {
+            "skill": "CSS",
+            "mentions": 1,
+            "family": "Tech transverse"
+          },
+          {
+            "skill": "product design",
+            "mentions": 1,
+            "family": "UX / UI · Research & Craft"
+          },
+          {
+            "skill": "LLM",
+            "mentions": 1,
+            "family": "Tech transverse"
+          },
+          {
+            "skill": "usability testing",
+            "mentions": 1,
+            "family": "UX / UI · Research & Craft"
+          },
+          {
+            "skill": "WCAG",
+            "mentions": 1,
+            "family": "UX / UI · Research & Craft"
+          }
+        ],
+        "topics": [
+          {
+            "term": "figma",
+            "mentions": 10,
+            "momentum": 100,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=figma"
+          },
+          {
+            "term": "lighthouse",
+            "mentions": 3,
+            "momentum": 55,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=lighthouse"
+          },
+          {
+            "term": "accessibility",
+            "mentions": 8,
+            "momentum": 45,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=accessibility"
+          },
+          {
+            "term": "axe-core",
+            "mentions": 3,
+            "momentum": 35,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=axe-core"
+          },
+          {
+            "term": "cro",
+            "mentions": 1,
+            "momentum": 25,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=cro"
+          },
+          {
+            "term": "product design",
+            "mentions": 1,
+            "momentum": 20,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=product+design"
+          },
+          {
+            "term": "usability",
+            "mentions": 3,
+            "momentum": 15,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=usability"
+          },
+          {
+            "term": "design system",
+            "mentions": 2,
+            "momentum": 10,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=design+system"
+          },
+          {
+            "term": "ux research",
+            "mentions": 2,
+            "momentum": 10,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=ux+research"
+          },
+          {
+            "term": "user experience",
+            "mentions": 1,
+            "momentum": 5,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=user+experience"
+          },
+          {
+            "term": "usability testing",
+            "mentions": 1,
+            "momentum": 5,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=usability+testing"
+          },
+          {
+            "term": "wcag",
+            "mentions": 1,
+            "momentum": 5,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=wcag"
+          }
+        ],
+        "evolution": [
+          {
+            "topic": "AI-assisted Design & Prototyping",
+            "status": "Accélération",
+            "score": 100,
+            "recent": 3,
+            "previous_monthly": 0.5,
+            "delta": 2.5,
+            "horizon": "2026–2028",
+            "why": "Le designer explore plus vite, prototype plus tôt et travaille davantage entre canvas, code et produit.",
+            "examples": [
+              "Build by Design: New Workflows for New Ways of Building - Figma",
+              "Design Together With Code Layers on the Canvas - Figma",
+              "3 ways product designers use the Figma agent for craft, speed, and creative expression - Figma"
+            ],
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=AI-assisted+Design+%26+Prototyping"
+          },
+          {
+            "topic": "Research + AI",
+            "status": "Accélération",
+            "score": 100,
+            "recent": 3,
+            "previous_monthly": 0.0,
+            "delta": 3.0,
+            "horizon": "2026–2028",
+            "why": "L’IA accélère la synthèse et l’exploration, mais augmente l’importance du jugement, de la méthode et de la validation humaine.",
+            "examples": [
+              "Lighthouse · v13.6.0",
+              "Is Your Organization Messing Up AI Adoption? - Smashing Magazine",
+              "axe-core · Release 4.14.0"
+            ],
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=Research+%2B+AI"
+          },
+          {
+            "topic": "Accessibility by Design",
+            "status": "Stable",
+            "score": 39,
+            "recent": 1,
+            "previous_monthly": 0.5,
+            "delta": 0.5,
+            "horizon": "Maintenant",
+            "why": "L’accessibilité reste un socle non négociable et doit suivre les nouveaux usages IA.",
+            "examples": [
+              "axe-core · Release 4.14.0",
+              "axe-core · Release 4.13.0",
+              "axe-core · Release 4.12.1"
+            ],
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=Accessibility+by+Design"
+          },
+          {
+            "topic": "Human–AI Interaction",
+            "status": "Signal faible",
+            "score": 0,
+            "recent": 0,
+            "previous_monthly": 0.0,
+            "delta": 0.0,
+            "horizon": "2026–2029",
+            "why": "La conception doit couvrir confiance, contrôle, transparence, erreurs et coopération avec l’IA.",
+            "examples": [],
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=Human%E2%80%93AI+Interaction"
+          },
+          {
+            "topic": "Agentic & Adaptive Interfaces",
+            "status": "Signal faible",
+            "score": 0,
+            "recent": 0,
+            "previous_monthly": 0.0,
+            "delta": 0.0,
+            "horizon": "2027–2029",
+            "why": "Les interfaces deviennent plus adaptatives, multimodales et parfois pilotées par des agents.",
+            "examples": [],
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=Agentic+%26+Adaptive+Interfaces"
+          }
+        ]
+      },
+      "Convergence": {
+        "count": 25,
+        "skills": [
+          {
+            "skill": "GrowthBook",
+            "mentions": 8,
+            "family": "Convergence UX × Analytics"
+          },
+          {
+            "skill": "AI",
+            "mentions": 7,
+            "family": "Tech transverse"
+          },
+          {
+            "skill": "experimentation",
+            "mentions": 6,
+            "family": "Convergence UX × Analytics"
+          },
+          {
+            "skill": "PostHog",
+            "mentions": 5,
+            "family": "Web Analytics · Product & AI"
+          },
+          {
+            "skill": "Optimizely",
+            "mentions": 5,
+            "family": "Convergence UX × Analytics"
+          },
+          {
+            "skill": "Kameleoon",
+            "mentions": 5,
+            "family": "Convergence UX × Analytics"
+          },
+          {
+            "skill": "CRO",
+            "mentions": 4,
+            "family": "Convergence UX × Analytics"
+          },
+          {
+            "skill": "A/B testing",
+            "mentions": 3,
+            "family": "Convergence UX × Analytics"
+          },
+          {
+            "skill": "Contentsquare",
+            "mentions": 2,
+            "family": "Convergence UX × Analytics"
+          },
+          {
+            "skill": "personalization",
+            "mentions": 2,
+            "family": "Convergence UX × Analytics"
+          },
+          {
+            "skill": "API",
+            "mentions": 2,
+            "family": "Tech transverse"
+          },
+          {
+            "skill": "funnel",
+            "mentions": 1,
+            "family": "Web Analytics · Product & AI"
+          },
+          {
+            "skill": "session replay",
+            "mentions": 1,
+            "family": "Convergence UX × Analytics"
+          },
+          {
+            "skill": "product analytics",
+            "mentions": 1,
+            "family": "Web Analytics · Product & AI"
+          },
+          {
+            "skill": "automation",
+            "mentions": 1,
+            "family": "Tech transverse"
+          },
+          {
+            "skill": "Git",
+            "mentions": 1,
+            "family": "Tech transverse"
+          }
+        ],
+        "topics": [
+          {
+            "term": "experimentation",
+            "mentions": 6,
+            "momentum": 100,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=experimentation"
+          },
+          {
+            "term": "growthbook",
+            "mentions": 8,
+            "momentum": 91,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=growthbook"
+          },
+          {
+            "term": "posthog",
+            "mentions": 5,
+            "momentum": 82,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=posthog"
+          },
+          {
+            "term": "optimizely",
+            "mentions": 5,
+            "momentum": 82,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=optimizely"
+          },
+          {
+            "term": "contentsquare",
+            "mentions": 2,
+            "momentum": 45,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=contentsquare"
+          },
+          {
+            "term": "kameleoon",
+            "mentions": 5,
+            "momentum": 45,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=kameleoon"
+          },
+          {
+            "term": "cro",
+            "mentions": 4,
+            "momentum": 36,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=cro"
+          },
+          {
+            "term": "personalization",
+            "mentions": 2,
+            "momentum": 27,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=personalization"
+          },
+          {
+            "term": "a/b testing",
+            "mentions": 3,
+            "momentum": 27,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=a%2Fb+testing"
+          },
+          {
+            "term": "funnel",
+            "mentions": 1,
+            "momentum": 18,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=funnel"
+          },
+          {
+            "term": "session replay",
+            "mentions": 1,
+            "momentum": 9,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=session+replay"
+          },
+          {
+            "term": "product analytics",
+            "mentions": 1,
+            "momentum": 9,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=product+analytics"
+          },
+          {
+            "term": "experience analytics",
+            "mentions": 1,
+            "momentum": 9,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=experience+analytics"
+          },
+          {
+            "term": "user experience",
+            "mentions": 1,
+            "momentum": 9,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=user+experience"
+          },
+          {
+            "term": "digital experience",
+            "mentions": 1,
+            "momentum": 9,
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=digital+experience"
+          }
+        ],
+        "evolution": [
+          {
+            "topic": "AI Experimentation",
+            "status": "Stable",
+            "score": 37,
+            "recent": 1,
+            "previous_monthly": 1.0,
+            "delta": 0.0,
+            "horizon": "2026–2028",
+            "why": "L’IA réduit le coût de création des variantes ; la valeur se déplace vers la qualité des hypothèses et de la décision.",
+            "examples": [
+              "AI variation development agent - Web Experimentation docs - Optimizely",
+              "GrowthBook · v5.1.0",
+              "Optimizely agentic experimentation report - Optimizely"
+            ],
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=AI+Experimentation"
+          },
+          {
+            "topic": "Continuous Optimization",
+            "status": "À surveiller",
+            "score": 5,
+            "recent": 0,
+            "previous_monthly": 0.5,
+            "delta": -0.5,
+            "horizon": "Maintenant",
+            "why": "Observer → comprendre → concevoir → tester → mesurer devient une boucle continue et partagée.",
+            "examples": [
+              "GrowthBook · v5.1.0",
+              "How to execute CRO testing in six steps - Kameleoon",
+              "From A/B tests to vibes: a brief history of CRO - Kameleoon"
+            ],
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=Continuous+Optimization"
+          },
+          {
+            "topic": "Experience Analytics",
+            "status": "Signal faible",
+            "score": 0,
+            "recent": 0,
+            "previous_monthly": 0.0,
+            "delta": 0.0,
+            "horizon": "Maintenant",
+            "why": "Quantitatif et qualitatif se rapprochent pour expliquer non seulement quoi, mais pourquoi.",
+            "examples": [
+              "Open source (and self-hosted) session replay tools - PostHog",
+              "User experience analytics: the ultimate guide - Optimizely"
+            ],
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=Experience+Analytics"
+          },
+          {
+            "topic": "Voice of Customer + Behavior",
+            "status": "Signal faible",
+            "score": 0,
+            "recent": 0,
+            "previous_monthly": 0.0,
+            "delta": 0.0,
+            "horizon": "Maintenant",
+            "why": "Les verbatims et comportements sont combinés pour prioriser les problèmes d’expérience.",
+            "examples": [],
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=Voice+of+Customer+%2B+Behavior"
+          },
+          {
+            "topic": "Human + Agent Experience",
+            "status": "Signal faible",
+            "score": 0,
+            "recent": 0,
+            "previous_monthly": 0.0,
+            "delta": 0.0,
+            "horizon": "2026–2029",
+            "why": "UX et Analytics convergent pour mesurer et concevoir des expériences où humains et agents interagissent.",
+            "examples": [
+              "Optimizely - AI to create and optimize digital experiences - Optimizely"
+            ],
+            "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=Human+%2B+Agent+Experience"
+          }
+        ]
+      }
+    },
+    "skills": [
+      {
+        "skill": "AI",
+        "mentions": 45,
+        "family": "Tech transverse"
+      },
+      {
+        "skill": "Git",
+        "mentions": 12,
+        "family": "Tech transverse"
+      },
+      {
+        "skill": "Figma",
+        "mentions": 10,
+        "family": "UX / UI · Research & Craft"
+      },
+      {
+        "skill": "Google Analytics",
+        "mentions": 9,
+        "family": "Web Analytics · Measurement & Data"
+      },
+      {
+        "skill": "PostHog",
+        "mentions": 8,
+        "family": "Web Analytics · Product & AI"
+      },
+      {
+        "skill": "Matomo",
+        "mentions": 8,
+        "family": "Web Analytics · Measurement & Data"
+      },
+      {
+        "skill": "GrowthBook",
+        "mentions": 8,
+        "family": "Convergence UX × Analytics"
+      },
+      {
+        "skill": "accessibility",
+        "mentions": 8,
+        "family": "UX / UI · Research & Craft"
+      },
+      {
+        "skill": "Contentsquare",
+        "mentions": 7,
+        "family": "Convergence UX × Analytics"
+      },
+      {
+        "skill": "GitHub",
+        "mentions": 6,
+        "family": "Tech transverse"
+      },
+      {
+        "skill": "experimentation",
+        "mentions": 6,
+        "family": "Convergence UX × Analytics"
+      },
+      {
+        "skill": "CRO",
+        "mentions": 5,
+        "family": "Convergence UX × Analytics"
+      },
+      {
+        "skill": "Optimizely",
+        "mentions": 5,
+        "family": "Convergence UX × Analytics"
+      },
+      {
+        "skill": "API",
+        "mentions": 5,
+        "family": "Tech transverse"
+      },
+      {
+        "skill": "Amplitude",
+        "mentions": 5,
+        "family": "Web Analytics · Product & AI"
+      },
+      {
+        "skill": "Kameleoon",
+        "mentions": 5,
+        "family": "Convergence UX × Analytics"
+      },
+      {
+        "skill": "Mixpanel",
+        "mentions": 5,
+        "family": "Web Analytics · Product & AI"
+      },
+      {
+        "skill": "Tealium",
+        "mentions": 5,
+        "family": "Web Analytics · Measurement & Data"
+      },
+      {
+        "skill": "tracking",
+        "mentions": 4,
+        "family": "Web Analytics · Measurement & Data"
+      },
+      {
+        "skill": "Generative Engine Optimization",
+        "mentions": 4,
+        "family": "Web Analytics · Product & AI"
+      },
+      {
+        "skill": "product analytics",
+        "mentions": 4,
+        "family": "Web Analytics · Product & AI"
+      },
+      {
+        "skill": "Lighthouse",
+        "mentions": 3,
+        "family": "UX / UI · Research & Craft"
+      },
+      {
+        "skill": "axe-core",
+        "mentions": 3,
+        "family": "UX / UI · Research & Craft"
+      },
+      {
+        "skill": "GEO",
+        "mentions": 3,
+        "family": "Web Analytics · Product & AI"
+      },
+      {
+        "skill": "A/B testing",
+        "mentions": 3,
+        "family": "Convergence UX × Analytics"
+      },
+      {
+        "skill": "GA4",
+        "mentions": 3,
+        "family": "Web Analytics · Measurement & Data"
+      },
+      {
+        "skill": "personalization",
+        "mentions": 2,
+        "family": "Convergence UX × Analytics"
+      },
+      {
+        "skill": "LLM",
+        "mentions": 2,
+        "family": "Tech transverse"
+      },
+      {
+        "skill": "design system",
+        "mentions": 2,
+        "family": "UX / UI · Research & Craft"
+      },
+      {
+        "skill": "AI Search",
+        "mentions": 2,
+        "family": "Web Analytics · Product & AI"
+      },
+      {
+        "skill": "Piano Analytics",
+        "mentions": 2,
+        "family": "Web Analytics · Measurement & Data"
+      },
+      {
+        "skill": "UX Research",
+        "mentions": 2,
+        "family": "UX / UI · Research & Craft"
+      },
+      {
+        "skill": "CSS",
+        "mentions": 1,
+        "family": "Tech transverse"
+      },
+      {
+        "skill": "product design",
+        "mentions": 1,
+        "family": "UX / UI · Research & Craft"
+      },
+      {
+        "skill": "funnel",
+        "mentions": 1,
+        "family": "Web Analytics · Product & AI"
+      }
+    ],
+    "topics": [
+      {
+        "term": "posthog",
+        "mentions": 8,
+        "momentum": 100,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=posthog"
+      },
+      {
+        "term": "matomo",
+        "mentions": 8,
+        "momentum": 100,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=matomo"
+      },
+      {
+        "term": "figma",
+        "mentions": 10,
+        "momentum": 83,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=figma"
+      },
+      {
+        "term": "contentsquare",
+        "mentions": 7,
+        "momentum": 54,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=contentsquare"
+      },
+      {
+        "term": "lighthouse",
+        "mentions": 3,
+        "momentum": 46,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=lighthouse"
+      },
+      {
+        "term": "experimentation",
+        "mentions": 6,
+        "momentum": 46,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=experimentation"
+      },
+      {
+        "term": "growthbook",
+        "mentions": 8,
+        "momentum": 42,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=growthbook"
+      },
+      {
+        "term": "cro",
+        "mentions": 5,
+        "momentum": 38,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=cro"
+      },
+      {
+        "term": "optimizely",
+        "mentions": 5,
+        "momentum": 38,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=optimizely"
+      },
+      {
+        "term": "accessibility",
+        "mentions": 8,
+        "momentum": 38,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=accessibility"
+      },
+      {
+        "term": "google analytics",
+        "mentions": 9,
+        "momentum": 38,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=google+analytics"
+      },
+      {
+        "term": "tracking",
+        "mentions": 4,
+        "momentum": 33,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=tracking"
+      },
+      {
+        "term": "axe-core",
+        "mentions": 3,
+        "momentum": 29,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=axe-core"
+      },
+      {
+        "term": "amplitude",
+        "mentions": 5,
+        "momentum": 29,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=amplitude"
+      },
+      {
+        "term": "kameleoon",
+        "mentions": 5,
+        "momentum": 21,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=kameleoon"
+      },
+      {
+        "term": "mixpanel",
+        "mentions": 5,
+        "momentum": 21,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=mixpanel"
+      },
+      {
+        "term": "tealium",
+        "mentions": 5,
+        "momentum": 21,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=tealium"
+      },
+      {
+        "term": "perplexity",
+        "mentions": 5,
+        "momentum": 21,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=perplexity"
+      },
+      {
+        "term": "product design",
+        "mentions": 1,
+        "momentum": 17,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=product+design"
+      },
+      {
+        "term": "generative engine optimization",
+        "mentions": 4,
+        "momentum": 17,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=generative+engine+optimization"
+      },
+      {
+        "term": "product analytics",
+        "mentions": 4,
+        "momentum": 17,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=product+analytics"
+      },
+      {
+        "term": "measurement",
+        "mentions": 4,
+        "momentum": 17,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=measurement"
+      },
+      {
+        "term": "personalization",
+        "mentions": 2,
+        "momentum": 12,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=personalization"
+      },
+      {
+        "term": "a/b testing",
+        "mentions": 3,
+        "momentum": 12,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=a%2Fb+testing"
+      },
+      {
+        "term": "ga4",
+        "mentions": 3,
+        "momentum": 12,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=ga4"
+      },
+      {
+        "term": "usability",
+        "mentions": 3,
+        "momentum": 12,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=usability"
+      },
+      {
+        "term": "funnel",
+        "mentions": 1,
+        "momentum": 8,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=funnel"
+      },
+      {
+        "term": "design system",
+        "mentions": 2,
+        "momentum": 8,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=design+system"
+      },
+      {
+        "term": "ai search",
+        "mentions": 2,
+        "momentum": 8,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=ai+search"
+      },
+      {
+        "term": "web analytics",
+        "mentions": 2,
+        "momentum": 8,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=web+analytics"
+      },
+      {
+        "term": "privacy",
+        "mentions": 2,
+        "momentum": 8,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=privacy"
+      },
+      {
+        "term": "ai visibility",
+        "mentions": 2,
+        "momentum": 8,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=ai+visibility"
+      },
+      {
+        "term": "user experience",
+        "mentions": 2,
+        "momentum": 8,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=user+experience"
+      },
+      {
+        "term": "conversion",
+        "mentions": 2,
+        "momentum": 8,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=conversion"
+      },
+      {
+        "term": "piano analytics",
+        "mentions": 2,
+        "momentum": 8,
+        "google_trends_url": "https://trends.google.com/trends/explore?date=today%205-y&q=piano+analytics"
+      }
+    ]
   }
 ]

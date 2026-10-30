@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-29T12:54:27.073198+00:00",
-  "count": 141,
+  "generated_at": "2026-10-30T12:47:56.307233+00:00",
+  "count": 140,
   "items": [
     {
-      "title": "PostHog · Agent skills agent-skills-v0.3931.0",
-      "summary": "Build from f73c91f773d1cc683688be923685ae1e1d21de7e",
-      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.3931.0",
+      "title": "PostHog · @posthog/agent 2.4.302",
+      "summary": "https://www.npmjs.com/package/@posthog/agent/v/2.4.302",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-v2.4.302",
       "domain": "github.com",
-      "published_at": "2026-10-29T12:52:03+00:00",
+      "published_at": "2026-10-30T11:42:13+00:00",
       "source": "GitHub Releases",
       "watch": "PostHog",
       "source_type": "github-release",
@@ -24,11 +24,32 @@
       "score": 3
     },
     {
-      "title": "PostHog · Agent skills agent-skills-v0.3930.0",
-      "summary": "Build from dd76166032608a18cf34f78f3b9fef957bcca42d",
-      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.3930.0",
+      "title": "Matomo · 6.0.0-rc1",
+      "summary": "## Matomo 6.0.0-rc1 (Pre-release) We recommend to read [this FAQ](https://matomo.org/faq/how-to-update/faq_159/) before using a pre-release in a production environment. Please use the attached archives for installing or updating Matomo. The source code download is only meant for developers and will require extra work to install it. - Latest stable production release can be found at https://matomo.org/download/ ([learn more](https://matomo.org/docs/installation/)) (recommended) - Beta and Release Candidate releases can be found at https://builds.matomo.org/ ([learn more](https://matomo.org/faq/how-to-update/faq_159/))",
+      "url": "https://github.com/matomo-org/matomo/releases/tag/6.0.0-rc1",
       "domain": "github.com",
-      "published_at": "2026-10-29T12:45:01+00:00",
+      "published_at": "2026-10-30T09:30:59+00:00",
+      "source": "GitHub Releases",
+      "watch": "Matomo",
+      "source_type": "github-release",
+      "lane": "Web Analytics",
+      "query": "matomo-org/matomo",
+      "lane_matches": {
+        "Web Analytics": [
+          "matomo"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "PostHog · @posthog/agent 2.4.301",
+      "summary": "https://www.npmjs.com/package/@posthog/agent/v/2.4.301",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-v2.4.301",
+      "domain": "github.com",
+      "published_at": "2026-10-30T07:51:12+00:00",
       "source": "GitHub Releases",
       "watch": "PostHog",
       "source_type": "github-release",
@@ -45,11 +66,11 @@
       "score": 3
     },
     {
-      "title": "PostHog · desktop-v0.61.866",
-      "summary": "## What's Changed * fix(hogql): reuse eligible repeated ctes by @georgemunyoro in https://github.com/PostHog/posthog/pull/112574 * fix(flags): send the row version from the MCP flag update and delete tools by @andehen in https://github.com/PostHog/posthog/pull/124130 * feat(experiments): report failed metric calculations in health checks by @mp-hog in https://github.com/PostHog/posthog/pull/123946 * feat(data-warehouse): scaffold 1 newly-requested source by @Gilbert09 in https://github.com/PostHog/posthog/pull/124661 * feat(experiments): Add a warehouse-native source node and exposure config by @jurajmajerik in https://github.com/PostHog/posthog/pull/114634 **Full Changelog**: https://github.com/PostHog/posthog/compare/desktop-v0.61.859...desktop-v0.61.866 ## Downloads ### macOS | Package | Architecture | Download | Blockmap | SHA-256 | | --- | --- | --- | --- | --- | | DMG | Apple Silicon (arm64) | [PostHog-Desktop-0.61.866-arm64-mac.dmg](https://desktop-releases.posthog.com/stable/Po",
-      "url": "https://github.com/PostHog/posthog/releases/tag/desktop-v0.61.866",
+      "title": "PostHog · desktop-v0.61.881",
+      "summary": "## What's Changed * feat(data-warehouse): name new history tables _history with _ph_valid_* columns by @danielcarletti in https://github.com/PostHog/posthog/pull/123551 * fix(customer-analytics): hydrate columns with account rows by @jakesciotto in https://github.com/PostHog/posthog/pull/115870 * perf(desktop): load inbox badge counts in one request by @dmarticus in https://github.com/PostHog/posthog/pull/124393 * fix(insights): return the resolved comparison range on saved insights by @haacked in https://github.com/PostHog/posthog/pull/125050 * chore(desktop): run the live agent e2e against the Go AI gateway by @jonathanlab in https://github.com/PostHog/posthog/pull/124920 * feat(flags): ask for a rollback reason when a flag edit lowers exposure by @gustavohstrassburger in https://github.com/PostHog/posthog/pull/124415 * feat: allow organization override of max personal api keys by @ReeceJones in https://github.com/PostHog/posthog/pull/124876 * refactor(insights): stop frontend and mc",
+      "url": "https://github.com/PostHog/posthog/releases/tag/desktop-v0.61.881",
       "domain": "github.com",
-      "published_at": "2026-10-29T04:02:19+00:00",
+      "published_at": "2026-10-30T02:41:59+00:00",
       "source": "GitHub Releases",
       "watch": "PostHog",
       "source_type": "github-release",
@@ -64,6 +85,73 @@
         "Web Analytics"
       ],
       "score": 3
+    },
+    {
+      "title": "How We're Training a Figma-Fluent Editing Model - Figma",
+      "summary": "How We're Training a Figma-Fluent Editing Model Figma",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE14T01uVE1xTG5PX1ZDZU9ibW5zVGQ5UXNFc2NQM0h3OUJjSkdicW5wQ2FiNW11dk5YUlJMaFRtdEZGampkbGxLeU9aVzVwcDZ4V1d4M3BRTWFHRGUyWEpETExuc3R4cU9aeDZqc2RnODdNZXc?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-10-29T19:16:58+00:00",
+      "source": "Figma",
+      "watch": "Figma",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "Figma · source surveillée",
+      "lane_matches": {
+        "UX / UI": [
+          "figma"
+        ]
+      },
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Matomo · 6.0.0-b9.20261029180526",
+      "summary": "## Matomo 6.0.0-b9.20261029180526 (Pre-release) We recommend to read [this FAQ](https://matomo.org/faq/how-to-update/faq_159/) before using a pre-release in a production environment. Please use the attached archives for installing or updating Matomo. The source code download is only meant for developers and will require extra work to install it. - Latest stable production release can be found at https://matomo.org/download/ ([learn more](https://matomo.org/docs/installation/)) (recommended) - Beta and Release Candidate releases can be found at https://builds.matomo.org/ ([learn more](https://matomo.org/faq/how-to-update/faq_159/))",
+      "url": "https://github.com/matomo-org/matomo/releases/tag/6.0.0-b9.20261029180526",
+      "domain": "github.com",
+      "published_at": "2026-10-29T18:29:33+00:00",
+      "source": "GitHub Releases",
+      "watch": "Matomo",
+      "source_type": "github-release",
+      "lane": "Web Analytics",
+      "query": "matomo-org/matomo",
+      "lane_matches": {
+        "Web Analytics": [
+          "matomo"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Migrate Adobe Analytics Projects to Customer Journey Analytics | Adobe CX Enterprise Coworker - Adobe Experience League",
+      "summary": "Migrate Adobe Analytics Projects to Customer Journey Analytics | Adobe CX Enterprise Coworker Adobe Experience League",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNG9FYWRUUmVoRnlGeHcwbVhsOWZwWmlKOWg3WFhzdGZlMzljT3hNRlBTdGxxUXNIUkxDOVNYaC1UNFk2c2pxSjNpTzlRdmJHYkdjeXZVa2poSy1CVFBmNTdhQ0JOZDgyZUkzZXBkZTRHcDFNRzE5UU4tMndJOEl4WmlaWkh0RmhCa3dNalRlbXotdjlPWm5ETHVEcWNYNnhEUnVEZTk4SDZPT1pLR3ZMYW1nSGE3TFY2Q0ZyY1ptV1hDXzFtYzhSdmJ0dWdMMncwZ3E3MzUtR2huZlE5RVgxMGlQTjMyYUZZRGZJQXdHNA?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-10-28T23:20:49+00:00",
+      "source": "Adobe Experience League",
+      "watch": "Adobe Analytics",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Adobe Analytics · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "adobe analytics"
+        ],
+        "Convergence": [
+          "customer journey"
+        ]
+      },
+      "categories": [
+        "Web Analytics",
+        "Convergence"
+      ],
+      "score": 4
     },
     {
       "title": "Matomo · 6.0.0-b9.20261028180522",
@@ -87,22 +175,23 @@
       "score": 3
     },
     {
-      "title": "Matomo · 6.0.0-b9",
-      "summary": "## Matomo 6.0.0-b9 (Pre-release) We recommend to read [this FAQ](https://matomo.org/faq/how-to-update/faq_159/) before using a pre-release in a production environment. Please use the attached archives for installing or updating Matomo. The source code download is only meant for developers and will require extra work to install it. - Latest stable production release can be found at https://matomo.org/download/ ([learn more](https://matomo.org/docs/installation/)) (recommended) - Beta and Release Candidate releases can be found at https://builds.matomo.org/ ([learn more](https://matomo.org/faq/how-to-update/faq_159/))",
-      "url": "https://github.com/matomo-org/matomo/releases/tag/6.0.0-b9",
-      "domain": "github.com",
-      "published_at": "2026-10-28T17:35:30+00:00",
-      "source": "GitHub Releases",
-      "watch": "Matomo",
-      "source_type": "github-release",
-      "lane": "Web Analytics",
-      "query": "matomo-org/matomo",
+      "title": "How to write comparison content that doesn't age like milk - PostHog",
+      "summary": "How to write comparison content that doesn't age like milk PostHog",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBjU1J0QlFPRTQtel81SDJMbzZkMUZXXzhNRWp0bjJaenhsNUlEQlhVZnhVY2RSVzFwemZrRVhidElvb3luYUJjU1pHeGFhVDJuSjFoWjViLUU2TXNwYWc?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-10-28T03:07:29+00:00",
+      "source": "PostHog",
+      "watch": "PostHog",
+      "source_type": "official-watch",
+      "lane": "Convergence",
+      "query": "PostHog · source surveillée",
       "lane_matches": {
         "Web Analytics": [
-          "matomo"
+          "posthog"
         ]
       },
       "categories": [
+        "Convergence",
         "Web Analytics"
       ],
       "score": 3
@@ -129,29 +218,8 @@
       "score": 3
     },
     {
-      "title": "Matomo · 6.0.0-b7.20261026180726",
-      "summary": "## Matomo 6.0.0-b7.20261026180726 (Pre-release) We recommend to read [this FAQ](https://matomo.org/faq/how-to-update/faq_159/) before using a pre-release in a production environment. Please use the attached archives for installing or updating Matomo. The source code download is only meant for developers and will require extra work to install it. - Latest stable production release can be found at https://matomo.org/download/ ([learn more](https://matomo.org/docs/installation/)) (recommended) - Beta and Release Candidate releases can be found at https://builds.matomo.org/ ([learn more](https://matomo.org/faq/how-to-update/faq_159/))",
-      "url": "https://github.com/matomo-org/matomo/releases/tag/6.0.0-b7.20261026180726",
-      "domain": "github.com",
-      "published_at": "2026-10-26T19:09:28+00:00",
-      "source": "GitHub Releases",
-      "watch": "Matomo",
-      "source_type": "github-release",
-      "lane": "Web Analytics",
-      "query": "matomo-org/matomo",
-      "lane_matches": {
-        "Web Analytics": [
-          "matomo"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 3
-    },
-    {
-      "title": "Hidden data flows: The risks of third-party tracking - Analytics Platform - Matomo",
-      "summary": "Hidden data flows: The risks of third-party tracking - Analytics Platform Matomo",
+      "title": "Do you really know what your website is sharing? The hidden risks of third-party tracking - Matomo",
+      "summary": "Do you really know what your website is sharing? The hidden risks of third-party tracking Matomo",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9IWDc3S1psN2otak4zN1kwckJjZTMydGJfTFFTdkNmMnhPOGtkbFdPVnUwenJ4elc3cWhwWi1VcldrMGdLVnRfZ1E1X2dhbjlBME9kYTg4S0Fucng2OTFUU3M2Qkpfd2NTY1QyMUtzZDJYSk1MbUVabkpROA?oc=5",
       "domain": "news.google.com",
       "published_at": "2026-10-26T14:43:20+00:00",
@@ -170,23 +238,6 @@
         "Web Analytics"
       ],
       "score": 3
-    },
-    {
-      "title": "UX Disciplines: Glossary - Nielsen Norman Group",
-      "summary": "UX Disciplines: Glossary Nielsen Norman Group",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1kREtHMEowZWU4aTJ2enh6N0RNWVY5eV8xZEtNclVJaWVhWDhEVXhJOUJkR3BzSEhVdlhfTDh4Nmxab0xUZXNHVlVLcFYzRkFIQlNFU2dtQ21RdkFhbzZfUFNSTDBHNEdU?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-23T19:14:42+00:00",
-      "source": "Nielsen Norman Group",
-      "watch": "Nielsen Norman Group",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Nielsen Norman Group · source surveillée",
-      "lane_matches": {},
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 2
     },
     {
       "title": "Accordion Icons: Which Work Best? - Smashing Magazine",
@@ -210,7 +261,7 @@
       "summary": "How to put your design system to work with the Figma agent Figma",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZGgtSXpTa21fUG8tQVFLQ2dMbEdGZmJlRGplOXJ6NS1WRG5pVUd3M1hGd1ZiekQwc005UnVWZmdYSV9UNUs4ZHl5SWduckd3Z0ROekswQTFXSGlhUTJGY3hJNWE5WE9YZlFnOHRsemNQRmtHdHJYeWt2Y1BvaXpHeHFLRS0yM0p4T2lSaUd1cw?oc=5",
       "domain": "news.google.com",
-      "published_at": "2026-10-22T20:48:38+00:00",
+      "published_at": "2026-10-22T07:00:00+00:00",
       "source": "Figma",
       "watch": "Figma",
       "source_type": "official-watch",
@@ -226,48 +277,6 @@
         "UX / UI"
       ],
       "score": 3
-    },
-    {
-      "title": "Embracing Playful Imperfection With The CSS random() Function - Smashing Magazine",
-      "summary": "Embracing Playful Imperfection With The CSS random() Function Smashing Magazine",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVENlZkJKUzF5YXBPbGJOdUhSaHZCbFhiaTZ6VVRKbGhXQk12bHg2MUNscGlvNThqODNxeVA0SVdUc3hRMHd4NWRmNGFiWXl0elk4ZUVpNkdTSFliTEkzR0N4Tk15OTdvTW5OR1Yya0NRMVlBaXhiMmJpa3FBTlhxNjdjX3NpSDZNd1BLVHAyNVM4aUFwRHJn?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-20T07:00:00+00:00",
-      "source": "Smashing Magazine",
-      "watch": "Smashing Magazine",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Smashing Magazine · source surveillée",
-      "lane_matches": {},
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 2
-    },
-    {
-      "title": "Upgrade from Adobe Analytics to Customer Journey Analytics - Adobe Experience League",
-      "summary": "Upgrade from Adobe Analytics to Customer Journey Analytics Adobe Experience League",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZTJuenFhXzQtYUtHakxSYmF6Vl8yUUZ1dERJWVBSakV6RFp0X2NuTEpxbUFIbFNNXzNEV01YTkVFWGxmb0FzdFd2S211RFpic255ZzJKQ1pKOEJ5S20xSDg4TXI2amx5ODNSRG5MZGtqUGd6TGVFUjZIdlpNLW9oZG5MZFFaTUpWc2ZJZVd6dXRRU2V0NWVBLXlwT3pnS204ZWRKMnhSN0picUhVWFIwRnd0ZjlVUFNoVzktTDVOLVl1NXM?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-16T07:00:00+00:00",
-      "source": "Adobe Experience League",
-      "watch": "Adobe Analytics",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Adobe Analytics · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "adobe analytics"
-        ],
-        "Convergence": [
-          "customer journey"
-        ]
-      },
-      "categories": [
-        "Web Analytics",
-        "Convergence"
-      ],
-      "score": 4
     },
     {
       "title": "Is Your Organization Messing Up AI Adoption? - Smashing Magazine",
@@ -308,8 +317,8 @@
       "score": 3
     },
     {
-      "title": "Design together with code layers on the canvas - Figma",
-      "summary": "Design together with code layers on the canvas Figma",
+      "title": "Design Together With Code Layers on the Canvas - Figma",
+      "summary": "Design Together With Code Layers on the Canvas Figma",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RWmViTWwyWFV0N1E5U1R1V3J5SDlETG8wQUE1ZmZCUEdIMmR4QmRpMnBEeGVrTFQ3ODNpd3BsSFJCYjE4RFpKLUN0UmFjLThpOHB4cFZzbFo4Vi1XRndZNkhWYzRxdnRrRnZ3aQ?oc=5",
       "domain": "news.google.com",
       "published_at": "2026-10-14T07:00:00+00:00",
@@ -393,28 +402,6 @@
       "score": 3
     },
     {
-      "title": "3 ways product designers use the Figma agent for craft, speed, and creative expression - Figma",
-      "summary": "3 ways product designers use the Figma agent for craft, speed, and creative expression Figma",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5zcXZJc0dvQ1VoU2RWMEJiWThjZUFwWnU3T1RaQWV5OUtIX1dSN0k2WUo0dWI0WmlTdE0yYnk5UmlsWFlURlJyWWI3OXJuUXpCQ1RzMjlibE05dElvS1dWanM5Z3lVXzd3WTR2UkFwQW1XV0VSYlJvRC1oSTQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-06T07:00:00+00:00",
-      "source": "Figma",
-      "watch": "Figma",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Figma · source surveillée",
-      "lane_matches": {
-        "UX / UI": [
-          "product design",
-          "figma"
-        ]
-      },
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 3
-    },
-    {
       "title": "Smashing Newsletter: Issue #579 - Smashing Magazine",
       "summary": "Smashing Newsletter: Issue #579 Smashing Magazine",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbEpXcXlUWEhfdmFWQ3ZnMDB6YmdvN3hWeG5UbDBEbjlCMlFyc2VKdDFFN1RBZ1FUY2ZxNk5kTUV0S2ZQSEJBaTdLNzR3SnJVeUxXbzYwbWM5a1llX3B0UDFxTGlPUVBYX1JqM25sY3ZsOVdOd2ZPaEVVRDB6SlFJS285SzlhVnpZQ0JKNVI3UFc?oc=5",
@@ -471,27 +458,6 @@
       },
       "categories": [
         "UX / UI"
-      ],
-      "score": 3
-    },
-    {
-      "title": "Compare Analytics Source Connector data to Adobe Analytics - Adobe Experience League",
-      "summary": "Compare Analytics Source Connector data to Adobe Analytics Adobe Experience League",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZVUzV2haUGZBZEx2eEg2dFdpR25sTmlnaFBab2VkQzdEbVBwSGpXd0dGMi0ySmVHbmtteFJWa2tSbWsyYzZKeWZYZXlFRHZFdUFPLXV1OUp1bUx4TlJrclVxOG4xcHRvSkxLLVVFb3FfSkI1OXJyRHoyY0I0ZGZQdkVuTXlBeVU2aFF0dERMdjhyQkNDaVE?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-09-28T07:00:00+00:00",
-      "source": "Adobe Experience League",
-      "watch": "Adobe Analytics",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Adobe Analytics · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "adobe analytics"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
       ],
       "score": 3
     },
@@ -582,26 +548,21 @@
       "score": 3
     },
     {
-      "title": "Optimizely agentic experimentation report - Optimizely",
-      "summary": "Optimizely agentic experimentation report Optimizely",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRm1PR25OVDBPYjdtX3VlTFVIZERjOEVFSk9jWlRsQk15SVg1M1VFTEstSm9VZ2cwRWNmenp6VEp6U1dYaWFUS3lWUHBQb1VBS2NHT3VRbloyanZFelNTcl9SRDl2LThkZTUyci1CTHpiUHJsWHpMMmkxbVJuZXRGM1pn?oc=5",
+      "title": "Using AI for UX Work: Study Guide - Nielsen Norman Group",
+      "summary": "Using AI for UX Work: Study Guide Nielsen Norman Group",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA3UTZQSVYtakctQjVBU3o3QkJLajU3R0R5Wl9nS0xhNHVJSDducFgtWEQxVlZNLXpaMHRwd2x5Mm1sdmhFTUpYd2t5dGkxQ2kyRDlwRjUzTEtUWGlNZUZ2YzYtVQ?oc=5",
       "domain": "news.google.com",
-      "published_at": "2026-09-11T15:02:08+00:00",
-      "source": "Optimizely",
-      "watch": "Optimizely",
+      "published_at": "2026-09-04T07:00:00+00:00",
+      "source": "Nielsen Norman Group",
+      "watch": "Nielsen Norman Group",
       "source_type": "official-watch",
-      "lane": "Convergence",
-      "query": "Optimizely · source surveillée",
-      "lane_matches": {
-        "Convergence": [
-          "experimentation",
-          "optimizely"
-        ]
-      },
+      "lane": "UX / UI",
+      "query": "Nielsen Norman Group · source surveillée",
+      "lane_matches": {},
       "categories": [
-        "Convergence"
+        "UX / UI"
       ],
-      "score": 3
+      "score": 2
     },
     {
       "title": "What leaves your app: PII redaction and privacy modes - Amplitude",
@@ -647,23 +608,6 @@
       "score": 3
     },
     {
-      "title": "Searching the web with ChatGPT - OpenAI Help Center",
-      "summary": "Searching the web with ChatGPT OpenAI Help Center",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwVHZnMWJMUnNfd01Vck8zbEZqb3I3S185ZjhYUUI4azRBTmxsVjJLRUZhd1gtaS1hcU9OLVQxaEdoUG5XVTg2eEZKdUZMemtHMWdGdmdCMTh5MEw1NGdzeWluNlpaaHRkQWtKQW1GMkVqYTZXbXUwcHZaanRYYmM?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-08-19T22:55:42+00:00",
-      "source": "OpenAI Help Center",
-      "watch": "OpenAI Search",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "OpenAI Search · source surveillée",
-      "lane_matches": {},
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 2
-    },
-    {
       "title": "GrowthBook · v5.0.1",
       "summary": "## Security Patch Release - Fixes critical auth vulnerability affecting self-hosted non-SSO deployments with publicly accessible `/auth/*` endpoints - Switches to Docker Hardened base images to reduce exposure to 3rd party vulnerabilities - Bump dependency versions to address various security vulnerabilities - New Databricks OAuth M2M option for increased security - New org setting to completely disable all Personal Access Tokens - Various performance and bug fixes throughout the app We recommend all self-hosted users update as soon as possible. This is also a great time to read through our [production hardening docs](https://docs.growthbook.io/self-host/production) and ensure you are following all best practices for security.",
       "url": "https://github.com/growthbook/growthbook/releases/tag/v5.0.1",
@@ -681,27 +625,6 @@
       },
       "categories": [
         "Convergence"
-      ],
-      "score": 3
-    },
-    {
-      "title": "Try these 10 skills—and show off your own - Figma",
-      "summary": "Try these 10 skills—and show off your own Figma",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxN0thY1dOZzVFYlFCcEh1VU5qUXRnRXVXSFRKN0tsTkFwa1ZhWlB3a0hmNlFIbWlNRmRRZWx3YVVsb29MZXI3blRDZHZSSXhsSDlwQXljV1BodDRLbEhrVjk4dllVeFNVLVAzbUQwazI5ZEIzblZlZw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-08-13T07:00:00+00:00",
-      "source": "Figma",
-      "watch": "Figma",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Figma · source surveillée",
-      "lane_matches": {
-        "UX / UI": [
-          "figma"
-        ]
-      },
-      "categories": [
-        "UX / UI"
       ],
       "score": 3
     },
@@ -1048,24 +971,23 @@
       "score": 3
     },
     {
-      "title": "What I learned from Khan Academy about A/B testing AI - GrowthBook",
-      "summary": "What I learned from Khan Academy about A/B testing AI GrowthBook",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQlNCZE04UzR2UktEM05vUlBQejVwUXpubk9OSlRGNVRMNVBKYVZKeG1WR3IyUjdOQkp1YU1rRmZoZzhlVjV4Vnd5dVFpM2NTNURqSGxqbWJob0I1azg2UDRwWTgxOXhBZWd5ZU9pLURlVXB2VWllbGpxV0l0UjJjYVRWWUpPWHNwMlg5VA?oc=5",
+      "title": "The UX Designer’s Nightmare: When “Production-Ready” Becomes A Design Deliverable - Smashing Magazine",
+      "summary": "The UX Designer’s Nightmare: When “Production-Ready” Becomes A Design Deliverable Smashing Magazine",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTUNsQVZlM2l0NDhmOFA2YlpEOHhYcWFzTHhfVVduSTRjb0ZEUTdWUmFJVjZEUjFfV1o1Y2ZHSDIxemloYW54REZvSU5RbExpcGZab0pHNHZsbEktUFFfeFFQRkdmRTF0N2MwM1VVQ3FMU2NlVTZYWmJSWE9rQ0xvZUc0MEVFb3R2d2xabjZWRU85Zw?oc=5",
       "domain": "news.google.com",
-      "published_at": "2026-04-21T07:00:00+00:00",
-      "source": "GrowthBook",
-      "watch": "GrowthBook",
+      "published_at": "2026-04-22T07:00:00+00:00",
+      "source": "Smashing Magazine",
+      "watch": "Smashing Magazine",
       "source_type": "official-watch",
-      "lane": "Convergence",
-      "query": "GrowthBook · source surveillée",
+      "lane": "UX / UI",
+      "query": "Smashing Magazine · source surveillée",
       "lane_matches": {
-        "Convergence": [
-          "a/b testing",
-          "growthbook"
+        "UX / UI": [
+          "ux design"
         ]
       },
       "categories": [
-        "Convergence"
+        "UX / UI"
       ],
       "score": 3
     },
@@ -1143,6 +1065,27 @@
       "lane_matches": {
         "Web Analytics": [
           "google analytics"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Get to Know Amplitude’s New Always-On Data Analysts - Amplitude",
+      "summary": "Get to Know Amplitude’s New Always-On Data Analysts Amplitude",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBsejE1YWk2SmFtN1JzWFVrZDlEZG96OWlzb2lFWmZxMU5sSWh3RFA3c2dyaElUbGdReUZQS1ZMY3R0MTMzMEtWYUNiNFB6dHVVZ1doMElDbjkxaVBqQUJJelU3aw?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-03-23T21:00:29+00:00",
+      "source": "Amplitude",
+      "watch": "Amplitude",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Amplitude · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "amplitude"
         ]
       },
       "categories": [
@@ -1304,27 +1247,6 @@
       "score": 3
     },
     {
-      "title": "Can Agents Take On Enterprise Analytics? - Amplitude",
-      "summary": "Can Agents Take On Enterprise Analytics? Amplitude",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5NGxZaEN5M2RVSFBaY2diQ01rRmdmQVZycUNJdFRCOUhLYXd0YVVFWG44N2RnQ19Nb1NRMnFNYjNEUDZZVy1jdk5BbDB1LUNmeDBxWnlwYkhnMUh0VG5ObU50Z0Rrc2tRU1diblRhWDZ0UjkwZDQ0?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-02-17T08:00:00+00:00",
-      "source": "Amplitude",
-      "watch": "Amplitude",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Amplitude · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "amplitude"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 3
-    },
-    {
       "title": "How AI is reshaping web analytics and how to measure real human traffic in 2026 - Matomo",
       "summary": "How AI is reshaping web analytics and how to measure real human traffic in 2026 Matomo",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNDRZdGpjcTVjSUZyV3R0YjJYQkJBVGs1cnB2dkRXUGhjdWtrdThmU1NmNDZmbUhVSUo0dmcwUG9NQmsxVlpHMGgwcUJFR2R0V3VqdE1UYVgyZEpyTUR6QjVfaE92UFRmLUtVdE9xTV9jc1BfMVNia240MFo1czRJQl9yVF9iM1VxRnBoWUEyczk2UC1xczZJQkdpRGNQWlpJbGs0TU9NQmFVVEpmMTQ0VkZR?oc=5",
@@ -1347,11 +1269,50 @@
       "score": 3
     },
     {
+      "title": "A/B testing in the age of AI: evolution or revolution? - GrowthBook",
+      "summary": "A/B testing in the age of AI: evolution or revolution? GrowthBook",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE11aElnVHJDRFc0aThFVmExQXEtXy1na05wb2hRa3FnM0lQNUFoS2NlbVBXbFVScHJtMkE4ZklXQlZlZi1KblBTMHlfQm1ZMWJkMW9BNVNOT19TVzNpdUhZaDZ1MWItYkpPTENZ?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-02-10T08:00:00+00:00",
+      "source": "GrowthBook",
+      "watch": "GrowthBook",
+      "source_type": "official-watch",
+      "lane": "Convergence",
+      "query": "GrowthBook · source surveillée",
+      "lane_matches": {
+        "Convergence": [
+          "a/b testing",
+          "growthbook"
+        ]
+      },
+      "categories": [
+        "Convergence"
+      ],
+      "score": 3
+    },
+    {
       "title": "Building MCP servers for plugins and API integrations | OpenAI API - OpenAI Developers",
       "summary": "Building MCP servers for plugins and API integrations | OpenAI API OpenAI Developers",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wRzNiWUg2SzJ4SjlxWm0wS3g4SUJRMF84VXdaM0Z0NUVlck5tdTVmakpKX0N3U09pbXVjSmR4Tm1tUE5mOTJxSGJ1cWdaTVdnMlBrVg?oc=5",
       "domain": "news.google.com",
       "published_at": "2026-02-09T19:41:21+00:00",
+      "source": "OpenAI Developers",
+      "watch": "OpenAI Search",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "OpenAI Search · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 2
+    },
+    {
+      "title": "MCP servers | OpenAI API - OpenAI Developers",
+      "summary": "MCP servers | OpenAI API OpenAI Developers",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XVWJmOF8xUHltOURXS1RLZ1IwS19PaGpBbm4yQk0yak9naElZM2ZCRGZRNzBvLXcyblpmYmJzc1RYelJwSkpNdTl0eEFvOUY5V1lkbWozaVVxUk1JVU5FeDRDTkNacWdvbXlVdHlCR3BIQ2hz?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-02-09T19:14:28+00:00",
       "source": "OpenAI Developers",
       "watch": "OpenAI Search",
       "source_type": "official-watch",
@@ -1379,29 +1340,6 @@
         "Web Analytics"
       ],
       "score": 2
-    },
-    {
-      "title": "PostHog vs Mixpanel in-depth tool comparison - PostHog",
-      "summary": "PostHog vs Mixpanel in-depth tool comparison PostHog",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBNQXhtUElBLUQ5Vl9NNTdhaGthVFJHZWdlQXRaUUo0QkJvWHZxMDlfYXhKc09pSl9IS2NRSzVWMlJxaHRva3A5Y3ctUzBmWk9SNV96X0NkZw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-01-28T08:00:00+00:00",
-      "source": "PostHog",
-      "watch": "PostHog",
-      "source_type": "official-watch",
-      "lane": "Convergence",
-      "query": "PostHog · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "mixpanel",
-          "posthog"
-        ]
-      },
-      "categories": [
-        "Convergence",
-        "Web Analytics"
-      ],
-      "score": 3
     },
     {
       "title": "State of the Designer 2026 - Figma",
@@ -1593,6 +1531,23 @@
       "score": 3
     },
     {
+      "title": "Personas Make Users Memorable - Nielsen Norman Group",
+      "summary": "Personas Make Users Memorable Nielsen Norman Group",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5yNDhGa0FnR2dfRGYyNVhEUGVQS1VxVDhPOEY4S254SGpETG03WjJGdWV2dWF2dmNSdUZGbDZTZldlV2ZyZHRBeWRiS2FZQW12cWlB?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2025-10-03T07:00:00+00:00",
+      "source": "Nielsen Norman Group",
+      "watch": "Nielsen Norman Group",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "Nielsen Norman Group · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 2
+    },
+    {
       "title": "LLM Visibility: What It Is and How to Optimize for It - Ahrefs",
       "summary": "LLM Visibility: What It Is and How to Optimize for It Ahrefs",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ZYnBFVGRzWXJJdFBaam1QYVZlZVVVWHRZLUUyNVlZZ2VkUDM0NjRVZmx6RU1WYWpyU0FZeWdxbmhHT1ZnMnJnQVZzLVBVQTBj?oc=5",
@@ -1608,27 +1563,6 @@
         "Web Analytics"
       ],
       "score": 2
-    },
-    {
-      "title": "The Complete AI Visibility Guide for SEOs, Marketers, and Site Owners - Ahrefs",
-      "summary": "The Complete AI Visibility Guide for SEOs, Marketers, and Site Owners Ahrefs",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1QTVdaZ3BnWXJEdWd3X0pUS3NDaXZBTV9aTmxRV2w0TW5WdjM2b0tZT3BlcXVWNmN1M1BoeE4xVGtGS19kRnlYRUhlSkZubkE?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-09-16T07:00:00+00:00",
-      "source": "Ahrefs",
-      "watch": "Ahrefs AI Search",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Ahrefs AI Search · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "ai visibility"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 3
     },
     {
       "title": "Introducing Comet Plus - Perplexity",
@@ -1692,6 +1626,23 @@
         "Web Analytics"
       ],
       "score": 3
+    },
+    {
+      "title": "New Study: AI Assistants Prefer to Cite “Fresher” Content (17 Million Citations Analyzed) - Ahrefs",
+      "summary": "New Study: AI Assistants Prefer to Cite “Fresher” Content (17 Million Citations Analyzed) Ahrefs",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fR3VZRXo0Zzk5eWxoSmxDSzI3WFpqTkRUOGhweXktS1I5ZFlLaVRMcDY2Sml3ZzZMTXNKdEYxbUZwZWVEQVk5UWJmU3dVVGxHSzNSajIwd3d4TklZaUhmaWptdjBQN0ZpTFNETjUwaUxiclhVQ0hMVWdR?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2025-07-28T07:00:00+00:00",
+      "source": "Ahrefs",
+      "watch": "Ahrefs AI Search",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Ahrefs AI Search · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 2
     },
     {
       "title": "An Analysis of AI Overview Brand Visibility Factors (75K Brands Studied) - Ahrefs",
@@ -1843,6 +1794,23 @@
       "score": 4
     },
     {
+      "title": "User-Interface Elements: Glossary - Nielsen Norman Group",
+      "summary": "User-Interface Elements: Glossary Nielsen Norman Group",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10Y0FReHNGS1Zid2VlNHdkVVNGRjBsXy1iZXMxNU5WQUxuRTRzTlAzZ2VSVnRlejVwaE5NbXo4QVhub3pSRGxCM1FlSFJXdnRKcWZVdVNfTG52SEFNaUQ4bjV3UEE?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2025-02-28T08:00:00+00:00",
+      "source": "Nielsen Norman Group",
+      "watch": "Nielsen Norman Group",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "Nielsen Norman Group · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 2
+    },
+    {
       "title": "That’s a wrap! Day two at axe-con. - Deque Systems",
       "summary": "That’s a wrap! Day two at axe-con. Deque Systems",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9HQ0s5eEtSZmxSYVo4bndHd3pscF9IT0xpWUw0QlpLQjh3Ri1zSWFzU2xnSmNDVHMxdHFubGd4MjByZEhRVDMwSVdqdTlrTXVsMFVvVVI3U1JlM09UZ01TOTVfV0Q0WUJsbmVF?oc=5",
@@ -1924,6 +1892,23 @@
       "score": 3
     },
     {
+      "title": "UX Deliverables: Glossary - Nielsen Norman Group",
+      "summary": "UX Deliverables: Glossary Nielsen Norman Group",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55NUVDSGQtRFBNckFIWjlZMEpaY19tbVZ0WEFiRkZaVjBYdXBHX0dHczBrSG9EYjdlM0dLMnZRZGVsSnRONWZoMnpibkFnbWRXeDlsRHBTNUJ3Z3NSYWNISmVjb3AtMlhaM1E?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2024-08-09T07:00:00+00:00",
+      "source": "Nielsen Norman Group",
+      "watch": "Nielsen Norman Group",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "Nielsen Norman Group · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 2
+    },
+    {
       "title": "Introducing the Perplexity Publishers’ Program - Perplexity",
       "summary": "Introducing the Perplexity Publishers’ Program Perplexity",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ3M5SmNxdGs3Z0NTVGpISWJxX0VqV3I3aTI0X3lmVEJKRmhuZ1VWTExfRXc5cjM0dnRvMGt2V0RlRVpLSV9PSkg2U3BLUEgxLTJ6XzNZRFczcXBoQUw5bG95OExrNXItc0ZOSWxTdFJaRm9QOWw1bk12bnlWWUJnbkU5VGJqYVU?oc=5",
@@ -1941,6 +1926,27 @@
       },
       "categories": [
         "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Build an effective optimization team - Optimizely",
+      "summary": "Build an effective optimization team Optimizely",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX1A4RkQ4dzB2eTR5bHBJYVRUWkNEOFNKcngtcmcxc0lkWDVHTnMzU1luMWN4LVdURmhwdmgyMzVVMlNuTjJqcDc5X21ZXy1qSVJzZnY1UXBaeVZqVFJvQk1sXzhSaXl3UEZBZnJ6RERzQnd2WklZTTFjNFdiTmFiTUUxOEhzSTRQSGE3aTNycS0wRlRuZFdnZ3NObW1PRWMt?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2024-07-08T07:00:00+00:00",
+      "source": "Optimizely",
+      "watch": "Optimizely",
+      "source_type": "official-watch",
+      "lane": "Convergence",
+      "query": "Optimizely · source surveillée",
+      "lane_matches": {
+        "Convergence": [
+          "optimizely"
+        ]
+      },
+      "categories": [
+        "Convergence"
       ],
       "score": 3
     },
@@ -2044,44 +2050,6 @@
       "lane_matches": {
         "UX / UI": [
           "figma"
-        ]
-      },
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 3
-    },
-    {
-      "title": "Card Sorting: Uncover Users' Mental Models for Better Information Architecture - Nielsen Norman Group",
-      "summary": "Card Sorting: Uncover Users' Mental Models for Better Information Architecture Nielsen Norman Group",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB1OUpzMW5yVnU1WUxSMFlrMTNYcjBSSjd2UC1LTU1PLVJLVTdvS2hxSi11cTZvZWFHRFNNekxldWVzUGx3STU0Yl84NXpqZ3F5Qk1jUXJoSENFMWZUYWNhSVIyOGFob2Jq?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2024-02-02T08:00:00+00:00",
-      "source": "Nielsen Norman Group",
-      "watch": "Nielsen Norman Group",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Nielsen Norman Group · source surveillée",
-      "lane_matches": {},
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 2
-    },
-    {
-      "title": "Mental Models and User Experience Design - Nielsen Norman Group",
-      "summary": "Mental Models and User Experience Design Nielsen Norman Group",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wZVZNOEg0UWE5YXk2NnU4SE5pdGpCQ0hSUXE1aVZXZDhTZ09Ndmo0dnhWcG9HMDJ5Mm5FTWI0TkZXUVQzTmRPVjIwMTkyODZQTXVoZWl3ZmVmRE0?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2024-01-26T08:00:00+00:00",
-      "source": "Nielsen Norman Group",
-      "watch": "Nielsen Norman Group",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Nielsen Norman Group · source surveillée",
-      "lane_matches": {
-        "UX / UI": [
-          "user experience"
         ]
       },
       "categories": [
@@ -2405,23 +2373,6 @@
       "score": 2
     },
     {
-      "title": "Combobox Pattern | APG | WAI - W3C",
-      "summary": "Combobox Pattern | APG | WAI W3C",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ZZ3JiX0YweV9XSHA3OF9aMkU4T3UyVzB4VEF2dFBqdGxLdlpmQlFXY0V2Nkk2TFZodTdsMGRPSUJhWmFXZjdMQVNhN19zY3FtN1BfeVNmX2JtSG5hckJR?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2022-06-12T07:58:42+00:00",
-      "source": "W3C",
-      "watch": "W3C WAI",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "W3C WAI · source surveillée",
-      "lane_matches": {},
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 2
-    },
-    {
       "title": "ARIA Authoring Practices Guide (APG) Home - W3C",
       "summary": "ARIA Authoring Practices Guide (APG) Home W3C",
       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5rWmR6cHZtZ1duNElycExsdHZhc3hsM2h6Y1V0UnpZUS01Ri12RDJKdUdjQW1TZkpWb2l1eHU4bjhuZmYtcWs4?oc=5",
@@ -2525,6 +2476,27 @@
       "score": 3
     },
     {
+      "title": "Inside Figma: Go Behind the Scenes - Figma",
+      "summary": "Inside Figma: Go Behind the Scenes Figma",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5VZ0FCaDY2ODQxd0REV1VSQ0ZEblB3dEhjbEZ2OFNOcHk5MHc4WHU0NGhYaElYTG9RRXpFeEZhNVdSY3VxNkItOHA5M3NwVzVvc0E?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2021-12-09T19:30:34+00:00",
+      "source": "Figma",
+      "watch": "Figma",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "Figma · source surveillée",
+      "lane_matches": {
+        "UX / UI": [
+          "figma"
+        ]
+      },
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 3
+    },
+    {
       "title": "Website Usability Best Practices (Backed By Research) - Baymard",
       "summary": "Website Usability Best Practices (Backed By Research) Baymard",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBUMEZ4djJwLVdaQnJQWU9pQWZqVFpzd1pqYnlMLUFSTldOam5nOWpENS1SWnJxOEMxMi1YUDZvUUsxalVYcXNCR09pVWpRVnFXbVZDUg?oc=5",
@@ -2589,6 +2561,48 @@
       },
       "categories": [
         "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Official Hotjar Site – Sign up for free - Contentsquare",
+      "summary": "Official Hotjar Site – Sign up for free Contentsquare",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1CdGJ5bW5fMzA4Q0c5aXRGbWlTOHZKOFU5X0VHa0QwY01XRGp5MFZVdERuNGlSaFVOWm9GN3dYZ3h2X2ViTzVnVw?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2021-09-01T05:04:00+00:00",
+      "source": "Contentsquare",
+      "watch": "Contentsquare",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Contentsquare · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "contentsquare"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "How to Meet WCAG (Quickref Reference) - W3C",
+      "summary": "How to Meet WCAG (Quickref Reference) W3C",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1PZHo0MFpwX2J6aVF3cjZrcVI2cXJVc251UW5OQXVtaEg3MHFndmo0RmNFbmtoWDR0SFpuV3NtUEljcFdtTU4ya3BEbHgzemxC?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2021-03-25T19:53:04+00:00",
+      "source": "W3C",
+      "watch": "W3C WAI",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "W3C WAI · source surveillée",
+      "lane_matches": {
+        "UX / UI": [
+          "wcag"
+        ]
+      },
+      "categories": [
+        "UX / UI"
       ],
       "score": 3
     },
@@ -2738,23 +2752,23 @@
       "score": 3
     },
     {
-      "title": "Careers - Working at Contentsquare - Contentsquare",
-      "summary": "Careers - Working at Contentsquare Contentsquare",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9ZWmVmUFE4UE9WOHJUMVhBdkt6TnczTTRvUTFQb0huS19HUmpNaHpFZV9lcDNlUnVIYTJjU3pPbkcxNk11RFpEN2lB?oc=5",
+      "title": "Journey Mapping 101 - Nielsen Norman Group",
+      "summary": "Journey Mapping 101 Nielsen Norman Group",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5NaEswR3JxR2NZazhfU25FSnNKd3diM2VPeDlLNm4xYU1lU0dwVE83MzB1WGk3TmlmZkpTUzFGOTE3ZjY4QktHVnVNR2VKS2g4QUt5aHllQzdJSzlJYUpYbGV5SQ?oc=5",
       "domain": "news.google.com",
-      "published_at": "2019-01-23T12:16:22+00:00",
-      "source": "Contentsquare",
-      "watch": "Contentsquare",
+      "published_at": "2018-12-09T08:00:00+00:00",
+      "source": "Nielsen Norman Group",
+      "watch": "Nielsen Norman Group",
       "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Contentsquare · source surveillée",
+      "lane": "UX / UI",
+      "query": "Nielsen Norman Group · source surveillée",
       "lane_matches": {
-        "Web Analytics": [
-          "contentsquare"
+        "UX / UI": [
+          "journey map"
         ]
       },
       "categories": [
-        "Web Analytics"
+        "UX / UI"
       ],
       "score": 3
     },
@@ -2859,44 +2873,6 @@
         "UX / UI"
       ],
       "score": 3
-    },
-    {
-      "title": "10 Usability Heuristics for User Interface Design - Nielsen Norman Group",
-      "summary": "10 Usability Heuristics for User Interface Design Nielsen Norman Group",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAtUndBSTZQSE91SC1ncGpUcnZ5cUZsTzdUQ3R1aG0tekhTcUdUd1VaNzRVdlhiczVqd2x4Y1FRTXVKakZxcGhjX2dTdmZfZ0pHVVJoUlY4ZWYxWHBwQVhZbFJmX0VmR0xTdnc?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2012-12-14T20:53:11+00:00",
-      "source": "Nielsen Norman Group",
-      "watch": "Nielsen Norman Group",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Nielsen Norman Group · source surveillée",
-      "lane_matches": {
-        "UX / UI": [
-          "usability"
-        ]
-      },
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 3
-    },
-    {
-      "title": "Articles & Videos - Nielsen Norman Group",
-      "summary": "Articles & Videos Nielsen Norman Group",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9uSjY1bUJqcC1tb2NSNHJsNzdaSF9KX25LemZ2aVdlMFdtakVFbmJaQkNoTnlBX0RzTGpvWktGMlZFWmhHODZjVQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2012-12-14T13:07:42+00:00",
-      "source": "Nielsen Norman Group",
-      "watch": "Nielsen Norman Group",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Nielsen Norman Group · source surveillée",
-      "lane_matches": {},
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 2
     },
     {
       "title": "UX Knowledge Hub – Baymard Institute - Baymard",

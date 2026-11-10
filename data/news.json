@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-09T16:08:15.624080+00:00",
+  "generated_at": "2026-11-10T14:48:43.534161+00:00",
   "count": 142,
   "items": [
     {
-      "title": "PostHog · Toolbar extension v0.3.0",
-      "summary": "### Minor changes - [4904c8a8819](https://github.com/PostHog/posthog/commit/4904c8a88199ea8e91647b5b0927467bbed310ee) Let the PostHog app check that the extension is installed, and open an authorized URL with the side panel from the app's toolbar page.",
-      "url": "https://github.com/PostHog/posthog/releases/tag/toolbar-extension/v0.3.0",
+      "title": "PostHog · Agent skills agent-skills-v0.4556.0",
+      "summary": "Build from 350bb63d7d0f072a3af52416a5b4a5d36cf5f21a",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.4556.0",
       "domain": "github.com",
-      "published_at": "2026-11-09T12:12:33+00:00",
+      "published_at": "2026-11-10T13:52:09+00:00",
       "source": "GitHub Releases",
       "watch": "PostHog",
       "source_type": "github-release",
@@ -24,11 +24,11 @@
       "score": 3
     },
     {
-      "title": "PostHog · Hobby Installer (Latest)",
-      "summary": "Latest hobby installer build - same as hobby-20261109-082007 This is currently experimental and may not work as expected. We believe it to be working correctly, but please make sure you backup your data before using it. Download: `curl -L https://github.com/PostHog/posthog/releases/download/hobby-latest/hobby-installer -o hobby-installer && chmod +x hobby-installer`",
-      "url": "https://github.com/PostHog/posthog/releases/tag/hobby-latest",
+      "title": "PostHog · Agent skills agent-skills-v0.4555.0",
+      "summary": "Build from 1758b93b88c44f17831990740478fee9a8508a8d",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.4555.0",
       "domain": "github.com",
-      "published_at": "2026-11-09T08:20:17+00:00",
+      "published_at": "2026-11-10T12:44:03+00:00",
       "source": "GitHub Releases",
       "watch": "PostHog",
       "source_type": "github-release",
@@ -45,11 +45,32 @@
       "score": 3
     },
     {
-      "title": "PostHog · Hobby Installer hobby-20261109-082007",
-      "summary": "Build from commit d2bf0ca8a14252b2d9c8767b57484260a21bc96c",
-      "url": "https://github.com/PostHog/posthog/releases/tag/hobby-20261109-082007",
+      "title": "6 Easy Ways to Use the Figma Agent Right Now - Figma",
+      "summary": "6 Easy Ways to Use the Figma Agent Right Now Figma",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE00bWpCdnNEZDFlUC12bmt1QnBndHpEN3FfNFRSY0RnTU5PaFAwZk1laWt0YUxrQXdqYVcyZmx1Mm1uX01vT1h2VUkzXzVJOXRkQ3dHT3Jva1JONWdyUkNMQjJHU2lBdmR4aXFCXzg4UU5wRUpaa3NzR1ZhWkI?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-11-10T02:08:20+00:00",
+      "source": "Figma",
+      "watch": "Figma",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "Figma · source surveillée",
+      "lane_matches": {
+        "UX / UI": [
+          "figma"
+        ]
+      },
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 3
+    },
+    {
+      "title": "PostHog · desktop-v0.61.981",
+      "summary": "## What's Changed * fix(signals): align report actions between web and desktop inbox by @dmarticus in https://github.com/PostHog/posthog/pull/132083 * feat(desktop): offer claude fable 5.2 by @charlesvien in https://github.com/PostHog/posthog/pull/132190 * chore(deps): Update posthog-node to 5.63.2 by @posthog-js-upgrader in https://github.com/PostHog/posthog/pull/129906 * feat(desktop): send the client provenance header on every api request by @VojtechBartos in https://github.com/PostHog/posthog/pull/129983 * chore(deps): Update @posthog/rollup-plugin to 1.6.3 by @posthog-js-upgrader in https://github.com/PostHog/posthog/pull/130775 **Full Changelog**: https://github.com/PostHog/posthog/compare/desktop-v0.61.967...desktop-v0.61.981 ## Downloads ### macOS | Package | Architecture | Download | Blockmap | SHA-256 | | --- | --- | --- | --- | --- | | DMG | Apple Silicon (arm64) | [PostHog-Desktop-0.61.981-arm64-mac.dmg](https://desktop-releases.posthog.com/stable/PostHog-Desktop-0.61.981-a",
+      "url": "https://github.com/PostHog/posthog/releases/tag/desktop-v0.61.981",
       "domain": "github.com",
-      "published_at": "2026-11-09T08:20:10+00:00",
+      "published_at": "2026-11-10T01:40:18+00:00",
       "source": "GitHub Releases",
       "watch": "PostHog",
       "source_type": "github-release",
@@ -58,6 +79,27 @@
       "lane_matches": {
         "Web Analytics": [
           "posthog"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Matomo · 6.1.0-alpha.20261109180453",
+      "summary": "## Matomo 6.1.0-alpha.20261109180453 (Pre-release) We recommend to read [this FAQ](https://matomo.org/faq/how-to-update/faq_159/) before using a pre-release in a production environment. Please use the attached archives for installing or updating Matomo. The source code download is only meant for developers and will require extra work to install it. - Latest stable production release can be found at https://matomo.org/download/ ([learn more](https://matomo.org/docs/installation/)) (recommended) - Beta and Release Candidate releases can be found at https://builds.matomo.org/ ([learn more](https://matomo.org/faq/how-to-update/faq_159/))",
+      "url": "https://github.com/matomo-org/matomo/releases/tag/6.1.0-alpha.20261109180453",
+      "domain": "github.com",
+      "published_at": "2026-11-09T19:39:20+00:00",
+      "source": "GitHub Releases",
+      "watch": "Matomo",
+      "source_type": "github-release",
+      "lane": "Web Analytics",
+      "query": "matomo-org/matomo",
+      "lane_matches": {
+        "Web Analytics": [
+          "matomo"
         ]
       },
       "categories": [
@@ -92,27 +134,6 @@
       "url": "https://github.com/matomo-org/matomo/releases/tag/6.1.0-alpha.20261106180502",
       "domain": "github.com",
       "published_at": "2026-11-06T18:57:08+00:00",
-      "source": "GitHub Releases",
-      "watch": "Matomo",
-      "source_type": "github-release",
-      "lane": "Web Analytics",
-      "query": "matomo-org/matomo",
-      "lane_matches": {
-        "Web Analytics": [
-          "matomo"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 3
-    },
-    {
-      "title": "Matomo · 6.1.0-alpha.20261105180457",
-      "summary": "## Matomo 6.1.0-alpha.20261105180457 (Pre-release) We recommend to read [this FAQ](https://matomo.org/faq/how-to-update/faq_159/) before using a pre-release in a production environment. Please use the attached archives for installing or updating Matomo. The source code download is only meant for developers and will require extra work to install it. - Latest stable production release can be found at https://matomo.org/download/ ([learn more](https://matomo.org/docs/installation/)) (recommended) - Beta and Release Candidate releases can be found at https://builds.matomo.org/ ([learn more](https://matomo.org/faq/how-to-update/faq_159/))",
-      "url": "https://github.com/matomo-org/matomo/releases/tag/6.1.0-alpha.20261105180457",
-      "domain": "github.com",
-      "published_at": "2026-11-05T18:39:10+00:00",
       "source": "GitHub Releases",
       "watch": "Matomo",
       "source_type": "github-release",
@@ -238,24 +259,23 @@
       "score": 3
     },
     {
-      "title": "Why we're moving our warehouse product off DuckDB - PostHog",
-      "summary": "Why we're moving our warehouse product off DuckDB PostHog",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8yM1Nya1VJYTZXQkFxWXNNVEE2ZnJDaHdTR3I0U3NYS1VQY0dLQ0p1TDFyWHFDblMxTl9VamJ6UU53YmVkNjRlek5TQ1RvWFZWMkwzcQ?oc=5",
+      "title": "Experience Design: Dropping the “User” from “User Experience” - Nielsen Norman Group",
+      "summary": "Experience Design: Dropping the “User” from “User Experience” Nielsen Norman Group",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE84N2VlcTBLT3gxN0ZqQ0s1elZCN3VTblFFUDZ2dlZIU3VEc3JUQ282azBUXzZYNURzRFpEVjhkdHhUNEVnRE40bVF2ajZvVEV0bnU3SUFBYjFmMGhrNEYxSE8wYU4xR01k?oc=5",
       "domain": "news.google.com",
-      "published_at": "2026-11-02T12:37:17+00:00",
-      "source": "PostHog",
-      "watch": "PostHog",
+      "published_at": "2026-10-30T07:00:00+00:00",
+      "source": "Nielsen Norman Group",
+      "watch": "Nielsen Norman Group",
       "source_type": "official-watch",
-      "lane": "Convergence",
-      "query": "PostHog · source surveillée",
+      "lane": "UX / UI",
+      "query": "Nielsen Norman Group · source surveillée",
       "lane_matches": {
-        "Web Analytics": [
-          "posthog"
+        "UX / UI": [
+          "user experience"
         ]
       },
       "categories": [
-        "Convergence",
-        "Web Analytics"
+        "UX / UI"
       ],
       "score": 3
     },
@@ -277,29 +297,8 @@
       "score": 2
     },
     {
-      "title": "How We're Training a Figma-Fluent Editing Model - Figma",
-      "summary": "How We're Training a Figma-Fluent Editing Model Figma",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE14T01uVE1xTG5PX1ZDZU9ibW5zVGQ5UXNFc2NQM0h3OUJjSkdicW5wQ2FiNW11dk5YUlJMaFRtdEZGampkbGxLeU9aVzVwcDZ4V1d4M3BRTWFHRGUyWEpETExuc3R4cU9aeDZqc2RnODdNZXc?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-29T07:00:00+00:00",
-      "source": "Figma",
-      "watch": "Figma",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Figma · source surveillée",
-      "lane_matches": {
-        "UX / UI": [
-          "figma"
-        ]
-      },
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 3
-    },
-    {
-      "title": "Do you even benchmark? How we evaluate agents at scale (with real examples) - PostHog",
-      "summary": "Do you even benchmark? How we evaluate agents at scale (with real examples) PostHog",
+      "title": "How to benchmark AI agents at scale against real data - PostHog",
+      "summary": "How to benchmark AI agents at scale against real data PostHog",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB3dG1mWDdma3B2eF9MbUVUQUduUFpPLUtPamQydWtHVlA3aWxpWHEzS0lnRVIwOF94dlJfRGdkNHZ4OGZUdVBqVzQ0UmR1ejNNeVB1bkJtUFhOR1RZWklkeA?oc=5",
       "domain": "news.google.com",
       "published_at": "2026-10-28T07:00:00+00:00",
@@ -487,23 +486,6 @@
       "score": 3
     },
     {
-      "title": "Smashing Newsletter: Issue #579 - Smashing Magazine",
-      "summary": "Smashing Newsletter: Issue #579 Smashing Magazine",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbEpXcXlUWEhfdmFWQ3ZnMDB6YmdvN3hWeG5UbDBEbjlCMlFyc2VKdDFFN1RBZ1FUY2ZxNk5kTUV0S2ZQSEJBaTdLNzR3SnJVeUxXbzYwbWM5a1llX3B0UDFxTGlPUVBYX1JqM25sY3ZsOVdOd2ZPaEVVRDB6SlFJS285SzlhVnpZQ0JKNVI3UFc?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-06T07:00:00+00:00",
-      "source": "Smashing Magazine",
-      "watch": "Smashing Magazine",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Smashing Magazine · source surveillée",
-      "lane_matches": {},
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 2
-    },
-    {
       "title": "axe-core · Release 4.14.0",
       "summary": "This release enables a new rule, and introduces new violations in some existing rules. These can cause the issue totals to go up from a previous version. Similarly we've included various bug fixes to false positives which may see the issue count go down as well. This release focused on various performance improvements which should speed runs up 20% - 40% on most pages. On especially large pages we've measured a 15x performance improvement. ### Features - add EN 301 549 v4 tags to target-size ([#5361](https://github.com/dequelabs/axe-core/issues/5361)) ([8200d2b](https://github.com/dequelabs/axe-core/commit/8200d2b81f3fd41f6287423c326fb663afa85fb3)), closes [#5311](https://github.com/dequelabs/axe-core/issues/5311) - **i18n:** add Azerbaijani locale ([#5385](https://github.com/dequelabs/axe-core/issues/5385)) ([02e5fd4](https://github.com/dequelabs/axe-core/commit/02e5fd446a2b53196dff25026bff6a9be47fdc22)) - **label-content-name-mismatch:** Enable rule by default ([#5421](https://github",
       "url": "https://github.com/dequelabs/axe-core/releases/tag/v4.14.0",
@@ -667,6 +649,27 @@
       "score": 3
     },
     {
+      "title": "Evaluating Web Accessibility Overview - W3C",
+      "summary": "Evaluating Web Accessibility Overview W3C",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE43ZVVpWjNiQlpDTjQ1S0ZsZTl0akdHU1UyYXVGc2JpRHgtUHZMaC1zU3JNb2Y3NHZJLVNxb1NIYnpEdFpfZkN3aUc1MlhDdw?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-08-12T07:00:00+00:00",
+      "source": "W3C",
+      "watch": "W3C WAI",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "W3C WAI · source surveillée",
+      "lane_matches": {
+        "UX / UI": [
+          "accessibility"
+        ]
+      },
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 3
+    },
+    {
       "title": "axe-core · Release 4.13.0",
       "summary": "In summary, this release adds: 1. Support Element Internals: A modern way for building accessible component libraries Axe-core is the first accessibility tool to support this major new web feature! Thanks to RedHat and Adobe for working with us to figure out the right way forward. 2. A new Swedish translation, thanks to our a community contribution 3. A new Finish contribution (not open source), thanks to our Scandinavian partner 4. 10 False positives closed, including all the critical ones! 5. And 13 updates to get Axe-core consistent with the latest web standards This release is one of the bigger changes we've done in a few years, so likely issue numbers are going to change in adopting this version. ### Features - **aria-actions:** add aria-actions to allowed ARIA attributes ([#5200](https://github.com/dequelabs/axe-core/issues/5200)) ([029655d](https://github.com/dequelabs/axe-core/commit/029655dcd41b5405b7ba138d29cec28392977184)), closes [#4584](https://github.com/dequelabs/axe-cor",
       "url": "https://github.com/dequelabs/axe-core/releases/tag/v4.13.0",
@@ -820,23 +823,23 @@
       "score": 3
     },
     {
-      "title": "Latest marketing resources and learnings - Optimizely",
-      "summary": "Latest marketing resources and learnings Optimizely",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wa0hkQ3U4SmptSzN2ellYYjBLOElxdnlFRHd0YnRmRXBQcnVpQUhyRkUxbklCMGNaRVRDbzd0U2hWbVNiMkZXcXY5aDYxcVU?oc=5",
+      "title": "The Definitive Guide to Ecommerce UX Research & Audits - Baymard",
+      "summary": "The Definitive Guide to Ecommerce UX Research & Audits Baymard",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pUmdYQ1pvTkJ0Ukl1S1lKUzV5ZWlvZ3hhR2swaWZWa2VYWkluSE1PWkFxTEJCZUc1ajZYTjFqNjExOWlvaUc5bG1PMFRjb3FqZzhGelNPM2xDN3doWXFkTWVId3hSakhERlE?oc=5",
       "domain": "news.google.com",
-      "published_at": "2026-06-21T23:45:53+00:00",
-      "source": "Optimizely",
-      "watch": "Optimizely",
+      "published_at": "2026-06-11T07:00:00+00:00",
+      "source": "Baymard",
+      "watch": "Baymard",
       "source_type": "official-watch",
-      "lane": "Convergence",
-      "query": "Optimizely · source surveillée",
+      "lane": "UX / UI",
+      "query": "Baymard · source surveillée",
       "lane_matches": {
-        "Convergence": [
-          "optimizely"
+        "UX / UI": [
+          "ux research"
         ]
       },
       "categories": [
-        "Convergence"
+        "UX / UI"
       ],
       "score": 3
     },
@@ -944,27 +947,6 @@
       },
       "categories": [
         "Convergence"
-      ],
-      "score": 3
-    },
-    {
-      "title": "Turn data into decisions with unified measurement. - blog.google",
-      "summary": "Turn data into decisions with unified measurement. blog.google",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUDRwamRPdk1jWFVYeloyRkR1WV9hcnA0ZUJpWTZxb3BWTDVfTU9zX1pmZmVudmNCTkVhY1ZEWlZWN0RzcnVCblRtbGZ1MkZfT3NMeXBWcEc0aHJHdjJmYVNBR0JidE1YOERhazF0ZjNnXzF4QnJveTNCUW9OTnJfdHdvYlBBSV9oNmZ2bF9ISnM?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-05-20T07:00:00+00:00",
-      "source": "blog.google",
-      "watch": "Google Analytics",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Google Analytics · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "measurement"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
       ],
       "score": 3
     },
@@ -1227,6 +1209,29 @@
       "score": 3
     },
     {
+      "title": "Open source (and self-hosted) session replay tools - PostHog",
+      "summary": "Open source (and self-hosted) session replay tools PostHog",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9WbE44c1E2WDFOcjNURmo4MDBBaTduSGl3SUcwSXVOTVNpS3ZXY1FBVC1YNlBPVk9KSHBEUjc0eUg4TUtvd09OVTc4QThXdlo0enphejEybHBIaW9TU3VyZUlMcHNvb1RHN21rNnIzNA?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-03-13T07:00:00+00:00",
+      "source": "PostHog",
+      "watch": "PostHog",
+      "source_type": "official-watch",
+      "lane": "Convergence",
+      "query": "PostHog · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "posthog",
+          "session replay"
+        ]
+      },
+      "categories": [
+        "Convergence",
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
       "title": "Measurements | Analytics - Piano.io",
       "summary": "Measurements | Analytics Piano.io",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9XU2Ytc0h3Si1EQ2VWTGZ6eXpFajRRaWdnRms4MkhCWm9mWXZOMm00MnZtUG90QzlERzhGSEhKTWktRHhlSFFFRWpqbEhHUnc2NG1QSGdOUmxkNFB6?oc=5",
@@ -1472,23 +1477,6 @@
       "score": 3
     },
     {
-      "title": "GEO vs. SEO: A Comparative Guide for Digital Marketers - Semrush",
-      "summary": "GEO vs. SEO: A Comparative Guide for Digital Marketers Semrush",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9SdEpLY3RpV1VweG9mazJoX2FkeHJZQVRSMGR6T1d0cGVad0M0OGVoLW1RVzI4Z2tPaWwydlFpODRjY0lVVmVTOUpyblZvXzMtRmc?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-11-20T08:00:00+00:00",
-      "source": "Semrush",
-      "watch": "Semrush AI Search",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Semrush AI Search · source surveillée",
-      "lane_matches": {},
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 2
-    },
-    {
       "title": "Announcing GrowthBook 4.2: product analytics & experimentation at scale - GrowthBook",
       "summary": "Announcing GrowthBook 4.2: product analytics & experimentation at scale GrowthBook",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrNnFTWVFvSWN4WFd6dzVXcndreWpIdDZNMzJOblhsQTRzMVl5TnNOMEU3SjF5dkU1NzhVcU9FOWRjWHdmQnhTMkVSNWlFeUllQ1dpckZpV1VNVXI0aWJiUHh4ZFQzM3ZMZnJSVw?oc=5",
@@ -1632,6 +1620,23 @@
         "Web Analytics"
       ],
       "score": 3
+    },
+    {
+      "title": "New Study: AI Assistants Prefer to Cite “Fresher” Content (17 Million Citations Analyzed) - Ahrefs",
+      "summary": "New Study: AI Assistants Prefer to Cite “Fresher” Content (17 Million Citations Analyzed) Ahrefs",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fR3VZRXo0Zzk5eWxoSmxDSzI3WFpqTkRUOGhweXktS1I5ZFlLaVRMcDY2Sml3ZzZMTXNKdEYxbUZwZWVEQVk5UWJmU3dVVGxHSzNSajIwd3d4TklZaUhmaWptdjBQN0ZpTFNETjUwaUxiclhVQ0hMVWdR?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2025-07-28T07:00:00+00:00",
+      "source": "Ahrefs",
+      "watch": "Ahrefs AI Search",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Ahrefs AI Search · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 2
     },
     {
       "title": "Design systems 101: The complete guide - Figma",
@@ -1779,25 +1784,30 @@
       "score": 3
     },
     {
-      "title": "Accessibility Fundamentals Overview | Web Accessibility Initiative (WAI) - W3C",
-      "summary": "Accessibility Fundamentals Overview | Web Accessibility Initiative (WAI) W3C",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBnMmZVblAzOFNaQ0VJUVFHRXgySXNuMW1HbGFUMDBOeWlYT3dKc0d5Z1JHaEVxWG1OMEM0TlQ3WHU2SWZHbFNTM1NUQ2k?oc=5",
+      "title": "User experience analytics: the ultimate guide - Optimizely",
+      "summary": "User experience analytics: the ultimate guide Optimizely",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6QlRKVHBZZjRjWlAyRUZ3c1N6eDZXZlBtTXlrT21mVWRqX1d3RnVLaGVueC01QTNfTkxmUzBDRjN0aXhzWjJ6bUFQcEM1SHNSMkgxdnRsdzFqQzdpd1hxa0RINDFMSnFSV2Fxc0lMOGJvSlNDSTlnTzlHY2V2Zw?oc=5",
       "domain": "news.google.com",
-      "published_at": "2025-04-03T07:00:00+00:00",
-      "source": "W3C",
-      "watch": "W3C WAI",
+      "published_at": "2025-03-12T07:00:00+00:00",
+      "source": "Optimizely",
+      "watch": "Optimizely",
       "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "W3C WAI · source surveillée",
+      "lane": "Convergence",
+      "query": "Optimizely · source surveillée",
       "lane_matches": {
         "UX / UI": [
-          "accessibility"
+          "user experience"
+        ],
+        "Convergence": [
+          "optimizely",
+          "experience analytics"
         ]
       },
       "categories": [
+        "Convergence",
         "UX / UI"
       ],
-      "score": 3
+      "score": 4
     },
     {
       "title": "That’s a wrap! Day two at axe-con. - Deque",
@@ -2031,6 +2041,23 @@
       "score": 2
     },
     {
+      "title": "The future of SEO: Where search is heading in 2027 - Semrush",
+      "summary": "The future of SEO: Where search is heading in 2027 Semrush",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBRdzVHMnVWNEFlUy1jUlhmV0xndXF3TVJBREVSbllxdzNxNkxCeEtkWUNkU1ExSl8za1RyRmplbWl4cnhsWC1SY2hKR0s5UDNEUWhTYlZ3?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2023-11-09T17:40:59+00:00",
+      "source": "Semrush",
+      "watch": "Semrush AI Search",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Semrush AI Search · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 2
+    },
+    {
       "title": "AI for UX: Getting Started - Nielsen Norman Group",
       "summary": "AI for UX: Getting Started Nielsen Norman Group",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5WXZGV2tVLUNLblhnME1OQ0Q0UnA3c25TWE5ldlROaGZ0bm5SS09uWEhTN2gzZmtzVDRSRXM3dmMwTkkyR0ZGV2d3TG8xbzJkTHdSWXhNTnVidW5rc1FXR0RyQWMtdw?oc=5",
@@ -2088,23 +2115,6 @@
         "Web Analytics"
       ],
       "score": 3
-    },
-    {
-      "title": "User Interviews 101 - Nielsen Norman Group",
-      "summary": "User Interviews 101 Nielsen Norman Group",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE93N2pjYkdzYkppMDFaRU1BQXBCdEZyckNfYWM2MzN4WktFWi1JeDFYNkVrVzBVNmZ2T1JSc0xYV3hWTG9CWUd0bDJzbDFhZFp6LXhGSmRSdzlDRU1keWc?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2023-09-17T07:00:00+00:00",
-      "source": "Nielsen Norman Group",
-      "watch": "Nielsen Norman Group",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Nielsen Norman Group · source surveillée",
-      "lane_matches": {},
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 2
     },
     {
       "title": "Beyond Load Rules: Leveraging Consent Integrations for Compliance - Tealium",
@@ -2420,52 +2430,6 @@
       "score": 3
     },
     {
-      "title": "Facebook’s Conversion API Gateway – What Is It? Should You Consider it? - Tealium",
-      "summary": "Facebook’s Conversion API Gateway – What Is It? Should You Consider it? Tealium",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR2tGOExsZkxSLU5lTk5xcUdTZlpWQ1pGcVJRNV9RZk9ETHNyM1hhNktMT0E1NHdqckhhejdIYTNPckxBYVhWVDhJU1ZhMklCNXpNSnF3bGFINUVScGR3Mkl1WVEtdVlrcFZKUVZXUExrSlp1eW1RcWxwekdrQVVVSE1NYmVIbFUzT29wWkd6OGNwOXpLeVBucnpYbmVoVVAzd2VpeGktRFdUSmQzUFBWQUxkVVE?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2021-11-22T08:00:00+00:00",
-      "source": "Tealium",
-      "watch": "Tealium",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Tealium · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "tealium"
-        ],
-        "Convergence": [
-          "conversion"
-        ]
-      },
-      "categories": [
-        "Web Analytics",
-        "Convergence"
-      ],
-      "score": 4
-    },
-    {
-      "title": "Website Usability Best Practices (Backed By Research) - Baymard",
-      "summary": "Website Usability Best Practices (Backed By Research) Baymard",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBUMEZ4djJwLVdaQnJQWU9pQWZqVFpzd1pqYnlMLUFSTldOam5nOWpENS1SWnJxOEMxMi1YUDZvUUsxalVYcXNCR09pVWpRVnFXbVZDUg?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2021-11-10T08:00:00+00:00",
-      "source": "Baymard",
-      "watch": "Baymard",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Baymard · source surveillée",
-      "lane_matches": {
-        "UX / UI": [
-          "usability"
-        ]
-      },
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 3
-    },
-    {
       "title": "Meet your marketing objectives with the new Google Analytics - blog.google",
       "summary": "Meet your marketing objectives with the new Google Analytics blog.google",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWG40eDYwaF9qb2xmaV91ai1TSGlNNjVYV3pUcHdXV2NZLTNRWGNnR3JhMDJLdVY0LXRBcTQwSko2alZlSFQ5dzlLbUFrNDd5M3Iyd3VwMVNNY1NmRncydGFjV1BzMmtPU01CcU13NFpWNzF4SmdUZlVXQ3ZOYWdtc3dDb0R6eUFPSUVpNDZ4a19XRko5MTZpWVR6Z0cwdUZZOFFVZGxnWkxWOWhLc3c?oc=5",
@@ -2739,6 +2703,27 @@
       "score": 3
     },
     {
+      "title": "Official Google Analytics product news and updates - blog.google",
+      "summary": "Official Google Analytics product news and updates blog.google",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YbnN3czNWcThWRk9scWJMWWJVaUNHX1VCRm1HN2hvSDNfdnZHbGFlZ1o3VlVqT21JY3dvZnFUbjJtYTdpWjcwSENJREZpLWxNQ1BVaUp3NEduZWhXZDlLSmJITkFrTEM5?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2018-06-26T08:14:57+00:00",
+      "source": "blog.google",
+      "watch": "Google Analytics",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Google Analytics · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "google analytics"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
       "title": "WCAG 2 Overview | Web Accessibility Initiative (WAI) - W3C",
       "summary": "WCAG 2 Overview | Web Accessibility Initiative (WAI) W3C",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9jTTBRYnZ4eUhyakd5Uktia3dUZlc2eXQ0N0lLRnUteWg5MzVGX2UzOGtOZ0RuRGxlOEtkTFNndjZINWt3Wjd3LVRlVjloc1hKaVp2ckRHMjd5YkpMLVE?oc=5",
@@ -2761,27 +2746,6 @@
       "score": 3
     },
     {
-      "title": "Writing for Web Accessibility – Tips for Getting Started - W3C",
-      "summary": "Writing for Web Accessibility – Tips for Getting Started W3C",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBhUDl6NHY3ZGdBTG14bjRScF9uRUoyc1NybVdQS1lTNkp2M2VodnJFa195aHRyYnJMRUlBNUlWc1I5aXQ5T2lxbFp2OEM?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2018-05-11T13:13:38+00:00",
-      "source": "W3C",
-      "watch": "W3C WAI",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "W3C WAI · source surveillée",
-      "lane_matches": {
-        "UX / UI": [
-          "accessibility"
-        ]
-      },
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 3
-    },
-    {
       "title": "Problem Statements - Silver - W3C",
       "summary": "Problem Statements - Silver W3C",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1RTVJoUTZ6SDBjd0FjR19kVmc0ZVZWYWU0UzRES1hQY2E5SFBTT0ZBajZlOExpN3hvdlMtdS1kaHlCdmVCcTBrTldjMVBxLXJnWGc2eGxEbE1IcjlMSjFzQ0Q1bnNQZERpUl9IMV9uYndOc2IzY2JN?oc=5",
@@ -2792,6 +2756,23 @@
       "source_type": "official-watch",
       "lane": "UX / UI",
       "query": "W3C WAI · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 2
+    },
+    {
+      "title": "Articles - Smashing Magazine",
+      "summary": "Articles Smashing Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9BNGNsbUlEalBFbnFNV1V0eFNMSjc1Ymt6ZGlmdV9Bc0pzaTVtdDZNSHd2WGoyWHJnZUwtX1VwZnliZnFud0tEZW9iN3BueV8yeXlQVw?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2017-11-22T13:00:40+00:00",
+      "source": "Smashing Magazine",
+      "watch": "Smashing Magazine",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "Smashing Magazine · source surveillée",
       "lane_matches": {},
       "categories": [
         "UX / UI"
@@ -2820,6 +2801,27 @@
       "score": 3
     },
     {
+      "title": "3 Tips to Ensuring Data Governance Compliance and Success - Tealium",
+      "summary": "3 Tips to Ensuring Data Governance Compliance and Success Tealium",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWW9hc3dTbTlzX0FtQ2l2RGM5XzhIeDZWeU9xNDZzUWItLXh4NDhqMTkzRFdVUm5VOFRlUGN6S3JJdTZJT1F4V1lKcW5vTFJpM01SbDVIWmNCRm44eURuUVAwOTBBMDFkYlVUaTdadkRyWEtmMDlXaWNKVUo1NmMyQ2h6Qi1XcHp1Rm5jX09jbGJoeExSQVRiSVB0dTZzd2VkQnBxalpmRV9ibGc?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2017-04-11T07:00:00+00:00",
+      "source": "Tealium",
+      "watch": "Tealium",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Tealium · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "tealium"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
       "title": "Research - OpenAI",
       "summary": "Research OpenAI",
       "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9ZMU1WQ1JwUVE2RHNsRFliR3JyRUhuUlZqWk0takRJZ0pYZjhXYXNpQ2liMm5fZFhpWlZJTEtKZEc1dw?oc=5",
@@ -2837,21 +2839,25 @@
       "score": 2
     },
     {
-      "title": "Ahrefs Blog — SEO & marketing insights - Ahrefs",
-      "summary": "Ahrefs Blog — SEO & marketing insights Ahrefs",
-      "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE04OVkzSF9UdGxqZURHX09MNW54cGJpQV9MNWFIdU9ZMHpKdUpLRWFRQ1JBZU1Id1VlR2E5ag?oc=5",
+      "title": "Images Tutorial | Web Accessibility Initiative (WAI) - W3C",
+      "summary": "Images Tutorial | Web Accessibility Initiative (WAI) W3C",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9oYzdTM0xORWczeGpLMVhGc21sbGdEQXNIRFJucm1pZVprR0xpeVJqMExSS3Q4bVBjSndYdVpQVmkwWkZsbFhVQVNfV2dfVHc1N0E?oc=5",
       "domain": "news.google.com",
-      "published_at": "2015-11-24T09:39:13+00:00",
-      "source": "Ahrefs",
-      "watch": "Ahrefs AI Search",
+      "published_at": "2016-01-16T10:12:50+00:00",
+      "source": "W3C",
+      "watch": "W3C WAI",
       "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Ahrefs AI Search · source surveillée",
-      "lane_matches": {},
+      "lane": "UX / UI",
+      "query": "W3C WAI · source surveillée",
+      "lane_matches": {
+        "UX / UI": [
+          "accessibility"
+        ]
+      },
       "categories": [
-        "Web Analytics"
+        "UX / UI"
       ],
-      "score": 2
+      "score": 3
     },
     {
       "title": "Smashing Magazine — For Web Designers And Developers - Smashing Magazine",

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-10T14:48:43.534161+00:00",
+  "generated_at": "2026-11-11T14:11:39.359749+00:00",
   "count": 142,
   "items": [
     {
-      "title": "PostHog · Agent skills agent-skills-v0.4556.0",
-      "summary": "Build from 350bb63d7d0f072a3af52416a5b4a5d36cf5f21a",
-      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.4556.0",
+      "title": "PostHog · Hobby Installer (Latest)",
+      "summary": "Latest hobby installer build - same as hobby-20261111-122119 This is currently experimental and may not work as expected. We believe it to be working correctly, but please make sure you backup your data before using it. Download: `curl -L https://github.com/PostHog/posthog/releases/download/hobby-latest/hobby-installer -o hobby-installer && chmod +x hobby-installer`",
+      "url": "https://github.com/PostHog/posthog/releases/tag/hobby-latest",
       "domain": "github.com",
-      "published_at": "2026-11-10T13:52:09+00:00",
+      "published_at": "2026-11-11T12:21:28+00:00",
       "source": "GitHub Releases",
       "watch": "PostHog",
       "source_type": "github-release",
@@ -24,11 +24,11 @@
       "score": 3
     },
     {
-      "title": "PostHog · Agent skills agent-skills-v0.4555.0",
-      "summary": "Build from 1758b93b88c44f17831990740478fee9a8508a8d",
-      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.4555.0",
+      "title": "PostHog · posthog-cli latest",
+      "summary": "Same as posthog-cli/v0.19.3",
+      "url": "https://github.com/PostHog/posthog/releases/tag/posthog-cli-latest",
       "domain": "github.com",
-      "published_at": "2026-11-10T12:44:03+00:00",
+      "published_at": "2026-11-11T11:12:47+00:00",
       "source": "GitHub Releases",
       "watch": "PostHog",
       "source_type": "github-release",
@@ -37,6 +37,69 @@
       "lane_matches": {
         "Web Analytics": [
           "posthog"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "PostHog · posthog-cli/v0.19.3",
+      "summary": "## Release Notes ### Patch changes - [83f1feb2b24](https://github.com/PostHog/posthog/commit/83f1feb2b2447410b3caed7c2c38df85f1e7e695) Keep presigned S3 credentials out of upload and download error logs — Thanks @jakesciotto! ## Install posthog-cli 0.19.3 ### Install prebuilt binaries via shell script ```sh curl --proto '=https' --tlsv1.2 -LsSf https://releases.posthog.com/posthog-cli/v0.19.3/posthog-cli-installer.sh | sh ``` ### Install prebuilt binaries via powershell script ```sh powershell -ExecutionPolicy Bypass -c \"irm https://releases.posthog.com/posthog-cli/v0.19.3/posthog-cli-installer.ps1 | iex\" ``` ### Install prebuilt binaries via Homebrew ```sh brew install PostHog/tap/posthog-cli ``` ### Install prebuilt binaries into your npm project ```sh npm install @posthog/cli@0.19.3 ``` ## Download posthog-cli 0.19.3 | File | Platform | Checksum | |--------|----------|----------| | [posthog-cli-aarch64-apple-darwin.tar.gz](https://releases.posthog.com/posthog-cli/v0.19.3/posthog-cli",
+      "url": "https://github.com/PostHog/posthog/releases/tag/posthog-cli/v0.19.3",
+      "domain": "github.com",
+      "published_at": "2026-11-11T11:12:31+00:00",
+      "source": "GitHub Releases",
+      "watch": "PostHog",
+      "source_type": "github-release",
+      "lane": "Web Analytics",
+      "query": "PostHog/posthog",
+      "lane_matches": {
+        "Web Analytics": [
+          "posthog"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Matomo · 5.14.3-rc1",
+      "summary": "## Matomo 5.14.3-rc1 (Pre-release) We recommend to read [this FAQ](https://matomo.org/faq/how-to-update/faq_159/) before using a pre-release in a production environment. Please use the attached archives for installing or updating Matomo. The source code download is only meant for developers and will require extra work to install it. - Latest stable production release can be found at https://matomo.org/download/ ([learn more](https://matomo.org/docs/installation/)) (recommended) - Beta and Release Candidate releases can be found at https://builds.matomo.org/ ([learn more](https://matomo.org/faq/how-to-update/faq_159/))",
+      "url": "https://github.com/matomo-org/matomo/releases/tag/5.14.3-rc1",
+      "domain": "github.com",
+      "published_at": "2026-11-10T21:20:25+00:00",
+      "source": "GitHub Releases",
+      "watch": "Matomo",
+      "source_type": "github-release",
+      "lane": "Web Analytics",
+      "query": "matomo-org/matomo",
+      "lane_matches": {
+        "Web Analytics": [
+          "matomo"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Matomo · 6.1.0-alpha.20261110180348",
+      "summary": "## Matomo 6.1.0-alpha.20261110180348 (Pre-release) We recommend to read [this FAQ](https://matomo.org/faq/how-to-update/faq_159/) before using a pre-release in a production environment. Please use the attached archives for installing or updating Matomo. The source code download is only meant for developers and will require extra work to install it. - Latest stable production release can be found at https://matomo.org/download/ ([learn more](https://matomo.org/docs/installation/)) (recommended) - Beta and Release Candidate releases can be found at https://builds.matomo.org/ ([learn more](https://matomo.org/faq/how-to-update/faq_159/))",
+      "url": "https://github.com/matomo-org/matomo/releases/tag/6.1.0-alpha.20261110180348",
+      "domain": "github.com",
+      "published_at": "2026-11-10T18:44:05+00:00",
+      "source": "GitHub Releases",
+      "watch": "Matomo",
+      "source_type": "github-release",
+      "lane": "Web Analytics",
+      "query": "matomo-org/matomo",
+      "lane_matches": {
+        "Web Analytics": [
+          "matomo"
         ]
       },
       "categories": [
@@ -66,74 +129,11 @@
       "score": 3
     },
     {
-      "title": "PostHog · desktop-v0.61.981",
-      "summary": "## What's Changed * fix(signals): align report actions between web and desktop inbox by @dmarticus in https://github.com/PostHog/posthog/pull/132083 * feat(desktop): offer claude fable 5.2 by @charlesvien in https://github.com/PostHog/posthog/pull/132190 * chore(deps): Update posthog-node to 5.63.2 by @posthog-js-upgrader in https://github.com/PostHog/posthog/pull/129906 * feat(desktop): send the client provenance header on every api request by @VojtechBartos in https://github.com/PostHog/posthog/pull/129983 * chore(deps): Update @posthog/rollup-plugin to 1.6.3 by @posthog-js-upgrader in https://github.com/PostHog/posthog/pull/130775 **Full Changelog**: https://github.com/PostHog/posthog/compare/desktop-v0.61.967...desktop-v0.61.981 ## Downloads ### macOS | Package | Architecture | Download | Blockmap | SHA-256 | | --- | --- | --- | --- | --- | | DMG | Apple Silicon (arm64) | [PostHog-Desktop-0.61.981-arm64-mac.dmg](https://desktop-releases.posthog.com/stable/PostHog-Desktop-0.61.981-a",
-      "url": "https://github.com/PostHog/posthog/releases/tag/desktop-v0.61.981",
-      "domain": "github.com",
-      "published_at": "2026-11-10T01:40:18+00:00",
-      "source": "GitHub Releases",
-      "watch": "PostHog",
-      "source_type": "github-release",
-      "lane": "Web Analytics",
-      "query": "PostHog/posthog",
-      "lane_matches": {
-        "Web Analytics": [
-          "posthog"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 3
-    },
-    {
       "title": "Matomo · 6.1.0-alpha.20261109180453",
       "summary": "## Matomo 6.1.0-alpha.20261109180453 (Pre-release) We recommend to read [this FAQ](https://matomo.org/faq/how-to-update/faq_159/) before using a pre-release in a production environment. Please use the attached archives for installing or updating Matomo. The source code download is only meant for developers and will require extra work to install it. - Latest stable production release can be found at https://matomo.org/download/ ([learn more](https://matomo.org/docs/installation/)) (recommended) - Beta and Release Candidate releases can be found at https://builds.matomo.org/ ([learn more](https://matomo.org/faq/how-to-update/faq_159/))",
       "url": "https://github.com/matomo-org/matomo/releases/tag/6.1.0-alpha.20261109180453",
       "domain": "github.com",
       "published_at": "2026-11-09T19:39:20+00:00",
-      "source": "GitHub Releases",
-      "watch": "Matomo",
-      "source_type": "github-release",
-      "lane": "Web Analytics",
-      "query": "matomo-org/matomo",
-      "lane_matches": {
-        "Web Analytics": [
-          "matomo"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 3
-    },
-    {
-      "title": "Matomo · 6.1.0-alpha.20261108180339",
-      "summary": "## Matomo 6.1.0-alpha.20261108180339 (Pre-release) We recommend to read [this FAQ](https://matomo.org/faq/how-to-update/faq_159/) before using a pre-release in a production environment. Please use the attached archives for installing or updating Matomo. The source code download is only meant for developers and will require extra work to install it. - Latest stable production release can be found at https://matomo.org/download/ ([learn more](https://matomo.org/docs/installation/)) (recommended) - Beta and Release Candidate releases can be found at https://builds.matomo.org/ ([learn more](https://matomo.org/faq/how-to-update/faq_159/))",
-      "url": "https://github.com/matomo-org/matomo/releases/tag/6.1.0-alpha.20261108180339",
-      "domain": "github.com",
-      "published_at": "2026-11-08T18:32:51+00:00",
-      "source": "GitHub Releases",
-      "watch": "Matomo",
-      "source_type": "github-release",
-      "lane": "Web Analytics",
-      "query": "matomo-org/matomo",
-      "lane_matches": {
-        "Web Analytics": [
-          "matomo"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 3
-    },
-    {
-      "title": "Matomo · 6.1.0-alpha.20261106180502",
-      "summary": "## Matomo 6.1.0-alpha.20261106180502 (Pre-release) We recommend to read [this FAQ](https://matomo.org/faq/how-to-update/faq_159/) before using a pre-release in a production environment. Please use the attached archives for installing or updating Matomo. The source code download is only meant for developers and will require extra work to install it. - Latest stable production release can be found at https://matomo.org/download/ ([learn more](https://matomo.org/docs/installation/)) (recommended) - Beta and Release Candidate releases can be found at https://builds.matomo.org/ ([learn more](https://matomo.org/faq/how-to-update/faq_159/))",
-      "url": "https://github.com/matomo-org/matomo/releases/tag/6.1.0-alpha.20261106180502",
-      "domain": "github.com",
-      "published_at": "2026-11-06T18:57:08+00:00",
       "source": "GitHub Releases",
       "watch": "Matomo",
       "source_type": "github-release",
@@ -242,7 +242,7 @@
       "summary": "How We Brought Hello Kitty® And Friends to Figma Figma",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE56QjM5ZEdmZnN0MFlnQlBJeHlsSmY3ZHE5SXlaenE5eld4Qnk3azgxSU9hcmZhT1hEOVU3T0IyZHAxdms3dlR3VWN0NWdobEkzSy1IVnAxZlJIWU94bmZ3WnZXdnZWZzctNEQ0OA?oc=5",
       "domain": "news.google.com",
-      "published_at": "2026-11-02T14:04:40+00:00",
+      "published_at": "2026-11-02T08:00:00+00:00",
       "source": "Figma",
       "watch": "Figma",
       "source_type": "official-watch",
@@ -278,23 +278,6 @@
         "UX / UI"
       ],
       "score": 3
-    },
-    {
-      "title": "The Role of UX in Agentic Software Factories - Nielsen Norman Group",
-      "summary": "The Role of UX in Agentic Software Factories Nielsen Norman Group",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA0TUoxcWFoVGQ2d2xIbzFlbnZxTFNaSkZlTUFYNFluNk9CYlJ6VjhmLXdNamE4RXlKVVFDeUVIYms1MWRaSEM4VV9zWUJVTUNHa1lMdGNpR2xhV3ZYY1RZMlpjUXNhc2dVZjlXcmw1TWY?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-30T07:00:00+00:00",
-      "source": "Nielsen Norman Group",
-      "watch": "Nielsen Norman Group",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Nielsen Norman Group · source surveillée",
-      "lane_matches": {},
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 2
     },
     {
       "title": "How to benchmark AI agents at scale against real data - PostHog",
@@ -464,26 +447,21 @@
       "score": 3
     },
     {
-      "title": "Build an effective optimization team - Experimentation Strategy docs - Optimizely",
-      "summary": "Build an effective optimization team - Experimentation Strategy docs Optimizely",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZUl1QjhPQ2lQaUxLT09sSkcyOGpoY3FZZUNaUDY1X0NyV2NJTE41MG1FVTBOaUk2dTRHRUV2OFlTcHk4dGFfcFhDX19TeTZVcEwwYjFyVUVmV0dNc2R2dXlvQm5CRGxjdGFoMjB4YldtOUh6U2dONHkteUFId2c3WWxVZE9HN2FHTFdpVFNWTkhkcl9NZEc0RURn?oc=5",
+      "title": "Smashing Newsletter: Issue #579 - Smashing Magazine",
+      "summary": "Smashing Newsletter: Issue #579 Smashing Magazine",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbEpXcXlUWEhfdmFWQ3ZnMDB6YmdvN3hWeG5UbDBEbjlCMlFyc2VKdDFFN1RBZ1FUY2ZxNk5kTUV0S2ZQSEJBaTdLNzR3SnJVeUxXbzYwbWM5a1llX3B0UDFxTGlPUVBYX1JqM25sY3ZsOVdOd2ZPaEVVRDB6SlFJS285SzlhVnpZQ0JKNVI3UFc?oc=5",
       "domain": "news.google.com",
-      "published_at": "2026-10-07T03:41:58+00:00",
-      "source": "Optimizely",
-      "watch": "Optimizely",
+      "published_at": "2026-10-06T07:00:00+00:00",
+      "source": "Smashing Magazine",
+      "watch": "Smashing Magazine",
       "source_type": "official-watch",
-      "lane": "Convergence",
-      "query": "Optimizely · source surveillée",
-      "lane_matches": {
-        "Convergence": [
-          "experimentation",
-          "optimizely"
-        ]
-      },
+      "lane": "UX / UI",
+      "query": "Smashing Magazine · source surveillée",
+      "lane_matches": {},
       "categories": [
-        "Convergence"
+        "UX / UI"
       ],
-      "score": 3
+      "score": 2
     },
     {
       "title": "axe-core · Release 4.14.0",
@@ -649,27 +627,6 @@
       "score": 3
     },
     {
-      "title": "Evaluating Web Accessibility Overview - W3C",
-      "summary": "Evaluating Web Accessibility Overview W3C",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE43ZVVpWjNiQlpDTjQ1S0ZsZTl0akdHU1UyYXVGc2JpRHgtUHZMaC1zU3JNb2Y3NHZJLVNxb1NIYnpEdFpfZkN3aUc1MlhDdw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-08-12T07:00:00+00:00",
-      "source": "W3C",
-      "watch": "W3C WAI",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "W3C WAI · source surveillée",
-      "lane_matches": {
-        "UX / UI": [
-          "accessibility"
-        ]
-      },
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 3
-    },
-    {
       "title": "axe-core · Release 4.13.0",
       "summary": "In summary, this release adds: 1. Support Element Internals: A modern way for building accessible component libraries Axe-core is the first accessibility tool to support this major new web feature! Thanks to RedHat and Adobe for working with us to figure out the right way forward. 2. A new Swedish translation, thanks to our a community contribution 3. A new Finish contribution (not open source), thanks to our Scandinavian partner 4. 10 False positives closed, including all the critical ones! 5. And 13 updates to get Axe-core consistent with the latest web standards This release is one of the bigger changes we've done in a few years, so likely issue numbers are going to change in adopting this version. ### Features - **aria-actions:** add aria-actions to allowed ARIA attributes ([#5200](https://github.com/dequelabs/axe-core/issues/5200)) ([029655d](https://github.com/dequelabs/axe-core/commit/029655dcd41b5405b7ba138d29cec28392977184)), closes [#4584](https://github.com/dequelabs/axe-cor",
       "url": "https://github.com/dequelabs/axe-core/releases/tag/v4.13.0",
@@ -807,6 +764,27 @@
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1EMVpqV0tENVZQMU5tWHJQY282SGM0TXVnNVNZV1YzOVZKdjkxMUNyTkpvS05QVkxzbXRLMDExSl9vVTFHSTRxZE81MFREUjNHRUVMUFJ5SGVjQnRuaV9Gcm1Daw?oc=5",
       "domain": "news.google.com",
       "published_at": "2026-06-22T00:09:42+00:00",
+      "source": "Optimizely",
+      "watch": "Optimizely",
+      "source_type": "official-watch",
+      "lane": "Convergence",
+      "query": "Optimizely · source surveillée",
+      "lane_matches": {
+        "Convergence": [
+          "optimizely"
+        ]
+      },
+      "categories": [
+        "Convergence"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Latest marketing resources and learnings - Optimizely",
+      "summary": "Latest marketing resources and learnings Optimizely",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wa0hkQ3U4SmptSzN2ellYYjBLOElxdnlFRHd0YnRmRXBQcnVpQUhyRkUxbklCMGNaRVRDbzd0U2hWbVNiMkZXcXY5aDYxcVU?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-06-21T23:45:53+00:00",
       "source": "Optimizely",
       "watch": "Optimizely",
       "source_type": "official-watch",
@@ -1763,6 +1741,27 @@
       "score": 3
     },
     {
+      "title": "Perplexity Blog - Perplexity",
+      "summary": "Perplexity Blog Perplexity",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE8wVThKOHloZ256X2lDQW5UUExUclExbFlYWWZiZUZuX1puS2h0c0c5cUlSaVZ4SkNqNlVfNDM3Y211bWc2eUxDZUtn?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2025-04-12T04:16:46+00:00",
+      "source": "Perplexity",
+      "watch": "Perplexity",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Perplexity · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "perplexity"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
       "title": "How to Track and Analyze Your AI Traffic - Ahrefs",
       "summary": "How to Track and Analyze Your AI Traffic Ahrefs",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5FRFkybWc5ZVF2T3FJVndSRUJZVWFPQkxlRDh5eUNZREUycHdPd1c5Z1A0YzdXSXNYbGwyLTJ0bHk0QmNmTmJsOUQ2aGtwdlRnQlh3TzhqN1dBemx2bWc?oc=5",
@@ -1810,23 +1809,6 @@
       "score": 4
     },
     {
-      "title": "That’s a wrap! Day two at axe-con. - Deque",
-      "summary": "That’s a wrap! Day two at axe-con. Deque",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9HQ0s5eEtSZmxSYVo4bndHd3pscF9IT0xpWUw0QlpLQjh3Ri1zSWFzU2xnSmNDVHMxdHFubGd4MjByZEhRVDMwSVdqdTlrTXVsMFVvVVI3U1JlM09UZ01TOTVfV0Q0WUJsbmVF?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-02-27T08:00:00+00:00",
-      "source": "Deque",
-      "watch": "Deque",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Deque · source surveillée",
-      "lane_matches": {},
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 2
-    },
-    {
       "title": "Designer and Developer 2025 Trends - Figma",
       "summary": "Designer and Developer 2025 Trends Figma",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FUHduMXdwLTlMbS1EV21ZUjZMTExlMW9LMTNwR054Tncwb25wM3VVODBXYWlSWXlJc2ppNmZydC1MZW9Zc1ZnTlZhSHRrOTBLVVAyTWM2bUpNZEpQMUtYcWcyamlvYjA?oc=5",
@@ -1870,19 +1852,19 @@
       "score": 3
     },
     {
-      "title": "Why we’re experimenting with advertising - Perplexity",
-      "summary": "Why we’re experimenting with advertising Perplexity",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcTNPcEpnaUk0UHp1XzBuZWFqTTRqeXh2Q3lOTEtwQl8zWmh4RHFwQnZMUEg0SWRkV1pIdWpPdXUwcW5hcnJIWXQ0MGlLTGFvUEdkTDlLWDJsUGxydlItTVZiQXpDMDNDMFdZa3lxZXVHejFmUjVSYjQ1UUxvWi1SSQ?oc=5",
+      "title": "Contentsquare Pricing: Pick Your Plan and Platform - Contentsquare",
+      "summary": "Contentsquare Pricing: Pick Your Plan and Platform Contentsquare",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB4OGZMQmE0WmpHNnZZSUkwdWxTYjVCZ09VUkdZYmFxcHp0T2VTQWlRZW1DMzVaNjlRMURqWlFBOUtDRmMzbnlRaDln?oc=5",
       "domain": "news.google.com",
-      "published_at": "2024-11-12T08:00:00+00:00",
-      "source": "Perplexity",
-      "watch": "Perplexity",
+      "published_at": "2024-11-05T17:29:04+00:00",
+      "source": "Contentsquare",
+      "watch": "Contentsquare",
       "source_type": "official-watch",
       "lane": "Web Analytics",
-      "query": "Perplexity · source surveillée",
+      "query": "Contentsquare · source surveillée",
       "lane_matches": {
         "Web Analytics": [
-          "perplexity"
+          "contentsquare"
         ]
       },
       "categories": [
@@ -1933,6 +1915,27 @@
       },
       "categories": [
         "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Accessibility Principles | Web Accessibility Initiative (WAI) - W3C",
+      "summary": "Accessibility Principles | Web Accessibility Initiative (WAI) W3C",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9aNUxHQlJSd0lJQkRhX0xVMnBEZGhVS0lCM1lqaFhiXzdES3BmamEyWGpkenFYUVIzRkVORW5oNnZoZ01Sd1RSekxmd1VBVmhqclFFQ0FGOFBSRUtmc3BCcE1LYm1ySjM5ZzlCbkRB?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2024-07-15T07:00:00+00:00",
+      "source": "W3C",
+      "watch": "W3C WAI",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "W3C WAI · source surveillée",
+      "lane_matches": {
+        "UX / UI": [
+          "accessibility"
+        ]
+      },
+      "categories": [
+        "UX / UI"
       ],
       "score": 3
     },
@@ -2134,6 +2137,27 @@
       },
       "categories": [
         "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Is Closing the Web Accessibility Design/Development Gap a Bridge Too Far? - Deque",
+      "summary": "Is Closing the Web Accessibility Design/Development Gap a Bridge Too Far? Deque",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeGtPR3d5clVfd0o2VWV5bk15NW83U0ZvbEd1MFpYaGNWZ3k4M19rMVF5ck1aT0Q0SWFwZzNySHNRWlJ6cFAwdS1BM3FLbEVsY0RqaVNFQlJPdzdhX00zS1pKd0dtV0o4OGk4aWxha29jOThIVDBFUWM2aG5qdDVhcmZxVU5aRmdmTjQ5VmhXVEpTZnh3cE15dHhxb0NsRzFaTnc?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2023-03-16T07:00:00+00:00",
+      "source": "Deque",
+      "watch": "Deque",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "Deque · source surveillée",
+      "lane_matches": {
+        "UX / UI": [
+          "accessibility"
+        ]
+      },
+      "categories": [
+        "UX / UI"
       ],
       "score": 3
     },
@@ -2451,27 +2475,6 @@
       "score": 3
     },
     {
-      "title": "Official Hotjar Site – Sign up for free - Contentsquare",
-      "summary": "Official Hotjar Site – Sign up for free Contentsquare",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1CdGJ5bW5fMzA4Q0c5aXRGbWlTOHZKOFU5X0VHa0QwY01XRGp5MFZVdERuNGlSaFVOWm9GN3dYZ3h2X2ViTzVnVw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2021-09-01T05:04:00+00:00",
-      "source": "Contentsquare",
-      "watch": "Contentsquare",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Contentsquare · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "contentsquare"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 3
-    },
-    {
       "title": "CRO is dead. Long live CRO! - Kameleoon",
       "summary": "CRO is dead. Long live CRO! Kameleoon",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zTWM1eXVuUlJ3cVVtUl9PMkRRdWptMUk4MGhyZ09TTXJPc2ZLRjJoYWJKY0pGRnF2cWptMW9lclpEaHdTdDM2NElNdFVyZnphTGVvekZXeE1qNERoQjRuYUx1VQ?oc=5",
@@ -2550,27 +2553,6 @@
       },
       "categories": [
         "Web Analytics"
-      ],
-      "score": 3
-    },
-    {
-      "title": "Q&A with An Zheng, Sr. Program Manager of Accessibility at Expedia - Deque",
-      "summary": "Q&A with An Zheng, Sr. Program Manager of Accessibility at Expedia Deque",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1CMEJlTUZlTEpUX1RVMHNqaGhETWpjc2VydGFTbTNraVpyVV9wX1dvSFYxOXVCQVJJYms5dkpzamkzVHlpajJENzkwNkdJdkNHT3BMczRDNFBnQmg2SjRYYVdScXVWeG11?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2020-05-21T07:00:00+00:00",
-      "source": "Deque",
-      "watch": "Deque",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Deque · source surveillée",
-      "lane_matches": {
-        "UX / UI": [
-          "accessibility"
-        ]
-      },
-      "categories": [
-        "UX / UI"
       ],
       "score": 3
     },
@@ -2763,23 +2745,6 @@
       "score": 2
     },
     {
-      "title": "Articles - Smashing Magazine",
-      "summary": "Articles Smashing Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9BNGNsbUlEalBFbnFNV1V0eFNMSjc1Ymt6ZGlmdV9Bc0pzaTVtdDZNSHd2WGoyWHJnZUwtX1VwZnliZnFud0tEZW9iN3BueV8yeXlQVw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2017-11-22T13:00:40+00:00",
-      "source": "Smashing Magazine",
-      "watch": "Smashing Magazine",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Smashing Magazine · source surveillée",
-      "lane_matches": {},
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 2
-    },
-    {
       "title": "Contentsquare: AI-first experience platform - Contentsquare",
       "summary": "Contentsquare: AI-first experience platform Contentsquare",
       "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9mR2NFOHBDMWx0eWVXeFVEZ1BIVXRxSFk1NENUVDJyRmJsV1kycXpOUnBmbk5YLXNCSFFwVzBUZw?oc=5",
@@ -2839,6 +2804,23 @@
       "score": 2
     },
     {
+      "title": "Inclusive Design Tips: Presenting Information in Multiple Ways - Deque Systems",
+      "summary": "Inclusive Design Tips: Presenting Information in Multiple Ways Deque Systems",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcGMxMnllTmoxUFN0Qm5wT0RyWWZWdjhTT0l0WlBwWkJtNDdwMGFBQ296OTBpNlM3T3V3RDhPSzc3emFoNnQwYmxRX3ZWSk42QjJYRDB1T1lwSzlEZlRoWlNmal9VWWhRUGk0cFpaQXo1Ui1vVXY3TjFoQTVPMGd5cDNhU2l2ZWlWNU5yV3RnTQ?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2017-01-04T08:00:00+00:00",
+      "source": "Deque Systems",
+      "watch": "Deque",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "Deque · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 2
+    },
+    {
       "title": "Images Tutorial | Web Accessibility Initiative (WAI) - W3C",
       "summary": "Images Tutorial | Web Accessibility Initiative (WAI) W3C",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9oYzdTM0xORWczeGpLMVhGc21sbGdEQXNIRFJucm1pZVprR0xpeVJqMExSS3Q4bVBjSndYdVpQVmkwWkZsbFhVQVNfV2dfVHc1N0E?oc=5",
@@ -2875,6 +2857,27 @@
         "UX / UI"
       ],
       "score": 2
+    },
+    {
+      "title": "10 Usability Heuristics for User Interface Design - Nielsen Norman Group",
+      "summary": "10 Usability Heuristics for User Interface Design Nielsen Norman Group",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAtUndBSTZQSE91SC1ncGpUcnZ5cUZsTzdUQ3R1aG0tekhTcUdUd1VaNzRVdlhiczVqd2x4Y1FRTXVKakZxcGhjX2dTdmZfZ0pHVVJoUlY4ZWYxWHBwQVhZbFJmX0VmR0xTdnc?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2012-12-14T20:53:11+00:00",
+      "source": "Nielsen Norman Group",
+      "watch": "Nielsen Norman Group",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "Nielsen Norman Group · source surveillée",
+      "lane_matches": {
+        "UX / UI": [
+          "usability"
+        ]
+      },
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 3
     },
     {
       "title": "Articles & Videos - Nielsen Norman Group",

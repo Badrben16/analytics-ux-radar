@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-13T14:30:05.727869+00:00",
-  "count": 140,
+  "generated_at": "2026-11-16T15:36:49.144840+00:00",
+  "count": 139,
   "items": [
     {
-      "title": "PostHog · Hobby Installer (Latest)",
-      "summary": "Latest hobby installer build - same as hobby-20261113-081455 This is currently experimental and may not work as expected. We believe it to be working correctly, but please make sure you backup your data before using it. Download: `curl -L https://github.com/PostHog/posthog/releases/download/hobby-latest/hobby-installer -o hobby-installer && chmod +x hobby-installer`",
-      "url": "https://github.com/PostHog/posthog/releases/tag/hobby-latest",
+      "title": "PostHog · Agent skills agent-skills-v0.4931.0",
+      "summary": "Build from 91ab07e27f67688d7e07159d31337ee08163638a",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.4931.0",
       "domain": "github.com",
-      "published_at": "2026-11-13T08:15:03+00:00",
+      "published_at": "2026-11-16T15:30:38+00:00",
       "source": "GitHub Releases",
       "watch": "PostHog",
       "source_type": "github-release",
@@ -24,11 +24,11 @@
       "score": 3
     },
     {
-      "title": "PostHog · Hobby Installer hobby-20261113-081455",
-      "summary": "Build from commit cff422244113769006053e1fd954f0c0349748a1",
-      "url": "https://github.com/PostHog/posthog/releases/tag/hobby-20261113-081455",
+      "title": "PostHog · phrocs-latest",
+      "summary": "Built from commit 91ab07e27f67688d7e07159d31337ee08163638a",
+      "url": "https://github.com/PostHog/posthog/releases/tag/phrocs-latest",
       "domain": "github.com",
-      "published_at": "2026-11-13T08:14:58+00:00",
+      "published_at": "2026-11-16T15:27:14+00:00",
       "source": "GitHub Releases",
       "watch": "PostHog",
       "source_type": "github-release",
@@ -45,11 +45,11 @@
       "score": 3
     },
     {
-      "title": "PostHog · Hobby Installer hobby-20261113-063054",
-      "summary": "Build from commit ef6c25db3723f84b1d4b14f238888e10359179d5",
-      "url": "https://github.com/PostHog/posthog/releases/tag/hobby-20261113-063054",
+      "title": "PostHog · Agent skills agent-skills-v0.4930.0",
+      "summary": "Build from d9ad2c25718fee1eabbffc48be8b51f7abf9ef7e",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.4930.0",
       "domain": "github.com",
-      "published_at": "2026-11-13T06:30:57+00:00",
+      "published_at": "2026-11-16T15:21:48+00:00",
       "source": "GitHub Releases",
       "watch": "PostHog",
       "source_type": "github-release",
@@ -58,6 +58,48 @@
       "lane_matches": {
         "Web Analytics": [
           "posthog"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "axe-core · Release 4.14.1",
+      "summary": "This patch release contains only bug fixes. Most of them remove false positives, so issue counts will mostly go down: empty-table-header, link-in-text-block, target-size and aria-valid-attr-value (fewer \"needs review\" results for aria-controls). Two changes can add new issues: - meta-viewport-scale now reports invalid `user-scalable` and `maximum-scale` values. - Elements with `position: absolute` and `fixed` are now placed correctly when axe works out what is on top of what. This can change color-contrast and target-size results in either direction. heading-order now lists the previous heading as a related node; issue counts don't change. If you use `axe.runVirtualRule`, the `after` steps of checks now run, so those results now match `axe.run`. ### Bug Fixes - **aria-valid-attr-value:** don't review aria-controls when the popup exists ([#5408](https://github.com/dequelabs/axe-core/issues/5408)) ([cfd2ea6](https://github.com/dequelabs/axe-core/commit/cfd2ea6004e681a97eaca8bedd3add1c721",
+      "url": "https://github.com/dequelabs/axe-core/releases/tag/v4.14.1",
+      "domain": "github.com",
+      "published_at": "2026-11-16T11:52:32+00:00",
+      "source": "GitHub Releases",
+      "watch": "axe-core",
+      "source_type": "github-release",
+      "lane": "UX / UI",
+      "query": "dequelabs/axe-core",
+      "lane_matches": {
+        "UX / UI": [
+          "axe-core"
+        ]
+      },
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Matomo · 6.1.0-alpha.20261113180339",
+      "summary": "## Matomo 6.1.0-alpha.20261113180339 (Pre-release) We recommend to read [this FAQ](https://matomo.org/faq/how-to-update/faq_159/) before using a pre-release in a production environment. Please use the attached archives for installing or updating Matomo. The source code download is only meant for developers and will require extra work to install it. - Latest stable production release can be found at https://matomo.org/download/ ([learn more](https://matomo.org/docs/installation/)) (recommended) - Beta and Release Candidate releases can be found at https://builds.matomo.org/ ([learn more](https://matomo.org/faq/how-to-update/faq_159/))",
+      "url": "https://github.com/matomo-org/matomo/releases/tag/6.1.0-alpha.20261113180339",
+      "domain": "github.com",
+      "published_at": "2026-11-13T18:31:11+00:00",
+      "source": "GitHub Releases",
+      "watch": "Matomo",
+      "source_type": "github-release",
+      "lane": "Web Analytics",
+      "query": "matomo-org/matomo",
+      "lane_matches": {
+        "Web Analytics": [
+          "matomo"
         ]
       },
       "categories": [
@@ -127,73 +169,6 @@
         "Web Analytics"
       ],
       "score": 3
-    },
-    {
-      "title": "Matomo · 6.1.0-alpha.20261110180348",
-      "summary": "## Matomo 6.1.0-alpha.20261110180348 (Pre-release) We recommend to read [this FAQ](https://matomo.org/faq/how-to-update/faq_159/) before using a pre-release in a production environment. Please use the attached archives for installing or updating Matomo. The source code download is only meant for developers and will require extra work to install it. - Latest stable production release can be found at https://matomo.org/download/ ([learn more](https://matomo.org/docs/installation/)) (recommended) - Beta and Release Candidate releases can be found at https://builds.matomo.org/ ([learn more](https://matomo.org/faq/how-to-update/faq_159/))",
-      "url": "https://github.com/matomo-org/matomo/releases/tag/6.1.0-alpha.20261110180348",
-      "domain": "github.com",
-      "published_at": "2026-11-10T18:44:05+00:00",
-      "source": "GitHub Releases",
-      "watch": "Matomo",
-      "source_type": "github-release",
-      "lane": "Web Analytics",
-      "query": "matomo-org/matomo",
-      "lane_matches": {
-        "Web Analytics": [
-          "matomo"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 3
-    },
-    {
-      "title": "6 Easy Ways to Use the Figma Agent Right Now - Figma",
-      "summary": "6 Easy Ways to Use the Figma Agent Right Now Figma",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE00bWpCdnNEZDFlUC12bmt1QnBndHpEN3FfNFRSY0RnTU5PaFAwZk1laWt0YUxrQXdqYVcyZmx1Mm1uX01vT1h2VUkzXzVJOXRkQ3dHT3Jva1JONWdyUkNMQjJHU2lBdmR4aXFCXzg4UU5wRUpaa3NzR1ZhWkI?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-11-10T02:08:20+00:00",
-      "source": "Figma",
-      "watch": "Figma",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Figma · source surveillée",
-      "lane_matches": {
-        "UX / UI": [
-          "figma"
-        ]
-      },
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 3
-    },
-    {
-      "title": "Analyze root causes with Adobe Analytics and Customer Journey Analytics | Adobe Coworker - Adobe Experience League",
-      "summary": "Analyze root causes with Adobe Analytics and Customer Journey Analytics | Adobe Coworker Adobe Experience League",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNR3RWVGx1N21QMDhFM3NvLXNGN012MHhHajNudXBtQlZia3A2SW1Xdk5VWlcyWk15T0xUQXcyLThnUTZHYTZITzhiVUFGa1JTTGF1NEZlek9Wd1RfbmtCSWduaGFWcVhSWmt4Y0xrVHhWSF9BbW9Vcnh5WUVkZTFZMGoxYkFJZ3I5dDUwUmRmZG1SeXh5ZGJmQUZlNmprbldVV05jQW8xdHpLc202WGxGc1l4ZFhrbjNyeHNKancwSlcxUmVaOG5ZbA?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-11-05T08:00:00+00:00",
-      "source": "Adobe Experience League",
-      "watch": "Adobe Analytics",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Adobe Analytics · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "adobe analytics"
-        ],
-        "Convergence": [
-          "customer journey"
-        ]
-      },
-      "categories": [
-        "Web Analytics",
-        "Convergence"
-      ],
-      "score": 4
     },
     {
       "title": "The 25 Best AEO/GEO Experts to Follow in 2026 - Ahrefs",
@@ -333,16 +308,17 @@
       "domain": "news.google.com",
       "published_at": "2026-10-13T07:00:00+00:00",
       "source": "Contentsquare",
-      "watch": "Contentsquare",
+      "watch": "Contentsquare Experience",
       "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Contentsquare · source surveillée",
+      "lane": "Convergence",
+      "query": "Contentsquare Experience · source surveillée",
       "lane_matches": {
         "Web Analytics": [
           "contentsquare"
         ]
       },
       "categories": [
+        "Convergence",
         "Web Analytics"
       ],
       "score": 3
@@ -369,28 +345,6 @@
       "score": 3
     },
     {
-      "title": "Build an effective optimization team - Experimentation Strategy docs - Optimizely",
-      "summary": "Build an effective optimization team - Experimentation Strategy docs Optimizely",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZUl1QjhPQ2lQaUxLT09sSkcyOGpoY3FZZUNaUDY1X0NyV2NJTE41MG1FVTBOaUk2dTRHRUV2OFlTcHk4dGFfcFhDX19TeTZVcEwwYjFyVUVmV0dNc2R2dXlvQm5CRGxjdGFoMjB4YldtOUh6U2dONHkteUFId2c3WWxVZE9HN2FHTFdpVFNWTkhkcl9NZEc0RURn?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-07T03:41:58+00:00",
-      "source": "Optimizely",
-      "watch": "Optimizely",
-      "source_type": "official-watch",
-      "lane": "Convergence",
-      "query": "Optimizely · source surveillée",
-      "lane_matches": {
-        "Convergence": [
-          "experimentation",
-          "optimizely"
-        ]
-      },
-      "categories": [
-        "Convergence"
-      ],
-      "score": 3
-    },
-    {
       "title": "Smashing Newsletter: Issue #579 - Smashing Magazine",
       "summary": "Smashing Newsletter: Issue #579 Smashing Magazine",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbEpXcXlUWEhfdmFWQ3ZnMDB6YmdvN3hWeG5UbDBEbjlCMlFyc2VKdDFFN1RBZ1FUY2ZxNk5kTUV0S2ZQSEJBaTdLNzR3SnJVeUxXbzYwbWM5a1llX3B0UDFxTGlPUVBYX1JqM25sY3ZsOVdOd2ZPaEVVRDB6SlFJS285SzlhVnpZQ0JKNVI3UFc?oc=5",
@@ -406,6 +360,28 @@
         "UX / UI"
       ],
       "score": 2
+    },
+    {
+      "title": "AI variation development agent - Web Experimentation docs - Optimizely",
+      "summary": "AI variation development agent - Web Experimentation docs Optimizely",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQVVveHhHbFlhQ3h6dUlEY1JNVlVzSDRwcW4wSDRqQWNnblRlZmpXVUxHblNmNWt6UTBmLW5QSDVDRVg2SXBzOG96ejU1LTdHSDV1U2oxZ0IyR0ZEbGRfZ0g0YXg2MVp5VFBIby1RVTZQTFpZTXdvWlhmWFFmRHZ3MTR6RG5RNlhqcEhB?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-10-05T22:37:32+00:00",
+      "source": "Optimizely",
+      "watch": "Optimizely",
+      "source_type": "official-watch",
+      "lane": "Convergence",
+      "query": "Optimizely · source surveillée",
+      "lane_matches": {
+        "Convergence": [
+          "experimentation",
+          "optimizely"
+        ]
+      },
+      "categories": [
+        "Convergence"
+      ],
+      "score": 3
     },
     {
       "title": "axe-core · Release 4.14.0",
@@ -532,28 +508,11 @@
       "score": 2
     },
     {
-      "title": "Smashing Newsletter: Issue #574 - Smashing Magazine",
-      "summary": "Smashing Newsletter: Issue #574 Smashing Magazine",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSUdHbTEyV3Fiai16alJTekE5YkExelJMbHhjT0U4T1pYNGRoNjE0SW1lNHAxUjUwaXg0Q0JCelJSWTZOcW9SXzNnSUZXQ09xMDZuOTVQMUVZSHNlVzFxa2JwZGw1cUtENkRUMXJoM0J3MjlaTmR3eWROamxoR21HTmtCRWhuQUxCTHFSd1BhYUU?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-09-01T07:00:00+00:00",
-      "source": "Smashing Magazine",
-      "watch": "Smashing Magazine",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Smashing Magazine · source surveillée",
-      "lane_matches": {},
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 2
-    },
-    {
-      "title": "What leaves your app: PII redaction and privacy modes - Amplitude",
-      "summary": "What leaves your app: PII redaction and privacy modes Amplitude",
+      "title": "How to Secure AI Agent Traces Without Losing the Signal - Amplitude",
+      "summary": "How to Secure AI Agent Traces Without Losing the Signal Amplitude",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vWFdtR3VXbEsydWZKc2ZOeXB5RGZrSnVpbkhKMUZITWo4cHk4bjNwTVNCeHJnOV9tNjE0a2lPZEhwdTV1b2txSXI2Y1BpZ09CT0NjN0ExT2Zzdw?oc=5",
       "domain": "news.google.com",
-      "published_at": "2026-08-28T17:20:58+00:00",
+      "published_at": "2026-08-28T07:00:00+00:00",
       "source": "Amplitude",
       "watch": "Amplitude",
       "source_type": "official-watch",
@@ -561,8 +520,7 @@
       "query": "Amplitude · source surveillée",
       "lane_matches": {
         "Web Analytics": [
-          "amplitude",
-          "privacy"
+          "amplitude"
         ]
       },
       "categories": [
@@ -588,6 +546,27 @@
       },
       "categories": [
         "Convergence"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Evaluating Web Accessibility Overview - W3C",
+      "summary": "Evaluating Web Accessibility Overview W3C",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE43ZVVpWjNiQlpDTjQ1S0ZsZTl0akdHU1UyYXVGc2JpRHgtUHZMaC1zU3JNb2Y3NHZJLVNxb1NIYnpEdFpfZkN3aUc1MlhDdw?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-08-12T07:00:00+00:00",
+      "source": "W3C",
+      "watch": "W3C WAI",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "W3C WAI · source surveillée",
+      "lane_matches": {
+        "UX / UI": [
+          "accessibility"
+        ]
+      },
+      "categories": [
+        "UX / UI"
       ],
       "score": 3
     },
@@ -719,6 +698,27 @@
       "score": 3
     },
     {
+      "title": "Config 2026: New materials, new tools and a more expressive canvas - Figma",
+      "summary": "Config 2026: New materials, new tools and a more expressive canvas Figma",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBDUVRiam5sUmFYc3JmOUZyVFBnRW4tcEdRN2lSdWZGQXZCZWVKeFdaYjdjV0w2NEwwcC1jLXhpRDd5RFB6MXJnaFU3OHRfZ2FiRzdldU92YzQ?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-06-24T07:00:00+00:00",
+      "source": "Figma",
+      "watch": "Figma",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "Figma · source surveillée",
+      "lane_matches": {
+        "UX / UI": [
+          "figma"
+        ]
+      },
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 3
+    },
+    {
       "title": "What if your product built itself? - PostHog",
       "summary": "What if your product built itself? PostHog",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5JWHo2UXotejEzLU1LTmlPNGlvWUtTYk9vT002R2p4ZTBfbllSdzBKV09tVF9OMV9CWkV0SGlFTkxYUFRnS0pCTFJQNFAtbF9jTVg3cWR6dUZVNUFNOFJqTGR1TGlYNTVzMlE?oc=5",
@@ -736,6 +736,27 @@
       },
       "categories": [
         "Convergence",
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "AI Analytics & Experience Platform - Contentsquare",
+      "summary": "AI Analytics & Experience Platform Contentsquare",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5PRDMyelNNTkdfcEl2Z0lVdWNNWDdMcVI1cHQwemdfNDFJNVNnOWpHUkp1RkhRMTlfOEwxU19Lb25XbUJ2aTBDWWlZN0lOQ2R2bHdIUDhlSzVCRzJwR0dyTFhzYlg?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-06-17T01:09:52+00:00",
+      "source": "Contentsquare",
+      "watch": "Contentsquare",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Contentsquare · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "contentsquare"
+        ]
+      },
+      "categories": [
         "Web Analytics"
       ],
       "score": 3
@@ -762,27 +783,6 @@
       "score": 3
     },
     {
-      "title": "axe-core · Release 4.12.1",
-      "summary": "### Bug FixesThis release does not impact axe results. - **axe.d.ts:** make enabled property of RuleMetadata optional ([#5129](https://github.com/dequelabs/axe-core/issues/5129)) ([7eb3d2d](https://github.com/dequelabs/axe-core/commit/7eb3d2d7ce283926a786c8a0fbf2a52c81d5e694))",
-      "url": "https://github.com/dequelabs/axe-core/releases/tag/v4.12.1",
-      "domain": "github.com",
-      "published_at": "2026-06-10T10:27:13+00:00",
-      "source": "GitHub Releases",
-      "watch": "axe-core",
-      "source_type": "github-release",
-      "lane": "UX / UI",
-      "query": "dequelabs/axe-core",
-      "lane_matches": {
-        "UX / UI": [
-          "axe-core"
-        ]
-      },
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 3
-    },
-    {
       "title": "How to execute CRO testing in six steps - Kameleoon",
       "summary": "How to execute CRO testing in six steps Kameleoon",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBiaEhXTzkzSG9CdWQ2WkVlUHZSdU1MQTg1U2pnc0hlWmxqTHN5cmJxa2duRFNvakhEVU5hQThHSGhDQjVkSzhpWDNfNEdZNWRKTzh6TQ?oc=5",
@@ -801,27 +801,6 @@
       },
       "categories": [
         "Convergence"
-      ],
-      "score": 3
-    },
-    {
-      "title": "Introducing Search Generative AI performance reports in Search Console - Google for Developers",
-      "summary": "Introducing Search Generative AI performance reports in Search Console Google for Developers",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbExtSkhjVjRNUjBIR0NTWE9LZWEyTTQyelM4c0ZOS3RaelFuTEFhMjI0RDEwTWhKcnJxRFd3d0pYUWhiTENRd3hXWHN5OURNcThnRDRZN2xTQ0k5c25oT3QtdXhuZEVDb2J1MVBKTXY2Z2ZYMnl0VlBna1BydlcyWnpB?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-06-03T07:00:00+00:00",
-      "source": "Google for Developers",
-      "watch": "Google Search Central",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Google Search Central · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "search console"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
       ],
       "score": 3
     },
@@ -891,6 +870,27 @@
       "score": 3
     },
     {
+      "title": "How to optimize for AI search results in 2026 - Semrush",
+      "summary": "How to optimize for AI search results in 2026 Semrush",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1pRENzenI2SzBwSXlrZHZ3RUhZd25Rc3ZDaWw1M2ZoU2tDVlZpM2E0QzRlOXg2RENRY0w4Si1iNzcycnJLU0FWa183YkJCUU9uTG42WWQ1c0FyLXhIcFV2OFBB?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-05-06T07:00:00+00:00",
+      "source": "Semrush",
+      "watch": "Semrush AI Search",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Semrush AI Search · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "ai search"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
       "title": "AI product analytics: How to know if your AI features are actually working - Mixpanel",
       "summary": "AI product analytics: How to know if your AI features are actually working Mixpanel",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9IejVBdDNtVWtHMzVDeXdzOFR2MWZxSWVYbVRuWjl0SWFoM3JwT0phdGlPX0JFSFRHeWdpX3UxLWdTOUtKcE9QcTFMMmNzRmVRRDBhNDMtX1BGSTNIZW1MWXNnTE5xZllTTlhaREVlUkxmUkdCOFBhTA?oc=5",
@@ -934,25 +934,21 @@
       "score": 3
     },
     {
-      "title": "PBX 2.0 is changing testing (again) - Kameleoon",
-      "summary": "PBX 2.0 is changing testing (again) Kameleoon",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBja3FPUWl1TEhwenphTU9HWGhOLWU5V05YbU95VEw1eEZ3VmVTWnVzZFVMVmRxNlZuczdZVmtlSm9QTjVWbmFJMkF3N0dDZVNNOXZKMlJmby1QMDFiLWNQTEdGWkw3d1NsQnBXTnVYUXRTQQ?oc=5",
+      "title": "Smashing Newsletter: Issue #552 - Smashing Magazine",
+      "summary": "Smashing Newsletter: Issue #552 Smashing Magazine",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdDNkdmdDeEJ4cUs0cmFEdGlsMDh4Ukp1R2FFVXlPLWdwTW5iZHNOcUdjUEV3LWpqclNTSXFMRU0teDVlbDVLWXJtSnBUODd3TjM2TmdRNDFLSGI4Y183bHBpUzN4dUV0Z1VFSy1UVEVxRFhvTWdqMEdXVUtNQWcya0QwenV0MU1nZW1PV3FoSGU?oc=5",
       "domain": "news.google.com",
-      "published_at": "2026-04-16T07:00:00+00:00",
-      "source": "Kameleoon",
-      "watch": "Kameleoon",
+      "published_at": "2026-04-15T22:12:01+00:00",
+      "source": "Smashing Magazine",
+      "watch": "Smashing Magazine",
       "source_type": "official-watch",
-      "lane": "Convergence",
-      "query": "Kameleoon · source surveillée",
-      "lane_matches": {
-        "Convergence": [
-          "kameleoon"
-        ]
-      },
+      "lane": "UX / UI",
+      "query": "Smashing Magazine · source surveillée",
+      "lane_matches": {},
       "categories": [
-        "Convergence"
+        "UX / UI"
       ],
-      "score": 3
+      "score": 2
     },
     {
       "title": "5 macro trends shaping the future of digital analytics - Mixpanel",
@@ -994,6 +990,28 @@
         ]
       },
       "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "The best Microsoft Clarity alternatives & competitors, compared - PostHog",
+      "summary": "The best Microsoft Clarity alternatives & competitors, compared PostHog",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXZmkzaGNZNkRselphUWs1dTFLZTlOOWR4cm45X1Z2NU5QVTd1MUxDajNMQURUSW91R1VkUVl4bmZaTlNyM1loN1FrTkZwZ1ZMQkctU3BRbk9GVXJmc3pKUkVrQ0w1bm1uUTFaYw?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-03-25T07:00:00+00:00",
+      "source": "PostHog",
+      "watch": "PostHog",
+      "source_type": "official-watch",
+      "lane": "Convergence",
+      "query": "PostHog · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "posthog"
+        ]
+      },
+      "categories": [
+        "Convergence",
         "Web Analytics"
       ],
       "score": 3
@@ -1084,27 +1102,6 @@
       "score": 3
     },
     {
-      "title": "How to Optimize Content for AI Search Engines [2026 Guide] - Semrush",
-      "summary": "How to Optimize Content for AI Search Engines [2026 Guide] Semrush",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRFotaHhGOVpZMXBOaTFHY09kRmY2d19VREx0M0ZXeFFBWThEaHYxakotaTMtZmdnVktUNW5LdWZQRlVqNEtqd2RNX0gwRFBoMkp2azNlbk54NmF4OV9jV3hHNk5BRFdNdUhxbkY0dDF6LVFGajBmR1BJN0tydEx2SA?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-03-17T07:00:00+00:00",
-      "source": "Semrush",
-      "watch": "Semrush AI Search",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Semrush AI Search · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "ai search"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 3
-    },
-    {
       "title": "Cart Abandonment Rate: 50 Statistics & Why People Abandon (2026) - Baymard",
       "summary": "Cart Abandonment Rate: 50 Statistics & Why People Abandon (2026) Baymard",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tTGJ1amxEZmVzeHdqcU02M0ZfRzRTbnFlMHJzdFV3SlA5My1tSDVfaVg1aEd3VWVRZ2pNX3o2YXRyZE1sT0N5enNyY1hJN0FaNU51a1BsU2ZEZw?oc=5",
@@ -1138,28 +1135,6 @@
         ]
       },
       "categories": [
-        "Web Analytics"
-      ],
-      "score": 3
-    },
-    {
-      "title": "The 7 best mobile app analytics tools - PostHog",
-      "summary": "The 7 best mobile app analytics tools PostHog",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ZencwZWQ2QXA1eEJuMTZSd0ZlV2xVYkdQTFlwSW9HMktPZGd4U0hqbVl0WldkUThiVS12czZ2ZWpHVndlVkxWWXIzMWJTdEs1U0wtdU5BaWhDWmpsNm9RMTNQWDFndXM?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-02-26T08:00:00+00:00",
-      "source": "PostHog",
-      "watch": "PostHog",
-      "source_type": "official-watch",
-      "lane": "Convergence",
-      "query": "PostHog · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "posthog"
-        ]
-      },
-      "categories": [
-        "Convergence",
         "Web Analytics"
       ],
       "score": 3
@@ -1230,31 +1205,6 @@
       "score": 3
     },
     {
-      "title": "What is a feature flag (and how it compares to remote config and A/B testing) - PostHog",
-      "summary": "What is a feature flag (and how it compares to remote config and A/B testing) PostHog",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE95TUpNNDctMTR3b3ktZ21NZURLRkVlUUFrNlhoVjRiZlljcHRmNGF5LTRSckZ4dXdPbmc2X1R6SHhXUjltcTBmS0VLU2d2aTJnNEJhT0F3WEhIaDA?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-02-16T08:00:00+00:00",
-      "source": "PostHog",
-      "watch": "PostHog",
-      "source_type": "official-watch",
-      "lane": "Convergence",
-      "query": "PostHog · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "posthog"
-        ],
-        "Convergence": [
-          "a/b testing"
-        ]
-      },
-      "categories": [
-        "Convergence",
-        "Web Analytics"
-      ],
-      "score": 4
-    },
-    {
       "title": "State of the Designer 2026: Designers are leaning into the messy middle - Figma",
       "summary": "State of the Designer 2026: Designers are leaning into the messy middle Figma",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE90bUJxUnB0WFRGZHRNaWF1MFRJNG9VU0JrT1Z2Zy1ScmwtZVYwLUY3LWxJdFhYdWFHdVpqQTg3aEVvX1dmTUs3VEtUdExvWGtDZEI4QndaM2ViTWJhMWVkSDFCVVY?oc=5",
@@ -1297,23 +1247,6 @@
       "score": 3
     },
     {
-      "title": "MCP servers | OpenAI API - OpenAI Developers",
-      "summary": "MCP servers | OpenAI API OpenAI Developers",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XVWJmOF8xUHltOURXS1RLZ1IwS19PaGpBbm4yQk0yak9naElZM2ZCRGZRNzBvLXcyblpmYmJzc1RYelJwSkpNdTl0eEFvOUY5V1lkbWozaVVxUk1JVU5FeDRDTkNacWdvbXlVdHlCR3BIQ2hz?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-02-09T19:14:28+00:00",
-      "source": "OpenAI Developers",
-      "watch": "OpenAI Search",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "OpenAI Search · source surveillée",
-      "lane_matches": {},
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 2
-    },
-    {
       "title": "Pricing - OpenAI Developers",
       "summary": "Pricing OpenAI Developers",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Cam4tM0lKT0E1Uk1VLWdMdk9TLUlnSHdRYTZNZTdjRUhhckFZZGQyMWFFVnIxY3l6dTdIWWlpNElYSEtrS3o0ckpveHBxTTQ3LUNBcWM0VVliZw?oc=5",
@@ -1348,29 +1281,6 @@
       "score": 2
     },
     {
-      "title": "Customer Data Layer vs CDP in 2026: Understanding the Critical Difference for Data Collection and Activation - Tealium",
-      "summary": "Customer Data Layer vs CDP in 2026: Understanding the Critical Difference for Data Collection and Activation Tealium",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOc0lqcUZfNHRMenhsai1hWkNEVE9mNzNicnJvOEdpbHdjTGZQbHlvaUpLSGdlMEJCOFd5UW9relRHMDA2WnFDQzktWE82WERpSEVWNUtyRjZXSDEyVmJfdGM0OXZBZk1TX0MzRU9NSVd5ZjhmUlZKamdkTWt1azZ6R19lRVpUeVlEaXpOajEzVHQyU19Fdjd3d3ZMUlNSUTJ1emxSeFk2d1BGaXVVcTQ4SFNtQTVmOUFIUFZQWFlPMVBrOFFiZ3ZaSnVleDU5NmhMTDhxR2RTek5DdGlCMXhqX1kxSWt0NXRKVVEwQw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-02-09T08:00:00+00:00",
-      "source": "Tealium",
-      "watch": "Tealium",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Tealium · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "tealium",
-          "data layer",
-          "activation"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 4
-    },
-    {
       "title": "PostHog vs Mixpanel in-depth tool comparison - PostHog",
       "summary": "PostHog vs Mixpanel in-depth tool comparison PostHog",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBNQXhtUElBLUQ5Vl9NNTdhaGthVFJHZWdlQXRaUUo0QkJvWHZxMDlfYXhKc09pSl9IS2NRSzVWMlJxaHRva3A5Y3ctUzBmWk9SNV96X0NkZw?oc=5",
@@ -1384,6 +1294,29 @@
       "lane_matches": {
         "Web Analytics": [
           "mixpanel",
+          "posthog"
+        ]
+      },
+      "categories": [
+        "Convergence",
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "PostHog vs Amplitude in-depth tool comparison - PostHog",
+      "summary": "PostHog vs Amplitude in-depth tool comparison PostHog",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1OOXZ4VG5BRzdzZlV3cEZrcVZHTk43WGlWSUIxdlFLREVnUVBQVFRWR2VTRWlyMnI1ZzJsekRXeUF1aHlPYTJEaF9CVDBDQTUtdGxZV2lTQWg?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-01-27T08:00:00+00:00",
+      "source": "PostHog",
+      "watch": "PostHog",
+      "source_type": "official-watch",
+      "lane": "Convergence",
+      "query": "PostHog · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "amplitude",
           "posthog"
         ]
       },
@@ -1502,6 +1435,27 @@
       "score": 4
     },
     {
+      "title": "How to Set up Facebook Dynamic Ads in Tealium iQ - Tealium",
+      "summary": "How to Set up Facebook Dynamic Ads in Tealium iQ Tealium",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVm80N2loR3pHZ0FpcjZhcldXNWJFWl9IN3k2a3RlejBoTmxvdThVMTJjeXY2TFhJbG5yT1BNX1RsVVdBUnhOWU1fZzg5cVp3ejhfbUhEeXJMaVlQaHhQM1ZKZDlWRnFaYmxZbXJWdGliRDVwbEp5R1FXb2Z1NDRwWmdMUUs5YzQ3UTNtNVcwWHFhbTRvZTBjTw?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2025-11-06T08:00:00+00:00",
+      "source": "Tealium",
+      "watch": "Tealium",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Tealium · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "tealium"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
       "title": "How Agent-to-Agent Testing Improves A/B tests and Drives Results at Scale - Contentsquare",
       "summary": "How Agent-to-Agent Testing Improves A/B tests and Drives Results at Scale Contentsquare",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NclNMbHJmZ25qUW1UUElISXZvZmJfcWJkaUhNUnJGTXBlUXUtUDNKRTVVR2YtcHBNQXExS3NDNjdhQ0hfZ2d4cGp0eFEyQURZRzVDM0s5SzJqY25Wb0ZvVWlOMmw4dWR5?oc=5",
@@ -1561,6 +1515,28 @@
         "Web Analytics"
       ],
       "score": 2
+    },
+    {
+      "title": "What are the top generative engine optimization strategies for AI visibility? - Semrush",
+      "summary": "What are the top generative engine optimization strategies for AI visibility? Semrush",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMk5zTjVxVDVuX0stTkxfTFpYaUVFemVvUXFmTjBqRHZYTDU3M3JfRTVOMzlJQ2ljSHZ0QllqYzZKaU8xWHZVUndkRUxEQ3lxd3ZwQmFhZVdkQVNGc2xSblc1YkpsZ3hfVy1iaTJqaHZ1TXlCU3J5VTBPS2p1QlE1UUNtdEpKcUFSbDJTRlZXOHZxZVZveU1jaDlLNHpxTTRBY2tyWDBHVzgwdw?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2025-09-11T07:00:00+00:00",
+      "source": "Semrush",
+      "watch": "Semrush AI Search",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Semrush AI Search · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "generative engine optimization",
+          "ai visibility"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
     },
     {
       "title": "Introducing Comet Plus - Perplexity",
@@ -1624,23 +1600,6 @@
         "Web Analytics"
       ],
       "score": 3
-    },
-    {
-      "title": "New Study: AI Assistants Prefer to Cite “Fresher” Content (17 Million Citations Analyzed) - Ahrefs",
-      "summary": "New Study: AI Assistants Prefer to Cite “Fresher” Content (17 Million Citations Analyzed) Ahrefs",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fR3VZRXo0Zzk5eWxoSmxDSzI3WFpqTkRUOGhweXktS1I5ZFlLaVRMcDY2Sml3ZzZMTXNKdEYxbUZwZWVEQVk5UWJmU3dVVGxHSzNSajIwd3d4TklZaUhmaWptdjBQN0ZpTFNETjUwaUxiclhVQ0hMVWdR?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2025-07-28T07:00:00+00:00",
-      "source": "Ahrefs",
-      "watch": "Ahrefs AI Search",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Ahrefs AI Search · source surveillée",
-      "lane_matches": {},
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 2
     },
     {
       "title": "A Research Agenda for Generative AI in UX - Nielsen Norman Group",
@@ -1810,6 +1769,40 @@
       "score": 4
     },
     {
+      "title": "That’s a wrap! Day one at axe-con. - Deque",
+      "summary": "That’s a wrap! Day one at axe-con. Deque",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE42OUZWazktX2pEUmdhNVh0b2ZEMnNPVFExRTdfSEFiQ1FxNVAzTkVuWDRWcWdGQ01OQmgwMWhXZUxqaHNzcGRCU28tQ3JWdEpnRDNPOTkxb2w0OHFCelBteko3eWJoU291WWpZ?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2025-02-27T08:00:00+00:00",
+      "source": "Deque",
+      "watch": "Deque",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "Deque · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 2
+    },
+    {
+      "title": "That’s a wrap! Day two at axe-con. - Deque",
+      "summary": "That’s a wrap! Day two at axe-con. Deque",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9HQ0s5eEtSZmxSYVo4bndHd3pscF9IT0xpWUw0QlpLQjh3Ri1zSWFzU2xnSmNDVHMxdHFubGd4MjByZEhRVDMwSVdqdTlrTXVsMFVvVVI3U1JlM09UZ01TOTVfV0Q0WUJsbmVF?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2025-02-27T08:00:00+00:00",
+      "source": "Deque",
+      "watch": "Deque",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "Deque · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 2
+    },
+    {
       "title": "Designer and Developer 2025 Trends - Figma",
       "summary": "Designer and Developer 2025 Trends Figma",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FUHduMXdwLTlMbS1EV21ZUjZMTExlMW9LMTNwR054Tncwb25wM3VVODBXYWlSWXlJc2ppNmZydC1MZW9Zc1ZnTlZhSHRrOTBLVVAyTWM2bUpNZEpQMUtYcWcyamlvYjA?oc=5",
@@ -1977,6 +1970,31 @@
       "score": 3
     },
     {
+      "title": "Conversions vs. key events in Google Analytics - Google Help",
+      "summary": "Conversions vs. key events in Google Analytics Google Help",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91U2VQSzhvdU1nSW0xclNxVlVjM2d3c2xGVUJyMHMya2dXc09zVnQ1T2JCTEc4RkY4dW9ETTBvWEFxcWprMnBwVFdGYVBDa1V2bS1wNGwxY2JLOUhZVERMN1hMbDAzd3NObmc?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2024-03-23T15:51:06+00:00",
+      "source": "Google Help",
+      "watch": "Google Analytics Help",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Google Analytics Help · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "google analytics"
+        ],
+        "Convergence": [
+          "conversion"
+        ]
+      },
+      "categories": [
+        "Web Analytics",
+        "Convergence"
+      ],
+      "score": 4
+    },
+    {
       "title": "Navigating Rabobank's technical migration to Piano Analytics - Piano.io",
       "summary": "Navigating Rabobank's technical migration to Piano Analytics Piano.io",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaEU0MURnaUJJS3dSTlVFUzhYeGRPSXNUbU83WVRpS1VWN01XTFVIcUNaVHpfbGgtTUNwWXBCeWxCWm5aWWk2ZGRmUGp3Wlg4eDJqMGwyVjZtb0VaSFA4ams0UDRfczdGWFcyaWVkTjV2Z0VCN1lRTGxXSXpkd0hMYWY0TzRUZVBMMlJkNzhZdjAxNXc?oc=5",
@@ -2037,38 +2055,27 @@
       "score": 2
     },
     {
-      "title": "The future of SEO: Where search is heading in 2027 - Semrush",
-      "summary": "The future of SEO: Where search is heading in 2027 Semrush",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBRdzVHMnVWNEFlUy1jUlhmV0xndXF3TVJBREVSbllxdzNxNkxCeEtkWUNkU1ExSl8za1RyRmplbWl4cnhsWC1SY2hKR0s5UDNEUWhTYlZ3?oc=5",
+      "title": "How can I use AI & machine learning for better Research, CRO, A/B testing, and Automation? - Kameleoon",
+      "summary": "How can I use AI & machine learning for better Research, CRO, A/B testing, and Automation? Kameleoon",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQX2U0VHhGQ19GQXBfS0pMYXZWSWIzcnFiYXdNZ0s3NUxuWnhkb05aQVMwT3hnRUhsekc1WUtMcGV1d0M1VkRSbXc2cDVLZ2pWcWhuZ05SOXN4TzBaaUJoVmlhMXFRc3ZuSF9RbDNLNDhzWFpkN0M2UHJIXzJTRE9hVXUteTZvZHIwUTM5M214YXp3LUFpSU4tSE52Uk8tRWxzaFNqREpGcWJJWGx2T0FR?oc=5",
       "domain": "news.google.com",
-      "published_at": "2023-11-09T17:40:59+00:00",
-      "source": "Semrush",
-      "watch": "Semrush AI Search",
+      "published_at": "2023-12-12T08:00:00+00:00",
+      "source": "Kameleoon",
+      "watch": "Kameleoon",
       "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Semrush AI Search · source surveillée",
-      "lane_matches": {},
+      "lane": "Convergence",
+      "query": "Kameleoon · source surveillée",
+      "lane_matches": {
+        "Convergence": [
+          "cro",
+          "a/b testing",
+          "kameleoon"
+        ]
+      },
       "categories": [
-        "Web Analytics"
+        "Convergence"
       ],
-      "score": 2
-    },
-    {
-      "title": "AI for UX: Getting Started - Nielsen Norman Group",
-      "summary": "AI for UX: Getting Started Nielsen Norman Group",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5WXZGV2tVLUNLblhnME1OQ0Q0UnA3c25TWE5ldlROaGZ0bm5SS09uWEhTN2gzZmtzVDRSRXM3dmMwTkkyR0ZGV2d3TG8xbzJkTHdSWXhNTnVidW5rc1FXR0RyQWMtdw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2023-11-03T07:00:00+00:00",
-      "source": "Nielsen Norman Group",
-      "watch": "Nielsen Norman Group",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Nielsen Norman Group · source surveillée",
-      "lane_matches": {},
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 2
+      "score": 4
     },
     {
       "title": "An intro to PostHog for Google Optimize users - PostHog",
@@ -2135,6 +2142,27 @@
       "score": 3
     },
     {
+      "title": "AI-Powered Tools for UX Research in 2023 - Nielsen Norman Group",
+      "summary": "AI-Powered Tools for UX Research in 2023 Nielsen Norman Group",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB3R0RON0kyakwtbVlnTFZ6TlF5cnhtS283V3ZDR1ZjWlhEN1dIUVk4Yi1oc1pFLTc4UDdVa1dLOVhLY2ViUmpYSTBVOXFueXBRSzFpNk1CYU5Yam5OTEp4R0dyQnpJR2xZNjFnZGNpRQ?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2023-07-02T07:00:00+00:00",
+      "source": "Nielsen Norman Group",
+      "watch": "Nielsen Norman Group",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "Nielsen Norman Group · source surveillée",
+      "lane_matches": {
+        "UX / UI": [
+          "ux research"
+        ]
+      },
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 3
+    },
+    {
       "title": "Beyond Load Rules: Leveraging Consent Integrations for Compliance - Tealium",
       "summary": "Beyond Load Rules: Leveraging Consent Integrations for Compliance Tealium",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSVdkcDB4ZjI0TUN4TFZZdnJpZG01WVEtbkxaODk5cUFsOWx1V2hnX3dKQXdCeGc5YjVQcllib1Y1UkItNTBpMFVnZ2VZUHE0WUFKUDlUTjQtTEN1TXFjNU53dWRHX2w3WDlHN1J0UF9ZZ2stTUk1Y2RYQlQtNExZNExsb3J1bUhhTGpFaTJXM3I0SktaVHAtb3hVc1VxcFpNSVVXZ2Y0N0lzNF9acWo3eGgxQWY?oc=5",
@@ -2152,27 +2180,6 @@
       },
       "categories": [
         "Web Analytics"
-      ],
-      "score": 3
-    },
-    {
-      "title": "Is Closing the Web Accessibility Design/Development Gap a Bridge Too Far? - Deque",
-      "summary": "Is Closing the Web Accessibility Design/Development Gap a Bridge Too Far? Deque",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeGtPR3d5clVfd0o2VWV5bk15NW83U0ZvbEd1MFpYaGNWZ3k4M19rMVF5ck1aT0Q0SWFwZzNySHNRWlJ6cFAwdS1BM3FLbEVsY0RqaVNFQlJPdzdhX00zS1pKd0dtV0o4OGk4aWxha29jOThIVDBFUWM2aG5qdDVhcmZxVU5aRmdmTjQ5VmhXVEpTZnh3cE15dHhxb0NsRzFaTnc?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2023-03-16T07:00:00+00:00",
-      "source": "Deque",
-      "watch": "Deque",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Deque · source surveillée",
-      "lane_matches": {
-        "UX / UI": [
-          "accessibility"
-        ]
-      },
-      "categories": [
-        "UX / UI"
       ],
       "score": 3
     },
@@ -2203,7 +2210,7 @@
       "summary": "Google Search's guidance about AI-generated content | Google Search Central Blog Google for Developers",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObXBEUEluTVp0WTdsRGpNM0VfNWlpRl9KVVdNVlFDY2pCU2thNnN0U0JLclBmSnk5S1pReS1qY3pXTWhhczlNZW5iamlEN1JRY0Jxb0xLQURhRkg1X1ZSZTZwajlYX0F5cEx2Vk5aN0Q2bldEcC0xYWUxUDZGZmY5N3pqdzM?oc=5",
       "domain": "news.google.com",
-      "published_at": "2023-02-08T17:14:40+00:00",
+      "published_at": "2023-02-08T08:00:00+00:00",
       "source": "Google for Developers",
       "watch": "Google Search Central",
       "source_type": "official-watch",
@@ -2238,11 +2245,11 @@
       "score": 3
     },
     {
-      "title": "ChatGPT — Release Notes - OpenAI Help Center",
-      "summary": "ChatGPT — Release Notes OpenAI Help Center",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFaEJxekJVNHhIYVRFYTBWeS1hMlpoTzVLYjd4azNSSVlkaVpxY0k0elJlR3c1a0RwNnJwc2tBaVExWVhjRm9JSlFnSmF6OWxlNFRKWm9XZmRUN0hseWxvWWpqODFPZGFtZlNxNkx4aw?oc=5",
+      "title": "ChatGPT release notes - OpenAI Help Center",
+      "summary": "ChatGPT release notes OpenAI Help Center",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBtSm8tRnpBbGwzZ092NmxWeVctWkJYZFRhN2xSS0J0bHEzcFVjUlJaU0g5XzlldW5BT3M5YXZrLWVFZE1rNGw3MVFWNmQ4TmtXVnkxRUNiUTFUaXJoaDM0VFMtSk9QLWdoVi1Uc2xEb2FvNmc?oc=5",
       "domain": "news.google.com",
-      "published_at": "2023-01-02T03:52:01+00:00",
+      "published_at": "2022-12-16T00:57:29+00:00",
       "source": "OpenAI Help Center",
       "watch": "OpenAI Search",
       "source_type": "official-watch",
@@ -2270,6 +2277,23 @@
           "tracking"
         ]
       },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 2
+    },
+    {
+      "title": "ChatGPT - OpenAI Help Center",
+      "summary": "ChatGPT OpenAI Help Center",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAycVB6ZldlSTZWWTBJTnVDYk5CVEowVUxmQlg5UVNWaU1jaFRQVlJFbTNUMWxiUnYwQUJyQmVHOWYxcktjQkRQSUtKYVdET1VXbUJta0laRlpkVDBxV0RFSlFWckI?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2022-12-01T05:59:27+00:00",
+      "source": "OpenAI Help Center",
+      "watch": "OpenAI Search",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "OpenAI Search · source surveillée",
+      "lane_matches": {},
       "categories": [
         "Web Analytics"
       ],
@@ -2312,27 +2336,6 @@
       "lane_matches": {
         "UX / UI": [
           "design system"
-        ]
-      },
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 3
-    },
-    {
-      "title": "Digital Accessibility Foundations - Free Online Course | Web Accessibility Initiative (WAI) - W3C",
-      "summary": "Digital Accessibility Foundations - Free Online Course | Web Accessibility Initiative (WAI) W3C",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBEdXlwc2U2eWtaN2REUjE2djdKcExlVmxzUm1NV0Nmd1FpelZ6OG5jLTBldDdNaFBNM29YdVJCYTZPWVZ4X3RRZ3Y5TURrOTJGUV9uZlZhOVVYTjlCV0xV?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2022-09-09T04:43:12+00:00",
-      "source": "W3C",
-      "watch": "W3C WAI",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "W3C WAI · source surveillée",
-      "lane_matches": {
-        "UX / UI": [
-          "accessibility"
         ]
       },
       "categories": [
@@ -2426,6 +2429,28 @@
       "score": 3
     },
     {
+      "title": "The impact of AI on CRO according to 8 experts - Kameleoon",
+      "summary": "The impact of AI on CRO according to 8 experts Kameleoon",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1IcmYtVXY1c3laX2N3VkhIb2o0bzR5VExyWF9aeEw1WHp3WUdlNHpPZzJoZmo2RkI1OEZaVGZoMExwQ0JkRlgyelo4QlN5TlgxX0Y1d3RTdzk3WHBsNWRpZkwxdVJlOUw0X1lzX25ULWpkdw?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2022-02-03T08:00:00+00:00",
+      "source": "Kameleoon",
+      "watch": "Kameleoon",
+      "source_type": "official-watch",
+      "lane": "Convergence",
+      "query": "Kameleoon · source surveillée",
+      "lane_matches": {
+        "Convergence": [
+          "cro",
+          "kameleoon"
+        ]
+      },
+      "categories": [
+        "Convergence"
+      ],
+      "score": 3
+    },
+    {
       "title": "What Is Usability Testing? - Baymard",
       "summary": "What Is Usability Testing? Baymard",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5wTWNmcWk0b3NmUWZvWGdZT2NRZmtNVXJiZ21VVFVITGJabldURG0tRkJ6ak5zdG9xNG9Gc2owVzFuNzM3c0JtN2FEaWhTU0xEYk5MNg?oc=5",
@@ -2469,28 +2494,6 @@
       "score": 3
     },
     {
-      "title": "CRO is dead. Long live CRO! - Kameleoon",
-      "summary": "CRO is dead. Long live CRO! Kameleoon",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zTWM1eXVuUlJ3cVVtUl9PMkRRdWptMUk4MGhyZ09TTXJPc2ZLRjJoYWJKY0pGRnF2cWptMW9lclpEaHdTdDM2NElNdFVyZnphTGVvekZXeE1qNERoQjRuYUx1VQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2021-03-05T08:00:00+00:00",
-      "source": "Kameleoon",
-      "watch": "Kameleoon",
-      "source_type": "official-watch",
-      "lane": "Convergence",
-      "query": "Kameleoon · source surveillée",
-      "lane_matches": {
-        "Convergence": [
-          "cro",
-          "kameleoon"
-        ]
-      },
-      "categories": [
-        "Convergence"
-      ],
-      "score": 3
-    },
-    {
       "title": "Search and SEO Blog | Google Search Central | Google Search Central Blog - Google for Developers",
       "summary": "Search and SEO Blog | Google Search Central | Google Search Central Blog Google for Developers",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5kM09CN29jWE9JcmQ5NlVtRC04QzIyRTgzcGdFcnBxem9mWVRjVDYyTlhDQXg5RFZTVDVmNWhoTFZ4cUwzNEJWZTdra3ZuTEY5N1dr?oc=5",
@@ -2529,6 +2532,23 @@
       "score": 3
     },
     {
+      "title": "Understanding Success Criterion 1.4.3: Contrast (Minimum) | WAI - W3C",
+      "summary": "Understanding Success Criterion 1.4.3: Contrast (Minimum) | WAI W3C",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA3eGVKSjZBU0MwRUg5SkdocU92SUNmbXZGNDhXQjhMNlk3a0N0dGZRTUVueGtJSTFWNEREbU9QcS1sUGRGbTdPWXZEM0IxOFlCYmpOVzREWUROakFQdW00U1pfa01FOFZ5ejZjNWptczBNM2M?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2020-08-11T03:03:57+00:00",
+      "source": "W3C",
+      "watch": "W3C WAI",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "W3C WAI · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 2
+    },
+    {
       "title": "What is product analytics? A complete guide for 2026 | Signals & Stories - Mixpanel",
       "summary": "What is product analytics? A complete guide for 2026 | Signals & Stories Mixpanel",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nU1pVdWpwYW5vdDRfemxBaTBxMWZDbTJYbDFsY08xWkxxakJZYUhxRHAwZjh0VHNrMDRXQVIzeWNMck14ZHJaSko0N2JMRDF0b0J0YjNhOUJYUXlWdkRkWTM2bDVyZldPQmVHZ1NfQTI?oc=5",
@@ -2551,27 +2571,6 @@
       "score": 3
     },
     {
-      "title": "Top 5 Most Common Accessibility Annotations - Deque Systems",
-      "summary": "Top 5 Most Common Accessibility Annotations Deque Systems",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9DSzlTc3JkVDhEMWRna1pIQzFJa1ZvUWRFLXQ4ZDM2SHBDVFVYclRrVlhRSGhTOHhJZmN4bDNrQlNsN3U0cHFOcTFOa0FVRU1Bd3g1LTFkVTdHWGExQ3hsY1hRQnVMNEh0a2VIVTVIaUwwVjdONjhwR2N5bw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2020-03-26T07:00:00+00:00",
-      "source": "Deque Systems",
-      "watch": "Deque",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Deque · source surveillée",
-      "lane_matches": {
-        "UX / UI": [
-          "accessibility"
-        ]
-      },
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 3
-    },
-    {
       "title": "[GA4] Recommended events - Google Help",
       "summary": "[GA4] Recommended events Google Help",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlS2w3UVc5SmoxRW13aHdMNzFjcHk3bjFycHpBU294UmlvZGFZMGthVE5mdW5FamNZb0dzSnlIQUVlcFdScWFubks0ODAxNVZSYzdwMEVGV0M3OGtXLURfWmRHaHNaVk1P?oc=5",
@@ -2585,27 +2584,6 @@
       "lane_matches": {
         "Web Analytics": [
           "ga4"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 3
-    },
-    {
-      "title": "Enhanced measurement events - Google Help",
-      "summary": "Enhanced measurement events Google Help",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Cd1E3WFJMNjM4dGUzendEc0hDQk5TWFdXblU1cW8wNzdKWjlKNFh0c2ZxTDJKWmJBNVg3aHNBRGFSWTNxdTFwWVBJQUhES0ZhSWFjOHBoMU1fdE1xVloxWnoyZURjQnZt?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2019-07-31T14:16:58+00:00",
-      "source": "Google Help",
-      "watch": "Google Analytics Help",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Google Analytics Help · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "measurement"
         ]
       },
       "categories": [
@@ -2678,11 +2656,11 @@
       "score": 3
     },
     {
-      "title": "Accessibility, Usability, and Inclusion | Web Accessibility Initiative (WAI) - W3C",
-      "summary": "Accessibility, Usability, and Inclusion | Web Accessibility Initiative (WAI) W3C",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBSb0xrOWx4cC12cGN3cndlLXo4VUJiNFZUNXdOU3JtQ1NxUEYyUGlRVEE4OFA5d2U3cHNWcUtxWjVqVFRIZUVscWIzaUxGU1hvcEVER0JwNlZHZDhaLXlyalVrWHBFM2pGRFVFX0ZrVlYtZUJzeXl4OG9n?oc=5",
+      "title": "WCAG 2 Overview | Web Accessibility Initiative (WAI) - W3C",
+      "summary": "WCAG 2 Overview | Web Accessibility Initiative (WAI) W3C",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9jTTBRYnZ4eUhyakd5Uktia3dUZlc2eXQ0N0lLRnUteWg5MzVGX2UzOGtOZ0RuRGxlOEtkTFNndjZINWt3Wjd3LVRlVjloc1hKaVp2ckRHMjd5YkpMLVE?oc=5",
       "domain": "news.google.com",
-      "published_at": "2018-05-11T13:14:36+00:00",
+      "published_at": "2018-05-11T13:14:01+00:00",
       "source": "W3C",
       "watch": "W3C WAI",
       "source_type": "official-watch",
@@ -2690,8 +2668,8 @@
       "query": "W3C WAI · source surveillée",
       "lane_matches": {
         "UX / UI": [
-          "usability",
-          "accessibility"
+          "accessibility",
+          "wcag"
         ]
       },
       "categories": [
@@ -2759,12 +2737,12 @@
       "score": 2
     },
     {
-      "title": "Inclusive Design Tips: Presenting Information in Multiple Ways - Deque Systems",
-      "summary": "Inclusive Design Tips: Presenting Information in Multiple Ways Deque Systems",
+      "title": "Inclusive Design Tips: Presenting Information in Multiple Ways - Deque",
+      "summary": "Inclusive Design Tips: Presenting Information in Multiple Ways Deque",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcGMxMnllTmoxUFN0Qm5wT0RyWWZWdjhTT0l0WlBwWkJtNDdwMGFBQ296OTBpNlM3T3V3RDhPSzc3emFoNnQwYmxRX3ZWSk42QjJYRDB1T1lwSzlEZlRoWlNmal9VWWhRUGk0cFpaQXo1Ui1vVXY3TjFoQTVPMGd5cDNhU2l2ZWlWNU5yV3RnTQ?oc=5",
       "domain": "news.google.com",
       "published_at": "2017-01-04T08:00:00+00:00",
-      "source": "Deque Systems",
+      "source": "Deque",
       "watch": "Deque",
       "source_type": "official-watch",
       "lane": "UX / UI",
@@ -2776,25 +2754,38 @@
       "score": 2
     },
     {
-      "title": "Images Tutorial | Web Accessibility Initiative (WAI) - W3C",
-      "summary": "Images Tutorial | Web Accessibility Initiative (WAI) W3C",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9oYzdTM0xORWczeGpLMVhGc21sbGdEQXNIRFJucm1pZVprR0xpeVJqMExSS3Q4bVBjSndYdVpQVmkwWkZsbFhVQVNfV2dfVHc1N0E?oc=5",
+      "title": "Articles and Videos by Susan Farrell - Nielsen Norman Group",
+      "summary": "Articles and Videos by Susan Farrell Nielsen Norman Group",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1iX3lMcjBfZFZVbTlpMTh5aDlXMm9EU3ZhandjLXJkTWhCRC1yU0J6anpjWlRTR0tfcVBGTjhvaS1ueVZLTk1vUkpGd3RIR0RQeVRwMEFQRTNmOUg4QlU2Z3JyNi0?oc=5",
       "domain": "news.google.com",
-      "published_at": "2016-01-16T10:12:50+00:00",
-      "source": "W3C",
-      "watch": "W3C WAI",
+      "published_at": "2015-12-17T02:57:47+00:00",
+      "source": "Nielsen Norman Group",
+      "watch": "Nielsen Norman Group",
       "source_type": "official-watch",
       "lane": "UX / UI",
-      "query": "W3C WAI · source surveillée",
-      "lane_matches": {
-        "UX / UI": [
-          "accessibility"
-        ]
-      },
+      "query": "Nielsen Norman Group · source surveillée",
+      "lane_matches": {},
       "categories": [
         "UX / UI"
       ],
-      "score": 3
+      "score": 2
+    },
+    {
+      "title": "Ahrefs Blog — SEO & marketing insights - Ahrefs",
+      "summary": "Ahrefs Blog — SEO & marketing insights Ahrefs",
+      "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE04OVkzSF9UdGxqZURHX09MNW54cGJpQV9MNWFIdU9ZMHpKdUpLRWFRQ1JBZU1Id1VlR2E5ag?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2015-11-24T09:39:13+00:00",
+      "source": "Ahrefs",
+      "watch": "Ahrefs AI Search",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Ahrefs AI Search · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 2
     },
     {
       "title": "Smashing Magazine — For Web Designers And Developers - Smashing Magazine",
@@ -2812,27 +2803,6 @@
         "UX / UI"
       ],
       "score": 2
-    },
-    {
-      "title": "10 Usability Heuristics for User Interface Design - Nielsen Norman Group",
-      "summary": "10 Usability Heuristics for User Interface Design Nielsen Norman Group",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAtUndBSTZQSE91SC1ncGpUcnZ5cUZsTzdUQ3R1aG0tekhTcUdUd1VaNzRVdlhiczVqd2x4Y1FRTXVKakZxcGhjX2dTdmZfZ0pHVVJoUlY4ZWYxWHBwQVhZbFJmX0VmR0xTdnc?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2012-12-14T20:53:11+00:00",
-      "source": "Nielsen Norman Group",
-      "watch": "Nielsen Norman Group",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Nielsen Norman Group · source surveillée",
-      "lane_matches": {
-        "UX / UI": [
-          "usability"
-        ]
-      },
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 3
     },
     {
       "title": "Articles & Videos - Nielsen Norman Group",

@@ -1,7 +1,112 @@
 {
-  "generated_at": "2026-11-18T15:34:30.264243+00:00",
-  "count": 119,
+  "generated_at": "2026-11-19T15:40:13.325330+00:00",
+  "count": 135,
   "items": [
+    {
+      "title": "PostHog · hog 0.1.0",
+      "summary": "hog 0.1.0. hog/README.md describes how to install it, and hog/CHANGELOG.md lists the changes.",
+      "url": "https://github.com/PostHog/posthog/releases/tag/hog/v0.1.0",
+      "domain": "github.com",
+      "published_at": "2026-11-19T11:06:54+00:00",
+      "source": "GitHub Releases",
+      "watch": "PostHog",
+      "source_type": "github-release",
+      "lane": "Web Analytics",
+      "query": "PostHog/posthog",
+      "lane_matches": {
+        "Web Analytics": [
+          "posthog"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "PostHog · phrocs-1.0.11",
+      "summary": "Built from commit efb286521a96368b7570c69e360914724f68c7e9",
+      "url": "https://github.com/PostHog/posthog/releases/tag/phrocs-1.0.11",
+      "domain": "github.com",
+      "published_at": "2026-11-19T10:50:23+00:00",
+      "source": "GitHub Releases",
+      "watch": "PostHog",
+      "source_type": "github-release",
+      "lane": "Web Analytics",
+      "query": "PostHog/posthog",
+      "lane_matches": {
+        "Web Analytics": [
+          "posthog"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "PostHog · phrocs-latest",
+      "summary": "Built from commit efb286521a96368b7570c69e360914724f68c7e9",
+      "url": "https://github.com/PostHog/posthog/releases/tag/phrocs-latest",
+      "domain": "github.com",
+      "published_at": "2026-11-19T10:50:19+00:00",
+      "source": "GitHub Releases",
+      "watch": "PostHog",
+      "source_type": "github-release",
+      "lane": "Web Analytics",
+      "query": "PostHog/posthog",
+      "lane_matches": {
+        "Web Analytics": [
+          "posthog"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Matomo · 6.1.0-b2.20261118180400",
+      "summary": "## Matomo 6.1.0-b2.20261118180400 (Pre-release) We recommend to read [this FAQ](https://matomo.org/faq/how-to-update/faq_159/) before using a pre-release in a production environment. Please use the attached archives for installing or updating Matomo. The source code download is only meant for developers and will require extra work to install it. - Latest stable production release can be found at https://matomo.org/download/ ([learn more](https://matomo.org/docs/installation/)) (recommended) - Beta and Release Candidate releases can be found at https://builds.matomo.org/ ([learn more](https://matomo.org/faq/how-to-update/faq_159/))",
+      "url": "https://github.com/matomo-org/matomo/releases/tag/6.1.0-b2.20261118180400",
+      "domain": "github.com",
+      "published_at": "2026-11-18T18:27:35+00:00",
+      "source": "GitHub Releases",
+      "watch": "Matomo",
+      "source_type": "github-release",
+      "lane": "Web Analytics",
+      "query": "matomo-org/matomo",
+      "lane_matches": {
+        "Web Analytics": [
+          "matomo"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Matomo · 6.1.0-b2.20261117180420",
+      "summary": "## Matomo 6.1.0-b2.20261117180420 (Pre-release) We recommend to read [this FAQ](https://matomo.org/faq/how-to-update/faq_159/) before using a pre-release in a production environment. Please use the attached archives for installing or updating Matomo. The source code download is only meant for developers and will require extra work to install it. - Latest stable production release can be found at https://matomo.org/download/ ([learn more](https://matomo.org/docs/installation/)) (recommended) - Beta and Release Candidate releases can be found at https://builds.matomo.org/ ([learn more](https://matomo.org/faq/how-to-update/faq_159/))",
+      "url": "https://github.com/matomo-org/matomo/releases/tag/6.1.0-b2.20261117180420",
+      "domain": "github.com",
+      "published_at": "2026-11-17T18:27:07+00:00",
+      "source": "GitHub Releases",
+      "watch": "Matomo",
+      "source_type": "github-release",
+      "lane": "Web Analytics",
+      "query": "matomo-org/matomo",
+      "lane_matches": {
+        "Web Analytics": [
+          "matomo"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
     {
       "title": "Meet AI 2027 Conference (Dec 1) - Smashing Magazine",
       "summary": "Meet AI 2027 Conference (Dec 1) Smashing Magazine",
@@ -20,25 +125,51 @@
       "score": 2
     },
     {
-      "title": "AI Sped Up The Build: How Can Accessibility Testing Keep Up? - Smashing Magazine",
-      "summary": "AI Sped Up The Build: How Can Accessibility Testing Keep Up? Smashing Magazine",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONURxUTFuQVlBQ0xzeXJJTmtJTXpiYnl5Wm4yb3FBQ0ZqNmpCTDhQVVdqaVFMRjRGd1FKMzgxWVh1TkRyMWhPclBuWGtSYnlKSkotSDZ5NWw4QzZLOFJSRnlkVUI5anN0V2Y5MDd6S2xCRUVOdWw0VW1JdWFwTUN3bEY5WjQtX0prdFNKZWFDN0Y2QzVIUlh1enRQWFk?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-11-17T13:39:37+00:00",
-      "source": "Smashing Magazine",
-      "watch": "Smashing Magazine",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Smashing Magazine · source surveillée",
+      "title": "Matomo · 6.1.0-b2",
+      "summary": "## Matomo 6.1.0-b2 (Pre-release) We recommend to read [this FAQ](https://matomo.org/faq/how-to-update/faq_159/) before using a pre-release in a production environment. Please use the attached archives for installing or updating Matomo. The source code download is only meant for developers and will require extra work to install it. - Latest stable production release can be found at https://matomo.org/download/ ([learn more](https://matomo.org/docs/installation/)) (recommended) - Beta and Release Candidate releases can be found at https://builds.matomo.org/ ([learn more](https://matomo.org/faq/how-to-update/faq_159/))",
+      "url": "https://github.com/matomo-org/matomo/releases/tag/6.1.0-b2",
+      "domain": "github.com",
+      "published_at": "2026-11-17T07:41:59+00:00",
+      "source": "GitHub Releases",
+      "watch": "Matomo",
+      "source_type": "github-release",
+      "lane": "Web Analytics",
+      "query": "matomo-org/matomo",
       "lane_matches": {
-        "UX / UI": [
-          "accessibility"
+        "Web Analytics": [
+          "matomo"
         ]
       },
       "categories": [
-        "UX / UI"
+        "Web Analytics"
       ],
       "score": 3
+    },
+    {
+      "title": "GrowthBook · v5.2.1",
+      "summary": "## Security Patch Release 5.2.1 is a patch release on top of 5.2.0 with security fixes and bug fixes. We recommend all self-hosted users update. ### Security fixes - **Docker image:** zlib 1.4 for CVE-2026-85091 (#7732) - **Dependencies:** zod 4.6 for GHSA-mrhx-c7xc-m3w5, plus next, mongoose, fast-xml-parser, fflate, glob, ddtrace and others bumped to address known vulnerabilities (#7705, #7580, #7704) - **Input handling:** no more super-linear regex backtracking in trailing slash and semicolon checks (#7636) ### Bug fixes - **Experiments:** unlinked experiments can edit traffic and variations again from Make Changes; fixes for funnel in-progress detection, CUPED with low pre-exposure variance, bandit results, and incremental refresh on proportion metrics (#7677, #7670, #7639, #7701, #7610, #7537) - **Performance:** faster `GET /api/v1/experiments` paging; improved idle worker recycling (#7467, #7562) - **UI:** various fixes to results views, popovers, settings and layout (#7574, #7611",
+      "url": "https://github.com/growthbook/growthbook/releases/tag/v5.2.1",
+      "domain": "github.com",
+      "published_at": "2026-11-16T20:32:02+00:00",
+      "source": "GitHub Releases",
+      "watch": "GrowthBook",
+      "source_type": "github-release",
+      "lane": "Convergence",
+      "query": "growthbook/growthbook",
+      "lane_matches": {
+        "Web Analytics": [
+          "tracking",
+          "funnel"
+        ],
+        "Convergence": [
+          "growthbook"
+        ]
+      },
+      "categories": [
+        "Convergence",
+        "Web Analytics"
+      ],
+      "score": 4
     },
     {
       "title": "New filtering and reporting capabilities in the Search Analytics API | Google Search Central Blog - Google for Developers",
@@ -56,6 +187,44 @@
         "Web Analytics"
       ],
       "score": 2
+    },
+    {
+      "title": "More ways to move care forward with ChatGPT for Healthcare - OpenAI",
+      "summary": "More ways to move care forward with ChatGPT for Healthcare OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYjZUQkY4OVMxT21FVzRBWUJqN0xjUm04Mld6aDdZYWphMEI0LXNYSVV0SkQ3STdOZC1lSnd0c0hUaEF1WjM1cERaX3pfUWE4bm9mekdYcjFLS1hRTnNFREo0dTBreEZRd0FvbERoNEN0MjhFQlFUb1R3UDYtVUJUYkRRWmJ6M2EwQm54Sw?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-11-16T14:13:03+00:00",
+      "source": "OpenAI",
+      "watch": "OpenAI Search",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "OpenAI Search · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 2
+    },
+    {
+      "title": "axe-core · Release 4.14.1",
+      "summary": "This patch release contains only bug fixes. Most of them remove false positives, so issue counts will mostly go down: empty-table-header, link-in-text-block, target-size and aria-valid-attr-value (fewer \"needs review\" results for aria-controls). Two changes can add new issues: - meta-viewport-scale now reports invalid `user-scalable` and `maximum-scale` values. - Elements with `position: absolute` and `fixed` are now placed correctly when axe works out what is on top of what. This can change color-contrast and target-size results in either direction. heading-order now lists the previous heading as a related node; issue counts don't change. If you use `axe.runVirtualRule`, the `after` steps of checks now run, so those results now match `axe.run`. ### Bug Fixes - **aria-valid-attr-value:** don't review aria-controls when the popup exists ([#5408](https://github.com/dequelabs/axe-core/issues/5408)) ([cfd2ea6](https://github.com/dequelabs/axe-core/commit/cfd2ea6004e681a97eaca8bedd3add1c721",
+      "url": "https://github.com/dequelabs/axe-core/releases/tag/v4.14.1",
+      "domain": "github.com",
+      "published_at": "2026-11-16T11:52:32+00:00",
+      "source": "GitHub Releases",
+      "watch": "axe-core",
+      "source_type": "github-release",
+      "lane": "UX / UI",
+      "query": "dequelabs/axe-core",
+      "lane_matches": {
+        "UX / UI": [
+          "axe-core"
+        ]
+      },
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 3
     },
     {
       "title": "AI’s Role in the Creative Process - Figma",
@@ -100,23 +269,6 @@
       "score": 3
     },
     {
-      "title": "Moving to a CDN without overwhelming your origin (or blocking Googlebot) | Google Search Central Blog - Google for Developers",
-      "summary": "Moving to a CDN without overwhelming your origin (or blocking Googlebot) | Google Search Central Blog Google for Developers",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fQ1B3bFBScDFZa1NVT3ZTdWlqa29EaHlWX0NwemtjZU5Nc2xDRGNSM1U1WTdhVXAwd3B0SFhDc21VaktNcDdYbDhaekIzTGh2NDRmZkNOeUhwRGwwaC1FWlFlTXo3TmVFNHBNLTU4RQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-11-11T15:21:42+00:00",
-      "source": "Google for Developers",
-      "watch": "Google Search Central",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Google Search Central · source surveillée",
-      "lane_matches": {},
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 2
-    },
-    {
       "title": "Upgrade from Adobe Analytics to Customer Journey Analytics - Adobe Experience League",
       "summary": "Upgrade from Adobe Analytics to Customer Journey Analytics Adobe Experience League",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZTJuenFhXzQtYUtHakxSYmF6Vl8yUUZ1dERJWVBSakV6RFp0X2NuTEpxbUFIbFNNXzNEV01YTkVFWGxmb0FzdFd2S211RFpic255ZzJKQ1pKOEJ5S20xSDg4TXI2amx5ODNSRG5MZGtqUGd6TGVFUjZIdlpNLW9oZG5MZFFaTUpWc2ZJZVd6dXRRU2V0NWVBLXlwT3pnS204ZWRKMnhSN0picUhVWFIwRnd0ZjlVUFNoVzktTDVOLVl1NXM?oc=5",
@@ -142,6 +294,27 @@
       "score": 4
     },
     {
+      "title": "Compare Analytics Source Connector data to Adobe Analytics - Adobe Experience League",
+      "summary": "Compare Analytics Source Connector data to Adobe Analytics Adobe Experience League",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZVUzV2haUGZBZEx2eEg2dFdpR25sTmlnaFBab2VkQzdEbVBwSGpXd0dGMi0ySmVHbmtteFJWa2tSbWsyYzZKeWZYZXlFRHZFdUFPLXV1OUp1bUx4TlJrclVxOG4xcHRvSkxLLVVFb3FfSkI1OXJyRHoyY0I0ZGZQdkVuTXlBeVU2aFF0dERMdjhyQkNDaVE?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-11-06T08:00:00+00:00",
+      "source": "Adobe Experience League",
+      "watch": "Adobe Analytics",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Adobe Analytics · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "adobe analytics"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
       "title": "The 25 Best AEO/GEO Experts to Follow in 2026 - Ahrefs",
       "summary": "The 25 Best AEO/GEO Experts to Follow in 2026 Ahrefs",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAtZDNaMHFxY0dBTlc3Q0VJTWxfb1d5Q2xuS0lXelNsN2tnTzIyRklqZlBUVi11eUtpRGpFM1lmcE8yR0JhV205TGdVWE9pNWhqQ0E?oc=5",
@@ -161,6 +334,31 @@
         "Web Analytics"
       ],
       "score": 3
+    },
+    {
+      "title": "GrowthBook · v5.2.0",
+      "summary": "## Highlights **Interleaving Experiments (beta)** - We are the first platform to offer interleaving experiments, which let you test ranking algorithms 50-100x faster than traditional A/B tests. This is a great tool for testing search results, carousels, and news feeds in a wide variety of products and is a critical tool at companies like Netflix, DoorDash, and Airbnb. **Agent API Keys** - New controls to let agents act on your behalf with proper attribution and safety guardrails. Easily restrict which actions agents can do autonomously and use our brand new “Human in the Loop” mode that let agents propose risky changes (like publishing to production) that a human must review and approve in the UI before it is applied. This is available for both our MCP OAuth server and personal access tokens. **Remote Saved Groups** - You can now upload CSVs with millions of ids and use them for feature and experiment targeting without increasing the size of the payload that clients have to download. W",
+      "url": "https://github.com/growthbook/growthbook/releases/tag/v5.2.0",
+      "domain": "github.com",
+      "published_at": "2026-11-03T04:00:13+00:00",
+      "source": "GitHub Releases",
+      "watch": "GrowthBook",
+      "source_type": "github-release",
+      "lane": "Convergence",
+      "query": "growthbook/growthbook",
+      "lane_matches": {
+        "Web Analytics": [
+          "attribution"
+        ],
+        "Convergence": [
+          "growthbook"
+        ]
+      },
+      "categories": [
+        "Convergence",
+        "Web Analytics"
+      ],
+      "score": 4
     },
     {
       "title": "Experience Design: Dropping the “User” from “User Experience” - Nielsen Norman Group",
@@ -184,24 +382,23 @@
       "score": 3
     },
     {
-      "title": "Australia’s tracking pixel rulings: Lessons for marketers - Analytics Platform - Matomo",
-      "summary": "Australia’s tracking pixel rulings: Lessons for marketers - Analytics Platform Matomo",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9TWGVvdno1dGREYlRDSnpsSXRqN1gxUnA3NllzdFotVWsweXBkSnNobUg2QThYZC1zMmV0d0s2bDdnOUtjZzBRY3pDVjFmUUVpblZpMEdFb0U4bk9IQnBURW56Z1ZUOU05Z0JZWlpwR2N3eVU?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-10-28T14:42:18+00:00",
-      "source": "Matomo",
-      "watch": "Matomo",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Matomo · source surveillée",
+      "title": "Lighthouse · v13.6.0",
+      "summary": "# 13.6.0 (2026-10-27) [Full Changelog](https://github.com/GoogleChrome/lighthouse/compare/v13.5.0...v13.6.0) We expect this release to ship in the DevTools of [Chrome 159](https://chromiumdash.appspot.com/schedule), and to PageSpeed Insights within a week. ## New contributors Thanks to our new contributors 👽🐷🐰🐯🐻! - Nikolay Vitkov @Lightning00Blade - MohammadHossein Jahanbakhsh @MHJahanbakhsh - Rafe Blandford @rafeblandford - Roman @gameroman - Ivan Akulov @iamakulov - Francesco Marinoni Moretto @frmoretto ## Notable Changes * **CLI bulk URL auditing**: The CLI now supports auditing multiple URLs sequentially in a single command—either by passing multiple URL arguments or via `--url-file` (with `--fail-fast` to abort on the first failure) ([#17404](https://github.com/GoogleChrome/lighthouse/pull/17404)). Default report filenames now include the URL pathname (` - _ `) to avoid collisions across pages on the same host ([#17405](https://github.com/GoogleChrome/lighthouse/pull/17405), [#174",
+      "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v13.6.0",
+      "domain": "github.com",
+      "published_at": "2026-10-27T21:32:12+00:00",
+      "source": "GitHub Releases",
+      "watch": "Lighthouse",
+      "source_type": "github-release",
+      "lane": "UX / UI",
+      "query": "GoogleChrome/lighthouse",
       "lane_matches": {
-        "Web Analytics": [
-          "matomo",
-          "tracking"
+        "UX / UI": [
+          "lighthouse"
         ]
       },
       "categories": [
-        "Web Analytics"
+        "UX / UI"
       ],
       "score": 3
     },
@@ -271,6 +468,48 @@
       "score": 3
     },
     {
+      "title": "Lighthouse · Lantern Test Data",
+      "summary": "Golden trace datasets used by `yarn test-lantern` in CI.",
+      "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/lantern-test-data",
+      "domain": "github.com",
+      "published_at": "2026-10-09T22:45:13+00:00",
+      "source": "GitHub Releases",
+      "watch": "Lighthouse",
+      "source_type": "github-release",
+      "lane": "UX / UI",
+      "query": "GoogleChrome/lighthouse",
+      "lane_matches": {
+        "UX / UI": [
+          "lighthouse"
+        ]
+      },
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 3
+    },
+    {
+      "title": "axe-core · Release 4.14.0",
+      "summary": "This release enables a new rule, and introduces new violations in some existing rules. These can cause the issue totals to go up from a previous version. Similarly we've included various bug fixes to false positives which may see the issue count go down as well. This release focused on various performance improvements which should speed runs up 20% - 40% on most pages. On especially large pages we've measured a 15x performance improvement. ### Features - add EN 301 549 v4 tags to target-size ([#5361](https://github.com/dequelabs/axe-core/issues/5361)) ([8200d2b](https://github.com/dequelabs/axe-core/commit/8200d2b81f3fd41f6287423c326fb663afa85fb3)), closes [#5311](https://github.com/dequelabs/axe-core/issues/5311) - **i18n:** add Azerbaijani locale ([#5385](https://github.com/dequelabs/axe-core/issues/5385)) ([02e5fd4](https://github.com/dequelabs/axe-core/commit/02e5fd446a2b53196dff25026bff6a9be47fdc22)) - **label-content-name-mismatch:** Enable rule by default ([#5421](https://github",
+      "url": "https://github.com/dequelabs/axe-core/releases/tag/v4.14.0",
+      "domain": "github.com",
+      "published_at": "2026-10-05T17:40:39+00:00",
+      "source": "GitHub Releases",
+      "watch": "axe-core",
+      "source_type": "github-release",
+      "lane": "UX / UI",
+      "query": "dequelabs/axe-core",
+      "lane_matches": {
+        "UX / UI": [
+          "axe-core"
+        ]
+      },
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 3
+    },
+    {
       "title": "Optimizely Agent Platform - October 2026 State of Play - Optimizely World",
       "summary": "Optimizely Agent Platform - October 2026 State of Play Optimizely World",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRzVKUjhlaUthc3F3MkNVZzVyOGQ2eXdoWVg2ekpYTnpkWFhrb1o1b3N0cGRLcHNEV3FVWTlJQk5wbHV1aG9fOTYxcGRIS3g4dk1oMjBXTWxEWXlyUndEZ3BqeGZpYm9QdGIyb3RfYjQyMW9BY21sQ1dBVG5lRzIwTHZkSURGZWI4M21LNnJ0OUJXVkZCU3RRUk54c0hFa2VGUmVDZUJ1b3B5V0F6VTNPRWM3OWtQZw?oc=5",
@@ -288,6 +527,54 @@
       },
       "categories": [
         "Convergence"
+      ],
+      "score": 3
+    },
+    {
+      "title": "GrowthBook · v5.1.0",
+      "summary": "GrowthBook 5.1 includes over 400 commits touching almost every part of the product. Below are some of the highlights. ## Highlights **Contextual Bandits (beta)** - One size doesn’t fit all. Contextual Bandits let you run personalization experiments to find the best performing variant for each group of users. The bandit continuously learns and updates weights as it runs and helps you pick out the signal from the noise. **Saved Learnings** - Document deeper learnings about your users that you’ve discovered through experimentation. Let our agent automatically scan your past tests to get you started or use our new API endpoints and agent skills to build your own workflows around this invaluable data. **Funnel Metrics** - Easily measure funnel completion in your experiments and see where users are dropping off. Perfect for testing marketing funnels, onboarding flows, and anything else where users progress through a series of steps. **Hosted MCP + OAuth** - Users on GrowthBook Cloud can now ",
+      "url": "https://github.com/growthbook/growthbook/releases/tag/v5.1.0",
+      "domain": "github.com",
+      "published_at": "2026-09-22T03:07:54+00:00",
+      "source": "GitHub Releases",
+      "watch": "GrowthBook",
+      "source_type": "github-release",
+      "lane": "Convergence",
+      "query": "growthbook/growthbook",
+      "lane_matches": {
+        "Web Analytics": [
+          "funnel"
+        ],
+        "Convergence": [
+          "experimentation",
+          "growthbook",
+          "personalization"
+        ]
+      },
+      "categories": [
+        "Convergence",
+        "Web Analytics"
+      ],
+      "score": 5
+    },
+    {
+      "title": "Lighthouse · v13.5.0",
+      "summary": "[Full Changelog](https://github.com/GoogleChrome/lighthouse/compare/v13.4.1...v13.5.0) We expect this release to ship in the DevTools of [Chrome 156](https://chromiumdash.appspot.com/schedule), and to PageSpeed Insights within 2 weeks. ## New contributors Thanks to our new contributors 👽🐷🐰🐯🐻! * NickNojiri @NickNojiri * Alina Varkki @AlinaVarkki ## New Audits * ard-schema: add Agent Resource Discovery audit ([#17168](https://github.com/GoogleChrome/lighthouse/pull/17168)) ## Core * centralize and enforce plugin category validation ([#17243](https://github.com/GoogleChrome/lighthouse/pull/17243)) * add plugin version to LHR credits ([#17232](https://github.com/GoogleChrome/lighthouse/pull/17232)) * config: group llms.txt and ARD audits under agent discovery ([#17210](https://github.com/GoogleChrome/lighthouse/pull/17210)) * deprecations: handle new column offset ([#17234](https://github.com/GoogleChrome/lighthouse/pull/17234)) * fetcher: add response header capture support ([#17167](http",
+      "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v13.5.0",
+      "domain": "github.com",
+      "published_at": "2026-09-18T16:18:20+00:00",
+      "source": "GitHub Releases",
+      "watch": "Lighthouse",
+      "source_type": "github-release",
+      "lane": "UX / UI",
+      "query": "GoogleChrome/lighthouse",
+      "lane_matches": {
+        "UX / UI": [
+          "lighthouse"
+        ]
+      },
+      "categories": [
+        "UX / UI"
       ],
       "score": 3
     },
@@ -369,6 +656,44 @@
       "score": 3
     },
     {
+      "title": "How to check website traffic: A complete guide - Matomo",
+      "summary": "How to check website traffic: A complete guide Matomo",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb2xoMXFYRVpSay1KMlNWSDdYRVZxZmNnWko4eGVOVFJzUmZLTkV2S3FlREJCTDRhWTdJUWVyQlBDaWYwQURsOXVRT3pUcjJ1bkJDQVd5M01JdWM5RmZtWjUtMHY1TFJkTzJfNDM1cmhfb1p0bGpVUjJoVWxoU3p3MHdmY2w?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-08-28T07:00:00+00:00",
+      "source": "Matomo",
+      "watch": "Matomo",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Matomo · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "matomo"
+        ]
+      },
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Searching the web with ChatGPT - OpenAI Help Center",
+      "summary": "Searching the web with ChatGPT OpenAI Help Center",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwVHZnMWJMUnNfd01Vck8zbEZqb3I3S185ZjhYUUI4azRBTmxsVjJLRUZhd1gtaS1hcU9OLVQxaEdoUG5XVTg2eEZKdUZMemtHMWdGdmdCMTh5MEw1NGdzeWluNlpaaHRkQWtKQW1GMkVqYTZXbXUwcHZaanRYYmM?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-08-19T22:55:42+00:00",
+      "source": "OpenAI Help Center",
+      "watch": "OpenAI Search",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "OpenAI Search · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "Web Analytics"
+      ],
+      "score": 2
+    },
+    {
       "title": "W3C Accessibility Standards Overview | Web Accessibility Initiative (WAI) - W3C",
       "summary": "W3C Accessibility Standards Overview | Web Accessibility Initiative (WAI) W3C",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE54YTNWZEd4UXpFcFBvRExGM0RSdE8tRWdxcTVtQWp3anBiY0NuWW5DSDlOS1BFMWVyaHphdFNGWkc1U09ySkNIaVlNeHJ0UldzS01EbHBucw?oc=5",
@@ -382,6 +707,28 @@
       "lane_matches": {
         "UX / UI": [
           "accessibility"
+        ]
+      },
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 3
+    },
+    {
+      "title": "axe-core · Release 4.13.0",
+      "summary": "In summary, this release adds: 1. Support Element Internals: A modern way for building accessible component libraries Axe-core is the first accessibility tool to support this major new web feature! Thanks to RedHat and Adobe for working with us to figure out the right way forward. 2. A new Swedish translation, thanks to our a community contribution 3. A new Finish contribution (not open source), thanks to our Scandinavian partner 4. 10 False positives closed, including all the critical ones! 5. And 13 updates to get Axe-core consistent with the latest web standards This release is one of the bigger changes we've done in a few years, so likely issue numbers are going to change in adopting this version. ### Features - **aria-actions:** add aria-actions to allowed ARIA attributes ([#5200](https://github.com/dequelabs/axe-core/issues/5200)) ([029655d](https://github.com/dequelabs/axe-core/commit/029655dcd41b5405b7ba138d29cec28392977184)), closes [#4584](https://github.com/dequelabs/axe-cor",
+      "url": "https://github.com/dequelabs/axe-core/releases/tag/v4.13.0",
+      "domain": "github.com",
+      "published_at": "2026-08-05T16:52:19+00:00",
+      "source": "GitHub Releases",
+      "watch": "axe-core",
+      "source_type": "github-release",
+      "lane": "UX / UI",
+      "query": "dequelabs/axe-core",
+      "lane_matches": {
+        "UX / UI": [
+          "accessibility",
+          "axe-core"
         ]
       },
       "categories": [
@@ -491,6 +838,27 @@
       },
       "categories": [
         "Convergence",
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "AI Analytics & Experience Platform - Contentsquare",
+      "summary": "AI Analytics & Experience Platform Contentsquare",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5PRDMyelNNTkdfcEl2Z0lVdWNNWDdMcVI1cHQwemdfNDFJNVNnOWpHUkp1RkhRMTlfOEwxU19Lb25XbUJ2aTBDWWlZN0lOQ2R2bHdIUDhlSzVCRzJwR0dyTFhzYlg?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-06-17T01:09:52+00:00",
+      "source": "Contentsquare",
+      "watch": "Contentsquare",
+      "source_type": "official-watch",
+      "lane": "Web Analytics",
+      "query": "Contentsquare · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "contentsquare"
+        ]
+      },
+      "categories": [
         "Web Analytics"
       ],
       "score": 3
@@ -668,6 +1036,23 @@
       "score": 3
     },
     {
+      "title": "Smashing Newsletter: Issue #552 - Smashing Magazine",
+      "summary": "Smashing Newsletter: Issue #552 Smashing Magazine",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdDNkdmdDeEJ4cUs0cmFEdGlsMDh4Ukp1R2FFVXlPLWdwTW5iZHNOcUdjUEV3LWpqclNTSXFMRU0teDVlbDVLWXJtSnBUODd3TjM2TmdRNDFLSGI4Y183bHBpUzN4dUV0Z1VFSy1UVEVxRFhvTWdqMEdXVUtNQWcya0QwenV0MU1nZW1PV3FoSGU?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-04-15T22:12:01+00:00",
+      "source": "Smashing Magazine",
+      "watch": "Smashing Magazine",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "Smashing Magazine · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 2
+    },
+    {
       "title": "5 macro trends shaping the future of digital analytics - Mixpanel",
       "summary": "5 macro trends shaping the future of digital analytics Mixpanel",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ObmEyWEFxWkNsbk5aZUVlQzFHSW9wa0FTNUVYeTkzR0h4NDRHT3ozckFGSkxuUDBWdE1pb29YdThWU1c0WHZSNEt5bUZnUlhkLTJSTU40QW5idlhiVkkxZl9QT1h5M3FJ?oc=5",
@@ -759,7 +1144,7 @@
       "summary": "Get to Know Amplitude’s New Always-On Data Analysts Amplitude",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBsejE1YWk2SmFtN1JzWFVrZDlEZG96OWlzb2lFWmZxMU5sSWh3RFA3c2dyaElUbGdReUZQS1ZMY3R0MTMzMEtWYUNiNFB6dHVVZ1doMElDbjkxaVBqQUJJelU3aw?oc=5",
       "domain": "news.google.com",
-      "published_at": "2026-03-23T21:00:29+00:00",
+      "published_at": "2026-03-23T07:00:00+00:00",
       "source": "Amplitude",
       "watch": "Amplitude",
       "source_type": "official-watch",
@@ -814,6 +1199,29 @@
         ]
       },
       "categories": [
+        "Web Analytics"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Open source (and self-hosted) session replay tools - PostHog",
+      "summary": "Open source (and self-hosted) session replay tools PostHog",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9WbE44c1E2WDFOcjNURmo4MDBBaTduSGl3SUcwSXVOTVNpS3ZXY1FBVC1YNlBPVk9KSHBEUjc0eUg4TUtvd09OVTc4QThXdlo0enphejEybHBIaW9TU3VyZUlMcHNvb1RHN21rNnIzNA?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2026-03-13T07:00:00+00:00",
+      "source": "PostHog",
+      "watch": "PostHog",
+      "source_type": "official-watch",
+      "lane": "Convergence",
+      "query": "PostHog · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "posthog",
+          "session replay"
+        ]
+      },
+      "categories": [
+        "Convergence",
         "Web Analytics"
       ],
       "score": 3
@@ -961,23 +1369,6 @@
         "UX / UI"
       ],
       "score": 3
-    },
-    {
-      "title": "MCP servers | OpenAI API - OpenAI Developers",
-      "summary": "MCP servers | OpenAI API OpenAI Developers",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XVWJmOF8xUHltOURXS1RLZ1IwS19PaGpBbm4yQk0yak9naElZM2ZCRGZRNzBvLXcyblpmYmJzc1RYelJwSkpNdTl0eEFvOUY5V1lkbWozaVVxUk1JVU5FeDRDTkNacWdvbXlVdHlCR3BIQ2hz?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2026-02-09T19:14:28+00:00",
-      "source": "OpenAI Developers",
-      "watch": "OpenAI Search",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "OpenAI Search · source surveillée",
-      "lane_matches": {},
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 2
     },
     {
       "title": "Pricing - OpenAI Developers",
@@ -1605,27 +1996,6 @@
       "score": 3
     },
     {
-      "title": "Contentsquare Pricing: Pick Your Plan and Platform - Contentsquare",
-      "summary": "Contentsquare Pricing: Pick Your Plan and Platform Contentsquare",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB4OGZMQmE0WmpHNnZZSUkwdWxTYjVCZ09VUkdZYmFxcHp0T2VTQWlRZW1DMzVaNjlRMURqWlFBOUtDRmMzbnlRaDln?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2024-11-05T17:29:04+00:00",
-      "source": "Contentsquare",
-      "watch": "Contentsquare",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "Contentsquare · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "contentsquare"
-        ]
-      },
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 3
-    },
-    {
       "title": "Data Unification - Piano.io",
       "summary": "Data Unification Piano.io",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE43RVJ2NHBhUDBFVGpQd2NqcUhURE9JYUJmNk9mRmlYWWg5Q0s1U3FEMUVHdUUxcm94UEJtRVRvUUY5QzJxZWJ5Y2tNWTZsSnJLYWJoOXQwdVF6c3Q2XzE4Nlp1aVdTZw?oc=5",
@@ -1681,6 +2051,28 @@
       },
       "categories": [
         "UX / UI"
+      ],
+      "score": 3
+    },
+    {
+      "title": "Expert-Level Analytics on Autopilot - Contentsquare",
+      "summary": "Expert-Level Analytics on Autopilot Contentsquare",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBWUE91enJhOVVURnVtc3Ftbk5LVEpYODcxQjJlV21YZ0t6dElsQUUtVVl5amdrRzFtUkZtUE1UbHlObWsyR2FkWUZfSUt3OGw3QUh5X1dSYmtUc0lsbUJxTA?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2024-06-13T10:01:13+00:00",
+      "source": "Contentsquare",
+      "watch": "Contentsquare Experience",
+      "source_type": "official-watch",
+      "lane": "Convergence",
+      "query": "Contentsquare Experience · source surveillée",
+      "lane_matches": {
+        "Web Analytics": [
+          "contentsquare"
+        ]
+      },
+      "categories": [
+        "Convergence",
+        "Web Analytics"
       ],
       "score": 3
     },
@@ -1771,28 +2163,6 @@
         "Convergence"
       ],
       "score": 4
-    },
-    {
-      "title": "An intro to PostHog for Google Optimize users - PostHog",
-      "summary": "An intro to PostHog for Google Optimize users PostHog",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9nb2ZIa2JOVnRDWmVVT3Jpc3lzbFBPZDNsYTBoa0ZCcVcwNFA3ZkIzSl85RDhvQnBydUhsSEg2UEZfR1VOTWVDaWhNbmpPcXZtOGhtZmxtOA?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2023-10-20T07:00:00+00:00",
-      "source": "PostHog",
-      "watch": "PostHog",
-      "source_type": "official-watch",
-      "lane": "Convergence",
-      "query": "PostHog · source surveillée",
-      "lane_matches": {
-        "Web Analytics": [
-          "posthog"
-        ]
-      },
-      "categories": [
-        "Convergence",
-        "Web Analytics"
-      ],
-      "score": 3
     },
     {
       "title": "Reports & Insights - Figma",
@@ -1897,23 +2267,6 @@
       "score": 2
     },
     {
-      "title": "ChatGPT release notes - OpenAI Help Center",
-      "summary": "ChatGPT release notes OpenAI Help Center",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBtSm8tRnpBbGwzZ092NmxWeVctWkJYZFRhN2xSS0J0bHEzcFVjUlJaU0g5XzlldW5BT3M5YXZrLWVFZE1rNGw3MVFWNmQ4TmtXVnkxRUNiUTFUaXJoaDM0VFMtSk9QLWdoVi1Uc2xEb2FvNmc?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2022-12-16T00:57:29+00:00",
-      "source": "OpenAI Help Center",
-      "watch": "OpenAI Search",
-      "source_type": "official-watch",
-      "lane": "Web Analytics",
-      "query": "OpenAI Search · source surveillée",
-      "lane_matches": {},
-      "categories": [
-        "Web Analytics"
-      ],
-      "score": 2
-    },
-    {
       "title": "Design Systems: Useful Examples and Resources - Smashing Magazine",
       "summary": "Design Systems: Useful Examples and Resources Smashing Magazine",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOd1Rtd2V4dFBtbHo0R2NPV0pPcERybUo2dkVkTUU2WFB4QjRlcVBJVFROeml6bHBNOFJSeFhWelVaamxWUUdNaUFMVFEzVERCalJrVnExbmtQWjlKZndGTHRGRjJFTFI5S1c0Umczb0ZVbjJqbnEwWGhiYWVJZDBtVnB6RU0xdk5HSHc5dzhKbXc1bzlTaHc?oc=5",
@@ -1945,6 +2298,40 @@
       "source_type": "official-watch",
       "lane": "UX / UI",
       "query": "Nielsen Norman Group · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 2
+    },
+    {
+      "title": "When to Use Which User-Experience Research Methods - Nielsen Norman Group",
+      "summary": "When to Use Which User-Experience Research Methods Nielsen Norman Group",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9wMFJraUhuTGhtWnhjRV8tUEk1VEh6X2M4UHlrM1RpbFRfdTA0M0gxRGRhQkVQY3ZLcjY2OWJ4NjROaU9mblpLZ1JXTVlDSTFKamFTdjVVckkwb0pLWnFkbFVtcjNXOXVuOWdN?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2022-07-17T07:00:00+00:00",
+      "source": "Nielsen Norman Group",
+      "watch": "Nielsen Norman Group",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "Nielsen Norman Group · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 2
+    },
+    {
+      "title": "ARIA Authoring Practices Guide (APG) Home - W3C",
+      "summary": "ARIA Authoring Practices Guide (APG) Home W3C",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5rWmR6cHZtZ1duNElycExsdHZhc3hsM2h6Y1V0UnpZUS01Ri12RDJKdUdjQW1TZkpWb2l1eHU4bjhuZmYtcWs4?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2022-05-19T19:45:46+00:00",
+      "source": "W3C",
+      "watch": "W3C WAI",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "W3C WAI · source surveillée",
       "lane_matches": {},
       "categories": [
         "UX / UI"
@@ -2140,27 +2527,6 @@
       "score": 3
     },
     {
-      "title": "Top 5 Most Common Accessibility Annotations - Deque",
-      "summary": "Top 5 Most Common Accessibility Annotations Deque",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9DSzlTc3JkVDhEMWRna1pIQzFJa1ZvUWRFLXQ4ZDM2SHBDVFVYclRrVlhRSGhTOHhJZmN4bDNrQlNsN3U0cHFOcTFOa0FVRU1Bd3g1LTFkVTdHWGExQ3hsY1hRQnVMNEh0a2VIVTVIaUwwVjdONjhwR2N5bw?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2020-03-26T07:00:00+00:00",
-      "source": "Deque",
-      "watch": "Deque",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Deque · source surveillée",
-      "lane_matches": {
-        "UX / UI": [
-          "accessibility"
-        ]
-      },
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 3
-    },
-    {
       "title": "[GA4] Recommended events - Google Help",
       "summary": "[GA4] Recommended events Google Help",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlS2w3UVc5SmoxRW13aHdMNzFjcHk3bjFycHpBU294UmlvZGFZMGthVE5mdW5FamNZb0dzSnlIQUVlcFdScWFubks0ODAxNVZSYzdwMEVGV0M3OGtXLURfWmRHaHNaVk1P?oc=5",
@@ -2221,27 +2587,6 @@
       },
       "categories": [
         "Web Analytics"
-      ],
-      "score": 3
-    },
-    {
-      "title": "Developing an Accessibility Statement | Web Accessibility Initiative (WAI) - W3C",
-      "summary": "Developing an Accessibility Statement | Web Accessibility Initiative (WAI) W3C",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9yN3l3eFF2VnFDMHJXSnM2Uk5adGE4V0RiRVFYWm83SWhfOHpMa1NtT2t1LWtjSG1oTTc5NWdzZEhxUXVaR1VkU3dRRlUwZlBfMUprWW5R?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2018-11-29T21:08:42+00:00",
-      "source": "W3C",
-      "watch": "W3C WAI",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "W3C WAI · source surveillée",
-      "lane_matches": {
-        "UX / UI": [
-          "accessibility"
-        ]
-      },
-      "categories": [
-        "UX / UI"
       ],
       "score": 3
     },
@@ -2370,6 +2715,23 @@
       "score": 2
     },
     {
+      "title": "How to Incorporate Users with Disabilities in UX Testing - Deque Systems",
+      "summary": "How to Incorporate Users with Disabilities in UX Testing Deque Systems",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1nRlZTNV84ZDd0Tkxvb3QtRWc2Z0NoaC1xVWtFQzgtRTg5X3FobkFYRFQ1UmxzVWVfLUNiRzhlSzY5WmZJOTIyN1VTSVBLR1IwS285TmJMb09Ndmx3LUpwelZOR3kwNXRjLWZRN0ExemR3OVZmQVNEUg?oc=5",
+      "domain": "news.google.com",
+      "published_at": "2014-11-18T08:00:00+00:00",
+      "source": "Deque Systems",
+      "watch": "Deque",
+      "source_type": "official-watch",
+      "lane": "UX / UI",
+      "query": "Deque · source surveillée",
+      "lane_matches": {},
+      "categories": [
+        "UX / UI"
+      ],
+      "score": 2
+    },
+    {
       "title": "Smashing Magazine — For Web Designers And Developers - Smashing Magazine",
       "summary": "Smashing Magazine — For Web Designers And Developers Smashing Magazine",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9NVmREZ2dkY0h6XzUzT3VKMm5yalZTMW1wVmhYbjBJa0U4d21tdl9weXhkaC1YalpYTWlTVXdNbTRnblA5cUoyaw?oc=5",
@@ -2380,23 +2742,6 @@
       "source_type": "official-watch",
       "lane": "UX / UI",
       "query": "Smashing Magazine · source surveillée",
-      "lane_matches": {},
-      "categories": [
-        "UX / UI"
-      ],
-      "score": 2
-    },
-    {
-      "title": "Articles & Videos - Nielsen Norman Group",
-      "summary": "Articles & Videos Nielsen Norman Group",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9uSjY1bUJqcC1tb2NSNHJsNzdaSF9KX25LemZ2aVdlMFdtakVFbmJaQkNoTnlBX0RzTGpvWktGMlZFWmhHODZjVQ?oc=5",
-      "domain": "news.google.com",
-      "published_at": "2012-12-14T13:07:42+00:00",
-      "source": "Nielsen Norman Group",
-      "watch": "Nielsen Norman Group",
-      "source_type": "official-watch",
-      "lane": "UX / UI",
-      "query": "Nielsen Norman Group · source surveillée",
       "lane_matches": {},
       "categories": [
         "UX / UI"
